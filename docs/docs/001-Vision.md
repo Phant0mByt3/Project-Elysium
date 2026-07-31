@@ -17,7 +17,7 @@ A player logging into Elysium for the first time should feel:
 
 ## Long-Term Vision
 
-Elysium is designed to be played for years, not weeks. The initial release covers two continents, one main story arc, and a handful of dungeons and one raid tier — but the architecture (see [120-Plugin-Architecture.md](120-Plugin-Architecture.md)) is built from day one to support the full roadmap in [03-Roadmap.md](03-Roadmap.md): more continents, deeper class trees, seasonal content, and multi-year expansions in the style of [150-Expansion-01.md](150-Expansion-01.md) and beyond.
+Elysium is designed to be played for years, not weeks. The initial release covers two continents, one main story arc, and a handful of dungeons and one raid tier — but the architecture (see [120-Plugin-Architecture.md](120-Plugin-Architecture.md)) is built from day one to support the full roadmap in [003-Roadmap.md](003-Roadmap.md): more continents, deeper class trees, seasonal content, and multi-year expansions in the style of [150-Expansion-01.md](150-Expansion-01.md) and beyond.
 
 ## Guiding Question
 
@@ -25,4 +25,4 @@ Every design decision on this project is filtered through one question:
 
 > "Does this make the player believe in Elysium a little more, or a little less?"
 
-If a feature — however cool — breaks immersion, undermines progression, or feels like busywork, it does not ship. See [02-Core-Pillars.md](02-Core-Pillars.md) for the concrete principles derived from this vision.
+If a feature — however cool — breaks immersion, undermines progression, or feels like busywork, it does not ship. See [002-Core-Pillars.md](002-Core-Pillars.md) for the concrete principles derived from this vision.
