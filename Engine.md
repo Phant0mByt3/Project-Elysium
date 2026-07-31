@@ -4,7 +4,7 @@
 
 This document defines the technical foundation of Elysium.
 
-It describes the server software, network architecture, instance management, performance settings, databases, proxies, and core technologies required to operate a large-scale Minecraft MMORPG.
+It describes the server software, client architecture, networking, instance management, performance settings, databases, and core technologies required to operate a large-scale Minecraft MMORPG.
 
 This file acts as the technical blueprint for the entire project.
 
@@ -14,12 +14,12 @@ This file acts as the technical blueprint for the entire project.
 
 Elysium is not designed as a traditional Minecraft server.
 
-It is designed as a distributed MMORPG platform built using Minecraft as the world engine.
+It is designed as a standalone MMORPG experience built using Minecraft technology as the foundation.
 
 The goal:
 
 * Multiple connected worlds
-* Independent server instances
+* Dedicated game client
 * Persistent player progression
 * Large handcrafted environments
 * MMO-style systems
@@ -27,11 +27,11 @@ The goal:
 
 The player should experience:
 
-> One massive world.
+> One massive fantasy universe.
 
 The technology should operate as:
 
-> Many connected worlds.
+> Many connected worlds running through a shared ecosystem.
 
 ---
 
@@ -45,17 +45,15 @@ Recommended:
 
 Purpose:
 
-* High performance Minecraft server
-* Paper compatibility
-* Additional optimisation settings
-* More gameplay configuration options
+High-performance Minecraft server foundation with advanced configuration options.
 
 Advantages:
 
-* Supports Bukkit plugins
-* Supports Paper plugins
-* More configurable than Paper
-* Better control over entity behaviour
+* Paper compatibility
+* Bukkit plugin support
+* Additional performance settings
+* More control over gameplay behaviour
+* Large plugin ecosystem
 
 ---
 
@@ -65,49 +63,83 @@ Advantages:
 
 Purpose:
 
-Stable foundation for production servers.
+Stable and reliable server foundation.
 
 Advantages:
 
-* Large plugin ecosystem
 * Strong community support
-* Reliable performance
-* Good optimisation compared to Vanilla
+* Wide plugin compatibility
+* Excellent optimisation
+* Reliable for production environments
 
 ---
 
-## Possible Future Options
+## Future Possibility
 
-Custom server fork:
+Custom Elysium Server Fork
 
 Purpose:
 
-For extreme optimisation and custom Elysium features.
+A dedicated server engine based on Minecraft server technology.
 
 Possible improvements:
 
-* Custom chunk loading
-* Better NPC handling
-* Custom networking
+* Custom chunk management
+* Improved NPC processing
 * MMO-specific optimisations
+* Custom networking
+* Better world streaming
+* Reduced unnecessary Minecraft systems
 
 ---
 
-# Server Architecture
+# Engine Version Target
 
-Elysium uses a multi-instance structure.
+## Current Target
 
 ```text
-                    Elysium Network
+Minecraft:
+1.21.1
 
-                         Player
+Server:
+Purpur 1.21.1
+
+Java:
+21
+```
+
+Reason:
+
+Chosen for:
+
+* Long-term stability
+* Plugin compatibility
+* Client modification support
+* Reliable development environment
+
+The engine version should remain fixed during major development periods.
+
+---
+
+# Network Architecture
+
+Elysium uses a multi-instance server structure.
+
+The player sees one connected world.
+
+The backend operates multiple independent servers.
+
+```text
+                     Elysium Client
 
                            |
+
                            ↓
 
-                    Proxy Layer
+                    Velocity Proxy
 
                            |
+
         ┌──────────────────┼──────────────────┐
 
         ↓                  ↓                  ↓
@@ -124,26 +156,28 @@ Elysium uses a multi-instance structure.
 
 # Proxy System
 
-## Recommended Proxy
-
 ## Velocity
 
 Purpose:
 
-Handles player connections and server transfers.
+Handles communication between the Elysium Client and server instances.
 
 Responsibilities:
 
-* Authentication
-* Routing players
-* Server switching
-* Load balancing
+* Player routing
+* Server transfers
+* Authentication handling
+* Load distribution
 * Network security
 
 Example:
 
 ```text
-Player joins
+Player launches Elysium
+
+↓
+
+Authentication
 
 ↓
 
@@ -155,11 +189,7 @@ Login Server
 
 ↓
 
-Starting Area Server
-
-↓
-
-Open World Server
+World Server
 
 ```
 
@@ -173,12 +203,12 @@ Purpose:
 
 First connection point.
 
-Features:
+Functions:
 
-* Authentication
-* Character selection
-* Updates
-* Launcher verification
+* Account authentication
+* Character loading
+* Client verification
+* News and announcements
 
 ---
 
@@ -199,11 +229,12 @@ Celestia
 
 Each world has:
 
-* Own server instance
-* Own plugins
-* Own loaded chunks
-* Own NPCs
+* Independent server instance
+* Own terrain
+* Own NPC systems
 * Own events
+* Own quests
+* Own simulation systems
 
 ---
 
@@ -211,32 +242,36 @@ Each world has:
 
 Purpose:
 
-Private player instances.
+Private or group-based instances.
 
-Examples:
+Example:
 
 ```text
-Crystal Caverns
-
-Player Party
+Party enters dungeon
 
 ↓
 
-Dungeon Instance
+Dungeon Server created
 
 ↓
 
-Boss Fight
+Players complete objectives
 
 ↓
 
-Rewards Saved
+Rewards saved
 
 ↓
 
-Instance Closed
-
+Instance removed
 ```
+
+Used for:
+
+* Dungeons
+* Raids
+* Trials
+* Boss encounters
 
 ---
 
@@ -250,90 +285,75 @@ Examples:
 
 * World bosses
 * Seasonal events
-* Special expansions
-* PvP events
+* Expansion events
+* Special encounters
 
 ---
 
-# Server Settings
+# Client Architecture
 
-## View Distance
+Elysium will use a dedicated client.
 
-Recommended:
-
-```yaml
-view-distance: 8-12
-```
-
-Reason:
-
-Players use Distant Horizons for extreme viewing distances.
-
-Server only handles nearby chunks.
+The client replaces the need for public Minecraft launcher compatibility.
 
 ---
 
-## Simulation Distance
+# Elysium Launcher
 
-Recommended:
+Purpose:
 
-```yaml
-simulation-distance: 6-8
-```
+Controls the complete player experience.
 
-Controls:
-
-* Mob AI
-* Redstone
-* Entity updates
-
----
-
-## Entity Limits
-
-Important for cities.
-
-Settings:
-
-* Limit unnecessary mobs
-* Control villager AI
-* Reduce inactive entity processing
-
----
-
-## Chunk Management
-
-Requirements:
-
-* Pre-generated worlds
-* Chunk caching
-* Controlled loading
-* World border management
-
-Tools:
-
-* Chunky
-* Custom world generation tools
-
----
-
-# Client Technology
-
-## Required Mods
-
-Possible client pack:
+Functions:
 
 ```text
-Client
+Elysium Launcher
 
-├── Fabric/NeoForge
-├── Distant Horizons
-├── Sodium
-├── Iris Shaders
-├── Custom UI
-├── Resource Pack
-└── Elysium Client Systems
+├── Authentication
+├── Game Updates
+├── File Verification
+├── Mod Management
+├── Resource Pack Management
+├── Shader Configuration
+├── News
+├── Patch Notes
+└── Server Connection
 ```
+
+---
+
+# Elysium Client
+
+Required environment:
+
+```text
+Elysium Client
+
+├── Fixed Minecraft Version
+├── Required Mods
+├── Custom UI
+├── Custom Rendering
+├── Resource Packs
+├── Models
+├── Sounds
+└── Client Features
+```
+
+---
+
+# Client Technologies
+
+Possible base:
+
+* Fabric
+* NeoForge
+
+Used for:
+
+* Client-side features
+* Visual improvements
+* Custom interfaces
+* Additional rendering systems
 
 ---
 
@@ -345,64 +365,88 @@ Purpose:
 
 Large-scale world visibility.
 
-Allows:
+Features:
 
-* Seeing cities from kilometres away
-* Large mountain views
+* Long-distance terrain rendering
+* Large landscape views
 * Open-world feeling
 
 ---
 
-## Shaders
+## Shader Support
 
 Possible:
 
-* Iris compatible shaders
-* Custom Elysium shader profile
+* Iris-compatible shaders
+* Custom Elysium shader profiles
 
 Used for:
 
 * Atmosphere
 * Lighting
 * Weather
-* Environment
+* Environment effects
+
+---
+
+# World Management
+
+Worlds are handcrafted and pre-generated.
+
+The server does not generate new terrain during gameplay.
+
+Benefits:
+
+* Reduced lag
+* Stable performance
+* Consistent world design
+* Better exploration experience
+
+Tools:
+
+* WorldPainter
+* WorldEdit
+* Chunk pre-generation tools
 
 ---
 
 # Backend Architecture
 
-Central systems must not depend on one server.
+All important player data is stored separately from individual worlds.
 
 Example:
 
 ```text
 Database
 
-Player Data
+Player
 
 ├── Character
 ├── Inventory
+├── Equipment
 ├── Skills
 ├── Quests
 ├── Reputation
 ├── Achievements
-└── Currency
-
+├── Currency
+└── Progression
 ```
 
 ---
 
 # Database
 
-Possible:
+Recommended:
 
 ## PostgreSQL
 
-Recommended for:
+Used for:
 
-* Large player counts
-* Complex data
-* Reliability
+* Player accounts
+* Character data
+* World data
+* Economy
+* Progression
 
 ---
 
@@ -411,45 +455,15 @@ Recommended for:
 Used for:
 
 * Temporary data
+* Server communication
 * Caching
-* Fast communication
-
----
-
-# Server Communication
-
-Possible technologies:
-
-* Redis messaging
-* Plugin messaging channels
-* Custom API
-
-Example:
-
-```text
-Valoria Server
-
-Player completes quest
-
-↓
-
-Backend Database
-
-↓
-
-Player enters Frostheim
-
-↓
-
-Progress loaded
-
-```
+* Real-time systems
 
 ---
 
 # Plugin Architecture
 
-Core plugins:
+Core plugin structure:
 
 ```text
 Elysium-Core
@@ -457,10 +471,12 @@ Elysium-Core
 ├── Player System
 ├── Character System
 ├── Quest System
+├── Combat System
 ├── Economy System
 ├── Faction System
-├── Combat System
+├── NPC System
 ├── World Transfer
+├── Instance Management
 └── API
 ```
 
@@ -470,72 +486,75 @@ Elysium-Core
 
 Target:
 
-## Stable gameplay
-
+* Stable TPS
 * Low latency
-* High TPS
+* Fast world transfers
 * Minimal chunk lag
-* Fast server transfers
+* Efficient NPC simulation
 
 ---
 
-# Scaling Plan
+# Scaling Architecture
 
-Early:
+Early development:
 
 ```text
-1 Machine
+Single Machine
 
-├── Proxy
+├── Velocity
 ├── Database
-├── Several Worlds
+├── Multiple Worlds
+└── Development Servers
 ```
 
 ---
 
-Large Scale:
+Large scale:
 
 ```text
 Multiple Machines
 
 Machine 1:
-Proxy + Login
+Proxy + Authentication
 
 Machine 2:
 World Servers
 
 Machine 3:
-Dungeon Servers
+Dungeon Instances
 
 Machine 4:
 Database
 
 Machine 5:
-Storage
+Storage + Backups
 ```
 
 ---
 
 # Future Engine Development
 
-Possible custom systems:
+Possible future systems:
 
 * Custom launcher
 * Custom client
-* Custom rendering features
+* Custom rendering engine
+* AI-driven NPC systems
+* Advanced world simulation
 * Custom networking layer
-* AI NPC management
-* Dynamic world simulation
+* Dynamic civilisation simulation
 
 ---
 
 # Final Goal
 
-The Elysium Engine should allow:
+The Elysium Engine should allow unlimited growth.
 
-* Unlimited expansion
+The engine must support:
+
 * New continents
 * New worlds
+* New expansions
 * New gameplay systems
 * Long-term development
 
