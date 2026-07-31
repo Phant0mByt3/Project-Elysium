@@ -5,9 +5,9 @@ Placeholder for the fourth major expansion. Scope, continent/system focus, and n
 
 ## Candidate Directions
 Ideas under consideration (unscoped, subject to change):
-* A naval/exploration-focused update expanding player-piloted ships, noted in [05-Future-Plans.md](05-Future-Plans.md).
-* A guild-housing-neighborhoods-focused update, extending [90-Housing.md](90-Housing.md) and [80-Guilds.md](80-Guilds.md).
-* A third playable faction, as speculatively noted in [05-Future-Plans.md](05-Future-Plans.md).
+* A naval/exploration-focused update expanding player-piloted ships, noted in [005-Future-Plans.md](005-Future-Plans.md).
+* A guild-housing-neighborhoods-focused update, extending [090-Housing.md](090-Housing.md) and [080-Guilds.md](080-Guilds.md).
+* A third playable faction, as speculatively noted in [005-Future-Plans.md](005-Future-Plans.md).
 
 ## Status
-Unscoped. This document should be filled in during the roadmap planning cycle that follows Expansion 03's release — see the review cadence described in [05-Future-Plans.md](05-Future-Plans.md).
+Unscoped. This document should be filled in during the roadmap planning cycle that follows Expansion 03's release — see the review cadence described in [005-Future-Plans.md](005-Future-Plans.md).

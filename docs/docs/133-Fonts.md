@@ -11,4 +11,4 @@ Typography standards for all in-game text, from UI labels to quest dialogue, sup
 ## Design Rules
 * Body text must remain legible at the smallest supported UI scale ([116-Accessibility.md](116-Accessibility.md)).
 * No more than two typefaces should be in active use at once in any single UI screen, to avoid visual clutter.
-* Font choices should be finalized and licensed appropriately before UI implementation begins in Phase 1 ([03-Roadmap.md](03-Roadmap.md)).
+* Font choices should be finalized and licensed appropriately before UI implementation begins in Phase 1 ([003-Roadmap.md](003-Roadmap.md)).

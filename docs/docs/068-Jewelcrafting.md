@@ -1,13 +1,13 @@
 # 68 — Jewelcrafting
 
 ## Overview
-Jewelcrafting is a production profession that cuts gems (a byproduct of Mining, [61-Mining.md](61-Mining.md)) and crafts rings and necklaces ([52-Accessories.md](52-Accessories.md)).
+Jewelcrafting is a production profession that cuts gems (a byproduct of Mining, [061-Mining.md](061-Mining.md)) and crafts rings and necklaces ([052-Accessories.md](052-Accessories.md)).
 
 ## Core Loop
 Learn a recipe → gather/mine raw gems → cut gems at a jeweler's bench → either socket gems into gem-slotted gear or craft standalone accessory items.
 
 ## Gem Socketing
-Certain rare/epic gear pieces (see [53-Loot.md](53-Loot.md)) drop with gem sockets. Jewelcrafters cut socketable gems that any player can slot in — giving the profession broad relevance even to players who don't practice it themselves, similar to Enchanting ([59-Enchanting.md](59-Enchanting.md)).
+Certain rare/epic gear pieces (see [053-Loot.md](053-Loot.md)) drop with gem sockets. Jewelcrafters cut socketable gems that any player can slot in — giving the profession broad relevance even to players who don't practice it themselves, similar to Enchanting ([059-Enchanting.md](059-Enchanting.md)).
 
 ## Recipe Categories
 * **Cut Gems** — socketable stat gems, sold widely on the Auction House.

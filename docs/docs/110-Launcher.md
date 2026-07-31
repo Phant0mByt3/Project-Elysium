@@ -7,7 +7,7 @@ The Elysium Launcher is a custom desktop application (Python + PyQt6, per the RE
 * **One-Click Install** — downloads and configures Fabric, required client mods ([111-Client-Mods.md](111-Client-Mods.md)), and the resource pack ([112-Resource-Pack.md](112-Resource-Pack.md)) automatically.
 * **Automatic Updates** — checks for and applies client updates on launch, covered in more detail below.
 * **Account Login** — authenticates against the game's account system ([124-Authentication.md](124-Authentication.md)) before launching.
-* **News & Patch Notes** — surfaces the latest [04-Version-History.md](04-Version-History.md) entries and announcements on the launcher's home screen.
+* **News & Patch Notes** — surfaces the latest [004-Version-History.md](004-Version-History.md) entries and announcements on the launcher's home screen.
 
 ## Design Goals
 The launcher should require zero manual configuration from the player — no manually installing Fabric, no manually placing resource packs. This directly supports the Project Goal in the README: "Provide a seamless installation experience through a custom launcher."

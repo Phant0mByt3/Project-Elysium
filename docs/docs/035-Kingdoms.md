@@ -1,7 +1,7 @@
 # 35 — Kingdoms
 
 ## Overview
-Political entities within Elysium, distinct from the two overarching player factions ([33-Factions.md](33-Factions.md)) — kingdoms are cultural/national identities, while factions are ideological alliances that cross kingdom lines in places.
+Political entities within Elysium, distinct from the two overarching player factions ([033-Factions.md](033-Factions.md)) — kingdoms are cultural/national identities, while factions are ideological alliances that cross kingdom lines in places.
 
 ## Aurelia
 
@@ -16,4 +16,4 @@ Political entities within Elysium, distinct from the two overarching player fact
 **The Ashenclaw Warbands** — the orc clan structure, organized around a Warcouncil of Clans rather than a single ruler. Formally Duskward-aligned, though individual clans vary in how strictly they follow Pact doctrine.
 
 ## Governance & Player Interaction
-Kingdom politics surface primarily through faction reputation storylines ([77-Factions-Reputation.md](77-Factions-Reputation.md)) and territory control ([86-Territory-Control.md](86-Territory-Control.md)) rather than direct player rulership. Kingdoms for future continents (Sylvaneth, Kharzul Wastes) will be documented as those continents are scoped — see [11-Continents.md](11-Continents.md).
+Kingdom politics surface primarily through faction reputation storylines ([077-Factions-Reputation.md](077-Factions-Reputation.md)) and territory control ([086-Territory-Control.md](086-Territory-Control.md)) rather than direct player rulership. Kingdoms for future continents (Sylvaneth, Kharzul Wastes) will be documented as those continents are scoped — see [011-Continents.md](011-Continents.md).

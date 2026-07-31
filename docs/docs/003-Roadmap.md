@@ -14,7 +14,7 @@ This roadmap tracks Project Elysium's development phases at a high level. Detail
 * Core UI framework and HUD.
 
 ## Phase 2 — Gameplay Systems
-* Classes, talent trees, skills, itemization ([040-Classes.md](040-Classes.md) through [59-Enchanting.md](59-Enchanting.md)).
+* Classes, talent trees, skills, itemization ([040-Classes.md](040-Classes.md) through [059-Enchanting.md](059-Enchanting.md)).
 * Quest and dialogue systems.
 * Economy foundations ([100-Economy.md](100-Economy.md)).
 

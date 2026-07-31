@@ -1,7 +1,7 @@
 # 127 — Anti-Cheat
 
 ## Overview
-Anti-cheat systems protect the integrity of Elysium's PvE and PvP content against speed hacks, reach hacks, autoclickers/macros, and duplication exploits — critical given the game's competitive raid ([82-Raiding.md](82-Raiding.md)) and PvP ([84-PvP.md](84-PvP.md)) systems.
+Anti-cheat systems protect the integrity of Elysium's PvE and PvP content against speed hacks, reach hacks, autoclickers/macros, and duplication exploits — critical given the game's competitive raid ([082-Raiding.md](082-Raiding.md)) and PvP ([084-PvP.md](084-PvP.md)) systems.
 
 ## Approach
 * **Server Authority** — all combat, movement, and economy actions are validated server-side; the client is never trusted for outcome-determining logic, consistent with the plugin architecture's design in [120-Plugin-Architecture.md](120-Plugin-Architecture.md).

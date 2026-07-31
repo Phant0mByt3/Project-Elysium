@@ -1,15 +1,15 @@
 # 20 — Travel
 
 ## Philosophy
-Travel in Elysium should feel purposeful early on — giving players time to take in handcrafted regions — and become frictionless at higher levels once the world has been seen. See [21-Fast-Travel.md](21-Fast-Travel.md) for the unlock-based fast travel layer built on top of this system.
+Travel in Elysium should feel purposeful early on — giving players time to take in handcrafted regions — and become frictionless at higher levels once the world has been seen. See [021-Fast-Travel.md](021-Fast-Travel.md) for the unlock-based fast travel layer built on top of this system.
 
 ## Base Travel Methods
 
 **On Foot** — the default; regions are built at a scale that rewards walking early quest paths.
 
-**Mounts** — unlocked around level 15; see [91-Mounts.md](91-Mounts.md) for acquisition and mechanics. Ground mounts only at launch; flying mounts are reserved for max-level or expansion content.
+**Mounts** — unlocked around level 15; see [091-Mounts.md](091-Mounts.md) for acquisition and mechanics. Ground mounts only at launch; flying mounts are reserved for max-level or expansion content.
 
-**Ships** — connect coastal cities across Aurelia and, later, other continents. Currently a scripted/scenic travel method rather than player-piloted; player-piloted ships are a confirmed future direction (see [05-Future-Plans.md](05-Future-Plans.md)).
+**Ships** — connect coastal cities across Aurelia and, later, other continents. Currently a scripted/scenic travel method rather than player-piloted; player-piloted ships are a confirmed future direction (see [005-Future-Plans.md](005-Future-Plans.md)).
 
 **Portals** — magical waypoints connecting major cities, unlocked through story progression rather than exploration.
 

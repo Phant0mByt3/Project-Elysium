@@ -10,4 +10,4 @@ The in-game mail system allows asynchronous item and Aurum transfers between cha
 
 ## Design Rules
 * Mail attachments should have a reasonable expiration window (several real-world days) before being returned to sender, to prevent permanent item loss from an inactive mailbox.
-* Cross-faction mail is restricted, consistent with trading and party restrictions ([104-Trading.md](104-Trading.md), [81-Parties.md](81-Parties.md)).
+* Cross-faction mail is restricted, consistent with trading and party restrictions ([104-Trading.md](104-Trading.md), [081-Parties.md](081-Parties.md)).

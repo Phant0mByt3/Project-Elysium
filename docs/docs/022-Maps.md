@@ -4,7 +4,7 @@ This document is the staging area for world maps, regional layouts, and navigati
 
 ## Purpose
 * Provide a top-down reference for continent and region boundaries before any building starts.
-* Track the relative scale and positioning of regions within a continent (see [12-Regions.md](12-Regions.md)).
+* Track the relative scale and positioning of regions within a continent (see [012-Regions.md](012-Regions.md)).
 * Serve as the source for in-game minimap and world map assets, produced by the art team ([130-Art-Style.md](130-Art-Style.md)).
 
 ## Current Maps
@@ -17,8 +17,8 @@ Frostgate Approach forms the southern entry point from Aurelia; the Ember Deeps 
 
 ## Process
 1. Concept sketch (this document).
-2. Scale pass against the leveling curve ([46-Leveling.md](46-Leveling.md)) to confirm region sizing.
-3. Handoff to world-building team for construction (Phase 3, [03-Roadmap.md](03-Roadmap.md)).
+2. Scale pass against the leveling curve ([046-Leveling.md](046-Leveling.md)) to confirm region sizing.
+3. Handoff to world-building team for construction (Phase 3, [003-Roadmap.md](003-Roadmap.md)).
 4. Final in-game map art produced once a region is content-complete.
 
 Actual image/schematic map files, once produced, should be linked from this document rather than duplicated elsewhere.

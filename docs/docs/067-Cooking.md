@@ -1,7 +1,7 @@
 # 67 — Cooking
 
 ## Overview
-Cooking is a production profession turning Fishing catches ([63-Fishing.md](63-Fishing.md)) and other raw food materials into buff-granting food items ([57-Consumables.md](57-Consumables.md)).
+Cooking is a production profession turning Fishing catches ([063-Fishing.md](063-Fishing.md)) and other raw food materials into buff-granting food items ([057-Consumables.md](057-Consumables.md)).
 
 ## Core Loop
 Learn a recipe → gather ingredients (fish, farmed goods, meat drops) → cook at a fire or kitchen station → produce stackable food buffs.

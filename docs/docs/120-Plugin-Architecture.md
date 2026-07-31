@@ -10,11 +10,11 @@ The Elysium server runs on Paper (Java) as a modular collection of purpose-built
 
 ## Module Breakdown (illustrative)
 * `elysium-core` — shared data models, database access, event bus.
-* `elysium-combat` — combat resolution, stats, status effects ([44-Combat.md](44-Combat.md), [45-Stats.md](45-Stats.md), [47-Status-Effects.md](47-Status-Effects.md)).
-* `elysium-quests` — quest state machine ([70-Quests.md](70-Quests.md)).
+* `elysium-combat` — combat resolution, stats, status effects ([044-Combat.md](044-Combat.md), [045-Stats.md](045-Stats.md), [047-Status-Effects.md](047-Status-Effects.md)).
+* `elysium-quests` — quest state machine ([070-Quests.md](070-Quests.md)).
 * `elysium-economy` — currency, auction house, trading, mail, banking ([100-Economy.md](100-Economy.md) through [106-Banking.md](106-Banking.md)).
-* `elysium-social` — guilds, parties ([80-Guilds.md](80-Guilds.md), [81-Parties.md](81-Parties.md)).
-* `elysium-pvp` — arenas, territory control ([85-Arenas.md](85-Arenas.md), [86-Territory-Control.md](86-Territory-Control.md)).
+* `elysium-social` — guilds, parties ([080-Guilds.md](080-Guilds.md), [081-Parties.md](081-Parties.md)).
+* `elysium-pvp` — arenas, territory control ([085-Arenas.md](085-Arenas.md), [086-Territory-Control.md](086-Territory-Control.md)).
 
 ## Data Persistence
 All plugins persist state through the shared PostgreSQL database described in [121-Database.md](121-Database.md), never through flat files, to support the scalable architecture goal in the README.

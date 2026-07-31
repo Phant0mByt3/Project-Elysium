@@ -4,9 +4,9 @@
 Describes how Elysium's server infrastructure is organized at a deployment level, distinct from the plugin/code architecture in [120-Plugin-Architecture.md](120-Plugin-Architecture.md).
 
 ## Server Types
-* **Overworld Server(s)** — hosts the persistent, shared open world (all continents, [11-Continents.md](11-Continents.md)); may eventually be sharded per-continent as population grows.
-* **Instance Servers** — dynamically spun-up servers/processes hosting dungeon and raid instances ([16-Dungeons.md](16-Dungeons.md), [17-Raids.md](17-Raids.md)), torn down when empty.
-* **Arena/PvP Servers** — dedicated lightweight instances for Arena matches ([85-Arenas.md](85-Arenas.md)).
+* **Overworld Server(s)** — hosts the persistent, shared open world (all continents, [011-Continents.md](011-Continents.md)); may eventually be sharded per-continent as population grows.
+* **Instance Servers** — dynamically spun-up servers/processes hosting dungeon and raid instances ([016-Dungeons.md](016-Dungeons.md), [017-Raids.md](017-Raids.md)), torn down when empty.
+* **Arena/PvP Servers** — dedicated lightweight instances for Arena matches ([085-Arenas.md](085-Arenas.md)).
 * **Login/Proxy Layer** — handles player connection routing between the overworld and instance servers, giving the illusion of a single seamless world.
 
 ## Cross-Version Update Support

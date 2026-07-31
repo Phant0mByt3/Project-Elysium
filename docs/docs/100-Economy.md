@@ -4,8 +4,8 @@
 Elysium's economy is player-driven wherever possible, built around Aurum ([101-Currency.md](101-Currency.md)) as the primary currency and the Auction House ([103-Auction-House.md](103-Auction-House.md)) as the primary player-to-player marketplace.
 
 ## Design Goals
-* **Meaningful Aurum sinks** — repair costs, fast travel ([21-Fast-Travel.md](21-Fast-Travel.md)), consumables ([57-Consumables.md](57-Consumables.md)), and cosmetic purchases keep currency circulating rather than accumulating indefinitely.
-* **Profession relevance** — gathering and crafting professions ([60-Professions.md](60-Professions.md)) should be a genuine income source at every level range, not just at max level.
+* **Meaningful Aurum sinks** — repair costs, fast travel ([021-Fast-Travel.md](021-Fast-Travel.md)), consumables ([057-Consumables.md](057-Consumables.md)), and cosmetic purchases keep currency circulating rather than accumulating indefinitely.
+* **Profession relevance** — gathering and crafting professions ([060-Professions.md](060-Professions.md)) should be a genuine income source at every level range, not just at max level.
 * **Stability** — server-wide price monitoring should inform balance adjustments to material drop rates and vendor prices, preventing runaway inflation.
 
 ## Currency Types

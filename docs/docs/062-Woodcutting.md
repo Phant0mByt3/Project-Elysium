@@ -10,4 +10,4 @@ Chop a tree with an equipped axe → receive raw logs → process logs into plan
 Densest in Aurelia's Wildwood Reach, with specialty wood types becoming available as the Sylvaneth continent is introduced in the first expansion ([150-Expansion-01.md](150-Expansion-01.md)), where the world-tree canopy is expected to offer entirely new timber types.
 
 ## Design Notes
-Woodcutting is intended as a lower-friction "casual" gathering profession — quick to level, broadly useful — pairing well with either Tailoring ([69-Tailoring.md](69-Tailoring.md)) or as a secondary Aurum-farming profession alongside a non-crafting production profession like Alchemy.
+Woodcutting is intended as a lower-friction "casual" gathering profession — quick to level, broadly useful — pairing well with either Tailoring ([069-Tailoring.md](069-Tailoring.md)) or as a secondary Aurum-farming profession alongside a non-crafting production profession like Alchemy.

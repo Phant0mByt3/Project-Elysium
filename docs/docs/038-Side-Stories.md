@@ -1,11 +1,11 @@
 # 38 — Side Stories
 
-Optional questlines and character-driven narratives that run parallel to the main story ([37-Main-Story.md](37-Main-Story.md)), enriching the world without gating critical-path progress.
+Optional questlines and character-driven narratives that run parallel to the main story ([037-Main-Story.md](037-Main-Story.md)), enriching the world without gating critical-path progress.
 
 ## Design Principles
 * Every side story should have a clear beginning, middle, and end — no "quest chain that trails off."
-* Side stories should give secondary NPCs ([39-NPCs.md](39-NPCs.md)) their own arcs, rather than existing purely to serve the main story's cast.
-* Regional side stories tie into that region's "local conflict" field (see [12-Regions.md](12-Regions.md) template); continent- or faction-spanning side stories may cross multiple regions.
+* Side stories should give secondary NPCs ([039-NPCs.md](039-NPCs.md)) their own arcs, rather than existing purely to serve the main story's cast.
+* Regional side stories tie into that region's "local conflict" field (see [012-Regions.md](012-Regions.md) template); continent- or faction-spanning side stories may cross multiple regions.
 
 ## Launch Side Stories (examples)
 

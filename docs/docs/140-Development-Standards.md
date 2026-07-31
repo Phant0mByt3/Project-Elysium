@@ -4,7 +4,7 @@
 The umbrella document for how Project Elysium is built — coding, building, writing, testing, and releasing — tying together [141-Coding-Standards.md](141-Coding-Standards.md) through [148-Release-Process.md](148-Release-Process.md).
 
 ## Core Principle
-Per [02-Core-Pillars.md](02-Core-Pillars.md): quality over quantity, and documentation as part of development. No feature is "done" when the code compiles or the build looks right — it's done when it's documented, tested, and reviewed against the relevant standards.
+Per [002-Core-Pillars.md](002-Core-Pillars.md): quality over quantity, and documentation as part of development. No feature is "done" when the code compiles or the build looks right — it's done when it's documented, tested, and reviewed against the relevant standards.
 
 ## Standards Covered
 * **Code** — [141-Coding-Standards.md](141-Coding-Standards.md)

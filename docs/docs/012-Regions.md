@@ -1,6 +1,6 @@
 # 12 — Regions
 
-Regions are the primary zone unit players experience — smaller than a continent, larger than a single city. Each region is scoped to a level band before any building begins, per [02-Core-Pillars.md](02-Core-Pillars.md).
+Regions are the primary zone unit players experience — smaller than a continent, larger than a single city. Each region is scoped to a level band before any building begins, per [002-Core-Pillars.md](002-Core-Pillars.md).
 
 ## Region Template
 
@@ -32,4 +32,4 @@ Every region should be documented with:
 | The Ironpeak Holds | 38–46 | Dwarven fortress-cities |
 | The Shattered Cairns | 44–50 | Endgame pre-raid zone, Sundering scarring |
 
-Each region listed above is expanded into full design documents as world-building begins (see [03-Roadmap.md](03-Roadmap.md), Phase 3). Cities within regions are detailed in [13-Cities.md](13-Cities.md); dungeons in [16-Dungeons.md](16-Dungeons.md).
+Each region listed above is expanded into full design documents as world-building begins (see [003-Roadmap.md](003-Roadmap.md), Phase 3). Cities within regions are detailed in [013-Cities.md](013-Cities.md); dungeons in [016-Dungeons.md](016-Dungeons.md).

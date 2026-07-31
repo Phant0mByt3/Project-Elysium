@@ -10,4 +10,4 @@ Security spans account protection, server integrity, and economy protection — 
 * **Infrastructure** — DDoS mitigation at the network layer ([122-Network.md](122-Network.md)), regular database backups.
 
 ## Process
-Security should be reviewed as part of every major system's design, not treated as a separate late-stage audit — consistent with the documentation-first, quality-first pillars in [02-Core-Pillars.md](02-Core-Pillars.md). A dedicated security/exploit review pass is planned ahead of Closed Beta ([03-Roadmap.md](03-Roadmap.md)).
+Security should be reviewed as part of every major system's design, not treated as a separate late-stage audit — consistent with the documentation-first, quality-first pillars in [002-Core-Pillars.md](002-Core-Pillars.md). A dedicated security/exploit review pass is planned ahead of Closed Beta ([003-Roadmap.md](003-Roadmap.md)).

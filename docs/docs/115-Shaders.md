@@ -1,12 +1,12 @@
 # 115 — Shaders
 
 ## Overview
-A custom shader pack bundled with the client, used to achieve lighting, weather, and atmosphere well beyond vanilla Minecraft's default rendering — critical to selling Elysium's fantasy tone per [01-Vision.md](01-Vision.md).
+A custom shader pack bundled with the client, used to achieve lighting, weather, and atmosphere well beyond vanilla Minecraft's default rendering — critical to selling Elysium's fantasy tone per [001-Vision.md](001-Vision.md).
 
 ## Scope
-* **Dynamic Lighting** — supporting day/night cycles, dungeon/cave atmosphere, and spell/ability visual effects tied to [44-Combat.md](44-Combat.md).
-* **Weather Effects** — storms (tied to Maelithir world boss content, [18-World-Bosses.md](18-World-Bosses.md)), fog, snow across Vethmoor's colder regions.
-* **Water & Reflections** — particularly important for the launch raid's flooded setting ([17-Raids.md](17-Raids.md)).
+* **Dynamic Lighting** — supporting day/night cycles, dungeon/cave atmosphere, and spell/ability visual effects tied to [044-Combat.md](044-Combat.md).
+* **Weather Effects** — storms (tied to Maelithir world boss content, [018-World-Bosses.md](018-World-Bosses.md)), fog, snow across Vethmoor's colder regions.
+* **Water & Reflections** — particularly important for the launch raid's flooded setting ([017-Raids.md](017-Raids.md)).
 * **Post-Processing** — color grading matching each continent's palette ([132-Colour-Palette.md](132-Colour-Palette.md)).
 
 ## Performance Considerations

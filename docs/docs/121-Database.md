@@ -6,10 +6,10 @@ PostgreSQL serves as Elysium's persistent data store, accessed exclusively throu
 ## Core Schema Areas
 * **Accounts & Characters** — authentication-linked account records and per-character data ([124-Authentication.md](124-Authentication.md)).
 * **Inventory & Items** — item instances, bank storage ([106-Banking.md](106-Banking.md)), mail attachments ([105-Mail.md](105-Mail.md)).
-* **Progression** — level, talents, reputation, achievements, titles ([46-Leveling.md](46-Leveling.md), [43-Talent-Trees.md](43-Talent-Trees.md), [76-Reputation.md](76-Reputation.md), [74-Achievements.md](74-Achievements.md)).
-* **Social** — guilds, guild banks, party history ([80-Guilds.md](80-Guilds.md)).
+* **Progression** — level, talents, reputation, achievements, titles ([046-Leveling.md](046-Leveling.md), [043-Talent-Trees.md](043-Talent-Trees.md), [076-Reputation.md](076-Reputation.md), [074-Achievements.md](074-Achievements.md)).
+* **Social** — guilds, guild banks, party history ([080-Guilds.md](080-Guilds.md)).
 * **Economy** — auction house listings, transaction logs ([103-Auction-House.md](103-Auction-House.md)).
-* **Raid/Dungeon Lockouts** — per-character weekly lockout state ([82-Raiding.md](82-Raiding.md)).
+* **Raid/Dungeon Lockouts** — per-character weekly lockout state ([082-Raiding.md](082-Raiding.md)).
 
 ## Design Principles
 * Schema migrations are versioned and applied through Gradle-managed migration scripts, never manual production edits.

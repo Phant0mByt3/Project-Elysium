@@ -2,7 +2,7 @@
 
 ## Overview
 
-Elysium's lore is built around a single defining event — **the Sundering** — that split the world's history into a clear before and after. This document is the entry point into the lore documentation; see [31-Timeline.md](31-Timeline.md) for the full chronology, [32-Gods.md](32-Gods.md) for the pantheon, [33-Factions.md](33-Factions.md) for political groups, [34-Races.md](34-Races.md) for playable and non-playable peoples, [35-Kingdoms.md](35-Kingdoms.md) for nations, and [36-History.md](36-History.md) for detailed historical events.
+Elysium's lore is built around a single defining event — **the Sundering** — that split the world's history into a clear before and after. This document is the entry point into the lore documentation; see [031-Timeline.md](031-Timeline.md) for the full chronology, [032-Gods.md](032-Gods.md) for the pantheon, [033-Factions.md](033-Factions.md) for political groups, [034-Races.md](034-Races.md) for playable and non-playable peoples, [035-Kingdoms.md](035-Kingdoms.md) for nations, and [036-History.md](036-History.md) for detailed historical events.
 
 ## The Short Version
 

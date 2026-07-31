@@ -1,7 +1,7 @@
 # 65 — Alchemy
 
 ## Overview
-Alchemy is a production profession that transforms herbs (gathered via [64-Herbalism.md](64-Herbalism.md)) into potions and other consumable effects ([57-Consumables.md](57-Consumables.md)).
+Alchemy is a production profession that transforms herbs (gathered via [064-Herbalism.md](064-Herbalism.md)) into potions and other consumable effects ([057-Consumables.md](057-Consumables.md)).
 
 ## Core Loop
 Learn a potion recipe → gather required herbs → brew at an alchemy station → produce a stack of potions for personal use or sale.

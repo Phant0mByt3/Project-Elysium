@@ -16,4 +16,4 @@ Every bug report should include: reproduction steps, expected vs. actual behavio
 Critical and Major bugs are triaged immediately; Minor/Trivial bugs are batched into upcoming patch cycles per the release process in [148-Release-Process.md](148-Release-Process.md).
 
 ## Resolution Tracking
-Fixed bugs should be reflected in the changelog entries of [04-Version-History.md](04-Version-History.md) once shipped.
+Fixed bugs should be reflected in the changelog entries of [004-Version-History.md](004-Version-History.md) once shipped.

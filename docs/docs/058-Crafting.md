@@ -1,7 +1,7 @@
 # 58 — Crafting
 
 ## Overview
-Crafting is the umbrella system connecting the gathering professions ([61-Mining.md](61-Mining.md) through [64-Herbalism.md](64-Herbalism.md)) to the production professions ([65-Alchemy.md](65-Alchemy.md) through [69-Tailoring.md](69-Tailoring.md)). See [60-Professions.md](60-Professions.md) for the overall profession system this belongs to.
+Crafting is the umbrella system connecting the gathering professions ([061-Mining.md](061-Mining.md) through [064-Herbalism.md](064-Herbalism.md)) to the production professions ([065-Alchemy.md](065-Alchemy.md) through [069-Tailoring.md](069-Tailoring.md)). See [060-Professions.md](060-Professions.md) for the overall profession system this belongs to.
 
 ## Core Loop
 1. Gather raw materials in the open world via a gathering profession.
@@ -15,4 +15,4 @@ Crafting is the umbrella system connecting the gathering professions ([61-Mining
 * Crafting should support at least one profession-exclusive item type per profession (e.g. only Blacksmiths can craft plate armor) to keep professions meaningfully differentiated.
 
 ## Enchanting
-Enchanting is documented as its own related-but-distinct system — see [59-Enchanting.md](59-Enchanting.md).
+Enchanting is documented as its own related-but-distinct system — see [059-Enchanting.md](059-Enchanting.md).

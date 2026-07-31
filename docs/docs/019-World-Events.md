@@ -8,10 +8,10 @@ World events are time-limited, server-wide activities layered on top of the pers
 Recurring, unscheduled happenings within a region (a bandit raid on a village, a resource caravan needing an escort). These respawn on cooldowns and are meant to be stumbled into while exploring, not queued for.
 
 ### Invasions
-Larger, story-tied events where an enemy faction pushes into contested territory (see [86-Territory-Control.md](86-Territory-Control.md)), requiring organized player defense. Tied narratively to the main story ([37-Main-Story.md](37-Main-Story.md)).
+Larger, story-tied events where an enemy faction pushes into contested territory (see [086-Territory-Control.md](086-Territory-Control.md)), requiring organized player defense. Tied narratively to the main story ([037-Main-Story.md](037-Main-Story.md)).
 
 ### Seasonal Events
-Real-world-calendar-aligned content — see [87-Seasons.md](87-Seasons.md) for the full seasonal calendar and reward tracks.
+Real-world-calendar-aligned content — see [087-Seasons.md](087-Seasons.md) for the full seasonal calendar and reward tracks.
 
 ## Launch World Events
 
@@ -20,4 +20,4 @@ Real-world-calendar-aligned content — see [87-Seasons.md](87-Seasons.md) for t
 **The Ashenclaw Incursion** — a large-scale Duskward Pact push into Frostgate Approach, requiring cross-guild Concord defense; ties into the Vethmoor faction storyline.
 
 ## Technical Notes
-World events depend on the same scheduling and state-tracking systems as world bosses ([18-World-Bosses.md](18-World-Bosses.md)); see [120-Plugin-Architecture.md](120-Plugin-Architecture.md).
+World events depend on the same scheduling and state-tracking systems as world bosses ([018-World-Bosses.md](018-World-Bosses.md)); see [120-Plugin-Architecture.md](120-Plugin-Architecture.md).

@@ -1,7 +1,7 @@
 # 71 — Quest Chains
 
 ## Overview
-Quest chains are multi-step questlines that build toward a larger payoff than any single quest could deliver — the backbone of side stories ([38-Side-Stories.md](38-Side-Stories.md)) and regional local-conflict arcs ([12-Regions.md](12-Regions.md)).
+Quest chains are multi-step questlines that build toward a larger payoff than any single quest could deliver — the backbone of side stories ([038-Side-Stories.md](038-Side-Stories.md)) and regional local-conflict arcs ([012-Regions.md](012-Regions.md)).
 
 ## Structure
 A well-formed quest chain should have:
@@ -11,9 +11,9 @@ A well-formed quest chain should have:
 4. **A resolution** — a final quest that closes the loop and, ideally, sets up a future thread (main story, expansion, or a returning NPC).
 
 ## Design Rules
-* Chains should not require players to backtrack across regions unnecessarily — pacing should respect [20-Travel.md](20-Travel.md)'s "no long unassisted walk" guidance.
-* Chains that gate access to a dungeon or raid ([16-Dungeons.md](16-Dungeons.md), [17-Raids.md](17-Raids.md)) should be clearly signposted as such, avoiding surprise prerequisites.
-* NPCs introduced in a chain should be added to [39-NPCs.md](39-NPCs.md) for continuity tracking.
+* Chains should not require players to backtrack across regions unnecessarily — pacing should respect [020-Travel.md](020-Travel.md)'s "no long unassisted walk" guidance.
+* Chains that gate access to a dungeon or raid ([016-Dungeons.md](016-Dungeons.md), [017-Raids.md](017-Raids.md)) should be clearly signposted as such, avoiding surprise prerequisites.
+* NPCs introduced in a chain should be added to [039-NPCs.md](039-NPCs.md) for continuity tracking.
 
 ## Repeatable Chains
-Some chains repeat on a longer cycle tied to reputation grinds — see [76-Reputation.md](76-Reputation.md) and [77-Factions-Reputation.md](77-Factions-Reputation.md).
+Some chains repeat on a longer cycle tied to reputation grinds — see [076-Reputation.md](076-Reputation.md) and [077-Factions-Reputation.md](077-Factions-Reputation.md).

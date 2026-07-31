@@ -1,7 +1,7 @@
 # 59 — Enchanting
 
 ## Overview
-Enchanting allows players to apply permanent stat-boosting effects to weapons and armor, layered on top of an item's base stats ([45-Stats.md](45-Stats.md)) rather than replacing them.
+Enchanting allows players to apply permanent stat-boosting effects to weapons and armor, layered on top of an item's base stats ([045-Stats.md](045-Stats.md)) rather than replacing them.
 
 ## Core Loop
 1. Disenchant unwanted gear (Rare-or-higher quality) into enchanting materials.
@@ -14,4 +14,4 @@ Enchanting allows players to apply permanent stat-boosting effects to weapons an
 * High-end enchants (raid-tier) should require raid-drop materials, tying the profession into endgame content loops.
 
 ## Relationship to Crafting
-Enchanting is trained and practiced separately from the gathering/production professions in [60-Professions.md](60-Professions.md), but shares the profession leveling and trainer infrastructure described there.
+Enchanting is trained and practiced separately from the gathering/production professions in [060-Professions.md](060-Professions.md), but shares the profession leveling and trainer infrastructure described there.
