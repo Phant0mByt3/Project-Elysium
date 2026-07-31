@@ -145,5 +145,10 @@ docs/
 ├── 153-Expansion-04.md
 ├── 154-Expansion-05.md
 │
+├── 994-Ancient-Mysteries.md
+├── 995-Future-Characters.md
+├── 996-Future-Regions.md
+├── 997-Future-Threats.md
+├── 998-Long-Term-Story.md
 └── 999-Ideas.md
 ```
