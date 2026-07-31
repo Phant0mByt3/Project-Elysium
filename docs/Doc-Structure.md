@@ -5,7 +5,7 @@ This document outlines the documentation structure for Project Elysium. Every ma
 ```text
 docs/
 
-├── [000-Overview.md](docs/000-Overview.md)
+├── 000-Overview.md
 ├── 001-Vision.md
 ├── 002-Core-Pillars.md
 ├── 003-Roadmap.md
