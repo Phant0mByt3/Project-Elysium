@@ -401,7 +401,7 @@ Planning documents for future expansions, including new continents, gameplay sys
 
 ---
 
-# [155-Simulated-Civilisation.md](docs/155-Simulated-Civilisation.md) — Simulated Civilisation
+# [155-Simulated-Civilisation.md](docs/155-Simulated-Civilisation.md)
 
 This document defines the systems used to make the world of Elysium feel alive beyond player interaction.
 
