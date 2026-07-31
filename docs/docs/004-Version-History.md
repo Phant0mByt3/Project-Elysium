@@ -16,6 +16,6 @@ Each entry should follow this structure:
 
 ## Entries
 
-_No versions have been released yet. Project Elysium is currently in Pre-Production — see [03-Roadmap.md](03-Roadmap.md)._
+_No versions have been released yet. Project Elysium is currently in Pre-Production — see [003-Roadmap.md](003-Roadmap.md)._
 
 Once Closed Alpha begins, this file becomes mandatory reading before every patch — see the release checklist in [148-Release-Process.md](148-Release-Process.md).
