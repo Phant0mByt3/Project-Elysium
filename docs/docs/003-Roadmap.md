@@ -1,11 +1,11 @@
 # 03 — Roadmap
 
-This roadmap tracks Project Elysium's development phases at a high level. Detailed completed work is logged per-version in [04-Version-History.md](04-Version-History.md); long-term ideas beyond this roadmap live in [05-Future-Plans.md](05-Future-Plans.md).
+This roadmap tracks Project Elysium's development phases at a high level. Detailed completed work is logged per-version in [004-Version-History.md](004-Version-History.md); long-term ideas beyond this roadmap live in [005-Future-Plans.md](005-Future-Plans.md).
 
 ## Phase 0 — Pre-Production *(current)*
 * Finalize core lore, races, classes, and world structure (this documentation set).
 * Concept art and art style guide ([130-Art-Style.md](130-Art-Style.md)).
-* Prototype combat and stat formulas ([44-Combat.md](44-Combat.md), [45-Stats.md](45-Stats.md)).
+* Prototype combat and stat formulas ([044-Combat.md](044-Combat.md), [045-Stats.md](045-Stats.md)).
 * Stand up plugin architecture skeleton ([120-Plugin-Architecture.md](120-Plugin-Architecture.md)).
 
 ## Phase 1 — Core Engine Development
@@ -14,7 +14,7 @@ This roadmap tracks Project Elysium's development phases at a high level. Detail
 * Core UI framework and HUD.
 
 ## Phase 2 — Gameplay Systems
-* Classes, talent trees, skills, itemization ([40-Classes.md](40-Classes.md) through [59-Enchanting.md](59-Enchanting.md)).
+* Classes, talent trees, skills, itemization ([040-Classes.md](040-Classes.md) through [59-Enchanting.md](59-Enchanting.md)).
 * Quest and dialogue systems.
 * Economy foundations ([100-Economy.md](100-Economy.md)).
 
