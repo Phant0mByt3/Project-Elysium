@@ -680,6 +680,25 @@ Benefits:
 
 ---
 
+# Client Philosophy
+
+The Elysium Client exists solely to play Elysium.
+
+It is not intended to function as a general-purpose Minecraft client.
+
+Features:
+
+- No Singleplayer
+- No Multiplayer server list
+- No Realms
+- Fixed engine version
+- Managed by the Elysium Launcher
+- Automatic updates
+- Automatic integrity verification
+- Official Elysium servers only
+
+---
+
 # Future Engine Development
 
 Possible future systems:
