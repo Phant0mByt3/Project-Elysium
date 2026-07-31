@@ -1,3 +1,8 @@
+# Structure
+
+This document outlines the documentation structure for Project Elysium. Every major system of the game has its own dedicated Markdown file to keep planning organized, scalable, and easy to maintain throughout development.
+
+```text
 docs/
 │
 ├── 00-Overview.md
@@ -141,3 +146,4 @@ docs/
 ├── 154-Expansion-05.md
 │
 └── 999-Ideas.md
+```
