@@ -401,6 +401,18 @@ Planning documents for future expansions, including new continents, gameplay sys
 
 ---
 
+# [155-Simulated-Civilisation.md](docs/155-Simulated-Civilisation.md) — Simulated Civilisation
+
+This document defines the systems used to make the world of Elysium feel alive beyond player interaction.
+
+A simulated civilisation means that the world continues operating even when players are not present.
+
+Cities grow, factions make decisions, NPCs follow routines, economies change, and events happen naturally based on the state of the world.
+
+The goal is to create a world that feels like a living fantasy civilisation rather than a collection of gameplay locations.
+
+---
+
 # 994–998 — Hidden Developer Knowledge
 
 Internal planning documents containing long-term secrets, future content, unresolved mysteries, and story concepts that are not currently available to players.
