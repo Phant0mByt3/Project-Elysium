@@ -136,7 +136,7 @@ The backend operates multiple independent servers.
 
                            ↓
 
-                    Velocity Proxy
+                     Velocity Proxy
 
                            |
 
@@ -148,7 +148,7 @@ The backend operates multiple independent servers.
 
         ↓                  ↓                  ↓
 
-      World             World              Instance
+      World              World             Instance
 
 ```
 
@@ -529,6 +529,154 @@ Database
 Machine 5:
 Storage + Backups
 ```
+
+---
+
+# Client Platform
+
+## Custom Assets
+
+Elysium will ship with its own client assets.
+
+Custom content will be included directly with the client rather than relying solely on downloadable resource packs.
+
+Included assets may include:
+
+* Models
+* Textures
+* Sounds
+* Music
+* UI
+* Fonts
+* Icons
+* Animations
+
+Benefits:
+
+* Faster loading
+* Better integration
+* More reliable asset management
+* Consistent visual experience
+
+---
+
+## Custom Main Menu
+
+The default Minecraft main menu will be replaced with an Elysium interface.
+
+Example:
+
+```text
++------------------------------------+
+|            ELYSIUM                 |
+|                                    |
+|        [ Enter Elysium ]           |
+|                                    |
+|        Character Preview           |
+|                                    |
+|  Character Selection               |
+|  Character Creation                |
+|  Settings                          |
+|  Exit                              |
++------------------------------------+
+```
+
+Features:
+
+* Character selection
+* Character creation
+* Character preview
+* News
+* Patch notes
+* Settings
+* Server status
+
+---
+
+## Character Management
+
+Character data is never stored locally.
+
+Every login retrieves the latest character information from the central backend.
+
+Stored server-side:
+
+* Characters
+* Inventory
+* Equipment
+* Skills
+* Quests
+* Achievements
+* Reputation
+* Currency
+* Progression
+
+Benefits:
+
+* Centralised saves
+* Cross-server persistence
+* Reduced save manipulation
+* Easier backups
+
+---
+
+# Security & Integrity
+
+## Client Verification
+
+Every connection performs an integrity check before entering the game.
+
+Possible verification:
+
+* Client version
+* Required mods
+* Missing files
+* Modified files
+* Asset validation
+* Resource integrity
+
+Players with modified or incomplete installations may be denied access.
+
+---
+
+## Server Authority
+
+The client is responsible only for presentation.
+
+The server is authoritative for all gameplay systems.
+
+Server-controlled systems include:
+
+* Combat
+* Inventory
+* Currency
+* Character progression
+* Quest progression
+* NPC interactions
+* Item generation
+* Loot tables
+
+No gameplay-critical information should be trusted from the client.
+
+---
+
+## Minecraft Ownership
+
+Elysium requires ownership of the official Java Edition of Minecraft.
+
+Requirements:
+
+* Official Microsoft account
+* Valid Minecraft Java Edition licence
+* Authentication through Microsoft's services
+
+No offline accounts are supported.
+
+Benefits:
+
+* Compliance with Minecraft's licensing
+* Secure account authentication
+* Reduced abuse from unauthorised accounts
 
 ---
 
