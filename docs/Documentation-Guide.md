@@ -401,6 +401,24 @@ Planning documents for future expansions, including new continents, gameplay sys
 
 ---
 
+# 994–998 — Hidden Developer Knowledge
+
+Internal planning documents containing long-term secrets, future content, unresolved mysteries, and story concepts that are not currently available to players.
+
+These files are used to maintain long-term world consistency and allow future expansions to feel planned rather than randomly added.
+
+* **[994-Ancient-Mysteries.md](docs/994-Ancient-Mysteries.md)** — Unresolved mysteries, forgotten civilizations, hidden locations, unexplained events, and secrets that may be revealed in future updates.
+
+* **[995-Future-Characters.md](docs/995-Future-Characters.md)** — Planned future characters, including heroes, villains, important NPCs, historical figures, and characters who may become relevant years later.
+
+* **[996-Future-Regions.md](docs/996-Future-Regions.md)** — Planned continents, regions, dimensions, and locations that are not currently accessible but may appear in future expansions.
+
+* **[997-Future-Threats.md](docs/997-Future-Threats.md)** — Future enemies, disasters, conflicts, and world-changing events that will create new challenges for players.
+
+* **[998-Long-Term-Story.md](docs/998-Long-Term-Story.md)** — The long-term narrative direction of Project Elysium, including future story ages, major events, expansion progression, and the evolution of the world across years of updates.
+
+---
+
 # [999-Ideas.md](docs/999-Ideas.md)
 
 A sandbox for brainstorming. This file stores unfinished concepts, experimental mechanics, random ideas, feature requests, and inspiration before they are moved into their appropriate documentation.
