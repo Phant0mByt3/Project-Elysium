@@ -1,4 +1,4 @@
-# 00 — Overview
+# 000 — Overview
 
 ## What is Project Elysium?
 
