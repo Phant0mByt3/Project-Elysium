@@ -19,4 +19,4 @@ Elysium is not "Minecraft with quests bolted on." The UI, combat feel, progressi
 
 ## What This Documentation Is
 
-The `docs/` directory is the Game Design Document (GDD) for Project Elysium — the single source of truth for every system in the game, from lore to combat math to launcher architecture. See [`Documentation-Guide.md`](../Documentation-Guide.md) for what each file covers, and [0001-Vision.md](0001-Vision.md) for the philosophy behind these decisions.
+The `docs/` directory is the Game Design Document (GDD) for Project Elysium — the single source of truth for every system in the game, from lore to combat math to launcher architecture. See [0006-Documentation-Guide.md](0006-Documentation-Guide.md) for what each file covers, and [0001-Vision.md](0001-Vision.md) for the philosophy behind these decisions.

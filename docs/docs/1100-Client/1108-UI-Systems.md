@@ -179,7 +179,7 @@ Full-screen version of the minimap (§8), opened via `M`:
 Appears automatically on the left edge of the HUD when grouped (also accessible full-screen via `P`):
 
 - Party member frames with health/resource bars
-- Role icons (Tank/Healer/DPS, see [../0400-Gameplay/0408-Role-System.md](../0400-Gameplay/0408-Role-System.md) *(reserved, future content)*)
+- Role icons (Tank/Healer/DPS) *(reserved, future content)*
 - Ready-check and loot-role indicators
 
 ---
