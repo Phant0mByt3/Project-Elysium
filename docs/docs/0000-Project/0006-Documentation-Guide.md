@@ -178,7 +178,7 @@ Lists important NPCs, merchants, quest givers, rulers, companions, and enemies.
 
 ---
 
-# [0210-Dialogue-System.md](../0200-Lore/Dialogue-System.md)
+# [0210-Dialogue-System.md](../0200-Lore/0210-Dialogue-System.md)
 
 The Elysium Dialogue System is designed to provide an immersive MMORPG-style conversation experience. Inspired by systems found in games like World of Warcraft and Minecraft Bedrock Edition, it replaces simple NPC interactions with a fully structured dialogue interface.
 
