@@ -1,4 +1,4 @@
-# 76 — Reputation
+# 0706 — Reputation
 
 ## Overview
 Reputation is a per-organization progress track, distinct from the two overarching player factions covered in [0707-Factions-Reputation.md](0707-Factions-Reputation.md). This document covers the general reputation system mechanics.

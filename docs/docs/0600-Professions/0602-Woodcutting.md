@@ -1,4 +1,4 @@
-# 62 — Woodcutting
+# 0602 — Woodcutting
 
 ## Overview
 Woodcutting is a gathering profession focused on harvesting timber from trees across every forested region, feeding primarily into Tailoring's staff/bow components and general construction materials used by other professions.

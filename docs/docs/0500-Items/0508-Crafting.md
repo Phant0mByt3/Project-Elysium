@@ -1,4 +1,4 @@
-# 58 — Crafting
+# 0508 — Crafting
 
 ## Overview
 Crafting is the umbrella system connecting the gathering professions ([0601-Mining.md](../0600-Professions/0601-Mining.md) through [0604-Herbalism.md](../0600-Professions/0604-Herbalism.md)) to the production professions ([0605-Alchemy.md](../0600-Professions/0605-Alchemy.md) through [0609-Tailoring.md](../0600-Professions/0609-Tailoring.md)). See [0600-Professions.md](../0600-Professions/0600-Professions.md) for the overall profession system this belongs to.

@@ -1,4 +1,4 @@
-# 144 — NPC Writing Guide
+# 1404 — NPC Writing Guide
 
 ## Overview
 Standards for writing consistent, memorable NPC dialogue and characterization, extending the quest writing guide ([1403-Quest-Writing-Guide.md](1403-Quest-Writing-Guide.md)) to cover characters as a category unto themselves.

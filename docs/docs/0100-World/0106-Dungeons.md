@@ -1,4 +1,4 @@
-# 16 — Dungeons
+# 0106 — Dungeons
 
 ## Overview
 Dungeons are instanced, 5-player group content forming the primary mid-level progression loop between questing and raiding ([0107-Raids.md](0107-Raids.md)). Each dungeon is entered via a hand-built portal or entrance in the open world and queued into via the Dungeon Finder ([0803-Dungeon-Finder.md](../0800-Multiplayer/0803-Dungeon-Finder.md)).

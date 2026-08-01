@@ -1,4 +1,4 @@
-# 15 — Landmarks
+# 0105 — Landmarks
 
 Landmarks are non-quest-hub points of interest — ruins, monuments, natural wonders, and secrets — that reward exploration for its own sake, directly supporting Pillar 1 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
 

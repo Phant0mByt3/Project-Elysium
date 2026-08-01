@@ -1,4 +1,4 @@
-# 153 — Expansion 04
+# 1800 — Expansion 04
 
 ## Overview
 Placeholder for the fourth major expansion. Scope, continent/system focus, and narrative direction are not yet defined — to be scoped once Expansion 03 ([1700-Expansion-03.md](1700-Expansion-03.md)) is far enough into development to inform what comes next.

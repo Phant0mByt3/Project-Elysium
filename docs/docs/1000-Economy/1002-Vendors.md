@@ -1,4 +1,4 @@
-# 102 — Vendors
+# 1002 — Vendors
 
 ## Overview
 NPC vendors provide a baseline, always-available marketplace independent of player supply — selling reagents, basic gear, repair services, and recipes.

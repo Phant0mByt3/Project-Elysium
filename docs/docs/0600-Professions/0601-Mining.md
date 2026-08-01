@@ -1,4 +1,4 @@
-# 61 — Mining
+# 0601 — Mining
 
 ## Overview
 Mining is a gathering profession focused on extracting ore and stone from mineral veins found throughout the open world, particularly dense in Vethmoor's mountainous regions ([0102-Regions.md](../0100-World/0102-Regions.md)).

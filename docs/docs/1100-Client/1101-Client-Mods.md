@@ -1,4 +1,4 @@
-# 111 — Client Mods
+# 1101 — Client Mods
 
 ## Overview
 A curated set of Fabric client mods, installed automatically by the launcher ([1100-Launcher.md](1100-Launcher.md)), that together transform Minecraft's client into Elysium's MMORPG interface.

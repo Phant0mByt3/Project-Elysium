@@ -1,4 +1,4 @@
-# 81 — Parties
+# 0801 — Parties
 
 ## Overview
 Parties are temporary, small-group formations (up to 5 players) used for questing and dungeon content ([0106-Dungeons.md](../0100-World/0106-Dungeons.md)), distinct from the larger, persistent guild structure ([0800-Guilds.md](0800-Guilds.md)) and raid groups ([0802-Raiding.md](0802-Raiding.md)).

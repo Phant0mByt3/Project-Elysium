@@ -1,4 +1,4 @@
-# 152 — Expansion 03: Nightreach
+# 1700 — Expansion 03
 
 ## Overview
 The third planned expansion and the intended narrative climax of Elysium's initial multi-year story arc — introducing **Nightreach**, a continent still visibly warped by the Sundering and home to the strongest remaining concentration of Kaelgorath's influence ([0101-Continents.md](../0100-World/0101-Continents.md), [0202-Gods.md](../0200-Lore/0202-Gods.md)).

@@ -1,4 +1,4 @@
-# 113 — Custom Models
+# 1103 — Custom Models
 
 ## Overview
 Custom 3D models used throughout Elysium's resource pack ([1102-Resource-Pack.md](1102-Resource-Pack.md)), covering weapons, armor, NPCs, creatures, and world set-dressing beyond what vanilla Minecraft blocks can express.

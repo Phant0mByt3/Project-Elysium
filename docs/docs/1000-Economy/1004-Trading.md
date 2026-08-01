@@ -1,4 +1,4 @@
-# 104 — Trading
+# 1004 — Trading
 
 ## Overview
 Direct trading allows two players to exchange items and Aurum face-to-face, distinct from the open Auction House market ([1003-Auction-House.md](1003-Auction-House.md)).

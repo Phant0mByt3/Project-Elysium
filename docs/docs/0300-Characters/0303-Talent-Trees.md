@@ -1,4 +1,4 @@
-# 43 — Talent Trees
+# 0303 — Talent Trees
 
 ## Overview
 Talent trees are the primary build-customization system, letting players specialize further within their chosen specialization ([0301-Specializations.md](0301-Specializations.md)) rather than just picking bigger numbers.

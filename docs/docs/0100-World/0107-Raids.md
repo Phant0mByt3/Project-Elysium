@@ -1,4 +1,4 @@
-# 17 — Raids
+# 0107 — Raids
 
 ## Overview
 Raids are Elysium's endgame group content — larger instances (10–20 players) with multi-phase boss encounters, designed for coordinated guild play. See [0800-Guilds.md](../0800-Multiplayer/0800-Guilds.md) and [0802-Raiding.md](../0800-Multiplayer/0802-Raiding.md) for the social/organizational systems around raiding.

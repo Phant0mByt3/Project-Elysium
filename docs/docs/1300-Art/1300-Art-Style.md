@@ -1,4 +1,4 @@
-# 130 — Art Style
+# 1300 — Art Style
 
 ## Overview
 Elysium's overall visual identity — the reference point every other art document ([1301-UI-Style.md](1301-UI-Style.md) through [1306-Models.md](1306-Models.md)) should be checked against.

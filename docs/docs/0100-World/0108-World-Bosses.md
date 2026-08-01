@@ -1,4 +1,4 @@
-# 18 — World Bosses
+# 0108 — World Bosses
 
 World bosses are powerful, open-world enemies that spawn on a timer or by trigger, encouraging spontaneous large-group cooperation outside of instanced content — supporting Pillar 4 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
 

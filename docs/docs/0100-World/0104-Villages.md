@@ -1,4 +1,4 @@
-# 14 — Villages
+# 0104 — Villages
 
 Villages are smaller, lower-stakes settlements scattered through regions — rest stops, local quest hubs, and flavor locations that make the world feel lived-in outside of the capital cities.
 

@@ -1,4 +1,4 @@
-# 131 — UI Style
+# 1301 — UI Style
 
 ## Overview
 Visual standards for Elysium's custom UI, delivered through client mods ([1101-Client-Mods.md](../1100-Client/1101-Client-Mods.md)), replacing Minecraft's default interface entirely.

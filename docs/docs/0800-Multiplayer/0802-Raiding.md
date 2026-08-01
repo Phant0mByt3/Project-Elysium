@@ -1,4 +1,4 @@
-# 82 — Raiding
+# 0802 — Raiding
 
 ## Overview
 Raiding is the organized, guild-centric endgame activity built around the raid instances described in [0107-Raids.md](../0100-World/0107-Raids.md). This document covers the social and logistical systems around raiding, not encounter design itself.

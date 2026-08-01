@@ -1,4 +1,4 @@
-# 68 — Jewelcrafting
+# 0608 — Jewelcrafting
 
 ## Overview
 Jewelcrafting is a production profession that cuts gems (a byproduct of Mining, [0601-Mining.md](0601-Mining.md)) and crafts rings and necklaces ([0502-Accessories.md](../0500-Items/0502-Accessories.md)).

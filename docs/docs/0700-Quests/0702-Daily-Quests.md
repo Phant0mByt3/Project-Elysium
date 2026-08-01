@@ -1,4 +1,4 @@
-# 72 — Daily Quests
+# 0702 — Daily Quests
 
 ## Overview
 Daily quests are repeatable, once-per-day objectives primarily aimed at max-level players, providing steady Aurum, reputation, and minor gear/consumable rewards outside of dungeon/raid loops.

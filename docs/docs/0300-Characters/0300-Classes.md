@@ -1,4 +1,4 @@
-# 40 — Classes
+# 0300 — Classes
 
 ## Overview
 Elysium launches with eight classes, each tied thematically to one or more gods of the Elysian Circle ([0202-Gods.md](../0200-Lore/0202-Gods.md)). Every class can fill at least one of three roles — Tank, Healer, or Damage — with specializations ([0301-Specializations.md](0301-Specializations.md)) determining exactly which.

@@ -1,4 +1,4 @@
-# 123 — Server Structure
+# 1203 — Server Structure
 
 ## Overview
 Describes how Elysium's server infrastructure is organized at a deployment level, distinct from the plugin/code architecture in [1200-Plugin-Architecture.md](1200-Plugin-Architecture.md).

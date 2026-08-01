@@ -1,4 +1,4 @@
-# 48 — Elements
+# 0307 — Elements
 
 ## Elemental Damage Types
 * **Fire** — associated with Ignareth; applies Burning (damage over time).

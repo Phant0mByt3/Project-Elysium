@@ -1,4 +1,4 @@
-# 54 — Loot Tables
+# 0504 — Loot Tables
 
 ## Overview
 This document defines the framework for how specific drop tables are built per encounter (quest, dungeon boss, raid boss, world boss). Actual per-boss tables are populated as each encounter is designed ([0106-Dungeons.md](../0100-World/0106-Dungeons.md), [0107-Raids.md](../0100-World/0107-Raids.md), [0108-World-Bosses.md](../0100-World/0108-World-Bosses.md)).

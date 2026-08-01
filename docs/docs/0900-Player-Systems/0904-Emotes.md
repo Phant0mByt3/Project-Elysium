@@ -1,4 +1,4 @@
-# 94 — Emotes
+# 0904 — Emotes
 
 ## Overview
 Emotes are player-triggered animations and (where applicable) sound effects used for social expression and roleplay, reinforcing the game's identity as a persistent social world (Pillar 4, [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md)).

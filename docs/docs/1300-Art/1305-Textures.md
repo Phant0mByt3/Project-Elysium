@@ -1,4 +1,4 @@
-# 135 — Textures
+# 1305 — Textures
 
 ## Overview
 Texture standards for blocks, terrain, and surface materials used to realize each continent and city's visual identity within the resource pack ([1102-Resource-Pack.md](../1100-Client/1102-Resource-Pack.md)).

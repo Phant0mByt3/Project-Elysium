@@ -1,4 +1,4 @@
-# 52 — Accessories
+# 0502 — Accessories
 
 ## Slot Types
 * **Rings** (x2) — pure stat items, no armor class restriction.

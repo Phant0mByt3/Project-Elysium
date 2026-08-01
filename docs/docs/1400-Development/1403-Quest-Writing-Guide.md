@@ -1,4 +1,4 @@
-# 143 — Quest Writing Guide
+# 1403 — Quest Writing Guide
 
 ## Overview
 Standards for writing quest text, ensuring every quest ([0700-Quests.md](../0700-Quests/0700-Quests.md)) reads as part of a coherent world rather than generic MMO filler.

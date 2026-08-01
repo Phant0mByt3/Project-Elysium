@@ -1,4 +1,4 @@
-# 42 — Skills
+# 0302 — Skills
 
 ## Overview
 Skills are the active and passive abilities a class uses in combat, unlocked progressively while leveling ([0305-Leveling.md](0305-Leveling.md)) rather than all at once.

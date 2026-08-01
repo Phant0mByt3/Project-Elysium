@@ -1,4 +1,4 @@
-# 95 — Player Progression
+# 0905 — Player Progression
 
 ## Overview
 This document ties together the full arc of long-term player progression across systems, serving as a map between the more detailed docs covering each individual layer.

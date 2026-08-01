@@ -1,4 +1,4 @@
-# 63 — Fishing
+# 0603 — Fishing
 
 ## Overview
 Fishing is a relaxed, secondary gathering profession available to all characters regardless of their two chosen main professions — a low-stakes activity feeding into Cooking ([0607-Cooking.md](0607-Cooking.md)) and providing occasional unique rewards.

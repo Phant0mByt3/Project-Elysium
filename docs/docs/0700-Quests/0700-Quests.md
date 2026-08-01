@@ -1,4 +1,4 @@
-# 70 — Quests
+# 0700 — Quests
 
 ## Overview
 Quests are the primary content delivery mechanism in Elysium, driving both leveling ([0305-Leveling.md](../0300-Characters/0305-Leveling.md)) and narrative ([0207-Main-Story.md](../0200-Lore/0207-Main-Story.md), [0208-Side-Stories.md](../0200-Lore/0208-Side-Stories.md)).

@@ -1,4 +1,4 @@
-# 77 — Factions Reputation
+# 0707 — Factions Reputation
 
 ## Overview
 This document covers reputation specifically with the two player factions, the Dawnbound Concord and the Duskward Pact ([0203-Factions.md](../0200-Lore/0203-Factions.md)), building on the general system described in [0706-Reputation.md](0706-Reputation.md).

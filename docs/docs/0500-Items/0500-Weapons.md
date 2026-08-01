@@ -1,4 +1,4 @@
-# 50 — Weapons
+# 0500 — Weapons
 
 ## Weapon Types
 * **One-Handed Swords / Axes / Maces** — usable by most melee classes, often paired with a shield or off-hand.

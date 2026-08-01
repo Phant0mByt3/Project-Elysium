@@ -1,4 +1,4 @@
-# 101 — Currency
+# 1001 — Currency
 
 ## Aurum
 The primary in-game currency, earned from quests, vendoring loot, dungeon/raid completion, and professions. Used for repairs, fast travel, consumables, crafting materials, and most Auction House transactions ([1003-Auction-House.md](1003-Auction-House.md)).

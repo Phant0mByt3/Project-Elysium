@@ -1,4 +1,4 @@
-# 36 — History
+# 0206 — History
 
 Detailed historical events referenced throughout the game's quests and lore. See [0201-Timeline.md](0201-Timeline.md) for the high-level chronology this document expands on.
 

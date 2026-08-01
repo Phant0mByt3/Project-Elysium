@@ -1,4 +1,4 @@
-# Documentation Guide
+# 0006 — Documentation Guide
 
 This document explains the purpose of every Markdown file in the project. These files form the complete Game Design Document (GDD) for Project Elysium and act as the single source of truth throughout development.
 

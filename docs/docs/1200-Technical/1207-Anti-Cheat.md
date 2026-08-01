@@ -1,4 +1,4 @@
-# 127 — Anti-Cheat
+# 1207 — Anti Cheat
 
 ## Overview
 Anti-cheat systems protect the integrity of Elysium's PvE and PvP content against speed hacks, reach hacks, autoclickers/macros, and duplication exploits — critical given the game's competitive raid ([0802-Raiding.md](../0800-Multiplayer/0802-Raiding.md)) and PvP ([0804-PvP.md](../0800-Multiplayer/0804-PvP.md)) systems.

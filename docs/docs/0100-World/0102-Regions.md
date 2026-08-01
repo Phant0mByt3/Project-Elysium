@@ -1,4 +1,4 @@
-# 12 — Regions
+# 0102 — Regions
 
 Regions are the primary zone unit players experience — smaller than a continent, larger than a single city. Each region is scoped to a level band before any building begins, per [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
 

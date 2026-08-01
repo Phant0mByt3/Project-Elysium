@@ -1,4 +1,4 @@
-# 116 — Accessibility
+# 1106 — Accessibility
 
 ## Overview
 Accessibility features spanning the client mods ([1101-Client-Mods.md](1101-Client-Mods.md)), shaders ([1105-Shaders.md](1105-Shaders.md)), and UI ([1301-UI-Style.md](../1300-Art/1301-UI-Style.md)) to make Elysium playable by as wide an audience as possible.

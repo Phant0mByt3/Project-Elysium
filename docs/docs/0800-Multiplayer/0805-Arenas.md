@@ -1,4 +1,4 @@
-# 85 — Arenas
+# 0805 — Arenas
 
 ## Overview
 Arenas are structured, instanced PvP matches (2v2 and 3v3 team formats at launch) offering a controlled, ranked alternative to open-world PvP ([0804-PvP.md](0804-PvP.md)).

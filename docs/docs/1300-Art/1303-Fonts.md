@@ -1,4 +1,4 @@
-# 133 — Fonts
+# 1303 — Fonts
 
 ## Overview
 Typography standards for all in-game text, from UI labels to quest dialogue, supporting the art style's grounded high-fantasy tone ([1300-Art-Style.md](1300-Art-Style.md)).

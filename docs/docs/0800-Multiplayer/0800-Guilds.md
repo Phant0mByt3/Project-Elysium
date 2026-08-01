@@ -1,4 +1,4 @@
-# 80 — Guilds
+# 0800 — Guilds
 
 ## Overview
 Guilds are persistent player organizations, the primary social structure for coordinated group content ([0802-Raiding.md](0802-Raiding.md)) and long-term community building — directly supporting Pillar 4 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).

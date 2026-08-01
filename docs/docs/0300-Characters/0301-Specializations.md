@@ -1,4 +1,4 @@
-# 41 — Specializations
+# 0301 — Specializations
 
 ## Overview
 Each of the eight classes ([0300-Classes.md](0300-Classes.md)) offers two specializations, unlocked at level 10, that determine the class's primary role and reshape its talent tree ([0303-Talent-Trees.md](0303-Talent-Trees.md)).

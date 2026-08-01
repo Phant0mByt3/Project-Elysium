@@ -1,4 +1,4 @@
-# 20 — Travel
+# 0110 — Travel
 
 ## Philosophy
 Travel in Elysium should feel purposeful early on — giving players time to take in handcrafted regions — and become frictionless at higher levels once the world has been seen. See [0111-Fast-Travel.md](0111-Fast-Travel.md) for the unlock-based fast travel layer built on top of this system.

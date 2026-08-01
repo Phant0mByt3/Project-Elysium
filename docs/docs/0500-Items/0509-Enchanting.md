@@ -1,4 +1,4 @@
-# 59 — Enchanting
+# 0509 — Enchanting
 
 ## Overview
 Enchanting allows players to apply permanent stat-boosting effects to weapons and armor, layered on top of an item's base stats ([0304-Stats.md](../0300-Characters/0304-Stats.md)) rather than replacing them.

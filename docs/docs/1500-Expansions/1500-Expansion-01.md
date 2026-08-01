@@ -1,4 +1,4 @@
-# 150 — Expansion 01: Roots of Sylvaneth
+# 1500 — Expansion 01
 
 ## Overview
 The first planned post-launch expansion, introducing the third continent, **Sylvaneth** — an ancient elven forest continent built around a single, colossal world-tree canopy ([0101-Continents.md](../0100-World/0101-Continents.md)).

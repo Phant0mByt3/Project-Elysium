@@ -1,4 +1,4 @@
-# 151 — Expansion 02: Sands of Kharzul
+# 1600 — Expansion 02
 
 ## Overview
 The second planned expansion, introducing the fourth continent, the **Kharzul Wastes** — a scorched desert continent dominated by beastkin nomad clans and buried pre-Sundering ruins ([0101-Continents.md](../0100-World/0101-Continents.md)).

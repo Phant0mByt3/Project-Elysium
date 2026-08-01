@@ -1,4 +1,4 @@
-# 126 — Security
+# 1206 — Security
 
 ## Overview
 Security spans account protection, server integrity, and economy protection — treated as a cross-cutting concern touching authentication ([1204-Authentication.md](1204-Authentication.md)), anti-cheat ([1207-Anti-Cheat.md](1207-Anti-Cheat.md)), and the database layer ([1201-Database.md](1201-Database.md)).

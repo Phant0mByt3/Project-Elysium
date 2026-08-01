@@ -1,4 +1,4 @@
-# 02 — Core Pillars
+# 0002 — Core Pillars
 
 Every system, quest, and feature in Project Elysium should be measurable against these six pillars. If a proposed feature doesn't clearly support at least one, it should be reconsidered.
 

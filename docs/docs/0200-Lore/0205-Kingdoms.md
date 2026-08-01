@@ -1,4 +1,4 @@
-# 35 — Kingdoms
+# 0205 — Kingdoms
 
 ## Overview
 Political entities within Elysium, distinct from the two overarching player factions ([0203-Factions.md](0203-Factions.md)) — kingdoms are cultural/national identities, while factions are ideological alliances that cross kingdom lines in places.

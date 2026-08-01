@@ -1,4 +1,4 @@
-# 51 — Armour
+# 0501 — Armour
 
 ## Armor Categories
 * **Cloth** — lowest base armor, highest Intellect budget; Mage, Necromancer, Cleric.

@@ -1,4 +1,4 @@
-# 19 — World Events
+# 0109 — World Events
 
 World events are time-limited, server-wide activities layered on top of the persistent world — seasonal celebrations, story-driven invasions, and recurring dynamic content.
 

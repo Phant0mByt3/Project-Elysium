@@ -1,4 +1,4 @@
-# 100 — Economy
+# 1000 — Economy
 
 ## Overview
 Elysium's economy is player-driven wherever possible, built around Aurum ([1001-Currency.md](1001-Currency.md)) as the primary currency and the Auction House ([1003-Auction-House.md](1003-Auction-House.md)) as the primary player-to-player marketplace.

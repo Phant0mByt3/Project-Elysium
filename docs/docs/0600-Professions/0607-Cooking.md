@@ -1,4 +1,4 @@
-# 67 — Cooking
+# 0607 — Cooking
 
 ## Overview
 Cooking is a production profession turning Fishing catches ([0603-Fishing.md](0603-Fishing.md)) and other raw food materials into buff-granting food items ([0507-Consumables.md](../0500-Items/0507-Consumables.md)).

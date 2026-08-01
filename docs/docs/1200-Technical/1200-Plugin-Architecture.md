@@ -1,4 +1,4 @@
-# 120 — Plugin Architecture
+# 1200 — Plugin Architecture
 
 ## Overview
 The Elysium server runs on Paper (Java) as a modular collection of purpose-built plugins rather than one monolithic codebase, per the README's technology stack (Java, Paper, PostgreSQL, Gradle).

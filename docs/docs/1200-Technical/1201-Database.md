@@ -1,4 +1,4 @@
-# 121 — Database
+# 1201 — Database
 
 ## Overview
 PostgreSQL serves as Elysium's persistent data store, accessed exclusively through the shared core plugin's data access layer ([1200-Plugin-Architecture.md](1200-Plugin-Architecture.md)) rather than direct queries from feature plugins.

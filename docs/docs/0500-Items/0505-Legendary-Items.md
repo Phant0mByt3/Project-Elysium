@@ -1,4 +1,4 @@
-# 55 — Legendary Items
+# 0505 — Legendary Items
 
 ## Overview
 Legendary items are unique, named pieces of equipment with a distinct passive or active effect beyond raw stats, tied narratively to the world's lore ([0200-Lore.md](../0200-Lore/0200-Lore.md)) rather than being generic drops.

@@ -1,4 +1,4 @@
-# 31 — Timeline
+# 0201 — Timeline
 
 Chronological history of Elysium. See [0206-History.md](0206-History.md) for expanded detail on individual events, and [0200-Lore.md](0200-Lore.md) for the thematic overview.
 

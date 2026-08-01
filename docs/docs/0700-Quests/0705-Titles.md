@@ -1,4 +1,4 @@
-# 75 — Titles
+# 0705 — Titles
 
 ## Overview
 Titles are cosmetic name modifiers displayed above or below a character's name, earned primarily through achievements ([0704-Achievements.md](0704-Achievements.md)) and select major story/raid milestones.

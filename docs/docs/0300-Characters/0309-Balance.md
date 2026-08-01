@@ -1,4 +1,4 @@
-# 49 — Balance
+# 0309 — Balance
 
 ## Philosophy
 Balance in Elysium is treated as an ongoing process, not a pre-launch checkbox. This document tracks the standards and cadence for balance work, not specific number values (which belong in version-specific patch notes, [0004-Version-History.md](../0000-Project/0004-Version-History.md)).

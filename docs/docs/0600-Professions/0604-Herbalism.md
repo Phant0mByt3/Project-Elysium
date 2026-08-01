@@ -1,4 +1,4 @@
-# 64 — Herbalism
+# 0604 — Herbalism
 
 ## Overview
 Herbalism is a gathering profession focused on collecting plants, roots, and reagents used primarily by Alchemy ([0605-Alchemy.md](0605-Alchemy.md)), with secondary uses in Cooking ([0607-Cooking.md](0607-Cooking.md)).

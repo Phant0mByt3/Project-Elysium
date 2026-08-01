@@ -1,4 +1,4 @@
-# Class Progression
+# 0308 — Class Progression
 
 **Project:** Elysium MMORPG
 **Category:** Characters

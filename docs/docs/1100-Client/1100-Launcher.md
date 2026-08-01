@@ -1,4 +1,4 @@
-# 110 — Launcher
+# 1100 — Launcher
 
 ## Overview
 The Elysium Launcher is a custom desktop application (Python + PyQt6, per the README's technology stack) that handles installation, updates, and account authentication — designed to give Elysium a AAA-feeling first impression before the player even opens Minecraft.

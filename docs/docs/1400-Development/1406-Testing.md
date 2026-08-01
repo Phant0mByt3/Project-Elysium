@@ -1,4 +1,4 @@
-# 146 — Testing
+# 1406 — Testing
 
 ## Overview
 Testing practices spanning automated code testing, manual QA passes, and playtesting, ensuring quality per Pillar 5 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).

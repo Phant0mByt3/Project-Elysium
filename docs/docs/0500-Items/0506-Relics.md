@@ -1,4 +1,4 @@
-# 56 — Relics
+# 0506 — Relics
 
 ## Overview
 Relics are the rarest item tier in Elysium — genuine Age of Concord artifacts, predating the Sundering itself, distinct from Legendary items ([0505-Legendary-Items.md](0505-Legendary-Items.md)) in that they are tied to the Elysian Circle directly rather than to mortal history.

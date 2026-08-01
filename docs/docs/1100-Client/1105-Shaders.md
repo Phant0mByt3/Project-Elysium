@@ -1,4 +1,4 @@
-# 115 — Shaders
+# 1105 — Shaders
 
 ## Overview
 A custom shader pack bundled with the client, used to achieve lighting, weather, and atmosphere well beyond vanilla Minecraft's default rendering — critical to selling Elysium's fantasy tone per [0001-Vision.md](../0000-Project/0001-Vision.md).

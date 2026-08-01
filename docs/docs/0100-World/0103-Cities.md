@@ -1,4 +1,4 @@
-# 13 — Cities
+# 0103 — Cities
 
 Major cities are safe hubs containing vendors, trainers, the auction house, bank, and quest hubs. Unlike villages ([0104-Villages.md](0104-Villages.md)), cities are large, faction-aligned, and serve as respawn/recall points.
 

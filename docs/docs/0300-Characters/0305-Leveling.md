@@ -1,4 +1,4 @@
-# 46 — Leveling
+# 0305 — Leveling
 
 ## Level Range
 Launch level cap: **50**. Character progression is intentionally front-loaded with skill unlocks ([0302-Skills.md](0302-Skills.md)) and back-loaded with talent choices ([0303-Talent-Trees.md](0303-Talent-Trees.md)), so early levels teach the class and late levels let players build it.

@@ -1,4 +1,4 @@
-# 71 — Quest Chains
+# 0701 — Quest Chains
 
 ## Overview
 Quest chains are multi-step questlines that build toward a larger payoff than any single quest could deliver — the backbone of side stories ([0208-Side-Stories.md](../0200-Lore/0208-Side-Stories.md)) and regional local-conflict arcs ([0102-Regions.md](../0100-World/0102-Regions.md)).

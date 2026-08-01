@@ -1,4 +1,4 @@
-# 87 — Seasons
+# 0807 — Seasons
 
 ## Overview
 Seasons are the umbrella structure for time-limited content: PvP ranked resets ([0805-Arenas.md](0805-Arenas.md)), real-world-calendar-aligned celebrations, and rotating seasonal world events.

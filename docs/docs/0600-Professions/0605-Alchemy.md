@@ -1,4 +1,4 @@
-# 65 — Alchemy
+# 0605 — Alchemy
 
 ## Overview
 Alchemy is a production profession that transforms herbs (gathered via [0604-Herbalism.md](0604-Herbalism.md)) into potions and other consumable effects ([0507-Consumables.md](../0500-Items/0507-Consumables.md)).

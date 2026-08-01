@@ -1,4 +1,4 @@
-# 03 — Roadmap
+# 0003 — Roadmap
 
 This roadmap tracks Project Elysium's development phases at a high level. Detailed completed work is logged per-version in [0004-Version-History.md](0004-Version-History.md); long-term ideas beyond this roadmap live in [0005-Future-Plans.md](0005-Future-Plans.md).
 

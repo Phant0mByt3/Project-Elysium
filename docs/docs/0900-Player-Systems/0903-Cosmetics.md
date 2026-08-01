@@ -1,4 +1,4 @@
-# 93 — Cosmetics
+# 0903 — Cosmetics
 
 ## Overview
 Cosmetics are the umbrella system for all non-power visual customization: transmogrification, dyes, cosmetic pets ([0902-Pets.md](0902-Pets.md)), mounts ([0901-Mounts.md](0901-Mounts.md)), housing decor ([0900-Housing.md](0900-Housing.md)), and emotes ([0904-Emotes.md](0904-Emotes.md)).

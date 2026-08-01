@@ -1,4 +1,4 @@
-# 112 — Resource Pack
+# 1102 — Resource Pack
 
 ## Overview
 A comprehensive custom resource pack replacing Minecraft's default textures, models, sounds, and UI art with assets matching Elysium's original fantasy art direction ([1300-Art-Style.md](../1300-Art/1300-Art-Style.md)).

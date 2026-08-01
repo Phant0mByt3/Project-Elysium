@@ -1,4 +1,4 @@
-# 73 — Weekly Quests
+# 0703 — Weekly Quests
 
 ## Overview
 Weekly quests are once-per-week objectives offering larger rewards than dailies ([0702-Daily-Quests.md](0702-Daily-Quests.md)), typically tied to group content completion rather than solo objectives.

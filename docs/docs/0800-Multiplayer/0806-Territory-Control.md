@@ -1,4 +1,4 @@
-# 86 — Territory Control
+# 0806 — Territory Control
 
 ## Overview
 Territory control is the large-scale, open-world PvP system governing contested regions of Vethmoor ([0102-Regions.md](../0100-World/0102-Regions.md)), where the Dawnbound Concord and Duskward Pact compete for control of strategic points.

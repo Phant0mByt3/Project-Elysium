@@ -1,4 +1,4 @@
-# 44 — Combat
+# 0401 — Combat
 
 ## Overview
 Elysium's combat is action-targeted (click or tab-target an enemy, then use abilities on cooldowns and resources) rather than Minecraft's native melee-swing PvP — combat feel is designed first as an MMORPG system, per [0001-Vision.md](../0000-Project/0001-Vision.md).

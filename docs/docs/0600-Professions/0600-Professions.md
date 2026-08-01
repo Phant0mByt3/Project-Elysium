@@ -1,4 +1,4 @@
-# 60 — Professions
+# 0600 — Professions
 
 ## Overview
 Professions are Elysium's crafting and gathering progression systems, existing alongside — not competing with — combat leveling ([0305-Leveling.md](../0300-Characters/0305-Leveling.md)). Every character may learn up to two professions.

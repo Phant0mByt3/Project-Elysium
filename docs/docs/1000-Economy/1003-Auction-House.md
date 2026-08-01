@@ -1,4 +1,4 @@
-# 103 — Auction House
+# 1003 — Auction House
 
 ## Overview
 The Auction House is the central player-to-player marketplace, accessible from any major city ([0103-Cities.md](../0100-World/0103-Cities.md)) and, for a small listing fee, remotely via a premium convenience feature under consideration for a later update.

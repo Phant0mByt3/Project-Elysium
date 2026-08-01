@@ -1,4 +1,4 @@
-# 21 — Fast Travel
+# 0111 — Fast Travel
 
 ## Overview
 Fast travel systems unlock progressively as players explore, rewarding exploration (Pillar 1, [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md)) rather than being available from the start.

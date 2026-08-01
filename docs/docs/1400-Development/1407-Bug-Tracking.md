@@ -1,4 +1,4 @@
-# 147 — Bug Tracking
+# 1407 — Bug Tracking
 
 ## Overview
 Standards for logging, triaging, and resolving bugs found during testing ([1406-Testing.md](1406-Testing.md)) or reported by players during Alpha/Beta/Live phases.

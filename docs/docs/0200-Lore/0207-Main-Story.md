@@ -1,4 +1,4 @@
-# 37 — Main Story
+# 0207 — Main Story
 
 ## Premise
 The main campaign begins as travel between Aurelia and Vethmoor reopens for the first time since the Sundering ([0206-History.md](0206-History.md)). The player character is drawn into investigating why — and discovers that resurfacing Age of Concord magic is also reawakening fragments of Kaelgorath's influence.

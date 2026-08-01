@@ -1,4 +1,4 @@
-# 999 — Ideas
+# 9999 — Ideas
 
 A sandbox for brainstorming. Unlike [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md), nothing here is committed to — this is where raw, unscoped ideas go before they're refined enough to graduate.
 

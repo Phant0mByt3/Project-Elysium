@@ -1,4 +1,4 @@
-# 04 — Version History
+# 0004 — Version History
 
 This file tracks completed development milestones and significant gameplay changes as they ship. It is a living changelog, updated at the end of each development cycle — it is intentionally empty of entries during pre-production.
 

@@ -1,4 +1,4 @@
-# 106 — Banking
+# 1006 — Banking
 
 ## Overview
 Banks provide expanded, secure item storage beyond a character's personal inventory, accessible from any city ([0103-Cities.md](../0100-World/0103-Cities.md)).

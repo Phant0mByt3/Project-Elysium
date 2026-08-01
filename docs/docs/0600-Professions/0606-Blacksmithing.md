@@ -1,4 +1,4 @@
-# 66 — Blacksmithing
+# 0606 — Blacksmithing
 
 ## Overview
 Blacksmithing is a production profession converting ore/bars (gathered via [0601-Mining.md](0601-Mining.md)) into weapons and Plate/Mail armor ([0500-Weapons.md](../0500-Items/0500-Weapons.md), [0501-Armour.md](../0500-Items/0501-Armour.md)).

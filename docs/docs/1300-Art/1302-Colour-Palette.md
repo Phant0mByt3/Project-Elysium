@@ -1,4 +1,4 @@
-# 132 — Colour Palette
+# 1302 — Colour Palette
 
 ## Overview
 Defines the core color language used across UI, environment art, and effects, ensuring visual consistency per [1300-Art-Style.md](1300-Art-Style.md).

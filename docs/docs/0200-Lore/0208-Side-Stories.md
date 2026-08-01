@@ -1,4 +1,4 @@
-# 38 — Side Stories
+# 0208 — Side Stories
 
 Optional questlines and character-driven narratives that run parallel to the main story ([0207-Main-Story.md](0207-Main-Story.md)), enriching the world without gating critical-path progress.
 

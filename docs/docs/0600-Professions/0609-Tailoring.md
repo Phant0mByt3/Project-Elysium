@@ -1,4 +1,4 @@
-# 69 — Tailoring
+# 0609 — Tailoring
 
 ## Overview
 Tailoring is a production profession converting cloth and select Woodcutting materials ([0602-Woodcutting.md](0602-Woodcutting.md)) into Cloth armor and caster-focused accessories ([0501-Armour.md](../0500-Items/0501-Armour.md)).

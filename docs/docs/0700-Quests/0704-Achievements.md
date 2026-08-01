@@ -1,4 +1,4 @@
-# 74 — Achievements
+# 0704 — Achievements
 
 ## Overview
 Achievements are optional, permanently-tracked accomplishments rewarding exploration, mastery, and dedication beyond the core leveling/gearing loop — directly supporting Pillar 1 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).

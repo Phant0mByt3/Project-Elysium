@@ -1,4 +1,4 @@
-# Game Mechanics
+# 0400 — Game Mechanics
 
 > The systems that define how players interact with Elysium.
 

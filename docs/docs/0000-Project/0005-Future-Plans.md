@@ -1,4 +1,4 @@
-# 05 — Future Plans
+# 0005 — Future Plans
 
 A holding area for long-term ideas that are agreed upon in direction but not yet scheduled on the [0003-Roadmap.md](0003-Roadmap.md). Once an idea here is scoped and prioritized, it graduates into an actual expansion document (see [1500-Expansion-01.md](../1500-Expansions/1500-Expansion-01.md) and onward). Raw, unscoped brainstorming lives in [9999-Ideas.md](../9000-Future/9999-Ideas.md) instead — this file is for ideas the team has already committed to in principle.
 
