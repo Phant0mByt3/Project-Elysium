@@ -78,6 +78,7 @@ docs/
 ├── 075-Titles.md
 ├── 076-Reputation.md
 ├── 077-Factions-Reputation.md
+├── 078-Game-Mechanics.md
 │
 ├── 080-Guilds.md
 ├── 081-Parties.md
