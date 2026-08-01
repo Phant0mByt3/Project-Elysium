@@ -26,3 +26,7 @@ Every design decision on this project is filtered through one question:
 > "Does this make the player believe in Elysium a little more, or a little less?"
 
 If a feature — however cool — breaks immersion, undermines progression, or feels like busywork, it does not ship. See [002-Core-Pillars.md](002-Core-Pillars.md) for the concrete principles derived from this vision.
+
+## Elysium is not a Minecraft server with RPG elements.
+
+## Elysium is a fantasy MMORPG that uses Minecraft as its rendering and simulation engine. Every system, from progression and combat to exploration and storytelling, is designed around creating a living world rather than extending vanilla Minecraft.
