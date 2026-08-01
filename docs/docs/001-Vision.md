@@ -84,45 +84,138 @@ This includes:
 
 ---
 
-# Vanilla Mechanics
+## Vanilla Mechanics
 
-Vanilla Minecraft is not the gameplay loop.
+Vanilla Minecraft mechanics are intentionally reviewed and redesigned to support the MMORPG experience.
 
-Most vanilla mechanics are intentionally limited or replaced.
+The goal is not to remove mechanics for the sake of it, but to ensure every mechanic supports exploration, progression, immersion, and world integrity.
 
-Examples:
-
-Building
-
-* Restricted throughout the world
-* Allowed only in designated gameplay areas
-
-Mining
-
-* Used for professions
-* Used for quests
-* Used in specific mining locations
-
-Crafting
-
-* Profession-driven
-* Progression-based
-
-Villagers
-
-* Replaced by custom NPC systems
-
-Villages
-
-* Replaced by handcrafted settlements
-
-Transportation
-
-* Based on roads, ships, portals, mounts and other world systems
-
-Items such as Ender Pearls, Elytra, and other mechanics that bypass world design may be removed or redesigned.
+| Mechanic     | Status                | Reason                                      |
+| ------------ | --------------------- | ------------------------------------------- |
+| Building     | Restricted            | Preserve handcrafted world                  |
+| Mining       | Profession/Quest Only | Controlled progression                      |
+| Ender Pearls | Removed               | Prevent sequence breaking                   |
+| Elytra       | Removed               | Bypasses exploration and level design       |
+| TNT          | Removed               | Protect world integrity                     |
+| Beds         | Custom Behaviour      | Respawn system tied to inns and checkpoints |
+| Villagers    | Replaced              | Custom NPC system                           |
+| Villages     | Replaced              | Handcrafted settlements                     |
+| Hunger       | Custom or Removed     | Depends on gameplay design                  |
+| XP Levels    | Replaced              | Character progression system                |
 
 The handcrafted world always takes priority over sandbox freedom.
+
+---
+
+## World Design Philosophy
+
+Unlike traditional Minecraft worlds, Elysium is not procedurally explored through mining and cave generation.
+
+Every part of the world exists because it serves a gameplay, visual, or narrative purpose.
+
+Example:
+
+```text
+Visible Terrain
+████████████████
+
+Only where needed:
+    Cave
+████    ████
+
+Unused underground:
+Removed
+```
+
+Large underground cave systems are only created when they support:
+
+* Quests
+* Dungeons
+* Mining professions
+* Hidden locations
+* World lore
+* Secret exploration
+
+If an underground area serves no purpose, it does not need to exist.
+
+The world is designed, not randomly generated.
+
+---
+
+## Building at Scale
+
+Elysium is designed around realistic scale rather than Minecraft scale.
+
+Cities should not resemble vanilla villages.
+
+Instead, they should function as believable capitals with specialised districts.
+
+Example:
+
+```text
+Capital City
+
+├── Castle District
+├── Noble Quarter
+├── Market District
+├── Harbour
+├── Cathedral
+├── Mage Academy
+├── Slums
+├── Military Barracks
+├── Farms
+└── Outer Villages
+```
+
+Every district should have its own:
+
+* Architecture
+* NPC population
+* Economy
+* Purpose
+* Atmosphere
+* Story
+
+Cities should feel like places where thousands of people could realistically live.
+
+---
+
+## World Scale
+
+Elysium consists of multiple handcrafted continents connected through a shared MMORPG infrastructure.
+
+Example world sizes:
+
+```text
+Elysium
+
+Valoria
+≈ 12,000 × 12,000
+
+Frostheim
+≈ 10,000 × 10,000
+
+Ashlands
+≈ 8,000 × 8,000
+
+Celestia
+≈ 6,000 × 6,000
+
+Dungeon Worlds
+Hundreds of smaller handcrafted instances
+```
+
+Every continent operates as its own server instance while remaining part of one persistent universe.
+
+This architecture allows:
+
+* Larger environments
+* Better performance
+* Independent development
+* Easier expansion
+* Seamless long-term growth
+
+Players should experience one connected world, while the technology quietly manages many specialised worlds behind the scenes.
 
 ---
 
