@@ -39,7 +39,8 @@ docs/
 │   ├── 0206-History.md
 │   ├── 0207-Main-Story.md
 │   ├── 0208-Side-Stories.md
-│   └── 0209-NPCs.md
+│   ├── 0209-NPCs.md
+│   └── 0210-Dialogue-System.md
 │
 ├── 0300-Characters/
 │   ├── 0300-Classes.md
