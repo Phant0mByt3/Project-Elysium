@@ -8,238 +8,261 @@
 
 # Vision Statement
 
-Elysium is a fantasy MMORPG built using Minecraft as its engine.
+Elysium is a fantasy MMORPG built on the Minecraft engine.
 
-It is **not** a traditional Minecraft server with RPG features.
+It is not designed to be a Minecraft server with RPG features.
 
-It is a persistent online world designed around exploration, storytelling, character progression, and living civilizations.
+It is designed to be a completely separate game that uses Minecraft as its rendering, simulation, and networking engine.
 
-Minecraft provides the technical foundation.
+Minecraft provides the technology.
 
-Elysium provides the game.
+Elysium provides the world.
 
 ---
 
-# Project Mission
+# Mission
 
-Create a world that players want to live in.
+Create a living fantasy universe that players want to return to for years.
 
 Every city should feel inhabited.
 
-Every road should lead somewhere.
+Every road should have a destination.
 
-Every ruin should tell a story.
+Every dungeon should have a story.
 
-Every dungeon should have a purpose.
+Every kingdom should have a history.
 
-Every continent should feel unique.
+Every continent should feel like a different part of the world.
 
-Players should feel like adventurers entering an existing world rather than joining a Minecraft server.
+The player should quickly forget they are playing Minecraft.
 
 ---
 
 # Design Philosophy
 
-The goal is not to recreate Minecraft.
+Minecraft is the foundation.
 
-The goal is to create a completely different game using Minecraft technology.
+Elysium is the experience.
 
-Elysium focuses on:
+Every design decision should support the MMORPG experience rather than vanilla Minecraft gameplay.
 
-* Exploration
-* Storytelling
-* Character progression
-* World-building
-* Immersive environments
-* Cooperative gameplay
-* Challenging PvE
-* Living civilizations
-* Long-term progression
+If a vanilla mechanic improves immersion, it may remain.
 
-Minecraft is simply the engine that makes those experiences possible.
-
----
-
-# Core Experience
-
-Players begin their journey as unknown adventurers.
-
-As they progress, they will:
-
-* Discover new continents
-* Complete quest lines
-* Explore ancient ruins
-* Defeat powerful enemies
-* Join factions
-* Earn reputation
-* Unlock new abilities
-* Collect legendary equipment
-* Participate in world events
-* Experience future expansions
-
-Every action contributes to their own story within Elysium.
-
----
-
-# A Living World
-
-The world exists independently of its players.
-
-Cities continue functioning.
-
-Citizens follow routines.
-
-Kingdoms rise and fall.
-
-Trade routes operate.
-
-Factions compete for influence.
-
-Seasonal events occur.
-
-The world should feel alive whether one player is online or thousands.
-
----
-
-# Exploration First
-
-Exploration is one of the core pillars of Elysium.
-
-Players should constantly discover:
-
-* Hidden locations
-* Ancient ruins
-* Secret passages
-* Rare treasures
-* Unique NPCs
-* World bosses
-* Dynamic events
-
-The world itself should encourage curiosity.
+If a vanilla mechanic limits the experience, it should be redesigned or replaced.
 
 ---
 
 # Minecraft as an Engine
 
-Minecraft is not the gameplay.
+Minecraft is treated as a game engine.
 
-Minecraft is the platform powering Elysium.
+It provides:
 
-Many vanilla mechanics are intentionally replaced or restricted to support the MMORPG experience.
+* Rendering
+* Physics
+* Networking
+* World simulation
+* Multiplayer
+* Basic entity systems
 
-Examples:
+Everything else is designed specifically for Elysium.
 
-* Large handcrafted continents
-* Dedicated world servers
-* Story-driven progression
-* Custom combat systems
-* Custom quests
-* Custom economies
-* Custom classes
-* Custom items
-* Simulated civilizations
+This includes:
 
-The objective is for players to experience Elysium as its own game rather than a modified Minecraft server.
+* Character progression
+* Combat
+* Quests
+* Economy
+* NPCs
+* Dialogue
+* Reputation
+* Classes
+* Dungeons
+* Raids
+* World events
+* Civilisation simulation
 
 ---
 
 # Vanilla Mechanics
 
-Vanilla gameplay is intentionally limited.
+Vanilla Minecraft is not the gameplay loop.
 
-Most traditional Minecraft mechanics are replaced with custom systems designed specifically for Elysium.
+Most vanilla mechanics are intentionally limited or replaced.
 
 Examples:
 
-Building:
+Building
 
-* Restricted in the open world
-* Available only where gameplay requires it
+* Restricted throughout the world
+* Allowed only in designated gameplay areas
 
-Mining:
+Mining
 
-* Limited to professions
-* Quest objectives
-* Resource locations
+* Used for professions
+* Used for quests
+* Used in specific mining locations
 
-Crafting:
+Crafting
 
-* Profession-based
-* Progression-driven
+* Profession-driven
+* Progression-based
 
-Survival mechanics:
+Villagers
 
-* Simplified or removed where appropriate
+* Replaced by custom NPC systems
 
-The world is handcrafted and persistent.
+Villages
 
-Players experience the world rather than reshape it.
+* Replaced by handcrafted settlements
+
+Transportation
+
+* Based on roads, ships, portals, mounts and other world systems
+
+Items such as Ender Pearls, Elytra, and other mechanics that bypass world design may be removed or redesigned.
+
+The handcrafted world always takes priority over sandbox freedom.
 
 ---
 
-# Handcrafted World
+# A Handcrafted Universe
 
-Every continent is designed manually.
+Every continent is built by hand.
 
-Every city is planned.
+Every mountain is intentionally placed.
 
-Every dungeon is placed intentionally.
+Every cave exists for a reason.
+
+Every dungeon has purpose.
+
+Every ruin tells part of the world's history.
 
 The world is not procedurally generated during gameplay.
 
-This allows:
+Players explore an authored universe rather than an infinite sandbox.
 
-* Better storytelling
-* Better exploration
-* More memorable landmarks
-* Consistent visual quality
-* Greater immersion
+---
+
+# Living Civilisation
+
+The world exists independently of its players.
+
+Cities continue operating.
+
+NPCs follow routines.
+
+Merchants travel between settlements.
+
+Kingdoms function regardless of player activity.
+
+Guards patrol.
+
+Citizens work.
+
+Taverns become busy at night.
+
+Festivals occur throughout the year.
+
+The world should feel alive even if no player is nearby.
+
+---
+
+# Exploration
+
+Exploration is one of the core pillars of Elysium.
+
+Players should constantly discover:
+
+* Hidden caves
+* Ancient temples
+* Forgotten ruins
+* Secret passages
+* World bosses
+* Rare NPCs
+* Dynamic encounters
+* Hidden treasures
+
+Curiosity should always be rewarded.
+
+---
+
+# Scale
+
+Elysium is designed around large handcrafted environments.
+
+Players should experience:
+
+* Massive continents
+* Towering mountain ranges
+* Dense forests
+* Large cities
+* Deep valleys
+* Ancient kingdoms
+* Vast oceans
+
+The world should feel enormous.
+
+Distant landmarks should inspire players to travel rather than simply teleport.
 
 ---
 
 # Technology Philosophy
 
-Elysium is built as a distributed MMORPG platform.
+The player experiences one seamless universe.
 
-The player experiences one connected world.
+Internally, Elysium operates as multiple connected server instances.
 
-Behind the scenes, the world consists of multiple specialised server instances connected through a shared backend.
+Each continent, dungeon, raid, and event may operate independently while sharing a central backend.
 
-The client, launcher, and server architecture are all designed specifically for Elysium.
+This architecture allows the world to continue growing without technical limitations.
+
+---
+
+# Dedicated Client
+
+Elysium uses its own launcher and client.
+
+The client provides:
+
+* Controlled game version
+* Required modifications
+* Resource management
+* Custom user interface
+* Custom visual effects
+* Long-term compatibility
+
+Players launch Elysium rather than launching Minecraft.
 
 ---
 
 # Long-Term Development
 
-Elysium is designed as a long-term project.
+Elysium is designed to grow for many years.
 
-The world should continue expanding through:
+Development includes:
 
 * New continents
-* New regions
-* New dungeons
-* New raids
+* New kingdoms
 * New classes
-* New gameplay systems
-* New civilizations
-* New storylines
+* New professions
+* New stories
+* New raids
+* New world events
 * Major expansions
 
-The story of Elysium is never truly finished.
+The world should always have another adventure waiting beyond the horizon.
 
 ---
 
-# Ultimate Goal
+# Final Vision
 
 The greatest compliment Elysium can receive is not:
 
-> "This is a great Minecraft server."
+> "This is an amazing Minecraft server."
 
 It is:
 
 > "I forgot I was playing Minecraft."
 
-That is the vision.
-
-That is Elysium.
-
+When players stop seeing blocks and begin seeing kingdoms, legends, civilizations, and adventures, Elysium has achieved its purpose.
