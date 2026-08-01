@@ -78,7 +78,6 @@ docs/
 ├── 075-Titles.md
 ├── 076-Reputation.md
 ├── 077-Factions-Reputation.md
-├── 078-Game-Mechanics.md
 │
 ├── 080-Guilds.md
 ├── 081-Parties.md
@@ -147,6 +146,7 @@ docs/
 ├── 154-Expansion-05.md
 │
 ├── 155-Simulated-Civilisation.md
+├── 156-Game-Mechanics.md
 │
 ├── 994-Ancient-Mysteries.md
 ├── 995-Future-Characters.md
