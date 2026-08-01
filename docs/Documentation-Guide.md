@@ -284,7 +284,6 @@ Contains quest systems, achievements, titles, reputation, daily and weekly conte
 * **[075-Titles.md](docs/075-Titles.md)** — Unlockable player titles and their requirements.
 * **[076-Reputation.md](docs/076-Reputation.md)** — General reputation system mechanics and reward tiers.
 * **[077-Factions-Reputation.md](docs/077-Factions-Reputation.md)** — Faction-specific reputation tracks and exclusive rewards.
-* **[078-Game-Mechanics.md](078-Game-Mechanics.md)** — Guide for understanding, maintaining, and expanding the Elysium documentation system.
 
 ---
 
@@ -411,6 +410,10 @@ A simulated civilisation means that the world continues operating even when play
 Cities grow, factions make decisions, NPCs follow routines, economies change, and events happen naturally based on the state of the world.
 
 The goal is to create a world that feels like a living fantasy civilisation rather than a collection of gameplay locations.
+
+---
+
+* **[156-Game-Mechanics.md](156-Game-Mechanics.md)** — Guide for understanding, maintaining, and expanding the Elysium documentation system.
 
 ---
 
