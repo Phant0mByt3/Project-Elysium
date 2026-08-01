@@ -50,6 +50,7 @@ docs/
 │   ├── 0305-Leveling.md
 │   ├── 0306-Status-Effects.md
 │   ├── 0307-Elements.md
+│   ├── 0308-Class-Progression.md
 │   └── 0309-Balance.md
 │
 ├── 0400-Gameplay/
@@ -125,7 +126,10 @@ docs/
 │   ├── 1103-Custom-Models.md
 │   ├── 1104-Soundtrack.md
 │   ├── 1105-Shaders.md
-│   └── 1106-Accessibility.md
+│   ├── 1106-Accessibility.md
+│   ├── 1107-Controls.md
+│   ├── 1108-UI-Systems.md
+│   └── 1109-Settings.md
 │
 ├── 1200-Technical/
 │   ├── 1200-Plugin-Architecture.md
@@ -136,7 +140,10 @@ docs/
 │   ├── 1205-API.md
 │   ├── 1206-Security.md
 │   ├── 1207-Anti-Cheat.md
-│   └── 1208-Performance.md
+│   ├── 1208-Performance.md
+│   ├── 1209-Instance-System.md
+│   ├── 1210-World-Management.md
+│   └── 1211-Server-Synchronisation.md
 │
 ├── 1300-Art/
 │   ├── 1300-Art-Style.md
