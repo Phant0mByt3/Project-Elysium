@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-create_docs.py
+doc_reviewer.py
 ================
 Project Elysium - Documentation Structure Generator
 
@@ -525,7 +525,7 @@ def load_structure(structure_file: str) -> dict:
     """
     if not os.path.isfile(structure_file):
         print(f"{tag('ERROR')}Could not find '{structure_file}'. "
-              f"Make sure it sits next to create_docs.py.", file=sys.stderr)
+              f"Make sure it sits next to doc_reviewer.py.", file=sys.stderr)
         sys.exit(1)
 
     try:
@@ -542,7 +542,7 @@ def load_structure(structure_file: str) -> dict:
 
 def main() -> None:
     # Resolve paths relative to this script's own location so the tool
-    # can be run from anywhere (e.g. `python create_docs.py` from a
+    # can be run from anywhere (e.g. `python doc_reviewer.py` from a
     # different working directory) and still find its sibling files.
     script_dir = os.path.dirname(os.path.abspath(__file__))
     structure_path = os.path.join(script_dir, STRUCTURE_FILE)
@@ -554,7 +554,7 @@ def main() -> None:
     root_name = structure.get("name", DEFAULT_DOCS_ROOT)
     root_path = os.path.join(script_dir, root_name)
 
-    print(f"Project Elysium Documentation Generator")
+    print(f"Project Elysium Documentation Reviewer")
     print(f"Docs root: {root_path}\n")
 
     create_folder(root_path)

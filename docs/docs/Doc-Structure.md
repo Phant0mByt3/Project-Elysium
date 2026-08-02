@@ -2,6 +2,8 @@
 
 This document outlines the documentation structure for Project Elysium. Every major system of the game has its own dedicated Markdown file, organised into category folders and identified with a four-digit code, to keep planning organized, scalable, and easy to maintain throughout development.
 
+**Status:** All listed files are populated (no empty stubs). This tree is generated from the live `docs/` directory.
+
 ```text
 docs/
 
@@ -81,6 +83,7 @@ docs/
 │   ├── 0407-World-Interactions.md
 │   ├── 0408-Physics-Systems.md
 │   └── 0409-Tutorial-System.md
+│
 ├── 0500-Items/
 │   ├── 0500-Weapons.md
 │   ├── 0501-Armour.md
@@ -181,6 +184,7 @@ docs/
 │   ├── 0915-Player-Rewards.md
 │   ├── 0916-Player-Milestones.md
 │   └── 0917-Account-Progression.md
+│
 ├── 1000-Economy/
 │   ├── 1000-Economy.md
 │   ├── 1001-Currency.md
@@ -280,6 +284,7 @@ docs/
 │   ├── 1317-Lighting-Style.md
 │   ├── 1318-Animation-Guidelines.md
 │   └── 1319-Art-Asset-Pipeline.md
+│
 ├── 1400-Development/
 │   ├── 1400-Development-Standards.md
 │   ├── 1401-Coding-Standards.md
@@ -310,15 +315,15 @@ docs/
 │
 ├── 1500-Expansions/
 │   ├── 1500-Expansion-01.md
-│   ├── 1600-Expansion-02.md
-│   ├── 1700-Expansion-03.md
-│   ├── 1800-Expansion-04.md
-│   ├── 1900-Expansion-05.md
 │   ├── 1501-Expansion-Planning.md
 │   ├── 1502-Expansion-Story-Structure.md
 │   ├── 1503-Expansion-World-Design.md
 │   ├── 1504-Expansion-Feature-Planning.md
-│   └── 1505-Expansion-Release-Strategy.md
+│   ├── 1505-Expansion-Release-Strategy.md
+│   ├── 1600-Expansion-02.md
+│   ├── 1700-Expansion-03.md
+│   ├── 1800-Expansion-04.md
+│   └── 1900-Expansion-05.md
 │
 ├── 2000-Operations/
 │   ├── 2000-Live-Service.md
@@ -360,3 +365,11 @@ docs/
     ├── 9015-Unconfirmed-Features.md
     └── 9999-Ideas.md
 ```
+
+## Notes
+
+- Four-digit codes group systems into categories (0000 Project, 0100 World, 0200 Lore, …).
+- Cross-links between documents use relative Markdown paths and the `NNNN-Name.md` form.
+- See [0006-Documentation-Guide.md](0000-Project/0006-Documentation-Guide.md) for what each area covers.
+- Holding / future documents live under `9000-Future/`; committed future work graduates into `0005-Future-Plans.md` or expansion docs.
+
