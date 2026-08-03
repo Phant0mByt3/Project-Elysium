@@ -37,3 +37,13 @@ Individual quest steps are implemented as a long quest chain (or set of closely 
 ## 4. Tracking & Presentation
 
 The Main Quest has dedicated UI treatment (chapter titles, progress indicators) so players always know where they are in the story. See [0713-Quest-Tracking.md](0713-Quest-Tracking.md) and [1120-Quest-UI.md](../1100-Client/1120-Quest-UI.md).
+
+---
+
+## 5. Story Unlock Requirements
+
+Major world changes require players to complete the relevant storyline.
+
+**Example:**
+
+A player cannot enter Post-Collision Aurelia until they complete the secret quest chain.

@@ -54,7 +54,8 @@ docs/
 │   ├── 0211-Languages.md
 │   ├── 0212-Religions.md
 │   ├── 0213-Mythology.md
-│   └── 0214-Ancient-Civilisations.md
+│   ├── 0214-Ancient-Civilisations.md
+│   └── 0215-Ancient-Archivarium.md
 │
 ├── 0300-Characters/
 │   ├── 0300-Classes.md
@@ -372,4 +373,3 @@ docs/
 - Cross-links between documents use relative Markdown paths and the `NNNN-Name.md` form.
 - See [0006-Documentation-Guide.md](0000-Project/0006-Documentation-Guide.md) for what each area covers.
 - Holding / future documents live under `9000-Future/`; committed future work graduates into `0005-Future-Plans.md` or expansion docs.
-

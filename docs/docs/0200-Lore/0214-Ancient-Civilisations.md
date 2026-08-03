@@ -49,3 +49,19 @@ Not a civilisation in the conventional sense, but the scattered, twisted surviva
 1. Never present a complete, tidy history of any ancient civilisation at launch; leave room for later revelation.
 2. Visual language (architecture, motifs, materials) should be consistent enough that players can learn to recognise “Concord-era” versus “pre-Concord” versus “Sundered”.
 3. New ruins introduced in later content should feel like natural extensions of the foundations already laid here and in [0105-Landmarks.md](../0100-World/0105-Landmarks.md).
+
+---
+
+## 5. Ancient Archivarium
+
+**A mysterious dimension containing:**
+
+* forgotten knowledge
+* historical records
+* lost civilizations
+* future warnings
+* world secrets
+
+Multiple portals are hidden across Elysium.
+
+Players discover them through exploration.

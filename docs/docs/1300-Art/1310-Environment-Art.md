@@ -25,3 +25,8 @@ Environment Art defines the visual treatment of terrain, foliage, props, skyboxe
 ## 3. Deliverables
 
 Texture sets, prop models, foliage packs, sky and weather art, and kit pieces for builders to assemble handcrafted spaces.
+
+## 4. World Creation Philosophy
+* Important areas should have unique identity.
+* Terrain should support storytelling.
+* Landmarks should be memorable.

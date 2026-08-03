@@ -12,5 +12,10 @@ The second planned expansion, introducing the fourth continent, the **Kharzul Wa
 ## Narrative Hook
 Kharzul's ruins are revealed to hold some of the only surviving records of Kaelgorath's original fall from the Circle, foreshadowing the Nightreach expansion ([1700-Expansion-03.md](1700-Expansion-03.md)).
 
+## Expansion World Change
+* What changes in existing areas?
+* Which zones are phased?
+* Which old areas remain accessible?
+
 ## Status
 Planned; not yet scheduled on the active roadmap. See [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md).

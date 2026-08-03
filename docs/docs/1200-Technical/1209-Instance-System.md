@@ -177,6 +177,24 @@ When a continent instance approaches its soft cap, the Instance Manager creates 
 
 ---
 
+## 13. Story Phasing
+
+Players are placed into different world instances depending on:
+
+* quest completion
+* story progression
+* expansion state
+
+Example:
+```
+Aurelia_PreCollision
+Aurelia_Collision_Event
+Aurelia_PostCollision
+```
+Players in different phases cannot normally interact until they synchronize their timeline.
+
+---
+
 ## 13. Connections to Other Systems
 
 | System | Relationship |

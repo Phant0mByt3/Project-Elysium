@@ -9,6 +9,17 @@ Titles are cosmetic name modifiers displayed above or below a character's name, 
 * **"Cartographer"** — earned for fully exploring both launch continents ([0112-Maps.md](../0100-World/0112-Maps.md), [0105-Landmarks.md](../0100-World/0105-Landmarks.md)).
 * **"Warmonger"** — earned through PvP achievement milestones ([0804-PvP.md](../0800-Multiplayer/0804-PvP.md)).
 
+## Historical Titles
+
+**Examples:**
+
+* First Fleet Member
+* First Guild to Conquer The Ruined Portal
+* Ancient Architect
+* Divine Creator
+
+These are identity rewards, not power rewards.
+
 ## Design Rules
 * Titles are purely cosmetic; no title should grant a stat or gameplay bonus.
 * Rarer titles (Mythic raid clears, top PvP tiers) should be seasonally reset or otherwise time-limited where appropriate, to preserve prestige.

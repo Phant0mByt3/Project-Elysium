@@ -16,3 +16,22 @@ Civilization collapses into survivalist city-states. Old knowledge is lost. The 
 
 ## Age of Reclamation *(present day)*
 Continents have drifted close enough to be reachable again. Old magic is resurfacing. Ruins from the Age of Concord are being rediscovered (and looted) faster than they can be studied. Player characters begin their journey here — see [0207-Main-Story.md](0207-Main-Story.md) for how the current story picks up.
+
+## Timeline System
+
+Elysium uses historical phases to preserve major events without deleting old versions of the world.
+
+**Example:**
+```
+Aurelia Timeline
+
+Era of Origin
+        |
+        |
+Collision Event
+        |
+        |
+Era of Fracture
+```
+
+Players can experience different points in history depending on progression.

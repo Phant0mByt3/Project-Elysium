@@ -12,5 +12,10 @@ The third planned expansion and the intended narrative climax of Elysium's initi
 ## Narrative Role
 Nightreach is intended to resolve the central "should Elysium be rebuilt or remade" tension established in [0200-Lore.md](../0200-Lore/0200-Lore.md), giving players a meaningful narrative choice point affecting the tone of subsequent content.
 
+## Expansion World Change
+* What changes in existing areas?
+* Which zones are phased?
+* Which old areas remain accessible?
+
 ## Status
 Planned; not yet scheduled on the active roadmap. See [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md).

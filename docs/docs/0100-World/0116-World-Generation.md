@@ -50,3 +50,17 @@ Resource nodes (ore, herbs, trees) are pre-placed or managed by profession syste
 ## 5. Rationale
 
 Handcrafted worlds guarantee that every hill, ruin, and vista was placed with intent. This directly supports Pillar 1 (Exploration is Always Rewarding) and Pillar 2 (Every Area Has Purpose) from [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md). It is slower than procedural generation, but the resulting world is the primary reason players will forget they are inside Minecraft.
+
+## 6. Terrain Creation Pipeline
+```
+AI / procedural height map
+        ↓
+Manual terrain editing
+        ↓
+Landmark placement
+        ↓
+Cities, dungeons, roads
+        ↓
+Environmental storytelling
+```
+AI assists with geography, but final world design is handcrafted.

@@ -19,5 +19,33 @@ Real-world-calendar-aligned content — see [0807-Seasons.md](../0800-Multiplaye
 
 **The Ashenclaw Incursion** — a large-scale Duskward Pact push into Frostgate Approach, requiring cross-guild Concord defense; ties into the Vethmoor faction storyline.
 
+## Major World Events
+Large-scale events that permanently or temporarily affect the world.
+Events can change zones, cities, factions, and gameplay.
+The Collision Event (example)
+A reality collision event affecting Aurelia.
+Creates a connection between two worlds.
+Introduces a new dimension and new civilizations.
+
+### Event Phases
+
+World events exist in multiple states:
+
+**Phase 1: Before Event**
+
+Original world state.
+Normal NPCs, cities, and quests.
+
+**Phase 2: Event Occurrence**
+
+Special instance.
+Only active during the storyline.
+Used for cinematic moments and major transitions.
+
+**Phase 3: After Event**
+
+Permanent changed world state.
+New content unlocked.
+
 ## Technical Notes
 World events depend on the same scheduling and state-tracking systems as world bosses ([0108-World-Bosses.md](0108-World-Bosses.md)); see [1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md).

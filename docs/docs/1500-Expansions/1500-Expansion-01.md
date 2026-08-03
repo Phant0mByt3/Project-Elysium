@@ -13,5 +13,10 @@ The first planned post-launch expansion, introducing the third continent, **Sylv
 ## Faction Impact
 Sylvaneth introduces new faction outposts for both the Dawnbound Concord and Duskward Pact as they compete to form alliances with Sylvaneth's insular elven communities, extending [0203-Factions.md](../0200-Lore/0203-Factions.md) and [0806-Territory-Control.md](../0800-Multiplayer/0806-Territory-Control.md) into a new continent.
 
+## Expansion World Change
+* What changes in existing areas?
+* Which zones are phased?
+* Which old areas remain accessible?
+
 ## Status
 Planned; not yet scheduled on the active roadmap. See [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md) for graduation criteria.

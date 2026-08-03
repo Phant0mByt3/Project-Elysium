@@ -12,5 +12,16 @@ A color-customization system for eligible armor pieces, acquired through profess
 ## Acquisition Philosophy
 Cosmetics should be earned primarily through play — achievements, raids, seasonal events ([0807-Seasons.md](../0800-Multiplayer/0807-Seasons.md)) — with any premium-currency cosmetic offerings kept clearly separate from gameplay-affecting rewards, preserving the "quality over quantity" and immersion-first pillars in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
 
+## Historical Titles
+
+**Examples:**
+
+* First Fleet Member
+* First Guild to Conquer The Ruined Portal
+* Ancient Architect
+* Divine Creator
+
+These are identity rewards, not power rewards.
+
 ## Design Rules
 No cosmetic item should ever carry a stat or gameplay effect. This is a hard rule, not a guideline, to keep character power entirely separate from character appearance.

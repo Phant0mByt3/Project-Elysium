@@ -83,3 +83,25 @@ Examples:
 Every mystery should eventually have a purpose.
 
 A mystery can remain hidden for a long time, but it should always connect to future world development.
+
+---
+
+This is where the really crazy stuff goes.
+
+**Examples:**
+
+**Archivarium Prophecie**s
+
+Future expansion clues:
+```
+"A mountain rose while everyone slept, creating a wound in the earth that leads to the unknown."
+```
+**Possible meaning:**
+
+* Underdeep expansion
+```
+"Collision has happened with a world, similar but different at the same time. It happened before everyone's eyes, in the place that we call home."
+```
+**Possible meaning:**
+
+* Aurelia Collision expansion
