@@ -244,7 +244,7 @@ Documents balancing decisions, gameplay adjustments, and tuning guidelines.
 
 ---
 
-# 050–059 — Items & Crafting Systems
+# 0500–0599 — Items & Crafting Systems
 
 Covers every item system, including equipment, weapons, armour, crafting materials, legendary items, relics, consumables, crafting, and enchanting.
 
@@ -261,7 +261,7 @@ Covers every item system, including equipment, weapons, armour, crafting materia
 
 ---
 
-# 060–069 — Professions & Gathering
+# 0600–0699 — Professions & Gathering
 
 Documents all professions, gathering skills, and crafting specializations.
 
@@ -278,7 +278,7 @@ Documents all professions, gathering skills, and crafting specializations.
 
 ---
 
-# 070–077 — Quests, Achievements & Reputation
+# 0700–0799 — Quests, Achievements & Reputation
 
 Contains quest systems, achievements, titles, reputation, daily and weekly content, and progression rewards.
 
@@ -293,7 +293,7 @@ Contains quest systems, achievements, titles, reputation, daily and weekly conte
 
 ---
 
-# 080–087 — Multiplayer & Competitive Systems
+# 0800–0899 — Multiplayer & Competitive Systems
 
 Documents multiplayer systems, including guilds, parties, raids, PvP, arenas, territory control, and seasonal gameplay.
 
@@ -308,7 +308,7 @@ Documents multiplayer systems, including guilds, parties, raids, PvP, arenas, te
 
 ---
 
-# 090–095 — Housing, Companions & Progression
+# 0900–0999 — Housing, Companions & Progression
 
 Contains housing, mounts, pets, cosmetics, emotes, and long-term player progression systems.
 
@@ -321,7 +321,7 @@ Contains housing, mounts, pets, cosmetics, emotes, and long-term player progress
 
 ---
 
-# 100–106 — Economy
+# 1000–1099 — Economy
 
 Documents the complete economy, currencies, vendors, player trading, auction house, banking, and mail systems.
 
@@ -335,7 +335,7 @@ Documents the complete economy, currencies, vendors, player trading, auction hou
 
 ---
 
-# 110–116 — Client & Presentation
+# 1100–1199 — Client & Presentation
 
 Explains the custom launcher, required client mods, resource pack, custom models, soundtrack, shaders, and accessibility features.
 
@@ -349,7 +349,7 @@ Explains the custom launcher, required client mods, resource pack, custom models
 
 ---
 
-# 120–128 — Technical Architecture
+# 1200–1299 — Technical Architecture
 
 Documents the technical architecture, including plugins, databases, networking, authentication, APIs, security, anti-cheat systems, and performance optimisation.
 
@@ -365,7 +365,7 @@ Documents the technical architecture, including plugins, databases, networking, 
 
 ---
 
-# 130–136 — Art Direction
+# 1300–1399 — Art Direction
 
 Defines the artistic direction of the project, including UI, textures, models, fonts, colours, and overall visual identity.
 
@@ -379,7 +379,7 @@ Defines the artistic direction of the project, including UI, textures, models, f
 
 ---
 
-# 140–148 — Development Standards
+# 1400–1499 — Development Standards
 
 Contains development standards, coding conventions, building guidelines, documentation rules, testing procedures, and release workflows.
 
@@ -395,7 +395,7 @@ Contains development standards, coding conventions, building guidelines, documen
 
 ---
 
-# 150–154 — Expansions
+# 1500–1599 — Expansions
 
 Planning documents for future expansions, including new continents, gameplay systems, raids, classes, and storylines.
 
@@ -423,7 +423,7 @@ The goal is to create a world that feels like a living fantasy civilisation rath
 
 ---
 
-# 994–998 — Hidden Developer Knowledge
+# 9000–Future — Hidden Developer Knowledge
 
 Internal planning documents containing long-term secrets, future content, unresolved mysteries, and story concepts that are not currently available to players.
 
