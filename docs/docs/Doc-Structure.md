@@ -322,6 +322,7 @@ docs/
 │   ├── 1504-Expansion-Feature-Planning.md
 │   ├── 1505-Expansion-Release-Strategy.md
 │   ├── 1600-Expansion-02.md
+│   ├── 1601-Expansion-Planning.md
 │   ├── 1700-Expansion-03.md
 │   ├── 1800-Expansion-04.md
 │   └── 1900-Expansion-05.md
