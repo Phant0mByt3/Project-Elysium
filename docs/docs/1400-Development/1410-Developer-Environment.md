@@ -9,14 +9,14 @@
 
 ## 1. Overview
 
-The Developer Environment is the standard local setup for engineers: JDK, Gradle, Paper/dev server, IDE config, database, and required tools so that “works on my machine” is minimised.
+The Developer Environment is the standard local setup for engineers: Visual Studio/UBT toolchain, Unreal Engine dev server, IDE config, database, and required tools so that “works on my machine” is minimised.
 
 ---
 
 ## 2. Components
 
 - Agreed JDK and build tool versions  
-- Local Paper (or equivalent) server with plugin hot-reload support  
+- Local Unreal Engine dedicated server with plugin hot-reload support  
 - Local or containerised database matching production engine  
 - EditorConfig / formatter / linter configs  
 - Access to internal artifact and doc repositories  

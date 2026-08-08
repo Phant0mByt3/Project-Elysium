@@ -1,7 +1,7 @@
 # 0900 — Housing
 
 ## Overview
-Player housing gives every character a personal, instanced plot to decorate and customize, using Minecraft's block-placement strength as a genuine gameplay feature rather than fighting against it.
+Player housing gives every character a personal, instanced plot to decorate and customize, using Unreal Engine's modular building-piece system as a genuine gameplay feature rather than fighting against it.
 
 ## Core Features
 * **Instanced Plots** — each character receives a personal housing instance, accessible via a portal item or city housing district entrance.
@@ -10,7 +10,7 @@ Player housing gives every character a personal, instanced plot to decorate and 
 
 ## Design Rules
 * Housing should never grant combat power — pure self-expression and prestige, in line with [0903-Cosmetics.md](0903-Cosmetics.md)'s philosophy.
-* Decoration should use the curated palette rather than full unrestricted Minecraft building, to keep housing visually consistent with [1300-Art-Style.md](../1300-Art/1300-Art-Style.md) rather than reintroducing "vanilla Minecraft build" aesthetics that undermine the game's immersion (Pillar, [0001-Vision.md](../0000-Project/0001-Vision.md)).
+* Decoration should use the curated palette of housing pieces rather than full unrestricted free-building, to keep housing visually consistent with [1300-Art-Style.md](../1300-Art/1300-Art-Style.md) rather than reintroducing "generic sandbox-build" aesthetics that undermine the game's immersion (Pillar, [0001-Vision.md](../0000-Project/0001-Vision.md)).
 
 ## Future: Guild Neighborhoods
 Shared guild-owned housing districts are a confirmed future direction — see [0800-Guilds.md](../0800-Multiplayer/0800-Guilds.md) and [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md).

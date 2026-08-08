@@ -9,12 +9,12 @@
 
 ## 1. Core Belief
 
-Elysium is not a Minecraft server with RPG features bolted on.  
-It is an MMORPG that happens to use Minecraft as its engine.
+Elysium is not a mod or reskin of another game with RPG features bolted on.  
+It is an MMORPG built natively on Unreal Engine.
 
 Every decision is measured against one question:
 
-> Does this make the player forget they are playing Minecraft and begin to feel they are living in Elysium?
+> Does this make the player feel they are living in Elysium, rather than playing a game built in an engine?
 
 If the answer is no, the feature is redesigned or discarded.
 
@@ -46,7 +46,7 @@ Content is not shipped until it meets the bar defined in [1400-Development-Stand
 The world is authored, never generated at runtime.
 
 - Terrain, cities, dungeons, and landmarks exist because a designer placed them with purpose.
-- Vanilla Minecraft systems that threaten world integrity (free building, TNT, Elytra, Ender Pearls, unrestricted mining) are removed or heavily restricted — see [1210-World-Management.md](../1200-Technical/1210-World-Management.md).
+- Default engine/template systems that threaten world integrity (unrestricted free-building, unbounded flight, unrestricted terrain destruction) are removed or heavily restricted — see [1210-World-Management.md](../1200-Technical/1210-World-Management.md).
 - Exploration is rewarded because every region contains intentional secrets (Pillar 1).
 
 ---
@@ -92,10 +92,10 @@ Short-term shipping pressure never justifies architectural decisions that would 
 
 The highest praise Elysium can receive is not:
 
-> “This is an amazing Minecraft server.”
+> “This is an amazing Unreal Engine server.”
 
 It is:
 
-> “I forgot I was playing Minecraft.”
+> “I forgot I was playing Unreal Engine.”
 
 Every design choice, every block placed, every line of dialogue, and every talent node should serve that outcome.

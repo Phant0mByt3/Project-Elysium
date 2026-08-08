@@ -25,7 +25,7 @@ The Map UI includes the world map, zone map, and minimap. It is the primary navi
 
 ## 3. Design Rules
 
-1. Map art reinforces regional identity and does not look like a generic Minecraft overview.
+1. Map art reinforces regional identity and does not look like a generic default engine map view.
 2. Iconography is consistent and legible at minimap scale.
 3. Players can filter icon categories to reduce clutter.
 4. The map remains usable during combat (minimap especially) without demanding full attention.

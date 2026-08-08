@@ -34,4 +34,4 @@ Loading screens bridge the gap between zones, instances, and login. They are an 
 
 ## 4. Technical Notes
 
-Loading screen assets are packaged with the resource pack / client. The client selects the appropriate screen based on destination instance or continent.
+Loading screen assets are packaged with the content pack / client. The client selects the appropriate screen based on destination instance or continent.

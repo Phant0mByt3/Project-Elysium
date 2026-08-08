@@ -9,7 +9,7 @@
 
 ## 1. Overview
 
-Elysium uses Minecraft’s physics substrate for movement, collision, and basic projectile behaviour, then layers custom rules on top to support MMORPG combat and traversal design. Vanilla physics that conflict with the handcrafted world or combat clarity are restricted or replaced.
+Elysium uses Unreal Engine's physics substrate for movement, collision, and basic projectile behaviour, then layers custom rules on top to support MMORPG combat and traversal design. Default physics behaviour that conflicts with the handcrafted world or combat clarity is restricted or replaced.
 
 ---
 
@@ -26,7 +26,7 @@ Elysium uses Minecraft’s physics substrate for movement, collision, and basic 
 
 | System | Custom Behaviour |
 |--------|------------------|
-| **Falling** | Standard fall damage with possible mitigation from abilities or gear; no vanilla “mlg water” reliance for intended paths |
+| **Falling** | Standard fall damage with possible mitigation from abilities or gear; no exploit-reliant fall-damage cheese for intended paths |
 | **Knockback / Pulls** | Ability-driven, directionally consistent, and budgeted so they do not fling players out of encounter arenas unintentionally |
 | **Mounts** | Ground mounts with controlled speed curves; flying mounts gated to later content |
 | **Swimming** | Functional but not a primary traversal method for most regions; underwater sections are deliberately designed |

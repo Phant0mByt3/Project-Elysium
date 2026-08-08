@@ -9,7 +9,7 @@
 
 ## 1. Overview
 
-Elysium replaces vanilla Minecraft's control scheme entirely with a **custom MMORPG control layout**, built to support ability-bar combat, class identity, and full UI navigation without relying on Minecraft's native item-use and hotbar systems.
+Elysium replaces a default template control scheme entirely with a **custom MMORPG control layout**, built to support ability-bar combat, class identity, and full UI navigation without relying on a generic item-use and hotbar template.
 
 This document is the technical reference for every default keybind in the game, how those binds route into gameplay systems, and how the rebinding layer works underneath them.
 
@@ -36,7 +36,7 @@ This document is the technical reference for every default keybind in the game, 
 | `Mouse Move` | Camera look |
 | `Scroll Wheel` | Camera zoom (first ↔ third person) |
 
-Movement is grounded in standard WASD, deliberately overriding Minecraft's default sneak/fly-adjacent bindings so that all remaining keys are free for ability and UI use.
+Movement is grounded in standard WASD, deliberately overriding default template movement bindings so that all remaining keys are free for ability and UI use.
 
 ---
 

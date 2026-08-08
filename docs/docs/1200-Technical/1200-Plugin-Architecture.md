@@ -1,12 +1,12 @@
 # 1200 — Plugin Architecture
 
 ## Overview
-The Elysium server runs on Paper (Java) as a modular collection of purpose-built plugins rather than one monolithic codebase, per the README's technology stack (Java, Paper, PostgreSQL, Gradle).
+The Elysium server runs on Unreal Engine (C++) as a modular collection of purpose-built gameplay modules rather than one monolithic codebase, per the README's technology stack (C++, Unreal Engine dedicated server, PostgreSQL, Unreal Build Tool).
 
 ## Design Principles
 * **Modularity** — each major game system (classes, quests, economy, guilds, PvP) lives in its own plugin module with a clearly defined API surface, so systems can be developed, tested, and updated independently.
 * **Shared Core Library** — common utilities (data models, event bus, database access layer) live in a shared core plugin that all feature plugins depend on, avoiding duplicated logic.
-* **Event-Driven Communication** — plugins communicate primarily through a custom event bus layered on top of Paper's event system, keeping modules decoupled.
+* **Event-Driven Communication** — plugins communicate primarily through a custom event bus layered on top of Unreal Engine's gameplay event system, keeping modules decoupled.
 
 ## Module Breakdown (illustrative)
 * `elysium-core` — shared data models, database access, event bus.

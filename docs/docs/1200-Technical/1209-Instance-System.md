@@ -9,7 +9,7 @@
 
 ## 1. Instance Architecture
 
-Elysium does **not** run as a single massive shared world. Instead, the world is decomposed into independently running **instances**, each a self-contained Minecraft server process managing one region of the game.
+Elysium does **not** run as a single massive shared world. Instead, the world is decomposed into independently running **instances**, each a self-contained Unreal Engine server process managing one region of the game.
 
 | World Element | Instanced? |
 |---|---|
@@ -28,7 +28,7 @@ All instances sit behind a single **Proxy** layer that players connect to first,
 
 | Reason | Explanation |
 |---|---|
-| **Performance** | A single world server has a hard ceiling on entity count, chunk load, and tick rate. Splitting the world lets each instance run at full performance for its player count. |
+| **Performance** | A single world server has a hard ceiling on entity count, streamed-level load, and server tick rate. Splitting the world lets each instance run at full performance for its player count. |
 | **Isolation** | A crash or slowdown in one dungeon instance cannot affect players on the open continent. |
 | **Scalability** | Instances can be spun up and down on demand, matching player population instead of over-provisioning a single giant server. |
 | **Security** | Instance-local state (loot rolls, boss health, exploit attempts) is isolated, reducing the blast radius of any single compromised session. |
@@ -140,7 +140,7 @@ On shutdown, any data that must persist (loot awarded, quest completion, achieve
 
 ## 9. Performance Advantages
 
-- Per-instance tick rate stays stable because entity/chunk load is bounded by that instance's design cap, not the whole game world.
+- Per-instance server tick rate stays stable because entity/streamed-level load is bounded by that instance's design cap, not the whole game world.
 - Instances failing to meet performance targets can be flagged and investigated in isolation (see [1208-Performance.md](1208-Performance.md)) without needing to reproduce the issue on a live shared world.
 - Dungeon/raid instances can be aggressively optimized (e.g. reduced simulation distance) since their scope is small and known in advance.
 

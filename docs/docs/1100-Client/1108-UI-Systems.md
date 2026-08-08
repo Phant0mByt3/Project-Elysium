@@ -9,7 +9,7 @@
 
 ## 1. UI Philosophy
 
-Elysium is built as a **standalone MMORPG experience**. Every interface is custom-built and replaces the vanilla Minecraft HUD and menus entirely — no survival hunger bar, no vanilla inventory grid, no experience bar in the Minecraft style.
+Elysium is built as a **standalone MMORPG experience**. Every interface is custom-built and replaces the a default template HUD and menus entirely — no survival hunger bar, no default template inventory grid, no generic experience bar.
 
 ### 1.1 Core Principles
 

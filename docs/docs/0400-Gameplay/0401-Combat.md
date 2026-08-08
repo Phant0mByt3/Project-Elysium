@@ -1,7 +1,7 @@
 # 0401 — Combat
 
 ## Overview
-Elysium's combat is action-targeted (click or tab-target an enemy, then use abilities on cooldowns and resources) rather than Minecraft's native melee-swing PvP — combat feel is designed first as an MMORPG system, per [0001-Vision.md](../0000-Project/0001-Vision.md).
+Elysium's combat is action-targeted (click or tab-target an enemy, then use abilities on cooldowns and resources) rather than simple native melee-swing PvP — combat feel is designed first as an MMORPG system, per [0001-Vision.md](../0000-Project/0001-Vision.md).
 
 ## Core Loop
 1. Target an enemy (tab-target or direct click).

@@ -18,7 +18,7 @@ Server Architecture describes the logical and physical arrangement of processes 
 - **Proxy / Gateway** — player connection entry point and routing
 - **Auth Service** — session and account validation
 - **Instance Manager** — lifecycle of world and content instances
-- **World / Instance Processes** — Paper (or equivalent) game servers
+- **World / Instance Processes** — Unreal Engine dedicated server processes
 - **Shared Services** — economy, guild, social, matchmaking, etc.
 - **Database & Cache** — persistence and fast access layers
 

@@ -31,7 +31,7 @@ Character customisation lets players express identity within the visual language
 - **Silhouette first** — a player should be identifiable as their class/role at a distance even after heavy cosmetic customisation.
 - **Racial identity preserved** — customisation never lets a human look like a high elf or an orc look like a dwarf.
 - **Performance** — all customisation uses shared base meshes and texture atlases where possible ([1306-Models.md](../1300-Art/1306-Models.md)).
-- **Future-proof** — new hairstyles, markings, and body options can be added via the resource pack without requiring a full character re-creation.
+- **Future-proof** — new hairstyles, markings, and body options can be added via the content pack without requiring a full character re-creation.
 
 ---
 
@@ -47,4 +47,4 @@ After creation, further visual change comes through:
 
 ## 5. Technical Notes
 
-Appearance data is stored as a compact set of indices and colour values on the character record. Client-side rendering pulls the correct models and textures from the resource pack. Server never needs the full visual mesh data.
+Appearance data is stored as a compact set of indices and colour values on the character record. Client-side rendering pulls the correct models and textures from the content pack. Server never needs the full visual mesh data.

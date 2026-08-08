@@ -4,7 +4,7 @@
 
 This document defines the technical foundation of Elysium.
 
-It describes the server software, client architecture, networking, instance management, performance settings, databases, and core technologies required to operate a large-scale Minecraft MMORPG.
+It describes the server software, client architecture, networking, instance management, performance settings, databases, and core technologies required to operate a large-scale standalone MMORPG.
 
 This file acts as the technical blueprint for the entire project.
 
@@ -12,9 +12,9 @@ This file acts as the technical blueprint for the entire project.
 
 # Engine Philosophy
 
-Elysium is not designed as a traditional Minecraft server.
+Elysium is a fully standalone MMORPG built natively on Unreal Engine.
 
-It is designed as a standalone MMORPG experience built using Minecraft technology as the foundation.
+There is no base game underneath it — Elysium is the whole game, from rendering to networking to gameplay systems.
 
 The goal:
 
@@ -41,55 +41,54 @@ The technology should operate as:
 
 Recommended:
 
-## Purpur
+## Unreal Engine Dedicated Server
 
 Purpose:
 
-High-performance Minecraft server foundation with advanced configuration options.
+High-performance, headless build of the Unreal Engine game server, compiled directly from the Elysium codebase.
 
 Advantages:
 
-* Paper compatibility
-* Bukkit plugin support
-* Additional performance settings
-* More control over gameplay behaviour
-* Large plugin ecosystem
+* Full control over gameplay code (C++ and Blueprints)
+* No dependence on a third-party game's server binary
+* Native replication and networking stack built for the same engine as the client
+* Deep profiling and optimisation tooling (Unreal Insights)
+* Direct access to the same physics, animation, and simulation systems as the client
 
 ---
 
 ## Alternative
 
-## Paper
+## Third-Party Backend Services
 
 Purpose:
 
-Stable and reliable server foundation.
+Managed services layered around the dedicated server for account, matchmaking, and orchestration needs.
 
 Advantages:
 
-* Strong community support
-* Wide plugin compatibility
-* Excellent optimisation
-* Reliable for production environments
+* Reduces custom infrastructure work for solved problems (auth, matchmaking, container orchestration)
+* Battle-tested at scale
+* Frees the team to focus on gameplay-specific backend systems
 
 ---
 
 ## Future Possibility
 
-Custom Elysium Server Fork
+Custom Elysium Server Fork / Framework
 
 Purpose:
 
-A dedicated server engine based on Minecraft server technology.
+A dedicated, purpose-built server framework layered on top of the Unreal Engine dedicated server.
 
 Possible improvements:
 
-* Custom chunk management
-* Improved NPC processing
-* MMO-specific optimisations
-* Custom networking
-* Better world streaming
-* Reduced unnecessary Minecraft systems
+* Custom world-partition and level-streaming management
+* Improved NPC and AI processing at scale
+* MMO-specific optimisations (entity LOD, interest management)
+* Custom networking and replication graph tuning
+* Better world streaming across zone boundaries
+* Reduced overhead from unused engine subsystems
 
 ---
 
@@ -98,24 +97,24 @@ Possible improvements:
 ## Current Target
 
 ```text
-Minecraft:
-1.21.1
+Engine:
+Unreal Engine 5.4 (LTS)
 
 Server:
-Purpur 1.21.1
+Unreal Engine Dedicated Server (Linux, headless)
 
-Java:
-21
+Language:
+C++ / Blueprints
 ```
 
 Reason:
 
 Chosen for:
 
-* Long-term stability
-* Plugin compatibility
-* Client modification support
-* Reliable development environment
+* Long-term stability (LTS branch)
+* First-class support for large open worlds (World Partition, Nanite, Lumen)
+* Strong networking and replication framework out of the box
+* Reliable development environment with mature tooling
 
 The engine version should remain fixed during major development periods.
 
@@ -136,7 +135,7 @@ The backend operates multiple independent servers.
 
                            ↓
 
-                     Velocity Proxy
+                     Elysium Gateway
 
                            |
 
@@ -156,7 +155,7 @@ The backend operates multiple independent servers.
 
 # Proxy System
 
-## Velocity
+## Elysium Gateway
 
 Purpose:
 
@@ -181,7 +180,7 @@ Authentication
 
 ↓
 
-Velocity Proxy
+Elysium Gateway
 
 ↓
 
@@ -292,9 +291,7 @@ Examples:
 
 # Client Architecture
 
-Elysium will use a dedicated client.
-
-The client replaces the need for public Minecraft launcher compatibility.
+Elysium uses a fully custom Unreal Engine client. There is no reliance on any other game's launcher, account system, or client binary.
 
 ---
 
@@ -312,9 +309,8 @@ Elysium Launcher
 ├── Authentication
 ├── Game Updates
 ├── File Verification
-├── Mod Management
-├── Resource Pack Management
-├── Shader Configuration
+├── Content Pack Management
+├── Graphics Configuration
 ├── News
 ├── Patch Notes
 └── Server Connection
@@ -329,11 +325,11 @@ Required environment:
 ```text
 Elysium Client
 
-├── Fixed Minecraft Version
-├── Required Mods
-├── Custom UI
-├── Custom Rendering
-├── Resource Packs
+├── Unreal Engine 5.4 Runtime
+├── Custom Gameplay Modules
+├── Custom UI (UMG)
+├── Custom Rendering Pipeline
+├── Content Packs
 ├── Models
 ├── Sounds
 └── Client Features
@@ -343,10 +339,9 @@ Elysium Client
 
 # Client Technologies
 
-Possible base:
+Base:
 
-* Fabric
-* NeoForge
+* Unreal Engine 5.4 (C++ and Blueprints)
 
 Used for:
 
@@ -359,26 +354,27 @@ Used for:
 
 # Visual Engine
 
-## Distant Horizons
+## World Partition & Nanite
 
 Purpose:
 
-Large-scale world visibility.
+Large-scale world visibility and streaming.
 
 Features:
 
-* Long-distance terrain rendering
-* Large landscape views
-* Open-world feeling
+* Long-distance terrain rendering via Nanite virtualized geometry
+* Automatic level streaming and HLOD generation via World Partition
+* Open-world feeling without manual chunk management
 
 ---
 
-## Shader Support
+## Lighting & Rendering
 
-Possible:
+Built-in Unreal Engine systems:
 
-* Iris-compatible shaders
-* Custom Elysium shader profiles
+* Lumen (dynamic global illumination and reflections)
+* Niagara (VFX, weather, particle systems)
+* Custom post-process materials and volumes
 
 Used for:
 
@@ -391,22 +387,22 @@ Used for:
 
 # World Management
 
-Worlds are handcrafted and pre-generated.
+Worlds are handcrafted and pre-built inside the Unreal Editor.
 
 The server does not generate new terrain during gameplay.
 
 Benefits:
 
-* Reduced lag
+* Reduced runtime cost
 * Stable performance
 * Consistent world design
 * Better exploration experience
 
 Tools:
 
-* WorldPainter
-* WorldEdit
-* Chunk pre-generation tools
+* Unreal Engine Landscape system
+* Unreal Engine Modeling Tools
+* World Partition streaming-cell pre-generation
 
 ---
 
@@ -461,9 +457,9 @@ Used for:
 
 ---
 
-# Plugin Architecture
+# Gameplay Module Architecture
 
-Core plugin structure:
+Core module structure:
 
 ```text
 Elysium-Core
@@ -486,10 +482,10 @@ Elysium-Core
 
 Target:
 
-* Stable TPS
+* Stable server tick rate
 * Low latency
 * Fast world transfers
-* Minimal chunk lag
+* Minimal streaming hitches
 * Efficient NPC simulation
 
 ---
@@ -501,7 +497,7 @@ Early development:
 ```text
 Single Machine
 
-├── Velocity
+├── Elysium Gateway
 ├── Database
 ├── Multiple Worlds
 └── Development Servers
@@ -515,7 +511,7 @@ Large scale:
 Multiple Machines
 
 Machine 1:
-Proxy + Authentication
+Gateway + Authentication
 
 Machine 2:
 World Servers
@@ -536,9 +532,9 @@ Storage + Backups
 
 ## Custom Assets
 
-Elysium will ship with its own client assets.
+Elysium ships entirely with its own client assets.
 
-Custom content will be included directly with the client rather than relying solely on downloadable resource packs.
+All content is built directly into the Elysium client rather than relying on downloadable resource packs for another game.
 
 Included assets may include:
 
@@ -562,7 +558,7 @@ Benefits:
 
 ## Custom Main Menu
 
-The default Minecraft main menu will be replaced with an Elysium interface.
+Elysium ships with its own fully custom main menu, built natively in UMG.
 
 Example:
 
@@ -629,7 +625,7 @@ Every connection performs an integrity check before entering the game.
 Possible verification:
 
 * Client version
-* Required mods
+* Required modules
 * Missing files
 * Modified files
 * Asset validation
@@ -660,21 +656,20 @@ No gameplay-critical information should be trusted from the client.
 
 ---
 
-## Minecraft Ownership
+## Account System
 
-Elysium requires ownership of the official Java Edition of Minecraft.
+Elysium uses its own first-party account system rather than depending on a third-party game platform account.
 
 Requirements:
 
-* Official Microsoft account
-* Valid Minecraft Java Edition licence
-* Authentication through Microsoft's services
+* Valid Elysium account
+* Authentication through Elysium's own account services
 
-No offline accounts are supported.
+No offline or unauthenticated accounts are supported.
 
 Benefits:
 
-* Compliance with Minecraft's licensing
+* Full control over account security and moderation
 * Secure account authentication
 * Reduced abuse from unauthorised accounts
 
@@ -684,13 +679,12 @@ Benefits:
 
 The Elysium Client exists solely to play Elysium.
 
-It is not intended to function as a general-purpose Minecraft client.
+It is not a general-purpose engine sandbox or toolset.
 
 Features:
 
-- No Singleplayer
-- No Multiplayer server list
-- No Realms
+- No Singleplayer sandbox mode
+- No third-party server browser
 - Fixed engine version
 - Managed by the Elysium Launcher
 - Automatic updates
@@ -703,12 +697,11 @@ Features:
 
 Possible future systems:
 
-* Custom launcher
-* Custom client
-* Custom rendering engine
+* Custom launcher enhancements
+* Additional client rendering features
 * AI-driven NPC systems
 * Advanced world simulation
-* Custom networking layer
+* Custom networking layer improvements
 * Dynamic civilisation simulation
 
 ---

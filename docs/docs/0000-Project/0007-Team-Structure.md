@@ -24,8 +24,8 @@ The structure is intentionally lean during Pre-Production and expands as the pro
 | **World Director** | Continent & region design, landmarks, dungeons, raids | [0100-World/](../0100-World/), [1402-Building-Standards.md](../1400-Development/1402-Building-Standards.md) |
 | **Narrative Lead** | Main story, side stories, NPC voice, quest writing standards | [0207-Main-Story.md](../0200-Lore/0207-Main-Story.md), [1403-Quest-Writing-Guide.md](../1400-Development/1403-Quest-Writing-Guide.md), [1404-NPC-Writing-Guide.md](../1400-Development/1404-NPC-Writing-Guide.md) |
 | **Technical Lead** | Plugin architecture, server topology, database, anti-cheat | [1200-Technical/](../1200-Technical/), [1401-Coding-Standards.md](../1400-Development/1401-Coding-Standards.md) |
-| **Art Director** | Visual identity, resource pack, UI style, model/texture standards | [1300-Art/](../1300-Art/), [1102-Resource-Pack.md](../1100-Client/1102-Resource-Pack.md) |
-| **Client Lead** | Launcher, Fabric mods, HUD, accessibility | [1100-Client/](../1100-Client/) |
+| **Art Director** | Visual identity, content pack, UI style, model/texture standards | [1300-Art/](../1300-Art/), [1102-Content-Pack.md](../1100-Client/1102-Content-Pack.md) |
+| **Client Lead** | Launcher, native client moduleules, HUD, accessibility | [1100-Client/](../1100-Client/) |
 | **QA Lead** | Test plans, bug triage, playtest coordination | [1406-Testing.md](../1400-Development/1406-Testing.md), [1407-Bug-Tracking.md](../1400-Development/1407-Bug-Tracking.md) |
 
 ---
@@ -42,10 +42,10 @@ Combat math, talent trees, itemization, profession progression, economy sinks/so
 Writers who produce quest text, dialogue trees, lore books, and cinematic scripts. All content must pass consistency checks against [0200-Lore.md](../0200-Lore/0200-Lore.md) and the writing guides.
 
 ### Engineering Team
-Paper plugin developers, database engineers, networking specialists, and anti-cheat implementers. Organised into modular plugin owners per [1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md).
+Unreal Engine (C++) server developers, database engineers, networking specialists, and anti-cheat implementers. Organised into modular plugin owners per [1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md).
 
 ### Art & Client Team
-Texture artists, modelers, UI designers, and client modders. Produces the resource pack and custom models that make players forget they are looking at Minecraft blocks.
+Texture artists, modelers, UI designers, and client moduleders. Produces the content pack and custom models that make players forget they are looking at reused engine assets.
 
 ### Live Operations (post-launch)
 Community managers, moderators, support staff, and analytics. Detailed in the [2000-Operations/](../2000-Operations/) series once the project reaches Closed Beta.

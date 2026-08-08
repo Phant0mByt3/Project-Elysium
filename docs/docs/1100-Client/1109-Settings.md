@@ -34,24 +34,24 @@ Covers everything defined as *default* in [1107-Controls.md](1107-Controls.md), 
 
 | Option | Range/Values | Notes |
 |---|---|---|
-| Render distance | 4–32 chunks | Higher values increase server-side load estimation; see [../1200-Technical/1208-Performance.md](../1200-Technical/1208-Performance.md) |
+| Render distance | 4–32 streaming cells | Higher values increase server-side load estimation; see [../1200-Technical/1208-Performance.md](../1200-Technical/1208-Performance.md) |
 | Shadows | Off / Low / Medium / High | Affects both terrain and dynamic entity shadows |
 | Particles | Off / Reduced / Full | Reduced mode caps concurrent ability VFX particles |
 | Effects | Off / Reduced / Full | Governs screen-space effects (bloom, chromatic aberration) |
-| Texture quality | Low / Medium / High | Tied to resource pack resolution, see [1102-Resource-Pack.md](1102-Resource-Pack.md) |
+| Texture quality | Low / Medium / High | Tied to content pack resolution, see [1102-Content-Pack.md](1102-Content-Pack.md) |
 | VSync | On / Off | |
 | Field of View | 60°–110° | |
 
 ---
 
-## 4. Shader Settings
+## 4. Graphics Settings
 
-Elysium ships with a first-party shader pack (see [1105-Shaders.md](1105-Shaders.md)); the settings interface exposes:
+Elysium ships with a first-party rendering pipeline (see [1105-Rendering Effects.md](1105-Rendering Effects.md)); the settings interface exposes:
 
 | Option | Description |
 |---|---|
-| Shader profile | None / Performance / Balanced / Cinematic |
-| Custom shader upload | Advanced users may load a compatible third-party shader pack |
+| Graphics quality profile | None / Performance / Balanced / Cinematic |
+| Custom post-process preset upload | Advanced users may load a compatible third-party rendering pipeline |
 | Dynamic weather effects | Toggle (rain, fog, god rays) |
 | Water reflections | Off / Low / High |
 

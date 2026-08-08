@@ -12,6 +12,6 @@ PostgreSQL serves as Elysium's persistent data store, accessed exclusively throu
 * **Raid/Dungeon Lockouts** — per-character weekly lockout state ([0802-Raiding.md](../0800-Multiplayer/0802-Raiding.md)).
 
 ## Design Principles
-* Schema migrations are versioned and applied through Gradle-managed migration scripts, never manual production edits.
+* Schema migrations are versioned and applied through managed migration scripts (run via the build pipeline), never manual production edits.
 * Read-heavy data (item templates, quest definitions) should be cached in-memory at the plugin layer, with the database as the source of truth rather than the hot path for every read.
 * Backups and replication strategy to be finalized alongside [1206-Security.md](1206-Security.md) ahead of Closed Beta.

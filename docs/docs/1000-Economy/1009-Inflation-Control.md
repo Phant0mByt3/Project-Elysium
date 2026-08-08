@@ -35,4 +35,4 @@ Inflation Control is the specific set of design and operational measures that pr
 
 ## 4. Technical Notes
 
-Currency creation and destruction events are logged for analysis. Dashboards track supply, velocity, and price indices for critical goods.
+Currency creation and destruction events are logged for analysis. Dashboards track supply, flow rate, and price indices for critical goods.
