@@ -1,7 +1,7 @@
 # 1301 — UI Style
 
 ## Overview
-Visual standards for Elysium's custom UI, delivered through client mods ([1101-Client-Mods.md](../1100-Client/1101-Client-Mods.md)), replacing Minecraft's default interface entirely.
+Visual standards for Elysium's fully custom UI, built natively in Unreal Motion Graphics (UMG) ([1101-Client-Modules.md](../1100-Client/1101-Client-Modules.md)).
 
 ## Principles
 * **Diegetic Feel** — UI frames and icons should look hand-illuminated/forged rather than flat modern UI, matching the overall art style ([1300-Art-Style.md](1300-Art-Style.md)).

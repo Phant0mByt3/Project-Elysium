@@ -3,7 +3,7 @@
 **Project:** Elysium MMORPG  
 **Category:** Client  
 **Status:** Design Complete — Implementation Pending  
-**Related:** [1208-Performance.md](../1200-Technical/1208-Performance.md) · [1105-Shaders.md](1105-Shaders.md) · [1101-Client-Mods.md](1101-Client-Mods.md) · [1106-Accessibility.md](1106-Accessibility.md)
+**Related:** [1208-Performance.md](../1200-Technical/1208-Performance.md) · [1105-Rendering Effects.md](1105-Rendering Effects.md) · [1101-Client-Modules.md](1101-Client-Modules.md) · [1106-Accessibility.md](1106-Accessibility.md)
 
 ---
 
@@ -20,7 +20,7 @@ Client Optimisation ensures that Elysium remains playable and visually coherent 
 | **Rendering** | LOD, distance culling, texture and model budgets |
 | **Entities** | Caps and prioritisation in crowded scenes (raids, cities, world events) |
 | **UI** | Efficient updates, optional reduction of animated elements |
-| **Shaders & Effects** | Tiered quality presets |
+| **Rendering & Effects** | Tiered quality presets |
 | **Background work** | Controlled streaming and preloading |
 
 ---
@@ -36,4 +36,4 @@ Client Optimisation ensures that Elysium remains playable and visually coherent 
 
 ## 4. Technical Notes
 
-Optimisation work is shared between the Fabric mod stack, resource pack guidelines, and any custom rendering code. Profiling tools and automated performance checks are part of the development pipeline.
+Optimisation work is shared between the native client moduleule stack, content pack guidelines, and any custom rendering code. Profiling tools and automated performance checks are part of the development pipeline.

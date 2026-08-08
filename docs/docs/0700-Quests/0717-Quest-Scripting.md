@@ -15,7 +15,7 @@ Quest scripting is the technical layer that turns quest design documents into ru
 
 ## 2. Goals
 
-- Allow content designers to implement the majority of quests without writing low-level Java code.
+- Allow content designers to implement the majority of quests without writing low-level C++ code.
 - Keep quest logic data-driven and hot-reloadable where possible.
 - Ensure all critical outcomes (progress, rewards, flags) are server-authoritative.
 - Support the dialogue, branch, and cinematic systems already defined.

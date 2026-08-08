@@ -11,7 +11,7 @@
 
 Biomes in Elysium are authored, not generated. Each region is assigned a primary biome (and optional secondary biomes) during the design phase of [0102-Regions.md](0102-Regions.md) so that terrain, vegetation, lighting, weather, and enemy placement remain thematically consistent.
 
-Minecraft’s default biome system is used only as a technical substrate; visual and gameplay identity come from the custom resource pack and hand-placed features.
+Unreal Engine’s default biome system is used only as a technical substrate; visual and gameplay identity come from the custom content pack and hand-placed features.
 
 ---
 
@@ -52,4 +52,4 @@ Future continents introduce additional categories (ancient canopy forest for Syl
 
 ## 5. Technical Notes
 
-Biome data is stored in the world templates managed by [1210-World-Management.md](../1200-Technical/1210-World-Management.md). Custom biome definitions override vanilla Minecraft biomes for temperature, humidity, and precipitation so that weather and foliage behaviour match the authored design.
+Biome data is stored in the world templates managed by [1210-World-Management.md](../1200-Technical/1210-World-Management.md). Custom biome definitions drive temperature, humidity, and precipitation so that weather and foliage behaviour match the authored design.

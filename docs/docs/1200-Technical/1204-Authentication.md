@@ -1,7 +1,7 @@
 # 1204 — Authentication
 
 ## Overview
-Account authentication ties a player's Minecraft client to an Elysium account, verified through the launcher ([1100-Launcher.md](../1100-Client/1100-Launcher.md)) before connecting to the game server.
+Account authentication ties a player's Elysium client to an Elysium account, verified through the launcher ([1100-Launcher.md](../1100-Client/1100-Launcher.md)) before connecting to the game server.
 
 ## Flow
 1. Player logs into the launcher with Elysium account credentials.

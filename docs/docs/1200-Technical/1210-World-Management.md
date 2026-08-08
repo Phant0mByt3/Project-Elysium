@@ -21,7 +21,7 @@ This document is the engineering reference for how that handcrafted world is bui
 |---|---|
 | No procedural terrain generation | All terrain is authored by hand or through guided terrain-editing tools |
 | Design-first placement | Landmarks, dungeons, and cities are placed to support quest pacing and travel flow, not generated after the fact |
-| Iteration via WorldPainter | Terrain shaping happens in WorldPainter before detailed hand-building begins (see §3) |
+| Iteration via Unreal Landscape | Terrain shaping happens in Unreal Landscape before detailed hand-building begins (see §3) |
 | Consistent scale | All continents follow the sizing standards in §12 to keep travel time and content density predictable |
 
 ---
@@ -30,31 +30,31 @@ This document is the engineering reference for how that handcrafted world is bui
 
 Terrain production follows a fixed pipeline:
 
-1. **Heightmap design** — base elevation authored in WorldPainter using layered brushes for mountains, valleys, and coastlines.
+1. **Heightmap design** — base elevation authored in Unreal Landscape using layered brushes for mountains, valleys, and coastlines.
 2. **Biome painting** — biome regions painted onto the heightmap to match the continent's design brief (see [../0100-World/0102-Regions.md](../0100-World/0102-Regions.md)).
-3. **Export to Minecraft world format** — WorldPainter exports a raw terrain base.
+3. **Export to Unreal level format** — Unreal Landscape exports a raw terrain base.
 4. **Hand-detailing pass** — builders manually refine terrain, add vegetation, and correct generation artifacts.
 5. **Structure placement** — handcrafted cities, dungeons, and landmarks are built directly into the refined terrain.
 6. **Region locking** — once approved, terrain is protected from further automated regeneration (see §9).
 
 ---
 
-## 4. WorldPainter Workflow
+## 4. Unreal Landscape Workflow
 
 | Stage | Tooling | Output |
 |---|---|---|
-| Elevation | WorldPainter height brushes | Base heightmap |
-| Biome distribution | WorldPainter biome layers | Biome-painted terrain |
-| Rivers/coastlines | WorldPainter terrain masks | Water body placement |
-| Export | WorldPainter Minecraft export | Raw `.mca` region files ready for hand-detailing |
+| Elevation | Unreal Landscape height brushes | Base heightmap |
+| Biome distribution | Unreal Landscape biome layers | Biome-painted terrain |
+| Rivers/coastlines | Unreal Landscape terrain masks | Water body placement |
+| Export | Unreal Landscape Unreal level export | Raw `.mca` region files ready for hand-detailing |
 
-WorldPainter output is treated as a **starting point**, never a final product — every exported region goes through the hand-detailing pass in §3 before it is considered dungeon/quest-ready.
+Unreal Landscape output is treated as a **starting point**, never a final product — every exported region goes through the hand-detailing pass in §3 before it is considered dungeon/quest-ready.
 
 ---
 
 ## 5. Flat Base World Concept
 
-Beneath the handcrafted terrain, Elysium continents are built on a **flat base layer** rather than Minecraft's default terrain generator. This gives builders a predictable, empty canvas so that WorldPainter output and hand-building always start from the same known baseline, avoiding collisions with default-generated terrain features (caves, ravines, structures) that would otherwise need to be manually removed.
+Beneath the handcrafted terrain, Elysium continents are built on a **flat base layer** rather than Unreal's default procedural terrain generator. This gives builders a predictable, empty canvas so that Unreal Landscape output and hand-building always start from the same known baseline, avoiding collisions with default-generated terrain features (caves, ravines, structures) that would otherwise need to be manually removed.
 
 ---
 
@@ -92,7 +92,7 @@ Dungeons are built as standalone world templates, separate from their parent con
 
 | Concept | Description |
 |---|---|
-| Region | A named subdivision of a continent (see [../0100-World/0102-Regions.md](../0100-World/0102-Regions.md)), used for both design organisation and technical chunk-loading boundaries |
+| Region | A named subdivision of a continent (see [../0100-World/0102-Regions.md](../0100-World/0102-Regions.md)), used for both design organisation and technical level-streaming boundaries |
 | Region ownership | Each region has a designated build-lead responsible for content consistency within it |
 | Region locking | Completed regions are locked from further terrain edits (see §9 below on protection) except through a formal change request |
 
@@ -102,7 +102,7 @@ Dungeons are built as standalone world templates, separate from their parent con
 
 Cities are fully handcrafted settlements (see [../0100-World/0103-Cities.md](../0100-World/0103-Cities.md)), built with:
 
-- Fixed NPC placement, replacing vanilla Minecraft villagers entirely with custom NPCs (see §World Protection below)
+- Fixed NPC placement, replacing generic template NPCs entirely with custom NPCs (see §World Protection below)
 - Dedicated vendor, quest-giver, and social-hub zones
 - Protection flags preventing player griefing (see §World Protection)
 
@@ -110,7 +110,7 @@ Cities are fully handcrafted settlements (see [../0100-World/0103-Cities.md](../
 
 ## 12. World Protection
 
-Elysium restricts a number of vanilla Minecraft systems to preserve the handcrafted world and keep gameplay aligned with the MMORPG design rather than sandbox survival mechanics.
+Elysium restricts a number of default engine/template systems to preserve the handcrafted world and keep gameplay aligned with the MMORPG design rather than sandbox survival mechanics.
 
 | System | Rule |
 |---|---|
@@ -120,7 +120,7 @@ Elysium restricts a number of vanilla Minecraft systems to preserve the handcraf
 | **Elytra** | Removed — would trivialize continent-scale travel design (see [../0100-World/0110-Travel.md](../0100-World/0110-Travel.md)) |
 | **TNT** | Removed — prevents terrain destruction in a handcrafted, non-regenerating world |
 | **Villagers** | Replaced with custom NPCs — see [../0200-Lore/0209-NPCs.md](../0200-Lore/0209-NPCs.md) for NPC design |
-| **Villages** | Handcrafted settlements — no vanilla village generation is used; all settlements are authored (see §11) |
+| **Villages** | Handcrafted settlements — no default procedural settlement generation is used; all settlements are authored (see §11) |
 
 > **Developer Note:** World protection rules are enforced server-side, not just client-side — see [1206-Security.md](1206-Security.md) and [1207-Anti-Cheat.md](1207-Anti-Cheat.md) for how illegal block-edit or item-use attempts are detected and rejected.
 
@@ -143,13 +143,13 @@ World size is defined per-continent to keep travel time and content density cons
 
 ---
 
-## 14. Chunk Management
+## 14. World Partition / Level Streaming Management
 
 | Concern | Approach |
 |---|---|
-| Chunk loading | Chunks load based on player proximity plus a fixed pre-load radius around fast-travel and dungeon-entry points |
-| Chunk unloading | Unused chunks unload after a grace period of no nearby players, freeing memory for the instance |
-| Persistent vs. instanced chunks | Open-world continent chunks persist for the life of the instance; dungeon/raid chunks are discarded on instance shutdown (see [1209-Instance-System.md](1209-Instance-System.md) §7) |
+| Level-streaming load | Streamed level cells load based on player proximity plus a fixed pre-load radius around fast-travel and dungeon-entry points |
+| Level-streaming unload | Unused streamed level cells unload after a grace period of no nearby players, freeing memory for the instance |
+| Persistent vs. instanced streaming cells | Open-world continent streaming cells persist for the life of the instance; dungeon/raid streaming cells are discarded on instance shutdown (see [1209-Instance-System.md](1209-Instance-System.md) §7) |
 
 ---
 
@@ -184,8 +184,8 @@ Backups are stored independently of the live world files so that a corrupted or 
 
 ## 18. System Rules Summary
 
-1. No procedural terrain generation is used anywhere in Elysium — all terrain is handcrafted or WorldPainter-assisted and then hand-detailed.
-2. Vanilla systems that conflict with handcrafted world integrity (Ender Pearls, Elytra, TNT, free building/mining, villager generation) are removed or restricted server-side.
+1. No procedural terrain generation is used anywhere in Elysium — all terrain is handcrafted or Unreal Landscape-assisted and then hand-detailed.
+2. Default engine/template systems that conflict with handcrafted world integrity (unbounded teleport/flight abilities, unrestricted terrain destruction, procedural settlement generation) are removed or restricted server-side.
 3. Dungeons and floating/underground regions are treated as separate world templates and, where applicable, separate runtime instances.
 4. Backups and staged editing are mandatory — no direct live-world terrain edits.
 5. Continent size directly informs Instance System scaling thresholds; the two documents must be kept numerically consistent.
@@ -201,4 +201,4 @@ Backups are stored independently of the live world files so that a corrupted or 
 | [../0100-World/0103-Cities.md](../0100-World/0103-Cities.md) | Design detail for handcrafted settlements referenced in §11 |
 | [../0100-World/0106-Dungeons.md](../0100-World/0106-Dungeons.md) | Design detail for dungeon content built on the templates in §9 |
 | [1209-Instance-System.md](1209-Instance-System.md) | Consumes the world templates and continent scale defined here to create runtime instances |
-| [1208-Performance.md](1208-Performance.md) | Defines the performance budgets that chunk loading and world size must respect |
+| [1208-Performance.md](1208-Performance.md) | Defines the performance budgets that streamed-level loading and world size must respect |

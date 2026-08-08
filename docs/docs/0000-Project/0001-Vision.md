@@ -8,13 +8,13 @@
 
 # Vision Statement
 
-Elysium is a fantasy MMORPG built on the Minecraft engine.
+Elysium is a fantasy MMORPG built on Unreal Engine.
 
-It is not designed to be a Minecraft server with RPG features.
+It is not designed to be a mod or reskin of another game.
 
-It is designed to be a completely separate game that uses Minecraft as its rendering, simulation, and networking engine.
+It is designed to be a completely standalone game built natively on Unreal Engine for its rendering, simulation, and networking.
 
-Minecraft provides the technology.
+Unreal Engine provides the technology.
 
 Elysium provides the world.
 
@@ -34,27 +34,27 @@ Every kingdom should have a history.
 
 Every continent should feel like a different part of the world.
 
-The player should quickly forget they are playing Minecraft.
+The player should feel like they are living in a real fantasy world, not sitting inside a game engine.
 
 ---
 
 # Design Philosophy
 
-Minecraft is the foundation.
+Unreal Engine is the foundation.
 
 Elysium is the experience.
 
-Every design decision should support the MMORPG experience rather than vanilla Minecraft gameplay.
+Every design decision should support the MMORPG experience rather than default engine behaviour.
 
-If a vanilla mechanic improves immersion, it may remain.
+If a default engine behaviour improves immersion, it may remain.
 
-If a vanilla mechanic limits the experience, it should be redesigned or replaced.
+If a default engine behaviour limits the experience, it should be redesigned or replaced.
 
 ---
 
-# Minecraft as an Engine
+# Unreal Engine as an Engine
 
-Minecraft is treated as a game engine.
+Unreal Engine is used as a general-purpose game engine, the same way any AAA studio would use it.
 
 It provides:
 
@@ -84,9 +84,9 @@ This includes:
 
 ---
 
-## Vanilla Mechanics
+## Default Engine Mechanics
 
-Vanilla Minecraft mechanics are intentionally reviewed and redesigned to support the MMORPG experience.
+Default engine templates and behaviours are intentionally reviewed and redesigned to support the MMORPG experience.
 
 The goal is not to remove mechanics for the sake of it, but to ensure every mechanic supports exploration, progression, immersion, and world integrity.
 
@@ -109,7 +109,7 @@ The handcrafted world always takes priority over sandbox freedom.
 
 ## World Design Philosophy
 
-Unlike traditional Minecraft worlds, Elysium is not procedurally explored through mining and cave generation.
+Elysium is not a procedurally generated sandbox explored through mining and digging.
 
 Every part of the world exists because it serves a gameplay, visual, or narrative purpose.
 
@@ -144,9 +144,9 @@ The world is designed, not randomly generated.
 
 ## Building at Scale
 
-Elysium is designed around realistic scale rather than Minecraft scale.
+Elysium is designed around realistic, human-proportioned scale rather than a blocky, grid-based scale.
 
-Cities should not resemble vanilla villages.
+Cities should not resemble generic template settlements.
 
 Instead, they should function as believable capitals with specialised districts.
 
@@ -325,7 +325,7 @@ The client provides:
 * Custom visual effects
 * Long-term compatibility
 
-Players launch Elysium rather than launching Minecraft.
+Players launch Elysium directly — there is no separate base game to launch.
 
 ---
 
@@ -352,10 +352,10 @@ The world should always have another adventure waiting beyond the horizon.
 
 The greatest compliment Elysium can receive is not:
 
-> "This is an amazing Minecraft server."
+> "This is an amazing MMORPG."
 
 It is:
 
-> "I forgot I was playing Minecraft."
+> "I forgot this was built in a game engine at all."
 
 When players stop seeing blocks and begin seeing kingdoms, legends, civilizations, and adventures, Elysium has achieved its purpose.

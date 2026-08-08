@@ -3,7 +3,7 @@
 **Project:** Elysium MMORPG  
 **Category:** Client  
 **Status:** Design Complete — Implementation Pending  
-**Related:** [1109-Settings.md](1109-Settings.md) · [1113-Client-Optimisation.md](1113-Client-Optimisation.md) · [1106-Accessibility.md](1106-Accessibility.md) · [1101-Client-Mods.md](1101-Client-Mods.md)
+**Related:** [1109-Settings.md](1109-Settings.md) · [1113-Client-Optimisation.md](1113-Client-Optimisation.md) · [1106-Accessibility.md](1106-Accessibility.md) · [1101-Client-Modules.md](1101-Client-Modules.md)
 
 ---
 
@@ -35,4 +35,4 @@ Client Configuration covers the storage, application, and exposure of all user-c
 
 ## 4. Technical Notes
 
-Settings are read and written by the client mod stack. Some options affect only the local client; others (e.g. certain gameplay preferences) may be stored on the character or account record for consistency across machines.
+Settings are read and written by the client module stack. Some options affect only the local client; others (e.g. certain gameplay preferences) may be stored on the character or account record for consistency across machines.

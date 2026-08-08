@@ -3,7 +3,7 @@
 **Project:** Elysium MMORPG  
 **Category:** Development  
 **Status:** Design Complete — Implementation Pending  
-**Related:** [1319-Art-Asset-Pipeline.md](../1300-Art/1319-Art-Asset-Pipeline.md) · [1102-Resource-Pack.md](../1100-Client/1102-Resource-Pack.md) · [1405-Naming-Conventions.md](1405-Naming-Conventions.md)
+**Related:** [1319-Art-Asset-Pipeline.md](../1300-Art/1319-Art-Asset-Pipeline.md) · [1102-Content-Pack.md](../1100-Client/1102-Content-Pack.md) · [1405-Naming-Conventions.md](1405-Naming-Conventions.md)
 
 ---
 

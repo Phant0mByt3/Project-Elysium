@@ -3,13 +3,13 @@
 **Project:** Elysium MMORPG  
 **Category:** Art  
 **Status:** Design Complete — Implementation Pending  
-**Related:** [1300-Art-Style.md](1300-Art-Style.md) · [1102-Resource-Pack.md](../1100-Client/1102-Resource-Pack.md) · [1414-Asset-Management.md](../1400-Development/1414-Asset-Management.md) · [1400-Development-Standards.md](../1400-Development/1400-Development-Standards.md)
+**Related:** [1300-Art-Style.md](1300-Art-Style.md) · [1102-Content-Pack.md](../1100-Client/1102-Content-Pack.md) · [1414-Asset-Management.md](../1400-Development/1414-Asset-Management.md) · [1400-Development-Standards.md](../1400-Development/1400-Development-Standards.md)
 
 ---
 
 ## 1. Overview
 
-The Art Asset Pipeline describes how concept becomes in-game asset: briefing, production, review, export, packaging into the resource pack, and live update.
+The Art Asset Pipeline describes how concept becomes in-game asset: briefing, production, review, export, packaging into the content pack, and live update.
 
 ---
 

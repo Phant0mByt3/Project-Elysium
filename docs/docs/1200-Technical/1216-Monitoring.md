@@ -18,7 +18,7 @@ Monitoring provides real-time and historical visibility into the health of the g
 | Area | Examples |
 |------|----------|
 | **Infrastructure** | CPU, memory, disk, network |
-| **Game servers** | TPS / tick time, player counts, instance counts |
+| **Game servers** | server server tick rate / tick time, player counts, instance counts |
 | **Database** | Query latency, connection pool, replication lag |
 | **Gameplay** | Queue times, error rates, economy anomalies |
 | **Security** | Auth failure spikes, anti-cheat triggers |

@@ -40,7 +40,7 @@ Bosses extend these modules with phase-specific overrides and custom state machi
 
 ## 4. Performance Considerations
 
-AI tick rate and pathfinding complexity are budgeted against the performance targets in [1208-Performance.md](../1200-Technical/1208-Performance.md). Large open-world packs use simplified logic compared with dungeon and raid encounters.
+AI server tick rate and pathfinding complexity are budgeted against the performance targets in [1208-Performance.md](../1200-Technical/1208-Performance.md). Large open-world packs use simplified logic compared with dungeon and raid encounters.
 
 ---
 

@@ -25,7 +25,7 @@ The Main Menu is the first interactive screen after the launcher hands off to th
 
 ## 3. Design Rules
 
-1. The menu should feel like Elysium, not like a generic Minecraft title screen.
+1. The menu should feel like Elysium, not like a generic default engine title screen.
 2. Navigation is simple and keyboard/controller friendly.
 3. Load into Character Select is as fast as practical.
 4. Art and layout follow [1301-UI-Style.md](../1300-Art/1301-UI-Style.md).

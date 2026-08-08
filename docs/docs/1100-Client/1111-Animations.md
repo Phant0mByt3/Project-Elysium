@@ -32,4 +32,4 @@ This document covers the client-side presentation and technical handling of anim
 
 ## 4. Technical Notes
 
-Animation assets are delivered via the resource pack and custom model pipeline. The client animation system integrates with Fabric mod hooks and any custom rendering layers required for Elysium’s visual identity.
+Animation assets are delivered via the content pack and custom model pipeline. The client animation system integrates with native gameplay module hooks and any custom rendering layers required for Elysium’s visual identity.

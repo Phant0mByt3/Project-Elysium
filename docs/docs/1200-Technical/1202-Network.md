@@ -1,10 +1,10 @@
 # 1202 — Network
 
 ## Overview
-Networking architecture covering both the Minecraft protocol layer (Paper server ↔ Fabric client) and any auxiliary services (launcher backend, website account services) the game depends on.
+Networking architecture covering both Elysium's custom network protocol layer (dedicated server ↔ Unreal client) and any auxiliary services (launcher backend, website account services) the game depends on.
 
 ## Server-Side
-* Standard Minecraft protocol over Paper, optimized via the performance-focused client/server mods described in [1101-Client-Mods.md](../1100-Client/1101-Client-Mods.md) and [1208-Performance.md](1208-Performance.md).
+* Standard Unreal Engine protocol over the Unreal Engine dedicated server, optimized via the performance-focused client/server mods described in [1101-Client-Modules.md](../1100-Client/1101-Client-Modules.md) and [1208-Performance.md](1208-Performance.md).
 * Custom plugin messaging channels used for launcher-to-server communication where needed (e.g. account verification handshakes with [1204-Authentication.md](1204-Authentication.md)).
 
 ## Auxiliary Services

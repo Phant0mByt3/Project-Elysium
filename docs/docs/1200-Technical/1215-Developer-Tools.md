@@ -15,7 +15,7 @@ Developer Tools support engineering and design iteration: debug commands, inspec
 
 ## 2. Examples
 
-- Entity and chunk inspectors
+- Entity and world-partition inspectors
 - Combat and threat debug displays
 - Quest state manipulation for testing
 - Performance profilers and tick monitors

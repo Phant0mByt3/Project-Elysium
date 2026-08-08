@@ -13,4 +13,4 @@ Emotes are player-triggered animations and (where applicable) sound effects used
 * Racial emotes should be written and animated with input from the lore team to stay consistent with each race's culture as described in [0204-Races.md](../0200-Lore/0204-Races.md).
 
 ## Technical Notes
-Emote definitions (animation, sound, chat bubble text) are a client-mod responsibility — see [1101-Client-Mods.md](../1100-Client/1101-Client-Mods.md).
+Emote definitions (animation, sound, chat bubble text) are a client-mod responsibility — see [1101-Client-Modules.md](../1100-Client/1101-Client-Modules.md).

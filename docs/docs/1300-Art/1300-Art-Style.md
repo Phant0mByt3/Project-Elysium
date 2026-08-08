@@ -4,7 +4,7 @@
 Elysium's overall visual identity — the reference point every other art document ([1301-UI-Style.md](1301-UI-Style.md) through [1306-Models.md](1306-Models.md)) should be checked against.
 
 ## Direction
-A grounded high-fantasy aesthetic — closer to classic MMORPG concept art than either Minecraft's blocky vanilla look or a hyper-realistic style unsuited to the engine. Silhouette and readability take priority over fine detail, since combat clarity (Pillar in [0401-Combat.md](../0400-Gameplay/0401-Combat.md)) depends on instantly recognizing enemies, allies, and effects at a glance.
+A grounded high-fantasy aesthetic — closer to classic MMORPG concept art than either a low-poly stylised look or a hyper-realistic style unsuited to the project's scope. Silhouette and readability take priority over fine detail, since combat clarity (Pillar in [0401-Combat.md](../0400-Gameplay/0401-Combat.md)) depends on instantly recognizing enemies, allies, and effects at a glance.
 
 ## Regional Identity
 Each continent has a distinct visual language reflecting its dominant culture:

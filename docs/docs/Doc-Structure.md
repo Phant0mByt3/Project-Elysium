@@ -207,11 +207,11 @@ docs/
 │
 ├── 1100-Client/
 │   ├── 1100-Launcher.md
-│   ├── 1101-Client-Mods.md
-│   ├── 1102-Resource-Pack.md
+│   ├── 1101-Client-Modules.md
+│   ├── 1102-Content-Pack.md
 │   ├── 1103-Custom-Models.md
 │   ├── 1104-Soundtrack.md
-│   ├── 1105-Shaders.md
+│   ├── 1105-Rendering Effects.md
 │   ├── 1106-Accessibility.md
 │   ├── 1107-Controls.md
 │   ├── 1108-UI-Systems.md

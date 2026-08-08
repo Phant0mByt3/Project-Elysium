@@ -8,7 +8,7 @@
 
 Elysium is designed as an MMORPG experience.
 
-Minecraft mechanics are not the primary gameplay system.
+Default engine template mechanics are not the primary gameplay system.
 
 Combat, movement, abilities, inventory, progression, and interaction are redesigned to create a fantasy RPG experience.
 
@@ -25,7 +25,7 @@ Every mechanic should support:
 
 # Combat System
 
-Combat is designed around active abilities rather than vanilla Minecraft attacks.
+Combat is designed around active abilities rather than simple melee-swing attacks.
 
 Players use:
 
@@ -138,7 +138,7 @@ Quick evasive movement.
 
 # Inventory and Character Interface
 
-The vanilla Minecraft inventory is replaced.
+The engine's default inventory template is replaced.
 
 Pressing **I** opens the custom character interface.
 
@@ -192,7 +192,7 @@ The interface displays:
 * Party information
 * Target information
 
-The UI replaces Minecraft's default HUD.
+The UI replaces Unreal Engine's default template HUD.
 
 ---
 
@@ -226,10 +226,10 @@ Possible future support:
 
 # Design Goal
 
-The player should never feel like they are playing Minecraft.
+The player should never feel like they are playing a generic engine template.
 
 The goal is for movement, combat, abilities, and interfaces to feel natural for a fantasy MMORPG.
 
-The engine is Minecraft.
+The engine is Unreal Engine.
 
 The experience is Elysium.

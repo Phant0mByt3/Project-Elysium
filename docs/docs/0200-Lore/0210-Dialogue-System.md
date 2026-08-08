@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Elysium Dialogue System is designed to provide an immersive MMORPG-style conversation experience. Inspired by systems found in games like World of Warcraft and Minecraft Bedrock Edition, it replaces simple NPC interactions with a fully structured dialogue interface.
+The Elysium Dialogue System is designed to provide an immersive MMORPG-style conversation experience. Inspired by systems found in games like World of Warcraft and Final Fantasy XIV, it replaces simple NPC interactions with a fully structured dialogue interface.
 
 The goal is to make NPCs feel like actual characters within the world rather than simple quest markers.
 

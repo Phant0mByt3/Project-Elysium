@@ -91,7 +91,7 @@ A living reference of terms used throughout the Elysium documentation. New terms
 
 ## W
 
-**WorldPainter** — External terrain-authoring tool used to create the base heightmaps and biome layouts before hand-detailing. See [1210-World-Management.md](../1200-Technical/1210-World-Management.md).
+**Unreal Landscape** — External terrain-authoring tool used to create the base heightmaps and biome layouts before hand-detailing. See [1210-World-Management.md](../1200-Technical/1210-World-Management.md).
 
 ---
 

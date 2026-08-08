@@ -9,7 +9,7 @@
 
 ## 1. Overview
 
-The Dialogue UI presents NPC conversations, quest text, and player response options in a structured, readable format that matches the MMORPG fantasy rather than vanilla Minecraft chat interaction.
+The Dialogue UI presents NPC conversations, quest text, and player response options in a structured, readable format that matches the MMORPG fantasy rather than a generic chat interaction template.
 
 ---
 
