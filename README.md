@@ -1,22 +1,22 @@
 # Project Elysium
 
-> *An open-world MMORPG built on Minecraft.*
+> *An open-world MMORPG built on Unreal Engine.*
 
 ---
 
 ## About
 
-Project Elysium is a long-term game development project that aims to transform Minecraft into a fully-fledged MMORPG experience.
+Project Elysium is a long-term game development project that aims to build a fully-fledged, standalone MMORPG experience natively on Unreal Engine.
 
-Rather than creating a traditional Minecraft survival server, Project Elysium is designed as a complete role-playing game with handcrafted continents, deep progression systems, large-scale multiplayer features, and an original fantasy universe.
+Project Elysium is designed as a complete role-playing game with handcrafted continents, deep progression systems, large-scale multiplayer features, and an original fantasy universe.
 
-The goal is to create a world where players quickly stop thinking of Minecraft as the game they're playing, and instead become immersed in the world of Elysium.
+The goal is to create a world where players quickly stop thinking about the engine underneath it, and instead become fully immersed in the world of Elysium.
 
 ---
 
 ## Vision
 
-Project Elysium combines the creativity of Minecraft with the scale and progression of modern MMORPGs.
+Project Elysium combines fully custom, handcrafted world-building with the scale and progression of modern MMORPGs.
 
 Players will explore vast handcrafted continents, uncover ancient civilizations, complete story-driven questlines, conquer challenging dungeons and raids, build guilds, participate in large-scale faction conflicts, and shape their own adventure through a persistent online world.
 
@@ -28,7 +28,7 @@ Every location, dungeon, city, and quest is intentionally designed. Nothing is p
 
 * Create a handcrafted fantasy world.
 * Deliver an engaging story-driven MMORPG experience.
-* Develop a modular plugin ecosystem built specifically for the game.
+* Develop a modular gameplay-module ecosystem built specifically for the game.
 * Provide a seamless installation experience through a custom launcher.
 * Support long-term updates and expansions.
 * Build a scalable architecture capable of supporting a growing player base.
@@ -78,9 +78,9 @@ Every location, dungeon, city, and quest is intentionally designed. Nothing is p
 
 * Custom launcher
 * Automatic updates
-* Modular server plugins
-* Optimized client modpack
-* Resource pack
+* Modular server-side gameplay modules
+* Optimized client build
+* Content pack
 * Custom user interfaces
 * Database-backed progression
 * Cross-version update support
@@ -134,7 +134,7 @@ Documentation covers:
 * Dungeons
 * Technical architecture
 * Launcher
-* Plugins
+* Gameplay modules
 * Development standards
 * Future expansions
 
@@ -146,17 +146,17 @@ Every major system has its own dedicated document to keep planning organised and
 
 ### Server
 
-* Java
-* Paper
+* C++
+* Unreal Engine Dedicated Server
 * PostgreSQL
-* Gradle
+* Unreal Build Tool
 
 ### Client
 
-* Fabric
-* Custom client mods
-* Custom resource pack
-* Performance optimisation mods
+* Unreal Engine 5.4 (C++ / Blueprints)
+* Custom gameplay modules
+* Custom content pack
+* Performance optimisation passes
 
 ### Launcher
 
@@ -170,8 +170,8 @@ Every major system has its own dedicated document to keep planning organised and
 ```text
 docs/        Game Design Documentation
 launcher/    Custom game launcher
-server/      Server plugins and backend
-client/      Client-side modifications
+server/      Server-side gameplay modules and backend
+client/      Client-side Unreal Engine project
 assets/      Models, textures, music and UI
 website/     Website and account services
 database/    Database resources
