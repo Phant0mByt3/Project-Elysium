@@ -40,3 +40,4 @@ Rejected due to potential legal and licensing concerns, technical limitations, a
 Elysium will instead be developed as a standalone game using Unreal Engine, allowing the project to have direct control over its client, systems, assets, and distribution.
 
 *Old documentation has been renamed to [docs-legacy](../../../Project-Elysium/docs-legacy)
+[doc-structure.md](../Doc-Structure.md)
