@@ -247,8 +247,8 @@
       "name": "1100-Client",
       "files": [
         "1100-Launcher.md",
-        "1101-Client-Mods.md",
-        "1102-Resource-Pack.md",
+        "1101-Client-Modules.md",
+        "1102-Content-Pack.md",
         "1103-Custom-Models.md",
         "1104-Soundtrack.md",
         "1105-Shaders.md",

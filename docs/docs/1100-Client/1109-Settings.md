@@ -46,7 +46,7 @@ Covers everything defined as *default* in [1107-Controls.md](1107-Controls.md), 
 
 ## 4. Graphics Settings
 
-Elysium ships with a first-party rendering pipeline (see [1105-Rendering Effects.md](1105-Rendering Effects.md)); the settings interface exposes:
+Elysium ships with a first-party rendering pipeline (see [1105-Shaders.md](1105-Shaders.md)); the settings interface exposes:
 
 | Option | Description |
 |---|---|

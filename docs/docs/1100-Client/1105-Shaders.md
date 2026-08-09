@@ -1,4 +1,4 @@
-# 1105 — Rendering Effects
+# 1105 — Shaders
 
 ## Overview
 A custom rendering pipeline (built on Unreal Engine's Lumen, Nanite, and Niagara systems) bundled with the client, used to achieve lighting, weather, and atmosphere well beyond a default engine template's rendering — critical to selling Elysium's fantasy tone per [0001-Vision.md](../0000-Project/0001-Vision.md).

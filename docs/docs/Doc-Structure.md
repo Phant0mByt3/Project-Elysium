@@ -211,7 +211,7 @@ docs/
 │   ├── 1102-Content-Pack.md
 │   ├── 1103-Custom-Models.md
 │   ├── 1104-Soundtrack.md
-│   ├── 1105-Rendering Effects.md
+│   ├── 1105-Shaders.md
 │   ├── 1106-Accessibility.md
 │   ├── 1107-Controls.md
 │   ├── 1108-UI-Systems.md

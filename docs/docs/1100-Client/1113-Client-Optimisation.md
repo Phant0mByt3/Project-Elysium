@@ -3,7 +3,7 @@
 **Project:** Elysium MMORPG  
 **Category:** Client  
 **Status:** Design Complete — Implementation Pending  
-**Related:** [1208-Performance.md](../1200-Technical/1208-Performance.md) · [1105-Rendering Effects.md](1105-Rendering Effects.md) · [1101-Client-Modules.md](1101-Client-Modules.md) · [1106-Accessibility.md](1106-Accessibility.md)
+**Related:** [1208-Performance.md](../1200-Technical/1208-Performance.md) · [1105-Shaders.md](1105-Shaders.md) · [1101-Client-Modules.md](1101-Client-Modules.md) · [1106-Accessibility.md](1106-Accessibility.md)
 
 ---
 

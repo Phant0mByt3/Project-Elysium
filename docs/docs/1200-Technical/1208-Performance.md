@@ -9,7 +9,7 @@ Performance targets and optimization strategy spanning both server (Unreal Engin
 * Regular load testing planned during Closed Beta ([0003-Roadmap.md](../0000-Project/0003-Roadmap.md)) to validate world-event and territory-control scale.
 
 ## Client-Side
-* Tiered graphics quality presets ([1105-Rendering Effects.md](../1100-Client/1105-Rendering Effects.md)) and performance-optimization client moduleules ([1101-Client-Modules.md](../1100-Client/1101-Client-Modules.md)) to support a wide range of hardware.
+* Tiered graphics quality presets ([1105-Shaders.md](../1100-Client/1105-Shaders.md)) and performance-optimization client moduleules ([1101-Client-Modules.md](../1100-Client/1101-Client-Modules.md)) to support a wide range of hardware.
 * Model and texture budgets for custom assets ([1103-Custom-Models.md](../1100-Client/1103-Custom-Models.md)) reviewed against target minimum-spec hardware.
 
 ## Cross-Version Update Support

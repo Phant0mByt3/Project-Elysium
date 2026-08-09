@@ -3,7 +3,7 @@
 **Project:** Elysium MMORPG  
 **Category:** Art  
 **Status:** Design Complete — Implementation Pending  
-**Related:** [1300-Art-Style.md](1300-Art-Style.md) · [0115-Day-Night-Cycle.md](../0100-World/0115-Day-Night-Cycle.md) · [0114-Weather-System.md](../0100-World/0114-Weather-System.md) · [1105-Rendering Effects.md](../1100-Client/1105-Rendering Effects.md)
+**Related:** [1300-Art-Style.md](1300-Art-Style.md) · [0115-Day-Night-Cycle.md](../0100-World/0115-Day-Night-Cycle.md) · [0114-Weather-System.md](../0100-World/0114-Weather-System.md) · [1105-Shaders.md](../1100-Client/1105-Shaders.md)
 
 ---
 
