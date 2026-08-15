@@ -37,3 +37,14 @@ Unique effects are the non-standard mechanical behaviours that make certain item
 ## 4. Technical Notes
 
 Unique effects are implemented as scripted or data-driven behaviours inside the combat plugin. All triggers and outcomes are server-authoritative; client only plays the associated visuals and sounds.
+
+
+---
+
+## 5. Internal Cooldown Philosophy
+
+Proc effects use internal cooldowns tuned to keep their visual and mechanical impact readable — a proc that can trigger multiple times per second creates visual noise and makes the combat log unreadable, so most procs are capped to a reasonable trigger frequency regardless of attack speed.
+
+## 6. Effect Documentation
+
+Every unique effect shipped is documented alongside its source item in the relevant rarity tier document ([0505-Legendary-Items.md](0505-Legendary-Items.md), [0506-Relics.md](0506-Relics.md)) so designers reviewing balance have a single reference for all active unique effects in the game.

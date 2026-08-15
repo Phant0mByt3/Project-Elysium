@@ -14,3 +14,12 @@ Music files are bundled into the content pack ([1102-Content-Pack.md](1102-Conte
 
 ## Design Rules
 Music should never loop jarringly or interrupt combat music transitions — smooth crossfades are a requirement, not a nice-to-have, for maintaining immersion per [0001-Vision.md](../0000-Project/0001-Vision.md).
+
+
+## Adaptive Music System
+
+Combat music uses a layered, adaptive system that adds or removes instrumental layers based on encounter intensity (approaching a boss, entering an execute phase) rather than hard-cutting between separate tracks, keeping transitions musically smooth.
+
+## Regional Ambient Audio
+
+Beyond the composed score, each biome ([0113-Biomes.md](../0100-World/0113-Biomes.md)) has a distinct ambient soundscape (wind, wildlife, water) that layers underneath the music, reinforcing regional identity even during quiet exploration moments.

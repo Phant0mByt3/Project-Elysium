@@ -36,3 +36,12 @@ Quest branches are points where player choice (dialogue, faction, previous actio
 ## 4. Technical Notes
 
 Branch state is stored on the character’s quest progress record. Subsequent quest availability and dialogue options query this state. See [0717-Quest-Scripting.md](0717-Quest-Scripting.md).
+
+
+## 5. Faction Branch Example
+
+A Dawnbound-aligned player investigating the Ember Uprising receives framing emphasizing restoring order and protecting dwarven miners, while a Duskward-aligned player receives framing emphasizing opportunistic advantage and clan strength — both reach the same dungeon entrance, but the emotional throughline differs.
+
+## 6. Tracking Player Choices Long-Term
+
+Significant branch choices are stored permanently on the character record so that later content (including future expansions) can reference and react to earlier decisions, reinforcing that player choices have lasting narrative weight.

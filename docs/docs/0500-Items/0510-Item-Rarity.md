@@ -38,3 +38,24 @@ Item rarity communicates power, exclusivity, and visual prestige. The colour lan
 ## 4. Visual & UI Impact
 
 Rarity determines border colour, tooltip header treatment, loot toast styling, and name colour in chat and the Auction House. The palette is defined in [1302-Colour-Palette.md](../1300-Art/1302-Colour-Palette.md).
+
+
+---
+
+## 5. Rarity and the Leveling Curve
+
+Uncommon and Rare items dominate the leveling experience, with Epic items becoming common only at max-level dungeon and raid content. This keeps rarity feeling special throughout the leveling journey rather than being trivialized by level 20.
+
+## 6. Rarity Across Content Types
+
+| Content | Typical Rarity Ceiling |
+| --- | --- |
+| Leveling quests | Uncommon, occasional Rare |
+| Normal dungeons | Rare |
+| Heroic dungeons | Rare to Epic |
+| Raids (Normal/Heroic) | Epic |
+| Raids (Mythic) | Epic, with Legendary/Relic chance |
+
+## 7. Cross-System Consistency
+
+Rarity colour and naming conventions are shared across items, mounts, pets, and titles ([0900-Player-Systems/](../0900-Player-Systems/)) so players learn the color language once and can apply it across every collection system in the game.

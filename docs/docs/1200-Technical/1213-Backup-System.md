@@ -34,3 +34,14 @@ The Backup System protects player data, world templates, and critical configurat
 ## 4. Technical Notes
 
 Database backups use the engine’s native tools (e.g. PostgreSQL continuous archiving / base backups). World and asset backups follow the versioning and storage approach in World Management. Alerts fire on backup failure.
+
+
+---
+
+## Additional Detail: Backup Schedule
+
+Full database backups run on a regular automated schedule, supplemented by continuous transaction log shipping, allowing point-in-time recovery to within a few minutes of any incident rather than only to the last full backup snapshot.
+
+## Backup Verification
+
+Backups are periodically test-restored in an isolated environment to verify their integrity, ensuring the team isn't relying on untested backups in an actual disaster recovery scenario.

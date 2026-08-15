@@ -1,50 +1,44 @@
 # 0409 — Tutorial System
 
-**Project:** Elysium MMORPG  
-**Category:** Gameplay  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0310-Character-Creation.md](../0300-Characters/0310-Character-Creation.md) · [0305-Leveling.md](../0300-Characters/0305-Leveling.md) · [0102-Regions.md](../0100-World/0102-Regions.md) · [0700-Quests.md](../0700-Quests/0700-Quests.md)
+**Project:** Elysium MMORPG
+**Category:** Gameplay
+**Status:** Living Document
+**Related:** [0400-Game-Mechanics.md](0400-Game-Mechanics.md) · [0100-World.md](../0100-World/0100-World.md), Section on Millhaven
 
 ---
 
 ## 1. Overview
 
-The tutorial is integrated into the opening hours of the game rather than presented as a separate, skippable mode. New players learn movement, combat, questing, and basic UI through the Southern Shires (or equivalent Duskward starting experience) while already playing the real game.
+The tutorial system introduces new players to Elysium's core systems gradually, embedded within the Southern Shires starting experience in Aurelia (see [0102-Regions.md](../0100-World/0102-Regions.md)) rather than as a separate, disconnected training area.
 
----
+## 2. Design Principles
 
-## 2. Goals
+* Teach through doing, not through text walls — each mechanic is introduced via a short, low-stakes quest that requires using it.
+* Never gate the player behind a mandatory tutorial screen that halts play.
+* Reinforce, don't just introduce — early quests revisit taught mechanics in slightly varied contexts to build confidence.
 
-- Teach core controls and combat loop within the first 10–15 minutes.
-- Introduce the quest system, map, and inventory without walls of text.
-- Establish the tone and world of Elysium immediately.
-- Avoid “tutorial island” feeling; the starting zone is a real region that experienced players may still revisit.
+## 3. Tutorial Sequence
 
----
+1. **Movement and Camera** — introduced immediately on character creation, in Millhaven.
+2. **Basic Attack and First Ability** — introduced via a low-threat combat encounter against a single weak enemy.
+3. **Resource Management** — introduced once the player has 2–3 abilities, teaching cooldown and resource tradeoffs.
+4. **Class Movement Ability** — introduced through a short traversal challenge.
+5. **Interaction and Gathering** — introduced via a simple fetch quest involving a gathering node.
+6. **Inventory and Equipment** — introduced when the player receives their first equipment upgrade.
+7. **Grouping (optional)** — introduced through an optional, non-mandatory group quest for players who want to try cooperative play early.
 
-## 3. Teaching Sequence (High Level)
+## 4. Class-Specific Onboarding
 
-1. Movement and camera
-2. Basic attack and first ability
-3. Targeting and simple enemy pack
-4. First quest accept / complete / turn-in
-5. Inventory and equipment
-6. Map and basic navigation
-7. Introduction to the local story and the larger faction conflict
+Once a player selects their class (see [0310-Character-Creation.md](../0300-Characters/0310-Character-Creation.md)), a short class-specific quest chain introduces their unique kit and identity, ensuring the tutorial experience differs meaningfully by class rather than being fully generic.
 
-Later systems (mounts, specialisations, professions, group content) are introduced at the levels where they naturally unlock, with short contextual tooltips or quests rather than a single massive tutorial dump.
+## 5. Skip and Veteran Options
 
----
+Experienced players (identified via account history) are offered a condensed tutorial path on subsequent characters, respecting their time while still ensuring core UI and control familiarity.
 
-## 4. Design Rules
+## 6. Accessibility
 
-1. Never lock the player in a forced tutorial sequence that cannot be escaped if they already understand the systems.
-2. Use the world and NPCs as teachers whenever possible instead of floating UI overlays.
-3. Failures in the tutorial should be low-cost and educational.
-4. Returning players or alts should be able to move through the opening content quickly.
+Tutorial prompts are designed to work with screen readers and remappable controls from the outset, in line with the accessibility standards in [1106-Accessibility.md](../1100-Client/1106-Accessibility.md).
 
----
+## 7. Iteration
 
-## 5. Technical Notes
-
-Tutorial state is tracked per character. Contextual prompts are data-driven and can be disabled in settings for experienced players. All tutorial rewards and progression are real character progression, not temporary tutorial-only items.
+Tutorial completion and drop-off is tracked via analytics once live (see [2006-Analytics.md](../2000-Operations/2006-Analytics.md)) to identify friction points and iterate on pacing post-launch.

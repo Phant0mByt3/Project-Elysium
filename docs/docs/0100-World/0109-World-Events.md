@@ -1,51 +1,41 @@
 # 0109 — World Events
 
-World events are time-limited, server-wide activities layered on top of the persistent world — seasonal celebrations, story-driven invasions, and recurring dynamic content.
+**Category:** World
+**Status:** Living Document
+**Related:** [0108-World-Bosses.md](0108-World-Bosses.md) · [2010-Seasonal-Events.md](../2000-Operations/2010-Seasonal-Events.md)
 
-## Categories
+---
 
-### Dynamic Events
-Recurring, unscheduled happenings within a region (a bandit raid on a village, a resource caravan needing an escort). These respawn on cooldowns and are meant to be stumbled into while exploring, not queued for.
+## 1. Overview
 
-### Invasions
-Larger, story-tied events where an enemy faction pushes into contested territory (see [0806-Territory-Control.md](../0800-Multiplayer/0806-Territory-Control.md)), requiring organized player defense. Tied narratively to the main story ([0207-Main-Story.md](../0200-Lore/0207-Main-Story.md)).
+World events are time-limited or triggered open-world activities that create shared, large-scale multiplayer moments beyond the standard quest and dungeon loop. They range from small local skirmishes to server-wide invasions.
 
-### Seasonal Events
-Real-world-calendar-aligned content — see [0807-Seasons.md](../0800-Multiplayer/0807-Seasons.md) for the full seasonal calendar and reward tracks.
+## 2. Event Categories
 
-## Launch World Events
+* **Local Events** — small, region-scoped events like a bandit camp assault or a supply caravan escort, repeating on short timers.
+* **Regional Events** — larger events spanning a whole region, such as a coordinated Duskward incursion into a Dawnbound-held zone.
+* **Server Events** — rare, large-scale events affecting an entire continent, often tied to major story beats or seasonal content ([2010-Seasonal-Events.md](../2000-Operations/2010-Seasonal-Events.md)).
 
-**The Fens Uprising** — a recurring Greywater Fens event where an undead warband attempts to overrun Fenwick Crossing; failing to repel it three times in a row temporarily disables that village's vendors until players clear a follow-up mini-dungeon.
+## 3. Faction-Driven Events
 
-**The Ashenclaw Incursion** — a large-scale Duskward Pact push into Frostgate Approach, requiring cross-guild Concord defense; ties into the Vethmoor faction storyline.
+Because Aurelia and Vethmoor both feature active Dawnbound/Duskward tension, several world events are faction-contested: both factions' players can participate, and the outcome shifts local NPC dialogue, vendor availability, or territory control state (see [0806-Territory-Control.md](../0800-Multiplayer/0806-Territory-Control.md)) for a limited time.
 
-## Major World Events
-Large-scale events that permanently or temporarily affect the world.
-Events can change zones, cities, factions, and gameplay.
-The Collision Event (example)
-A reality collision event affecting Aurelia.
-Creates a connection between two worlds.
-Introduces a new dimension and new civilizations.
+## 4. Launch Event Examples
 
-### Event Phases
+**The Fenwick Muster** (Greywater Fens) — a recurring local event where players defend Fenwick Crossing from an undead surge; failure delays certain vendor unlocks in the village until the next successful defense.
 
-World events exist in multiple states:
+**The Ember Uprising** (Ember Deeps) — a regional event where rogue forge-constructs attempt to seize a mining outpost; success grants temporary crafting material bonuses to the region.
 
-**Phase 1: Before Event**
+**The Border Push** (Frostgate Approach) — a faction-contested regional event where Dawnbound and Duskward forces clash over control of the pass, with rewards scaled to individual participation on the winning side.
 
-Original world state.
-Normal NPCs, cities, and quests.
+## 5. Reward Structure
 
-**Phase 2: Event Occurrence**
+World events reward participation-based currency and reputation gains, plus a chance at cosmetic or crafting-material rewards. High-tier equipment is intentionally kept out of world event loot tables to preserve the value of dungeon and raid progression.
 
-Special instance.
-Only active during the storyline.
-Used for cinematic moments and major transitions.
+## 6. Scheduling and Notification
 
-**Phase 3: After Event**
+Local events run on short, frequent timers; regional and server events are scheduled less frequently and announced in advance through the in-client event calendar (see [1108-UI-Systems.md](../1100-Client/1108-UI-Systems.md)) and community channels ([2004-Community-Management.md](../2000-Operations/2004-Community-Management.md)).
 
-Permanent changed world state.
-New content unlocked.
+## 7. Post-Launch Expansion
 
-## Technical Notes
-World events depend on the same scheduling and state-tracking systems as world bosses ([0108-World-Bosses.md](0108-World-Bosses.md)); see [1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md).
+Seasonal and limited-time world events are a primary live-service content lever post-launch — see [2001-Updates.md](../2000-Operations/2001-Updates.md) and [2010-Seasonal-Events.md](../2000-Operations/2010-Seasonal-Events.md) for cadence and planning.

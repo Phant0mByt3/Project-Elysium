@@ -1,15 +1,33 @@
 # 0609 — Tailoring
 
-## Overview
-Tailoring is a production profession converting cloth and select Woodcutting materials ([0602-Woodcutting.md](0602-Woodcutting.md)) into Cloth armor and caster-focused accessories ([0501-Armour.md](../0500-Items/0501-Armour.md)).
+**Category:** Professions
+**Status:** Living Document
+**Related:** [0501-Armour.md](../0500-Items/0501-Armour.md) · [0600-Professions.md](0600-Professions.md)
 
-## Core Loop
-Learn a recipe → gather cloth (from cloth-drop mobs and vendor bolts) and other materials → craft at a loom/tailoring station → produce Cloth (and some Leather) armor pieces.
+---
 
-## Recipe Categories
-* **Cloth Armor** — the profession's primary output, serving Mage/Necromancer/Cleric.
-* **Bags** — Tailoring's unique cross-profession utility line, crafting inventory-expanding bags used by every class regardless of armor type.
-* **Cosmetic Cloth Items** — non-combat wearables tied to the cosmetics system ([0903-Cosmetics.md](../0900-Player-Systems/0903-Cosmetics.md)).
+## 1. Overview
 
-## Endgame Relevance
-Like Blacksmithing and Jewelcrafting, Tailoring should retain a small raid-material-gated recipe line at max level, keeping all production professions relevant through the endgame loop rather than being purely a leveling-phase system.
+Tailoring crafts Cloth armor for Arcanist and select cloak/accessory items across all classes, consuming cloth materials purchased from vendors or dropped by humanoid enemies (with no dedicated gathering profession for cloth at launch).
+
+## 2. Recipe Categories
+
+* **Cloth Armor** — full Cloth armor sets for Arcanist.
+* **Cloaks** — craftable cloak options for any class.
+* **Bags** — Tailoring's signature utility craft, producing inventory bags of varying size and, at higher tiers, specialized profession bags.
+
+## 3. Crafting Process
+
+Tailoring recipes are sewn at tailoring stations found in every major city, consuming cloth (a vendor-purchasable and drop-sourced material) and, for higher tiers, dyes and rare thread materials.
+
+## 4. Skill Progression
+
+Tailoring follows the shared profession leveling curve in [0611-Profession-Progression.md](0611-Profession-Progression.md).
+
+## 5. Bag Crafting Niche
+
+Because bags are consumed (equipped, not disenchanted or resold easily once used) and needed by every player regardless of class or profession choice, Tailoring maintains a stable baseline demand independent of the gear itemization cycle.
+
+## 6. Economic Role
+
+Tailoring's reliance on vendor-purchasable base cloth (rather than a dedicated gathering profession) makes it slightly more accessible to players who prefer not to split their two profession slots between a gathering and production pair.

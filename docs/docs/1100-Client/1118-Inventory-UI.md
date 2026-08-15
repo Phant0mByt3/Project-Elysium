@@ -30,3 +30,14 @@ The Inventory UI displays bags, equipment slots, currency, and item management c
 2. Drag-and-drop and context menus behave consistently with the rest of the UI.
 3. The layout works at multiple UI scales and aspect ratios.
 4. Full bags and important item warnings are clear without being noisy.
+
+
+---
+
+## Additional Detail: Comparison Tooltips
+
+Hovering an item in the inventory automatically shows a side-by-side comparison against the currently equipped item in that slot, making upgrade decisions immediate and clear without requiring the player to manually check both tooltips separately.
+
+## Bag Organization
+
+The inventory UI supports both automatic sorting and manual drag-and-drop organization, letting players who prefer a specific personal organization system opt out of automatic sorting per bag if desired.

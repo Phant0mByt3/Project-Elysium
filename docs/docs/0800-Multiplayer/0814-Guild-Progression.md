@@ -37,3 +37,12 @@ Guild Progression gives guilds long-term goals and shared rewards beyond individ
 ## 4. Technical Notes
 
 Guild experience and unlocks are stored on the guild record. Contribution events are emitted by the relevant gameplay systems and aggregated by the guild service.
+
+
+## 5. Contribution Tracking
+
+Individual member contribution to guild experience is tracked and visible to officers, helping guild leadership recognize active members for rank promotions or guild bank access increases without relying purely on subjective impression.
+
+## 6. Catch-Up for New Guilds
+
+Newly formed guilds receive a temporary experience gain bonus during their first few weeks, helping them reach early perk thresholds at a reasonable pace and reducing the gap between established and newly founded guilds.

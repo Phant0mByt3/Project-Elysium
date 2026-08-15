@@ -1,16 +1,34 @@
 # 0801 — Parties
 
-## Overview
-Parties are temporary, small-group formations (up to 5 players) used for questing and dungeon content ([0106-Dungeons.md](../0100-World/0106-Dungeons.md)), distinct from the larger, persistent guild structure ([0800-Guilds.md](0800-Guilds.md)) and raid groups ([0802-Raiding.md](0802-Raiding.md)).
+**Category:** Multiplayer
+**Status:** Living Document
+**Related:** [0803-Dungeon-Finder.md](0803-Dungeon-Finder.md) · [0813-Group-Roles.md](0813-Group-Roles.md)
 
-## Core Features
-* **Party Formation** — invite directly or form automatically via the Dungeon Finder ([0803-Dungeon-Finder.md](0803-Dungeon-Finder.md)).
-* **Shared Quest Credit** — party members near each other receive credit for shared kill/objective quests, reducing competition for tags.
-* **Loot Rules** — need/greed/pass or personal loot, set by the party leader (see [0503-Loot.md](../0500-Items/0503-Loot.md)).
-* **Party Chat & Markers** — a dedicated chat channel and map/world ping markers for coordination.
+---
 
-## Cross-Faction Restriction
-Like guilds, parties are single-faction only at launch, consistent with the faction-based PvP structure ([0804-PvP.md](0804-PvP.md)) — a possible future cross-faction party exception is noted for event content in [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md).
+## 1. Overview
 
-## Design Rules
-Party-scaling for open-world content (quest mobs, mini-events) should scale enemy difficulty up gracefully with party size, so grouping is always a net positive, never a "trivializes everything" or "not worth the split rewards" tradeoff.
+Parties are the base grouping unit in Elysium, supporting 2–5 players for open-world content, dungeons, and small-scale coordination, forming the foundation that raids ([0802-Raiding.md](0802-Raiding.md)) build on for larger group sizes.
+
+## 2. Core Features
+
+* **Shared experience** — experience from kills is shared among nearby party members, with a small bonus for grouping to reward cooperative leveling.
+* **Loot rules** — configurable need/greed/pass or personal loot settings (see [0503-Loot.md](../0500-Items/0503-Loot.md)).
+* **Party chat** — a dedicated communication channel.
+* **Role assignment** — tank/healer/damage role tagging for dungeon and combat coordination (see [0813-Group-Roles.md](0813-Group-Roles.md)).
+
+## 3. Forming a Party
+
+Parties can be formed through direct invite, the Party Finder tool ([0811-Party-Finder.md](0811-Party-Finder.md)), or automatically through the Dungeon Finder queue ([0803-Dungeon-Finder.md](0803-Dungeon-Finder.md)).
+
+## 4. Party Leader Tools
+
+The party leader can set loot rules, mark targets for coordinated focus-fire, and manage ready checks before starting an encounter, giving groups lightweight but effective coordination tools without needing external voice communication for basic content.
+
+## 5. Cross-Region Grouping
+
+Parties remain intact across region and zone travel, with a limited number of free summons available per group-content invite to reduce travel friction (see [0110-Travel.md](../0100-World/0110-Travel.md)).
+
+## 6. Design Philosophy
+
+Party tools are designed to make grouping the path of least resistance for content that benefits from it, supporting Pillar 4 (Multiplayer Encourages Cooperation) in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md) without forcing solo players into unwanted groups.

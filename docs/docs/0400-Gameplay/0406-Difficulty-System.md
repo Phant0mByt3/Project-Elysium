@@ -1,49 +1,46 @@
 # 0406 — Difficulty System
 
-**Project:** Elysium MMORPG  
-**Category:** Gameplay  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0106-Dungeons.md](../0100-World/0106-Dungeons.md) · [0107-Raids.md](../0100-World/0107-Raids.md) · [0403-Boss-Mechanics.md](0403-Boss-Mechanics.md) · [0309-Balance.md](../0300-Characters/0309-Balance.md)
+**Project:** Elysium MMORPG
+**Category:** Gameplay
+**Status:** Living Document
+**Related:** [0403-Boss-Mechanics.md](0403-Boss-Mechanics.md) · [0106-Dungeons.md](../0100-World/0106-Dungeons.md) · [0108-World-Bosses.md](../0100-World/0108-World-Bosses.md)
 
 ---
 
 ## 1. Overview
 
-Difficulty in Elysium is expressed through discrete tiers rather than a continuous slider. This keeps expectations clear for players and makes balance and reward tuning tractable.
+The difficulty system governs how content scales across the game's Normal/Heroic/Mythic tiers and the dynamic scaling used for world content, ensuring the same encounter design can serve a wide range of player skill and gear levels.
 
----
+## 2. Difficulty Tiers
 
-## 2. Content Difficulty Tiers
+| Tier | Applies To | Design Intent |
+| --- | --- | --- |
+| Normal | Dungeons, raids | Learn the encounter; forgiving margin for error |
+| Heroic | Dungeons, raids | Requires coordination and correct execution |
+| Mythic | Dungeons, raids | Precise execution, minimal margin for error |
+| Dynamic Scaling | World bosses, world events | Scales to concurrent participant count |
 
-| Content | Tiers | Notes |
-|---------|-------|-------|
-| Open-world questing & elites | Single baseline | Tuned to the region’s level band |
-| Dungeons | Normal / Heroic / Mythic | See [0106-Dungeons.md](../0100-World/0106-Dungeons.md) |
-| Raids | Normal / Heroic / Mythic | See [0107-Raids.md](../0100-World/0107-Raids.md) |
-| World Bosses | Scaled by participant count | Soft scaling, not full dynamic |
+## 3. Tuning Levers
 
----
+Difficulty tiers are differentiated primarily through:
 
-## 3. What Changes Between Tiers
+* Enemy health and damage multipliers.
+* Additional or modified mechanics (see [0403-Boss-Mechanics.md](0403-Boss-Mechanics.md), Section 3).
+* Tighter enrage timers or stricter mechanic timing windows.
+* Reduced margin for individual player mistakes (fewer "free" mechanic failures before a wipe).
 
-- Enemy health and damage
-- Presence or strictness of additional mechanics
-- Enrage / soft-enrage pressure
-- Loot quality and quantity
-- Requirement for coordination and specific roles
+## 4. Solo and Leveling Content Difficulty
 
-Normal is intended to be clearable by a competent pickup group of the appropriate level. Heroic expects solid execution. Mythic is aimed at organised groups seeking the highest rewards and prestige.
+Open-world leveling content is tuned so a player of the appropriate level, in appropriate gear, can complete solo content without needing a group, while still requiring attentive play against elites and named enemies (see [0402-Enemy-Design.md](../0400-Gameplay/0402-Enemy-Design.md)).
 
----
+## 5. Dynamic Scaling for World Content
 
-## 4. Design Philosophy
+World bosses and events scale health, damage, and mechanic frequency based on concurrent participants, targeting a consistent completion window regardless of group size — see [0108-World-Bosses.md](../0100-World/0108-World-Bosses.md), Section 4 for the specific formula approach.
 
-- Difficulty should come primarily from mechanics and coordination, not from inflated numbers alone.
-- Lower difficulties must remain rewarding; they are not “practice modes” with worthless loot.
-- Players should be able to understand why they failed a pull (telegraphs, UI feedback, death recap).
+## 6. Design Philosophy
 
----
+Difficulty comes primarily from mechanics and required coordination, not from inflating enemy health into a damage sponge. See Pillar 5 (Quality Over Quantity) in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md) — a Mythic encounter should feel like a sharper test of skill, not a longer grind of the same fight.
 
-## 5. Future Considerations
+## 7. Accessibility Considerations
 
-A Mythic+ style key system for dungeons is listed in [9999-Ideas.md](../9000-Future/9999-Ideas.md) and may be explored post-launch once the base three tiers are solid.
+Normal difficulty across all content types is tuned to be achievable by an attentive but non-expert player or group, ensuring the story and world content is accessible to the broadest possible audience while Heroic and Mythic remain aspirational challenge tiers.

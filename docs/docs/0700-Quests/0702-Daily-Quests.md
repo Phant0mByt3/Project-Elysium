@@ -1,16 +1,33 @@
 # 0702 — Daily Quests
 
-## Overview
-Daily quests are repeatable, once-per-day objectives primarily aimed at max-level players, providing steady Aurum, reputation, and minor gear/consumable rewards outside of dungeon/raid loops.
+**Category:** Quests
+**Status:** Living Document
+**Related:** [0700-Quests.md](0700-Quests.md) · [0703-Weekly-Quests.md](0703-Weekly-Quests.md)
 
-## Design Rules
-* Dailies should rotate through a pool (not the exact same fixed set every day) to avoid staleness, while still being predictable enough for players to plan around.
-* No daily quest should be mandatory for raid or dungeon readiness — they should be a supplementary, optional grind for players who want extra progression, per Pillar 5 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
-* Daily quest hubs should be tied to a specific faction reputation track ([0707-Factions-Reputation.md](0707-Factions-Reputation.md)) or profession ([0600-Professions.md](../0600-Professions/0600-Professions.md)) to give them thematic purpose beyond pure repetition.
+---
 
-## Launch Daily Hubs (examples)
-* **Sunspire Hills Concord Outpost** — Dawnbound-aligned dailies feeding Concord reputation.
-* **Ashenclaw Tundra Warband Camp** — Duskward-aligned dailies feeding Ashenclaw reputation.
+## 1. Overview
 
-## Relationship to Weeklies
-See [0703-Weekly-Quests.md](0703-Weekly-Quests.md) for the larger-reward, lower-frequency counterpart to this system.
+Daily quests are repeatable, max-level-focused objectives that reset every 24 hours, providing a steady stream of currency, reputation, and minor material rewards for players engaging with endgame content regularly.
+
+## 2. Design Rules
+
+* Daily quests should take 5–15 minutes each to complete, respecting players with limited daily play time.
+* No more than a small handful of dailies should be available per hub at once, avoiding the "daily quest wall of text" problem from older MMORPGs.
+* Dailies should rotate their specific objectives periodically (weekly or seasonally) to avoid staleness, even if the underlying hub and reward structure stays consistent.
+
+## 3. Reward Structure
+
+Dailies primarily reward reputation ([0706-Reputation.md](0706-Reputation.md)) and a moderate amount of currency, with a small chance at bonus materials — deliberately kept below dungeon/raid-tier item power to avoid competing with group content as the primary gearing path.
+
+## 4. Regional Daily Hubs
+
+Each major city offers a daily quest hub tied to its faction's ongoing concerns — Solmere's hub focuses on Concord logistics and border support, while Ironpeak Hold and Ashka Vor's hubs focus on their respective local Vethmoor conflicts.
+
+## 5. Relationship to Reputation
+
+Daily quests are the primary reliable reputation source for factions beyond the two main player factions — see [0707-Factions-Reputation.md](0707-Factions-Reputation.md) for how regional and NPC faction reputation interacts with the broader Dawnbound/Duskward system.
+
+## 6. Post-Launch Rotation
+
+New daily quest hubs are introduced with major content updates ([2001-Updates.md](../2000-Operations/2001-Updates.md)), keeping the daily quest pool fresh across a live-service content cadence rather than remaining static from launch.

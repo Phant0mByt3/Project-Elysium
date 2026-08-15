@@ -20,3 +20,16 @@ Covered in detail in [1001-Currency.md](1001-Currency.md), including Aurum and t
 
 ## Anti-Exploitation
 Gold-selling, botting, and market manipulation are treated as a security concern as much as an economic one — see [1206-Security.md](../1200-Technical/1206-Security.md) and [1207-Anti-Cheat.md](../1200-Technical/1207-Anti-Cheat.md).
+
+
+## Regional Economic Variation
+
+Material and price patterns naturally vary by region — Vethmoor's contested border regions see higher prices for combat consumables, while Aurelia's stable farmland regions see cheaper food materials — giving the economy a geographic texture beyond a single flat global market, detailed further in [1015-Regional-Economies.md](1015-Regional-Economies.md).
+
+## Economic Health Monitoring
+
+The live operations and design teams jointly monitor Auction House price trends, currency supply growth, and material availability post-launch, using the analytics pipeline described in [2006-Analytics.md](../2000-Operations/2006-Analytics.md) to catch inflationary or deflationary trends early — see [1009-Inflation-Control.md](1009-Inflation-Control.md) and [1008-Economic-Balance.md](1008-Economic-Balance.md) for the response process.
+
+## Ownership
+
+Economic design is jointly owned by the Lead Game Designer and Technical Lead, given the tight coupling between economic balance and the underlying transaction systems — see [0007-Team-Structure.md](../0000-Project/0007-Team-Structure.md).

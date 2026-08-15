@@ -37,3 +37,12 @@ Quest tracking is the set of UI and world systems that show the player what they
 ## 4. Technical Notes
 
 Quest state and objective progress are authoritative on the server. The client receives updates and renders the appropriate UI and world markers. See also [1120-Quest-UI.md](../1100-Client/1120-Quest-UI.md).
+
+
+## 5. Multi-Quest Prioritization
+
+When multiple tracked quests point toward the same region, the tracker intelligently groups nearby objectives, reducing back-and-forth travel and helping players batch their questing efficiently without needing external guides.
+
+## 6. Accessibility
+
+Quest tracking supports colorblind-safe map markers and screen-reader-compatible quest text, consistent with the standards in [1106-Accessibility.md](../1100-Client/1106-Accessibility.md).

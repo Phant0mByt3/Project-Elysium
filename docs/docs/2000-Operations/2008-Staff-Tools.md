@@ -1,27 +1,37 @@
 # 2008 — Staff Tools
 
-**Project:** Elysium MMORPG  
-**Category:** Operations  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0003-Roadmap.md](../0000-Project/0003-Roadmap.md) · [1408-Release-Process.md](../1400-Development/1408-Release-Process.md) · [1230-Server-Maintenance.md](../1200-Technical/1230-Server-Maintenance.md)
+**Project:** Elysium MMORPG
+**Category:** Operations
+**Status:** Living Document
+**Related:** [1214-Admin-Tools.md](../1200-Technical/1214-Admin-Tools.md) · [1227-Permission-System.md](../1200-Technical/1227-Permission-System.md) · [2005-Support-System.md](2005-Support-System.md)
 
 ---
 
 ## 1. Overview
 
-Operational interfaces for support, moderation, and live ops (extends Admin Tools).
+This document covers the operational usage of staff tooling by the live operations team, complementing the underlying technical implementation described in [1214-Admin-Tools.md](../1200-Technical/1214-Admin-Tools.md).
 
----
+## 2. Staff Roles and Tool Access
 
-## 2. Principles
+Following the permission tiers in [1227-Permission-System.md](../1200-Technical/1227-Permission-System.md):
 
-- Player trust and clarity come first  
-- Processes are documented and repeatable  
-- Handoffs between Ops, Support, and Development are explicit  
-- Metrics inform decisions without replacing design judgment  
+* **Support Staff** — player-specific fixes (item restoration, quest state correction, account inquiries).
+* **Moderators** — chat/name enforcement, report review, temporary account actions ([2003-Moderation.md](2003-Moderation.md)).
+* **Community Managers** — event tools, announcement systems ([2004-Community-Management.md](2004-Community-Management.md), [2009-Community-Events.md](2009-Community-Events.md)).
+* **Senior Admins** — full access including permanent account actions and server-level tools.
 
----
+## 3. Training and Onboarding
 
-## 3. Status
+New staff members complete a documented onboarding process covering tool usage, escalation procedures, and the community guidelines they'll be enforcing ([2017-Community-Guidelines.md](2017-Community-Guidelines.md)), before receiving live tool access.
 
-Detailed SOPs are expanded as the project approaches Closed Beta and Live Service. This document establishes ownership and intent for **Staff Tools**.
+## 4. Tool Usage Standards
+
+Every staff action performed through admin tools follows the audit trail requirement described in [1214-Admin-Tools.md](../1200-Technical/1214-Admin-Tools.md) — no untracked manual database intervention is permitted outside these tools, even for urgent fixes.
+
+## 5. Shift Coverage
+
+Staff tool access and on-call responsibilities are scheduled to provide reasonable coverage across peak playtime windows, with a clear escalation path to engineering for issues beyond support/moderation scope.
+
+## 6. Tool Feedback Loop
+
+Staff using these tools daily are a primary source of feedback for improving them — recurring friction points are fed back to the technical team maintaining [1214-Admin-Tools.md](../1200-Technical/1214-Admin-Tools.md) and [1215-Developer-Tools.md](../1200-Technical/1215-Developer-Tools.md) and [1417-Development-Tools.md](../1400-Development/1417-Development-Tools.md) for iteration.

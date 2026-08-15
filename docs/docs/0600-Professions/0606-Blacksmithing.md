@@ -1,19 +1,34 @@
 # 0606 — Blacksmithing
 
-## Overview
-Blacksmithing is a production profession converting ore/bars (gathered via [0601-Mining.md](0601-Mining.md)) into weapons and Plate/Mail armor ([0500-Weapons.md](../0500-Items/0500-Weapons.md), [0501-Armour.md](../0500-Items/0501-Armour.md)).
+**Category:** Professions
+**Status:** Living Document
+**Related:** [0601-Mining.md](0601-Mining.md) · [0500-Weapons.md](../0500-Items/0500-Weapons.md) · [0501-Armour.md](../0500-Items/0501-Armour.md)
 
-## Core Loop
-Learn a recipe → gather bars and secondary materials → craft at a forge → produce weapons or heavy armor pieces.
+---
 
-## Cultural Tie
-Blacksmithing is thematically anchored to the dwarven Ironpeak Holds and their patron god Terravox ([0202-Gods.md](../0200-Lore/0202-Gods.md)), with the profession's highest-level trainers located there ([0103-Cities.md](../0100-World/0103-Cities.md)).
+## 1. Overview
 
-## Recipe Categories
-* **Weapons** — one/two-handed melee weapon lines.
-* **Plate & Mail Armor** — heavy armor pieces for Warrior/Paladin (plate) and Ranger/Druid secondary (mail).
-* **Shields** — the primary crafted source of tank off-hand items.
-* **Tool Upgrades** — improved pickaxes/axes for gathering professions, a small but useful cross-profession utility line.
+Blacksmithing crafts metal weapons and Plate/Mail armor, consuming materials gathered via Mining ([0601-Mining.md](0601-Mining.md)), and is the primary repair-capable production profession described in [0515-Item-Durability.md](../0500-Items/0515-Item-Durability.md).
 
-## Endgame Relevance
-Blacksmiths should have access to a small number of raid-material-gated recipes, keeping the profession relevant at the level cap alongside dungeon/raid drops ([0504-Loot-Tables.md](../0500-Items/0504-Loot-Tables.md)).
+## 2. Recipe Categories
+
+* **Weapons** — one-handed and two-handed melee weapons across all metal weapon types.
+* **Plate Armor** — full Plate armor sets for Vanguard and Oathkeeper.
+* **Mail Armor** — select Mail pieces for Wayfarer and Warden secondary itemization.
+* **Repair Kits** — portable repair items usable away from a vendor, a Blacksmithing-exclusive convenience item.
+
+## 3. Crafting Process
+
+Blacksmithing recipes are forged at anvil stations, most prominently in Ironpeak Hold ([0103-Cities.md](../0100-World/0103-Cities.md)), consuming ore materials and, for higher-tier gear, rare byproducts from dungeon and raid drops.
+
+## 4. Skill Progression
+
+Blacksmithing follows the shared profession leveling curve in [0611-Profession-Progression.md](0611-Profession-Progression.md), with recipe access gated by both skill level and, for the highest tiers, reputation with Ironpeak Hold's dwarven forgemasters.
+
+## 5. Economic Role
+
+Blacksmithing-crafted gear competes directly with dungeon drops at the mid-game tier, giving the profession a genuine progression role rather than pure gold-farming utility, per the crafting design rules in [0508-Crafting.md](../0500-Items/0508-Crafting.md).
+
+## 6. Specializations
+
+At higher skill tiers, Blacksmiths may specialize toward Weaponsmithing (bonus weapon stats) or Armorsmithing (bonus armor stats), detailed in [0615-Profession-Specialisations.md](0615-Profession-Specialisations.md).

@@ -25,3 +25,14 @@ Animation Style defines the motion language of Elysium: weight, timing, exaggera
 ## 3. Application
 
 Applies to player characters, NPCs, creatures, environmental motion, and cinematic performances. Detailed production rules live in [1318-Animation-Guidelines.md](1318-Animation-Guidelines.md).
+
+
+---
+
+## 4. Combat Telegraph Timing
+
+Wind-up animations for dangerous abilities are timed to give players a consistent, learnable reaction window across all enemy types, directly supporting the "readable, learnable patterns" goal in [0404-AI-Behaviour.md](../0400-Gameplay/0404-AI-Behaviour.md).
+
+## 5. Idle and Traversal Variety
+
+Beyond combat, each race and class has distinct idle fidget and traversal animations (walk, run, jump) reinforcing personality and identity even outside of combat, avoiding the "generic humanoid" feeling common when animation budgets are stretched thin across many character types.

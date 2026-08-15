@@ -29,3 +29,14 @@ The Caching System reduces database and service load by holding frequently read,
 2. Invalidation or short TTLs keep cached data sufficiently fresh.
 3. Cache stampedes and thundering herds are considered in design.
 4. Critical writes still go through the authoritative path with appropriate consistency guarantees.
+
+
+---
+
+## Additional Detail: Cache Invalidation Strategy
+
+Cached data (item templates, quest definitions, static world data) uses a clear invalidation strategy tied to content versioning, ensuring a content update reliably propagates to all cached copies rather than risking stale data serving outdated definitions.
+
+## Cache Layer Placement
+
+Caching occurs both at the plugin layer (in-memory, per-server-process) and at a shared distributed cache layer for data that must remain consistent across multiple server processes, balancing raw speed against consistency requirements per data type.

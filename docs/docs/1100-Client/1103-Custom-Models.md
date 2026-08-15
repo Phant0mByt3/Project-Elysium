@@ -14,3 +14,12 @@ Models are produced by the art team following the standards in [1300-Art-Style.m
 
 ## Technical Constraints
 Model complexity and polycount budgets should be reviewed against the performance targets in [1208-Performance.md](../1200-Technical/1208-Performance.md), particularly for large-scale content like raids and world events where many models render simultaneously.
+
+
+## Level of Detail (LOD) Standards
+
+All custom models ship with multiple LOD tiers, ensuring distant or high-population scenes (world bosses, city hubs) maintain performance without requiring every player-visible model to render at full detail simultaneously.
+
+## Reuse and Asset Libraries
+
+Common architectural and environmental pieces are built as a reusable modular kit per region theme, balancing hand-crafted specificity (per [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md)) with realistic production timelines for a small team.

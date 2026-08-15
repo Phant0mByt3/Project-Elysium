@@ -38,3 +38,12 @@ Social Features cover the broader set of tools that let players communicate, exp
 ## 4. Technical Notes
 
 Chat and social events route through the network and synchronisation layers. Rate limiting and moderation hooks are applied server-side. See [1202-Network.md](../1200-Technical/1202-Network.md) and [1206-Security.md](../1200-Technical/1206-Security.md).
+
+
+## 5. Chat Moderation Tools
+
+Automated chat filters catch common abusive language patterns before they reach other players, backed by the reporting pipeline described in [2003-Moderation.md](../2000-Operations/2003-Moderation.md), while remaining permissive enough not to interfere with normal in-character roleplay dialogue.
+
+## 6. Roleplay Support
+
+Dedicated roleplay-flagged servers or channels (final structure to be confirmed during Phase 5) give the rolewriting community a space with community-specific norms, without forcing roleplay conventions onto players who aren't interested.

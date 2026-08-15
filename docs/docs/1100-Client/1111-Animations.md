@@ -33,3 +33,14 @@ This document covers the client-side presentation and technical handling of anim
 ## 4. Technical Notes
 
 Animation assets are delivered via the content pack and custom model pipeline. The client animation system integrates with native gameplay module hooks and any custom rendering layers required for Elysium’s visual identity.
+
+
+---
+
+## Additional Detail: Animation Blending
+
+Character animations use blend spaces to smoothly transition between movement states (walk, run, combat stance), avoiding the stiff, snapping animation transitions common in lower-budget engine template projects.
+
+## Class-Specific Animation Sets
+
+Each class has a distinct base animation set (stance, movement, casting posture) reinforcing the combat identity goals described in [0401-Combat.md](../0400-Gameplay/0401-Combat.md), rather than sharing a single generic humanoid animation rig across all classes.

@@ -36,3 +36,18 @@ Item upgrading allows players to invest in gear they like rather than constantly
 ## 4. Technical Notes
 
 Upgrade state is stored on the item instance. All upgrade operations are transactional and server-authoritative to prevent duplication or partial failures.
+
+
+---
+
+## 5. Upgrade Material Sources
+
+Upgrade materials are sourced from a mix of dungeon/raid drops, profession byproducts, and currency vendors, giving multiple playstyles a path to fund upgrades rather than gating the system behind a single activity.
+
+## 6. Legendary Empowerment Detail
+
+Legendary items use a bespoke multi-stage upgrade track (see [0505-Legendary-Items.md](0505-Legendary-Items.md)) that unlocks additional passive tiers as milestones are completed, distinguishing them clearly from the simpler rank/reinforcement path used by standard gear.
+
+## 7. Player Communication
+
+Upgrade previews always show the exact stat delta before a player commits materials, avoiding any ambiguity about what an upgrade will actually change.

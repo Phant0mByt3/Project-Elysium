@@ -14,3 +14,12 @@ Graphics quality presets should be tiered (Low/Medium/High/Ultra) to support a w
 
 ## Accessibility
 A reduced-effects post-process effect mode should be available for photosensitivity and performance-accessibility reasons — see [1106-Accessibility.md](1106-Accessibility.md).
+
+
+## Graphics Preset Benchmarking
+
+Each graphics quality preset is benchmarked against a defined range of target hardware specifications before release, ensuring the "Low" preset genuinely delivers playable performance on minimum-spec machines rather than being a token option.
+
+## Screenshot and Photo Mode
+
+A dedicated photo mode, building on the same rendering pipeline, allows players to capture high-quality screenshots with UI hidden and camera freedom — a popular feature for a game with as much bespoke visual content as Elysium's handcrafted world.

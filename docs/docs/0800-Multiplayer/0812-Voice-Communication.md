@@ -35,3 +35,12 @@ Voice communication is supported for parties, raids, and guilds so that coordina
 ## 4. Technical Notes
 
 Voice is handled by a dedicated service or integrated provider, with authentication tied to the Elysium account and current group membership. The game client only manages channel membership and UI; media routing is offloaded appropriately.
+
+
+## 5. Guild Event Channels
+
+Guilds can create temporary event-specific voice channels (e.g. a dedicated raid-night channel separate from general guild chat), keeping large guild voice servers organized during high-traffic scheduled events.
+
+## 6. Moderation
+
+Voice channel moderation tools (mute, kick from channel) are available to party leaders, raid leaders, and guild officers respectively, mirroring the permission structures already established for text chat and guild management.

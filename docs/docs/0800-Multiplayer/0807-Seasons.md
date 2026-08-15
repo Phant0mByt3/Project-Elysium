@@ -1,20 +1,33 @@
 # 0807 — Seasons
 
-## Overview
-Seasons are the umbrella structure for time-limited content: PvP ranked resets ([0805-Arenas.md](0805-Arenas.md)), real-world-calendar-aligned celebrations, and rotating seasonal world events.
+**Category:** Multiplayer
+**Status:** Living Document
+**Related:** [0805-Arenas.md](0805-Arenas.md) · [2010-Seasonal-Events.md](../2000-Operations/2010-Seasonal-Events.md)
 
-## Season Structure
-Each season runs roughly 10–12 weeks, resetting Arena ratings and introducing a themed rotating world event alongside standard content (dungeons, raids, dailies).
+---
 
-## Launch Calendar (illustrative)
+## 1. Overview
 
-| Season Theme | Notes |
-|---|---|
-| **The Reclamation Festival** | Celebrates the reopening of Aurelia–Vethmoor travel; ties directly into the main story's premise ([0207-Main-Story.md](../0200-Lore/0207-Main-Story.md)). |
-| **Emberfall** | Autumn-themed event centered on Ignareth and the Ember Deeps region. |
-| **The Long Dusk** | Winter event tied to Nyxara, featuring increased Duskward-flavored world events. |
-| **Dawnrise** | Spring event tied to Solthar and Aeloria, featuring Concord-flavored world events and the year's first major PvP season reset. |
+Seasons are structured, multi-week or multi-month periods that reset or refresh specific competitive and progression systems, giving Elysium a recurring rhythm of goals beyond the initial leveling and gearing arc.
 
-## Design Rules
-* Seasonal cosmetic rewards ([0903-Cosmetics.md](../0900-Player-Systems/0903-Cosmetics.md)) should be time-limited to their season, encouraging participation, but should return in some form (recolor, achievement-based catch-up) in future years rather than being permanently lost — to be finalized as a live-service policy ahead of Phase 7 ([0003-Roadmap.md](../0000-Project/0003-Roadmap.md)).
-* Seasonal events should never gate core story or class content — only cosmetics, titles, and minor convenience rewards.
+## 2. Season-Affected Systems
+
+* **PvP Ratings** — Arena and Territory Control ratings soft-reset per season ([0805-Arenas.md](0805-Arenas.md), [0806-Territory-Control.md](0806-Territory-Control.md)).
+* **Raid Tiers** — new raid content or difficulty adjustments typically align with season boundaries ([0107-Raids.md](../0100-World/0107-Raids.md)).
+* **Seasonal Currency** — a limited-time currency for exclusive cosmetic rewards, expiring or converting at season end.
+
+## 3. Season Length
+
+Seasons are targeted at roughly 10–14 weeks, long enough for players to make meaningful progress without the pressure feeling relentless, and short enough to keep the competitive scene fresh.
+
+## 4. Season Rewards
+
+End-of-season rewards are primarily cosmetic (titles, mounts, transmog appearances) tied to final rating or participation tier, avoiding permanent power advantages that would make returning or new players feel perpetually behind.
+
+## 5. Relationship to Live Operations
+
+Season planning is coordinated closely with the live operations team's broader content cadence — see [2001-Updates.md](../2000-Operations/2001-Updates.md) and [2010-Seasonal-Events.md](../2000-Operations/2010-Seasonal-Events.md) for how seasons fit into the overall post-launch content calendar.
+
+## 6. Design Rationale
+
+Seasonal structure gives dedicated PvP and raiding players a recurring reason to engage deeply, while remaining entirely optional for players who prefer the core leveling, questing, and casual social experience.

@@ -14,3 +14,12 @@ Every public plugin API method should have a doc comment; every new system shoul
 
 ## Review
 All code changes require review before merge; testing expectations are covered in [1406-Testing.md](1406-Testing.md).
+
+
+## Error Handling Philosophy
+
+Server code fails safely and loudly — errors are logged with sufficient context for debugging ([1212-Logging.md](../1200-Technical/1212-Logging.md)) rather than silently swallowed, and any error affecting player-facing state (a failed transaction, a failed quest update) triggers a clear rollback rather than leaving data in an inconsistent state.
+
+## Performance-Conscious Code
+
+Given the real-time, many-concurrent-player nature of an MMORPG server, code handling frequently-called paths (combat tick processing, movement updates) undergoes additional performance review against the budgets described in [1208-Performance.md](../1200-Technical/1208-Performance.md), while less frequently called code (one-time quest completion logic) is optimized for clarity and maintainability first.

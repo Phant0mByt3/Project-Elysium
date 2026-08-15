@@ -35,3 +35,12 @@ The Friend System lets players maintain a persistent list of other players they 
 ## 4. Technical Notes
 
 Friend relationships are stored at the account level. Presence and location updates are published through the synchronisation and social services so that the client always has a consistent view.
+
+
+## 5. Recent Players List
+
+Beyond the persistent friend list, the client automatically maintains a short-term "recently grouped with" list, making it easy to re-invite a good dungeon or raid partner without needing to have formally friended them mid-run.
+
+## 6. Cross-Guild Friendships
+
+Friend relationships persist independently of guild membership changes, ensuring social connections built through shared play survive even if a player or their friend later switches guilds.

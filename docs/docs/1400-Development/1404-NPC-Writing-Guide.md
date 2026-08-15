@@ -16,3 +16,12 @@ Dawnbound-aligned NPCs should reflect Concord values (order, cooperative rebuild
 
 ## Reuse
 Before creating a new NPC, check [0209-NPCs.md](../0200-Lore/0209-NPCs.md) — an existing character may fit the narrative need better than a new one.
+
+
+## Avoiding Stereotype Pitfalls
+
+Race and culture-consistent dialogue (per [0204-Races.md](../0200-Lore/0204-Races.md)) is written to reflect genuine cultural distinctiveness without leaning on reductive stereotypes — writers are encouraged to ground dialogue in specific, established lore details rather than generic "fantasy race" tropes.
+
+## Recurring Character Continuity
+
+NPCs who reappear across multiple quest chains or acts of the Main Quest ([0708-Main-Quest.md](../0700-Quests/0708-Main-Quest.md)) require a dedicated continuity note tracking their current knowledge, relationships, and emotional state at each point in the story, preventing contradictions as multiple writers may touch the same character over time.

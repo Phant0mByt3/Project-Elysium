@@ -29,3 +29,14 @@ The Player Data System is the authoritative service layer for reading and writin
 2. Critical mutations are atomic and recoverable.
 3. Caching is used for performance but never at the expense of correctness for valued items and currency.
 4. Cross-instance consistency follows the synchronisation rules already defined.
+
+
+---
+
+## Additional Detail: Data Consistency Across Systems
+
+Player data spans many plugin-owned tables (inventory, quests, reputation, achievements); the player data system provides a consistent, transactional view across these tables for operations that touch multiple systems at once (e.g. a quest completion that grants items, currency, and reputation simultaneously).
+
+## Data Export and Portability
+
+Players can request an export of their own character data (a summary of achievements, statistics, and progression) through the support system, supporting transparency and giving players a personal record independent of the live game state.

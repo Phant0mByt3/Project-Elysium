@@ -31,3 +31,14 @@ The Art Asset Pipeline describes how concept becomes in-game asset: briefing, pr
 2. Naming and folder structure follow project conventions so packs stay maintainable.
 3. Source files are archived; runtime assets are optimised.
 4. Hotfix and patch updates follow the same quality gates at appropriate speed.
+
+
+---
+
+## Additional Detail: Pipeline Stages
+
+The asset pipeline moves through concept approval, blockout/greybox review, final asset production, technical integration (rigging, LOD, texture assignment), and a final style-consistency review before an asset is merged into the content pack ([1102-Content-Pack.md](../1100-Client/1102-Content-Pack.md)).
+
+## Version Control and Asset Tracking
+
+All art assets are tracked through a version-controlled asset management system, allowing the team to roll back problematic changes and maintain a clear history of iteration on any given asset throughout its production lifecycle.

@@ -13,3 +13,12 @@ Every new model (weapon, armor piece, creature, NPC) is reviewed against [1300-A
 
 ## Ownership
 The modeling pipeline is owned by the art team and tracked as part of the same quality gate as textures and icons — see [1400-Development-Standards.md](../1400-Development/1400-Development-Standards.md).
+
+
+## Modular Kit Strategy
+
+Environmental models are built as modular kits per region (wall segments, roof pieces, doorways) that can be recombined by the world team during the hand-detailing pass ([0116-World-Generation.md](../0100-World/0116-World-Generation.md)), balancing production efficiency with the "every piece placed with intent" philosophy in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
+
+## Creature and NPC Variation
+
+Common NPC and creature base models support palette and minor geometry variation (scars, accessories, coloring) to avoid an army of visually identical enemies filling out a region's population, without requiring a fully unique model for every individual NPC.

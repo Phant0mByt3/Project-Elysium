@@ -39,3 +39,14 @@ Collections is the unified UI and data layer that tracks everything a player has
 ## 4. Technical Notes
 
 Collection state is stored primarily at account level (with character-specific exceptions where required). The client queries and displays the data; unlock events are emitted by the systems that grant the items.
+
+
+---
+
+## Additional Detail: Collection Categories
+
+Beyond mounts, pets, and transmog, the Collections system tracks toy-like novelty items, rare housing decor, and profession mastery badges, giving completionists a single unified account-wide checklist spanning every collectible system in the game.
+
+## Rarity-Weighted Completion Score
+
+Collection completion is weighted by item rarity rather than pure count, so tracking down a handful of genuinely rare collectibles contributes meaningfully more to a player's completion score than a large volume of common items, keeping the score a fair signal of dedication.

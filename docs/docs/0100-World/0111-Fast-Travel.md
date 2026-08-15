@@ -1,20 +1,32 @@
 # 0111 — Fast Travel
 
-## Overview
-Fast travel systems unlock progressively as players explore, rewarding exploration (Pillar 1, [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md)) rather than being available from the start.
+**Category:** World
+**Status:** Living Document
+**Related:** [0110-Travel.md](0110-Travel.md) · [0112-Maps.md](0112-Maps.md)
 
-## Waypoint Shrines
-Physical structures placed at regional landmarks and city centers. Walking within range of an unvisited shrine unlocks it permanently for that character. Once unlocked, players can teleport between any two discovered shrines from a map UI, for a small Aurum cost ([1001-Currency.md](../1000-Economy/1001-Currency.md)) that scales with distance.
+---
 
-## Flight Routes
-NPC-piloted flight paths connecting major cities and key waypoints, more befitting the fantasy tone for cross-continent travel. Distinct from the future player-flying-mount system noted in [0901-Mounts.md](../0900-Player-Systems/0901-Mounts.md).
+## 1. Overview
 
-## Hearth / Recall
-Each character can bind a "Hearthstone" recall point at any city, usable on a cooldown to return there instantly — the primary "get back to civilization" safety valve.
+Fast travel lets players teleport between discovered waypoints once they've physically visited them, balancing convenience for repeat trips against the exploration incentive described in [0110-Travel.md](0110-Travel.md).
 
-## Restrictions
-* Fast travel is disabled inside instances (dungeons/raids) and most active world events, to preserve the tension of those systems.
-* Newly discovered shrines in contested Vethmoor territory can be temporarily locked by faction control shifts — see [0806-Territory-Control.md](../0800-Multiplayer/0806-Territory-Control.md).
+## 2. Waypoint Network
 
-## Technical Notes
-Waypoint state is stored per-character server-side; see [1201-Database.md](../1200-Technical/1201-Database.md) for schema ownership.
+Waypoints are placed at every major city, most villages, and select landmarks. A waypoint must be physically discovered (visited once) before it appears on the fast travel map.
+
+## 3. Cost and Cooldown
+
+Fast travel costs a small amount of currency ([1001-Currency.md](../1000-Economy/1001-Currency.md)) scaled to distance, functioning as a minor economy sink (see [1010-Currency-Sinks.md](../1000-Economy/1010-Currency-Sinks.md)). There is no cooldown, but combat lockout prevents use while flagged in combat.
+
+## 4. Mage Portal Network
+
+At higher levels, players unlock access to a mage-run portal network offering near-instant travel between major cities, including cross-continent travel between Solmere and Ironpeak Hold/Ashka Vor, unlocked through a mid-game main story quest.
+
+## 5. Restrictions
+
+* Fast travel is disabled inside dungeons and raids (see [0106-Dungeons.md](0106-Dungeons.md), [0107-Raids.md](0107-Raids.md)).
+* Fast travel to a continent the player has not yet unlocked via story progression is not possible, preserving the intended pacing of [0101-Continents.md](0101-Continents.md).
+
+## 6. UI Integration
+
+The fast travel map is accessed via the world map interface ([0112-Maps.md](0112-Maps.md)) and shows discovered waypoints with distance-based cost previewed before confirming travel.

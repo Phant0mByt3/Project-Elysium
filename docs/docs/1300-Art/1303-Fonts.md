@@ -12,3 +12,12 @@ Typography standards for all in-game text, from UI labels to quest dialogue, sup
 * Body text must remain legible at the smallest supported UI scale ([1106-Accessibility.md](../1100-Client/1106-Accessibility.md)).
 * No more than two typefaces should be in active use at once in any single UI screen, to avoid visual clutter.
 * Font choices should be finalized and licensed appropriately before UI implementation begins in Phase 1 ([0003-Roadmap.md](../0000-Project/0003-Roadmap.md)).
+
+
+## Localization Considerations
+
+Chosen typefaces must support the full character sets required for planned localization languages, avoiding a costly mid-development font swap if the initially chosen display face lacks glyph coverage for a target language.
+
+## In-World Typography
+
+Beyond UI, in-world signage, banners, and books use a distinct, more decorative typeface family reflecting each culture's in-world aesthetic (Concord heraldic lettering, dwarven angular runes), kept clearly separate from functional UI typography so decorative flourish never compromises UI legibility.

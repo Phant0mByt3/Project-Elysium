@@ -28,3 +28,14 @@ Interface Layouts define how the major UI elements (HUD, bags, map, quest tracke
 - Quest tracker and minimap are visible without covering key combat space.
 - Party/raid frames are readable in both 5-player and larger content.
 - Inventory and character sheet open in predictable, non-overlapping positions.
+
+
+---
+
+## Additional Detail: Layout Presets
+
+Players can choose between preset UI layouts (Default, Compact, Minimal) as a starting point before further customizing individual element positions, giving new players sensible defaults while still supporting deep customization for veteran players who want to optimize their screen real estate.
+
+## Layout Export and Sharing
+
+UI layout configurations can be exported and shared as a simple text string, letting community members share optimized layouts (a popular raid-focused layout, for example) without requiring a full addon ecosystem.

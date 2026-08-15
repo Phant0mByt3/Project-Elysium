@@ -1,19 +1,34 @@
 # 0110 — Travel
 
-## Philosophy
-Travel in Elysium should feel purposeful early on — giving players time to take in handcrafted regions — and become frictionless at higher levels once the world has been seen. See [0111-Fast-Travel.md](0111-Fast-Travel.md) for the unlock-based fast travel layer built on top of this system.
+**Category:** World
+**Status:** Living Document
+**Related:** [0111-Fast-Travel.md](0111-Fast-Travel.md) · [0101-Continents.md](0101-Continents.md)
 
-## Base Travel Methods
+---
 
-**On Foot** — the default; regions are built at a scale that rewards walking early quest paths.
+## 1. Overview
 
-**Mounts** — unlocked around level 15; see [0901-Mounts.md](../0900-Player-Systems/0901-Mounts.md) for acquisition and mechanics. Ground mounts only at launch; flying mounts are reserved for max-level or expansion content.
+Travel systems govern how players move through Elysium's continuous, hand-built world. The core design goal is that travel should feel purposeful and scenic at low levels, then become convenient once a player has "earned" the world through exploration.
 
-**Ships** — connect coastal cities across Aurelia and, later, other continents. Currently a scripted/scenic travel method rather than player-piloted; player-piloted ships are a confirmed future direction (see [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md)).
+## 2. Movement Modes
 
-**Portals** — magical waypoints connecting major cities, unlocked through story progression rather than exploration.
+* **On-foot / mounted travel** — the default overworld movement mode, using standard movement plus class movement abilities (see [0400-Game-Mechanics.md](../0400-Gameplay/0400-Game-Mechanics.md)).
+* **Mounts** — unlocked at level 10, significantly increasing ground movement speed (see [0900-Player-Systems/](../0900-Player-Systems/) for mount acquisition and customization).
+* **Sea travel** — ships connecting Aurelia and Vethmoor, narratively framing the transition between continents.
+* **Fast travel** — teleportation between discovered waypoints, detailed in [0111-Fast-Travel.md](0111-Fast-Travel.md).
 
-## Design Rules
-* No region should require more than a 2-minute unassisted walk between its quest hub and its furthest quest objective.
-* Every major city must have a portal and a stable/mount vendor.
-* Travel time should never block group content — dungeon and raid entrances are always reachable via a nearby fast-travel point.
+## 3. Sea Travel
+
+Ships depart from Solmere's Docks district and arrive at a Vethmoor port, with the crossing framed as a short narrative beat rather than a loading-screen skip — players can walk the deck, interact with NPC sailors, and receive foreshadowing dialogue about Vethmoor before arrival.
+
+## 4. Travel Pacing Philosophy
+
+Early-game travel is deliberately unassisted to encourage exploration (Pillar 1, [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md)). As players level and discover more of the map, travel becomes increasingly convenient, mirroring their growing mastery of the world.
+
+## 5. Group Travel
+
+Players can summon party members to their location once per group-content invite (subject to cooldown), reducing friction for group formation without eliminating the value of world traversal entirely. See [0800-Guilds.md](../0800-Multiplayer/0800-Guilds.md) and [0801-Parties.md](../0800-Multiplayer/0801-Parties.md) for group tools.
+
+## 6. Future Travel Systems
+
+Player ships (naval exploration and customization) are a confirmed future direction — see [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md) — and Sylvaneth's canopy-based traversal will introduce a new vertical travel mode described further once that expansion enters world-building.

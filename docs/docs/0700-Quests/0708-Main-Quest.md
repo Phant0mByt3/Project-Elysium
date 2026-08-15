@@ -1,49 +1,45 @@
 # 0708 — Main Quest
 
-**Project:** Elysium MMORPG  
-**Category:** Quests  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0207-Main-Story.md](../0200-Lore/0207-Main-Story.md) · [0700-Quests.md](0700-Quests.md) · [0701-Quest-Chains.md](0701-Quest-Chains.md) · [0305-Leveling.md](../0300-Characters/0305-Leveling.md)
+**Category:** Quests
+**Status:** Living Document
+**Related:** [0207-Main-Story.md](../0200-Lore/0207-Main-Story.md) · [0700-Quests.md](0700-Quests.md)
 
 ---
 
 ## 1. Overview
 
-The Main Quest (also called the Main Story campaign) is the critical-path narrative that takes the player from the starting experience through the reconnection of Aurelia and Vethmoor and into the events leading to the launch raid. It is solo-completable, faction-aware, and paced to match the leveling curve.
-
----
+The Main Quest is the single critical-path questline that carries a character from character creation through the launch level cap, tying together the story beats documented in [0207-Main-Story.md](../0200-Lore/0207-Main-Story.md).
 
 ## 2. Structure
 
-The Main Quest follows the three-act structure defined in [0207-Main-Story.md](../0200-Lore/0207-Main-Story.md):
+The Main Quest is broken into acts, each roughly aligned with a continent or major region transition:
 
-- **Act I** — Reconnection (Aurelia, levels 1–20)
-- **Act II** — Fracture Lines (Vethmoor, levels 20–40)
-- **Act III** — The Sunken Concord (levels 45–50, culminating in the raid)
-
-Individual quest steps are implemented as a long quest chain (or set of closely linked chains) with clear chapter breaks and cinematic moments where appropriate.
-
----
+| Act | Region(s) | Narrative Focus |
+| --- | --- | --- |
+| Act 1 | Southern Shires, Wildwood Reach | Introduction to the Age of Reclamation, first taste of Sundering consequences |
+| Act 2 | Greywater Fens, Sunspire Hills | Rising threat, Concord's response, faction identity solidifies |
+| Act 3 | Frostgate Approach, Ember Deeps | Arrival in Vethmoor, direct Dawnbound/Duskward conflict |
+| Act 4 | Ashenclaw Tundra, Ironpeak Holds | Escalating stakes, buildup to endgame |
+| Act 5 | The Shattered Cairns | Climax, culminates in "The Sunken Concord" raid entrance |
 
 ## 3. Design Rules
 
-1. The Main Quest never requires a group; all objectives are soloable.
-2. Faction choice colours dialogue and framing but does not lock the player out of the critical path.
-3. Side content is referenced and rewarded but never required to understand or complete the Main Quest.
-4. Pacing keeps the player roughly on-level for the regions they are sent through ([0102-Regions.md](../0100-World/0102-Regions.md)).
+* The Main Quest is always single-threaded per character — no branching that would fragment the shared narrative experience of a shared world.
+* Faction choice (Dawnbound Concord vs. Duskward Pact) colors dialogue and framing but does not change the underlying critical path, preserving a shared story while still respecting player identity.
+* Main Quest steps are paced to intersect with, but not require completion of, side content — a player can complete the Main Quest via a more direct path if they choose.
 
----
+## 4. Cinematic Beats
 
-## 4. Tracking & Presentation
+Key Main Quest milestones (start of each act, the finale) are supported by cinematic sequences — see [0712-Cinematics.md](0712-Cinematics.md) for production standards.
 
-The Main Quest has dedicated UI treatment (chapter titles, progress indicators) so players always know where they are in the story. See [0713-Quest-Tracking.md](0713-Quest-Tracking.md) and [1120-Quest-UI.md](../1100-Client/1120-Quest-UI.md).
+## 5. Rewards
 
----
+Main Quest completion grants guaranteed narrative-appropriate item rewards at each act transition, plus account-wide titles and achievements marking story milestones (see [0705-Titles.md](0705-Titles.md), [0704-Achievements.md](0704-Achievements.md)).
 
-## 5. Story Unlock Requirements
+## 6. Post-Launch Continuation
 
-Major world changes require players to complete the relevant storyline.
+The Main Quest continues across expansions (see [0101-Continents.md](../0100-World/0101-Continents.md)), with each new continent adding a new act rather than starting an entirely disconnected story, preserving narrative continuity for long-term players.
 
-**Example:**
+## 7. Writing Ownership
 
-A player cannot enter Post-Collision Aurelia until they complete the secret quest chain.
+The Main Quest is owned exclusively by the Narrative Lead, with any changes requiring Creative Director sign-off given its central role in the game's identity (see [0007-Team-Structure.md](../0000-Project/0007-Team-Structure.md)).

@@ -31,3 +31,14 @@ Server Scaling describes how the Elysium backend grows (and shrinks) with player
 2. Instance-based content is naturally parallelisable and should remain so.
 3. Capacity planning uses monitoring data and load-test results, not guesswork alone.
 4. Scaling procedures are documented and automatable where practical.
+
+
+---
+
+## Additional Detail: Horizontal vs Vertical Scaling
+
+Instance servers scale horizontally (spinning up additional instance processes as demand grows) while the overworld server initially scales vertically before eventual regional sharding, reflecting the different load characteristics of each server type described in [1203-Server-Structure.md](1203-Server-Structure.md).
+
+## Scaling Triggers
+
+Auto-scaling for instance server capacity is triggered by queue depth in the Dungeon Finder and raid formation systems ([0803-Dungeon-Finder.md](../0800-Multiplayer/0803-Dungeon-Finder.md)), ensuring capacity grows proactively ahead of demonstrated demand rather than reactively after queue times degrade.

@@ -27,3 +27,11 @@ Architecture Style defines how buildings, cities, and structures express culture
 - Cities read as places where people live and work, not as prop farms.
 - Landmarks and civic buildings are legible from distance.
 - Kit pieces support builders while preserving style consistency.
+
+## Additional Detail: Cultural Architecture Signatures
+
+Each civilization's architecture encodes its values visually — Concord buildings favor open, symmetrical, light-filled designs reflecting Solthar's ideals of clarity and order, dwarven architecture favors solid, load-bearing stonework reflecting permanence and craft, and orc architecture favors bold, defensible structures reflecting strength and territory.
+
+## Ruin Design Language
+
+Pre-Sundering ruins ([0214-Ancient-Civilisations.md](../0200-Lore/0214-Ancient-Civilisations.md)) use a distinct, more advanced architectural language than any current civilization can replicate, visually reinforcing the lore point that the Age of Concord's engineering surpassed what exists in the present Age of Reclamation.

@@ -34,3 +34,14 @@ Currency Sinks are the systems and costs that permanently remove Aurum (and occa
 1. Sinks should scale reasonably with player wealth so that both new and veteran players feel appropriate costs.
 2. No single sink should feel so harsh that it discourages the associated activity.
 3. New sinks are preferred over simply reducing sources when inflation pressure appears.
+
+
+---
+
+## Additional Detail: Sink Categories by Playstyle
+
+Different player archetypes interact with different sinks predominantly — raiders spend heavily on repairs and consumables, crafters spend on bank tabs and premium recipes, cosmetics-focused players spend on transmog and dye services — ensuring sinks scale naturally with how each type of player actually engages with the game.
+
+## Sink Tuning Philosophy
+
+Sinks are tuned to feel like a reasonable cost of participation rather than a punishment, in keeping with the broader design philosophy of consequence without excessive friction established in [0008-Development-Philosophy.md](../0000-Project/0008-Development-Philosophy.md).

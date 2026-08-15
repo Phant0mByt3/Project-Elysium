@@ -19,3 +19,14 @@ Asset Management covers naming, storage, versioning, and ownership of art, audio
 - Source vs runtime separation  
 - Clear ownership per discipline  
 - No orphaned or undocumented large binaries in primary repos without process  
+
+
+---
+
+## Additional Detail: Asset Lifecycle Tracking
+
+Each art and audio asset is tracked through its lifecycle (concept, in-progress, in-review, approved, in-content-pack) using the same tooling that manages the broader content pipeline ([1409-Content-Pipeline.md](1409-Content-Pipeline.md)), giving the art team clear visibility into production status across hundreds of concurrent assets.
+
+## Deprecation and Cleanup
+
+Assets superseded by newer versions or removed from the game are formally deprecated rather than silently deleted, preserving a clean audit trail and preventing accidental breakage of any content still referencing an older asset during the transition period.

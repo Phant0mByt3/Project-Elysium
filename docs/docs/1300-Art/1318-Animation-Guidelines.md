@@ -29,3 +29,14 @@ Animation Guidelines are the practical production rules for animators and techni
 1. Guidelines exist to reduce rework and protect combat clarity.
 2. Exceptions are documented when a specific creature or cinematic requires them.
 3. Pipeline changes are coordinated with Engineering and Client teams.
+
+
+---
+
+## Additional Detail: Production Standards
+
+Animation production follows documented frame-rate, rig compatibility, and file-naming conventions to ensure consistency across a growing roster of characters and creatures produced by multiple animators over the course of a multi-year live service project.
+
+## Motion Capture vs Hand-Keyed
+
+Core combat and traversal animations for playable classes prioritize hand-keyed animation for maximum stylistic control and telegraph clarity, while crowd/ambient NPC animations may use motion capture or simplified procedural techniques where full bespoke animation isn't cost-effective at scale.

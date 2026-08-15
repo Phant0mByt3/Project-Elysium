@@ -16,3 +16,12 @@ Icon standards for skills ([0302-Skills.md](../0300-Characters/0302-Skills.md)),
 
 ## Production
 Icon production follows the same pipeline and review process as other 2D assets described in [1300-Art-Style.md](1300-Art-Style.md).
+
+
+## Icon Production Volume
+
+Given the scale of the launch content (six classes, dozens of talent nodes each, hundreds of items), icon production is planned with a modular base-icon-plus-overlay system for common variations (e.g. a base sword icon with a color/glow overlay for rarity) to keep production time sustainable without sacrificing visual distinctiveness for build-defining items.
+
+## Class Icon Identity
+
+Each class's ability icons share a subtle consistent visual motif (e.g. Arcanist icons favor angular, crystalline shapes; Warden icons favor organic, leaf-based shapes) reinforcing class fantasy recognition even at a glance across a crowded action bar.

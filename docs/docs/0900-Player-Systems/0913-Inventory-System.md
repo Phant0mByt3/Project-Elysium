@@ -36,3 +36,14 @@ The Inventory System manages the player’s personal carried items: bags, equipm
 ## 4. Technical Notes
 
 Inventory state is fully server-authoritative. Client predictions exist for responsiveness, but every move, equip, and use is confirmed by the server. See also synchronisation rules in [1211-Server-Synchronisation.md](../1200-Technical/1211-Server-Synchronisation.md).
+
+
+---
+
+## Additional Detail: Sorting and Filtering
+
+The inventory UI supports automatic sorting by item type, rarity, and recency, plus a search/filter bar, keeping inventory management fast even for players carrying large quantities of profession materials alongside standard gear.
+
+## Quick-Sell and Junk Marking
+
+Items can be manually flagged as "junk," enabling a single quick-sell action at any vendor rather than requiring the player to individually right-click each low-value item, reducing a common source of tedious inventory upkeep.

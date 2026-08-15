@@ -18,3 +18,18 @@ The Elysium server runs on Unreal Engine (C++) as a modular collection of purpos
 
 ## Data Persistence
 All plugins persist state through the shared PostgreSQL database described in [1201-Database.md](1201-Database.md), never through flat files, to support the scalable architecture goal in the README.
+
+
+---
+
+## Hot-Reload and Iteration Speed
+
+Where technically feasible, plugin modules support hot-reloading during development, allowing designers and engineers to iterate on gameplay logic without a full server restart, significantly speeding up encounter tuning and balance iteration cycles.
+
+## Plugin Dependency Management
+
+Plugins declare explicit dependencies on `elysium-core` and any other plugins they require, with the build pipeline enforcing that no circular dependencies form between feature plugins — keeping the modular architecture genuinely modular rather than accidentally coupled over time.
+
+## Testing Strategy
+
+Each plugin maintains its own unit and integration test suite, run as part of the CI pipeline before merge, per the testing standards in [1406-Testing.md](../1400-Development/1406-Testing.md).

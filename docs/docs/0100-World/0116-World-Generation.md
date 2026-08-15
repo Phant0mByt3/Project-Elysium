@@ -1,66 +1,36 @@
 # 0116 — World Generation
 
-**Project:** Elysium MMORPG  
-**Category:** World  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0100-World.md](0100-World.md) · [0113-Biomes.md](0113-Biomes.md) · [1210-World-Management.md](../1200-Technical/1210-World-Management.md) · [0001-Vision.md](../0000-Project/0001-Vision.md)
+**Category:** World
+**Status:** Living Document
+**Related:** [0100-World.md](0100-World.md) · [1210-World-Management.md](../1200-Technical/1210-World-Management.md)
 
 ---
 
-## 1. Philosophy
+## 1. Overview
 
-Elysium does **not** use runtime procedural world generation.
+Despite the name, "World Generation" in Elysium refers to the authored terrain-creation pipeline, not procedural generation. This document describes how the world team turns a region design brief into finished, playable terrain.
 
-Every continent, region, mountain, river, and cave is authored offline using a combination of Unreal Engine's Landscape heightmaps, biome painting, and extensive hand-detailing by the World Building team. The resulting world templates are then loaded by the Instance Manager as static (or versioned) bases.
+## 2. Pipeline Stages
 
-This document exists to make the “no procedural generation” rule explicit and to describe the offline production pipeline.
+1. **Heightmap authoring** — base terrain shape is sculpted using external terrain-authoring tools before import into Unreal Engine, establishing broad elevation, valleys, and ridgelines matching the region's brief in [0102-Regions.md](0102-Regions.md).
+2. **Biome layer pass** — texture and foliage layers are applied according to the region's assigned biome ([0113-Biomes.md](0113-Biomes.md)).
+3. **Key location placement** — cities, villages, dungeon entrances, and landmarks are placed and blocked in at low fidelity to validate the region's layout and pacing.
+4. **Hand-detailing pass** — props, foliage density, rock formations, and points of interest are placed by hand, following [1402-Building-Standards.md](../1400-Development/1402-Building-Standards.md).
+5. **Navigation and collision pass** — navmesh generation and collision validation for both players and AI ([0404-AI-Behaviour.md](../0400-Gameplay/0404-AI-Behaviour.md)).
+6. **Lighting and atmosphere pass** — baked and dynamic lighting matched to the region's tone (see [0100-World.md](0100-World.md), Section 6).
 
----
+## 3. Why Not Procedural Generation
 
-## 2. Offline Production Pipeline
+Procedural generation was explicitly rejected for the overworld because it works against Pillar 1 and Pillar 2 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md) — a generated landscape cannot guarantee that every hill and ruin was placed with narrative or gameplay intent. Elysium's identity depends on the world feeling deliberately authored.
 
-1. **Concept sketch** — rough regional layout in [0112-Maps.md](0112-Maps.md).
-2. **Heightmap authoring** — Unreal Landscape elevation brushes for mountains, valleys, coastlines.
-3. **Biome painting** — Unreal Landscape layer painting matching the region's assigned biomes ([0113-Biomes.md](0113-Biomes.md)).
-4. **Export** — packaged Unreal level/World Partition data.
-5. **Hand-detailing** — builders refine terrain, add vegetation, correct artifacts, place landmarks and structure shells.
-6. **Structure finalisation** — cities, dungeons, villages, and quest-critical geometry are completed.
-7. **Protection & versioning** — region is locked; world template is versioned and stored for the Instance System ([1209-Instance-System.md](../1200-Technical/1209-Instance-System.md)).
+## 4. Tools
 
----
+The world team uses external heightmap and terrain-sculpting tools to produce base terrain data, which is then imported into Unreal Engine's Landscape system for detailed, hand-authored refinement — see [1210-World-Management.md](../1200-Technical/1210-World-Management.md) for the technical import pipeline.
 
-## 3. What Is Explicitly Forbidden
+## 5. Iteration and Review
 
-- Runtime terrain generation of any kind (caves, ravines, structures, ore veins).
-- Unreal's default procedural landscape tools or custom noise-based generators for player-facing continents.
-- Any system that would allow the world to “grow” or change shape after a region is locked.
+Regions go through at least two internal review passes — a layout review after Stage 3 and a full polish review after Stage 6 — before being considered ready for quest population, per the world-building pipeline described in [0100-World.md](0100-World.md), Section 3.
 
-Resource nodes (ore, herbs, trees) are pre-placed or managed by profession systems, never generated on the fly in a way that alters terrain.
+## 6. Performance Considerations
 
----
-
-## 4. Exceptions (Controlled)
-
-- **Dungeon & Raid templates** — loaded as fresh copies per instance; the base template itself remains static.
-- **Event overlays** — temporary props or barriers for world events may be spawned and later removed, but the underlying terrain is never modified permanently.
-- **Housing plots** — player or guild housing areas are the only locations where limited player building is permitted (see [0900-Housing.md](../0900-Player-Systems/0900-Housing.md)).
-
----
-
-## 5. Rationale
-
-Handcrafted worlds guarantee that every hill, ruin, and vista was placed with intent. This directly supports Pillar 1 (Exploration is Always Rewarding) and Pillar 2 (Every Area Has Purpose) from [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md). It is slower than procedural generation, but the resulting world is the primary reason players will forget they are inside a game engine at all.
-
-## 6. Terrain Creation Pipeline
-```
-AI / procedural height map
-        ↓
-Manual terrain editing
-        ↓
-Landmark placement
-        ↓
-Cities, dungeons, roads
-        ↓
-Environmental storytelling
-```
-AI assists with geography, but final world design is handcrafted.
+Terrain complexity is budgeted per region to maintain target frame rates across the intended range of player hardware; the Technical Lead and World Director jointly review any region exceeding its asset/prop budget before it proceeds to the detailing pass.

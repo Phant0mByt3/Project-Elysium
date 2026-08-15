@@ -31,3 +31,14 @@ The Notification System delivers timely, non-modal information to the player: qu
 2. Players can configure density and types of notifications.
 3. Visual and audio cues are distinct and consistent.
 4. Accessibility options include text alternatives and reduced motion where relevant.
+
+
+---
+
+## Additional Detail: Notification Categories
+
+Notifications are categorized (loot, achievement, social, system) with independently configurable display duration and position, letting players prioritize the notification types most relevant to their current activity (e.g. muting social notifications during a raid pull).
+
+## Non-Intrusive Design
+
+Notifications are designed to inform without obstructing critical combat UI elements, using edge-of-screen placement and fade timing tuned to avoid overlapping with action bars, health bars, or boss mechanic telegraphs.

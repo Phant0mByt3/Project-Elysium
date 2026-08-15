@@ -37,3 +37,14 @@ Item attributes are the numerical and mechanical properties that items grant whe
 ## 4. Technical Notes
 
 Attribute packages are data-driven. The server calculates final character stats from equipped items + talents + buffs; the client displays the results but does not own the authoritative values.
+
+
+---
+
+## 5. Secondary Stat Diminishing Returns
+
+Secondary stats (Critical Strike, Haste, Mastery, Versatility) use a soft diminishing-returns curve past certain thresholds, preventing a single stat from being stacked to the exclusion of all others and keeping itemization decisions interesting throughout progression.
+
+## 6. Attribute Budget by Item Level
+
+Total attribute value scales predictably with item level, allowing designers and players alike to reason about relative item power at a glance even before reading a full tooltip.

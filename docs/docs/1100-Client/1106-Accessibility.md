@@ -12,3 +12,12 @@ Accessibility features spanning the client moduleules ([1101-Client-Modules.md](
 
 ## Design Rules
 Accessibility options should be reviewed alongside every major UI or combat-effects feature added to the game, not bolted on as a single late-stage pass — consistent with the "documentation and quality are part of development" pillars in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
+
+
+## Accessibility Review Process
+
+Every major feature proposal includes an accessibility checklist review before implementation begins, covering colorblind-safe color use, remappable controls, and text scaling compatibility, rather than accessibility being assessed only after a feature ships.
+
+## Community Feedback Loop
+
+Post-launch, accessibility feedback is treated as a first-class category in the player feedback pipeline ([2013-Player-Feedback.md](../2000-Operations/2013-Player-Feedback.md)), ensuring the accessibility feature set continues to evolve based on real player needs rather than remaining static after launch.

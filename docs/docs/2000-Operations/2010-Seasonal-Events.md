@@ -1,27 +1,34 @@
 # 2010 — Seasonal Events
 
-**Project:** Elysium MMORPG  
-**Category:** Operations  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0003-Roadmap.md](../0000-Project/0003-Roadmap.md) · [1408-Release-Process.md](../1400-Development/1408-Release-Process.md) · [1230-Server-Maintenance.md](../1200-Technical/1230-Server-Maintenance.md)
+**Project:** Elysium MMORPG
+**Category:** Operations
+**Status:** Living Document
+**Related:** [0807-Seasons.md](../0800-Multiplayer/0807-Seasons.md) · [2009-Community-Events.md](2009-Community-Events.md) · [2001-Updates.md](2001-Updates.md)
 
 ---
 
 ## 1. Overview
 
-Calendar-aligned in-game events and their ops requirements.
+Seasonal events are recurring, time-limited in-game content updates tied to the broader season structure described in [0807-Seasons.md](../0800-Multiplayer/0807-Seasons.md), distinct from one-off community events ([2009-Community-Events.md](2009-Community-Events.md)).
 
----
+## 2. Event Structure
 
-## 2. Principles
+Each seasonal event typically includes: a themed world event or activity, limited-time cosmetic rewards ([0903-Cosmetics.md](../0900-Player-Systems/0903-Cosmetics.md)), and a dedicated currency or token system for event-specific vendor purchases.
 
-- Player trust and clarity come first  
-- Processes are documented and repeatable  
-- Handoffs between Ops, Support, and Development are explicit  
-- Metrics inform decisions without replacing design judgment  
+## 3. Cadence
 
----
+Major seasonal events align with the season boundaries described in [0807-Seasons.md](../0800-Multiplayer/0807-Seasons.md), giving the game a recurring rhythm of roughly 3–4 significant seasonal moments per year, independent of the larger content patch and expansion cadence.
 
-## 3. Status
+## 4. Design Rules
 
-Detailed SOPs are expanded as the project approaches Closed Beta and Live Service. This document establishes ownership and intent for **Seasonal Events**.
+* Seasonal rewards are cosmetic-only, never gameplay-power-affecting, consistent with the broader cosmetics philosophy in [0903-Cosmetics.md](../0900-Player-Systems/0903-Cosmetics.md).
+* Returning seasonal events (an annual "anniversary" event, for example) should evolve modestly each year rather than being identically repeated, keeping long-term players engaged.
+* Seasonal content should be accessible to players who can only engage for a portion of the event window, avoiding an all-or-nothing participation requirement.
+
+## 5. Development Planning
+
+Seasonal event content is planned well in advance as part of the update cadence described in [2001-Updates.md](2001-Updates.md), with art and narrative production scheduled to avoid conflicting with major content patch or expansion crunch periods.
+
+## 6. Post-Season Review
+
+Participation and reception of each seasonal event is reviewed using the analytics described in [2006-Analytics.md](2006-Analytics.md) and [2015-Game-Metrics.md](2015-Game-Metrics.md), informing whether and how the event returns in future cycles.

@@ -19,3 +19,14 @@ Production Deployment is the controlled process of shipping server, client, and 
 - Backups and rollback plans before risky changes  
 - Launcher and server versions stay compatible  
 - Post-deploy monitoring window is mandatory  
+
+
+---
+
+## Additional Detail: Deployment Automation
+
+Production deployments are executed through automated deployment scripts rather than manual server-by-server steps, reducing the risk of human error during a process that directly affects live players, and ensuring deployments are consistently repeatable — see [1421-Build-Automation.md](1421-Build-Automation.md).
+
+## Canary Deployment Consideration
+
+Where infrastructure allows, deployments may roll out to a small subset of servers first (a canary deployment) before full rollout, catching environment-specific issues with limited player impact before they affect the entire playerbase.

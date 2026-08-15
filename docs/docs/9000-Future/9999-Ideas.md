@@ -19,3 +19,20 @@ A sandbox for brainstorming. Unlike [0005-Future-Plans.md](../0000-Project/0005-
 
 ## Process
 Ideas here should be reviewed periodically; promising ones move to [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md) once the team commits to them in principle.
+
+## Social/Community Ideas
+* An in-client "guild of the week" spotlight feature, drawing from the community events framework ([2009-Community-Events.md](../2000-Operations/2009-Community-Events.md)).
+* A mentorship system pairing veteran players with newcomers, offering both a small reward for successful mentorship completion.
+* Cross-guild alliance tools for smaller guilds to coordinate raid content together without a formal merger.
+
+## Economy Ideas
+* A crafting commission board where players can post bounties for bespoke crafted items, extending [1013-Merchant-System.md](../1000-Economy/1013-Merchant-System.md).
+* Seasonal material buyback events where vendors temporarily offer bonus currency for specific overabundant materials, as a light inflation-control lever.
+
+## Accessibility Ideas
+* One-handed control scheme presets, extending the remapping support in [1106-Accessibility.md](../1100-Client/1106-Accessibility.md).
+* An audio-cue-only "boss mechanic mode" for visually impaired players tackling raid content, translating key mechanic telegraphs into distinct audio signals.
+
+## Expanded Process Note
+
+Ideas in this document have no formal owner and no guaranteed review timeline — they're captured opportunistically by anyone on the team during design discussions, playtests, or community conversations. The Creative Director does a lighter-weight pass over this file at each phase transition (see [0003-Roadmap.md](../0000-Project/0003-Roadmap.md)) to spot anything worth promoting to the more deliberate holding documents in this folder ([9005-Unused-Concepts.md](9005-Unused-Concepts.md) through [9015-Unconfirmed-Features.md](9015-Unconfirmed-Features.md)) or, once fully committed, to [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md).

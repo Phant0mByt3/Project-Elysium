@@ -18,3 +18,12 @@ Per [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md): quality over q
 
 ## Applicability
 These standards apply to every contributor, regardless of discipline — programmers, builders, writers, and artists all have a corresponding standards document, and no work merges to the live game without passing its relevant checklist.
+
+
+## Cross-Discipline Review Gate
+
+No content or system is marked complete in the roadmap tracking ([0003-Roadmap.md](../0000-Project/0003-Roadmap.md)) until it has passed review from every relevant discipline standard — a new dungeon, for example, must pass building standards, quest writing review, and QA testing before being considered shippable.
+
+## Standards Evolution
+
+These standards themselves are living documents, revisited whenever a recurring quality issue suggests a gap in the current guidance — the goal is standards that reflect actual lessons learned during development, not a static checklist written once in Pre-Production and never revisited.

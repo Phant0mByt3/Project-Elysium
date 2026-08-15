@@ -29,3 +29,14 @@ The Map UI includes the world map, zone map, and minimap. It is the primary navi
 2. Iconography is consistent and legible at minimap scale.
 3. Players can filter icon categories to reduce clutter.
 4. The map remains usable during combat (minimap especially) without demanding full attention.
+
+
+---
+
+## Additional Detail: Layered Map Information
+
+The map UI supports toggleable information layers (quest markers, resource nodes, discovered landmarks, group member positions), letting players declutter the map to focus on exactly the information relevant to their current goal.
+
+## Pin and Note System
+
+Players can drop custom pins with short notes on the map for personal reference (a remembered rare node location, a landmark to revisit), a lightweight tool supporting the exploration-and-discovery play pattern central to [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).

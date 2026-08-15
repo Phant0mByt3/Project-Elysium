@@ -34,3 +34,12 @@ World PvP is open-world conflict between the Dawnbound Concord and the Duskward 
 ## 4. Relationship to Other Systems
 
 World PvP feeds into and is shaped by [0806-Territory-Control.md](0806-Territory-Control.md). Arena and structured PvP remain separate, rated experiences under [0804-PvP.md](0804-PvP.md) and [0805-Arenas.md](0805-Arenas.md).
+
+
+## 5. Safe Zone Guarantees
+
+Starting zones (Southern Shires) and all major cities are permanently designated sanctuary zones with no PvP flagging possible, ensuring new and PvE-focused players always have a guaranteed safe space to play in.
+
+## 6. World PvP Objectives
+
+Beyond Territory Control's structured objectives, smaller unstructured world PvP moments (contesting a rare gathering node, a world boss tag, or a quest objective in a contested zone) are an intentional emergent layer, rewarded lightly through the same honour currency as structured PvP.

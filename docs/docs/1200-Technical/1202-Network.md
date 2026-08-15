@@ -17,3 +17,12 @@ The server architecture should support horizontal scaling for world instances (d
 
 ## Security
 Network-layer security (DDoS mitigation, rate limiting, packet validation) is covered jointly with [1206-Security.md](1206-Security.md).
+
+
+## Latency Mitigation
+
+Client-side prediction and server reconciliation smooth out the perceived responsiveness of movement and abilities despite network latency, with the server always remaining the final authority on outcomes — see [0408-Physics-Systems.md](../0400-Gameplay/0408-Physics-Systems.md).
+
+## Regional Server Deployment
+
+To minimize latency for players across different geographic regions, server infrastructure is planned to deploy in multiple regions post-launch — see [1224-Region-Servers.md](1224-Region-Servers.md) for the regional deployment architecture.

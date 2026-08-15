@@ -30,3 +30,14 @@ Server Architecture describes the logical and physical arrangement of processes 
 2. Horizontal scaling of instances and services is preferred over vertical scaling alone.
 3. Clear ownership boundaries exist between plugins and services so that teams can iterate independently.
 4. The architecture supports the handcrafted, multi-continent, multi-instance world model already defined.
+
+
+---
+
+## Additional Detail: Fault Isolation
+
+The modular server structure ([1203-Server-Structure.md](1203-Server-Structure.md)) is designed so that an issue in one instance server (a crashed dungeon instance) does not cascade to affect the overworld server or other unrelated instances, containing the blast radius of any single failure.
+
+## Deployment Pipeline
+
+Server updates are deployed through a staged rollout process (internal, then a small percentage of live traffic, then full rollout) where feasible, catching issues with a limited player impact before a full release.

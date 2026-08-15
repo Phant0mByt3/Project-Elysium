@@ -30,3 +30,12 @@ Texture sets, prop models, foliage packs, sky and weather art, and kit pieces fo
 * Important areas should have unique identity.
 * Terrain should support storytelling.
 * Landmarks should be memorable.
+
+
+## 5. Vertical Storytelling
+
+Environment art uses vertical composition (ruined towers, cliffside paths, underground depths) deliberately to reinforce Pillar 1 (Exploration is Always Rewarding) from [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md) — height and depth invite investigation rather than serving as decorative backdrop alone.
+
+## 6. Seasonal and Time-of-Day Variation
+
+Environment art assets are built to read well across the full day/night cycle ([0115-Day-Night-Cycle.md](../0100-World/0115-Day-Night-Cycle.md)) and weather states ([0114-Weather-System.md](../0100-World/0114-Weather-System.md)), avoiding assets that only look correct under one specific lighting condition.

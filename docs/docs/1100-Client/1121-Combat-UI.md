@@ -32,3 +32,14 @@ Combat UI covers action bars, resource displays, unit frames, nameplates, cast b
 2. Colour and icon design remain colourblind-safe.
 3. Layout defaults work for both solo and group play; advanced customisation is available.
 4. Performance of nameplates and frames is budgeted for large raid and world-event scenarios.
+
+
+---
+
+## Additional Detail: Action Bar Customization
+
+Action bars support multiple configurable pages and drag-and-drop ability placement, accommodating classes with larger ability rosters at higher levels without forcing every ability onto a single cramped bar.
+
+## Raid Frame Clarity
+
+Group and raid frames use clear, consistently positioned health/resource bars with status effect icons sized for quick scanning during high-intensity encounters, prioritizing combat readability per the design goals in [0401-Combat.md](../0400-Gameplay/0401-Combat.md).

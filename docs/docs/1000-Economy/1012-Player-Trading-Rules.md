@@ -34,3 +34,14 @@ Player Trading Rules define what can be exchanged directly between players, unde
 ## 4. Technical Notes
 
 Trade sessions are transactional. Failure or disconnect mid-trade rolls back cleanly. All completed trades are recorded for economy and security analysis.
+
+
+---
+
+## Additional Detail: New Account Trade Restrictions
+
+Newly created accounts face a brief trade and mail restriction window before their first trades are permitted, a standard anti-fraud measure reducing the effectiveness of throwaway accounts used for real-money-trading or scamming operations.
+
+## Cross-Faction Trade Exception
+
+The only sanctioned cross-faction economic interaction is through the neutral Auction House system managed by the Wayfarer's Guild ([1003-Auction-House.md](1003-Auction-House.md)); direct trading, mail, and guild bank access all remain strictly single-faction.

@@ -12,3 +12,12 @@ NPC vendors provide a baseline, always-available marketplace independent of play
 
 ## Design Rules
 Vendor stock and prices should never directly undercut the player economy's Auction House ([1003-Auction-House.md](1003-Auction-House.md)) for tradeable goods — vendors exist as a reliability floor, not a replacement for player trading.
+
+
+## Vendor Restocking
+
+Limited-stock reputation and Sundered Shard vendors restock on a weekly cadence aligned with weekly quest and raid lockout resets ([0703-Weekly-Quests.md](../0700-Quests/0703-Weekly-Quests.md)), giving dedicated players a predictable rhythm for catch-up gear acquisition.
+
+## Regional Vendor Specialization
+
+Vendors in different regions and cities carry goods reflecting local culture and available materials — Ironpeak Hold's vendors lean toward dwarven-forged goods, while Solmere's vendors offer a broader general selection reflecting its role as the game's central hub.

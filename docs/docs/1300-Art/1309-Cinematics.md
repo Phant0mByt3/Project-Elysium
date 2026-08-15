@@ -25,3 +25,14 @@ Cinematics art direction covers camera language, staging, lighting, and performa
 ## 3. Collaboration
 
 Cinematics are a joint product of Narrative, Animation, and Environment Art, implemented through the client cutscene tools.
+
+
+---
+
+## 4. Voice Direction
+
+Where voice-over is used, performance direction emphasizes naturalistic delivery over theatrical overacting, matching the grounded tone established throughout [1300-Art-Style.md](1300-Art-Style.md) and the writing standards in [1403-Quest-Writing-Guide.md](../1400-Development/1403-Quest-Writing-Guide.md).
+
+## 5. Budget and Scope Discipline
+
+Given the volume of story content an MMORPG requires over its lifetime, full bespoke cinematics are reserved for Main Quest act transitions and major raid narrative beats ([0708-Main-Quest.md](../0700-Quests/0708-Main-Quest.md)); most quest storytelling relies on the lighter-weight Dialogue UI system ([1117-Dialogue-UI.md](../1100-Client/1117-Dialogue-UI.md)) to keep production sustainable at scale.

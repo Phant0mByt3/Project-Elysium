@@ -1,40 +1,36 @@
 # 0407 — World Interactions
 
-**Project:** Elysium MMORPG  
-**Category:** Gameplay  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0100-World.md](../0100-World/0100-World.md) · [0110-Travel.md](../0100-World/0110-Travel.md) · [0906-Simulated-Civilisation.md](../0900-Player-Systems/0906-Simulated-Civilisation.md) · [0700-Quests.md](../0700-Quests/0700-Quests.md)
+**Project:** Elysium MMORPG
+**Category:** Gameplay
+**Status:** Living Document
+**Related:** [0400-Game-Mechanics.md](0400-Game-Mechanics.md) · [0105-Landmarks.md](../0100-World/0105-Landmarks.md)
 
 ---
 
 ## 1. Overview
 
-World interactions are the non-combat ways players engage with the handcrafted environment: examining objects, speaking with ambient NPCs, triggering environmental storytelling, and using the world as a living space rather than a series of quest markers.
+World interactions are the systems governing how players interact with the environment outside of combat — gathering nodes, interactable objects, puzzle mechanisms, and environmental storytelling triggers.
 
----
+## 2. Interaction Categories
 
-## 2. Interaction Types
+* **Gathering Nodes** — resource nodes tied to gathering professions ([0601-Mining.md](../0600-Professions/0601-Mining.md)).
+* **Lore Objects** — books, journals, murals that contribute to the lore system ([0209-NPCs.md](../0200-Lore/0209-NPCs.md)).
+* **Mechanisms** — levers, pressure plates, and puzzle elements used in dungeons and landmark content.
+* **Quest Objects** — items or triggers tied to active quests ([0700-Quests/](../0700-Quests/)).
+* **Ambient Interactables** — chairs, instruments, and other non-mechanical objects that support roleplay and immersion.
 
-| Type | Examples | Purpose |
-|------|----------|---------|
-| **Examine / Lore Objects** | Journals, plaques, statues, ruins | Deliver optional lore and achievements |
-| **Ambient NPC Dialogue** | Guards, citizens, merchants with idle lines | Make cities and villages feel inhabited |
-| **Environmental Storytelling** | Destroyed camps, abandoned carts, battle remnants | Reinforce regional conflict without a quest |
-| **Utility Interactions** | Doors, levers, elevators, boats, flight masters | Support traversal and dungeon flow |
-| **Profession Nodes** | Ore, herbs, trees, fishing spots | Gathering gameplay (see Professions) |
-| **Rest / Social** | Benches, campfires, tavern seats | Encourage roleplay and downtime |
+## 3. Interaction Feedback
 
----
+All interactable objects use a consistent highlight and prompt system so players can reliably identify what can be interacted with, avoiding the frustration of ambiguous "is this clickable" environments.
 
-## 3. Design Rules
+## 4. Puzzle Design Standards
 
-1. Every region should contain at least a handful of pure-discovery interactions that are not required by any quest (Pillar 1).
-2. Interactions must be readable — the player should understand they can interact without needing a tutorial tooltip every time.
-3. Critical path interactions (quest objects, dungeon levers) must be impossible to miss for a player following the main markers.
-4. Interactions never permanently alter the handcrafted terrain outside of approved systems (Housing, certain event props).
+Puzzle mechanisms found in dungeons and landmarks follow a consistent internal logic per encounter (lever sequences, pressure plate patterns) and are tuned to be solvable through in-world clues rather than requiring external guides, in keeping with the exploration-reward philosophy in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
 
----
+## 5. Environmental Storytelling
 
-## 4. Technical Notes
+Scripted environmental triggers (a door that only opens after nearby lore is read, ambient sound stings tied to specific locations) are used throughout landmarks and dungeons to reinforce narrative without requiring dialogue, per the "show don't tell" principle referenced in [1403-Quest-Writing-Guide.md](../1400-Development/1403-Quest-Writing-Guide.md).
 
-Interactions are driven by server-side triggers and data-driven dialogue/examine entries. Client displays prompts and plays animations/effects; outcomes (quest credit, item grants, door states) are always confirmed by the server.
+## 6. Technical Notes
+
+Interactable objects are defined through a data-driven interaction system, allowing designers to configure new interaction types without engineering support for common cases (simple gather, simple lever, simple lore pickup) — see [1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md).

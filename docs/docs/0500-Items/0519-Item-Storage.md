@@ -37,3 +37,14 @@ Item storage covers how players hold, organise, and access items across inventor
 ## 4. Technical Notes
 
 All storage operations (move, stack, split, deposit, withdraw) are transactional and server-authoritative. The client displays the current state and sends intent; the server confirms or rejects each action. See also [1211-Server-Synchronisation.md](../1200-Technical/1211-Server-Synchronisation.md) for cross-instance consistency.
+
+
+---
+
+## 5. Cross-Character Access
+
+Account-wide bank tabs allow certain material types (crafting reagents, cosmetic tokens) to be shared across a player's characters, reducing the friction of playing multiple classes without undermining the value of character-specific soulbound progression.
+
+## 6. Mail System Integration
+
+The mail system serves as an overflow and cross-character transfer mechanism, holding items temporarily when storage is full and allowing account-bound items to move between characters — see [1004-Trading.md](../1000-Economy/1004-Trading.md) for its economic role.

@@ -19,3 +19,15 @@ Kharzul's ruins are revealed to hold some of the only surviving records of Kaelg
 
 ## Status
 Planned; not yet scheduled on the active roadmap. See [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md).
+
+* **Existing Areas** — Aurelia, Vethmoor, and Sylvaneth remain fully accessible; no existing content is removed.
+* **New Travel Links** — a desert caravan route and portal network extension connect the Kharzul Wastes to the existing mage-portal network described in [0111-Fast-Travel.md](../0100-World/0111-Fast-Travel.md).
+* **Phased Content** — none planned; purely additive.
+
+## Design Pillars for This Expansion
+
+Following [1504-Expansion-Feature-Planning.md](1504-Expansion-Feature-Planning.md): give Beastkin genuine cultural first-class status matching Aurelia's human and Vethmoor's dwarf/orc treatment, introduce a light environmental-hazard-driven exploration layer without compromising the MMORPG-first philosophy in [0001-Vision.md](../0000-Project/0001-Vision.md), and deepen the Age of Concord ruins thread ahead of Nightreach.
+
+## Success Criteria
+
+Success is measured by Beastkin character creation adoption rates, positive reception of the heat/exposure mechanic in playtesting (it should read as texture, not tedium), and successful narrative seeding for Expansion 03's Kaelgorath reveal.

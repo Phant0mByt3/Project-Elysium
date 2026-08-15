@@ -35,3 +35,14 @@ Loading screens bridge the gap between zones, instances, and login. They are an 
 ## 4. Technical Notes
 
 Loading screen assets are packaged with the content pack / client. The client selects the appropriate screen based on destination instance or continent.
+
+
+---
+
+## Additional Detail: Loading Screen Content
+
+Loading screens rotate lore snippets, tips, and concept art relevant to the destination zone, turning an otherwise dead moment into a small piece of world-building and onboarding for newer players.
+
+## Performance Target
+
+Loading screen duration is actively minimized through asset streaming and preloading optimizations tracked in [1113-Client-Optimisation.md](1113-Client-Optimisation.md), since long loading screens directly undermine the immersive, seamless-feeling world the game is built around.

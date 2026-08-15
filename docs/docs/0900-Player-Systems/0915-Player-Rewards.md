@@ -26,3 +26,14 @@ Player Rewards is the umbrella concept for all the ways the game gives players t
 ## 3. Delivery
 
 Rewards are granted through the relevant systems (quest turn-in, loot distribution, seasonal claim UI, mail, etc.). A unified “recent rewards” or notification stream helps players notice what they received.
+
+
+---
+
+## Additional Detail: Reward Categories
+
+Beyond quest and combat rewards covered elsewhere ([0711-Quest-Rewards.md](../0700-Quests/0711-Quest-Rewards.md)), this system covers account-wide milestone rewards — login streak bonuses, anniversary rewards, and welcome-back incentives for returning players — designed to recognize sustained engagement without becoming a pressuring daily obligation.
+
+## Return-Player Incentives
+
+Players returning after an extended absence receive a modest, clearly time-limited catch-up reward package (currency, a temporary experience boost) to ease re-entry into current content, without providing so much value that it undermines the achievements of continuously active players.

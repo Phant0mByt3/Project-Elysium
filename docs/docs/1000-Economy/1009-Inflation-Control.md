@@ -36,3 +36,14 @@ Inflation Control is the specific set of design and operational measures that pr
 ## 4. Technical Notes
 
 Currency creation and destruction events are logged for analysis. Dashboards track supply, flow rate, and price indices for critical goods.
+
+
+---
+
+## Additional Detail: Sink Diversity
+
+Inflation control relies on a diverse set of currency sinks (repairs, fast travel, consumables, cosmetics, bank tabs, Auction House fees) rather than a single dominant sink, so that adjusting any one sink doesn't have an outsized effect on overall currency circulation.
+
+## Early Warning Signals
+
+Rapid growth in average player Aurum balance, declining vendor/repair usage, or runaway Auction House price inflation are treated as early warning signals triggering a review under [1008-Economic-Balance.md](1008-Economic-Balance.md).

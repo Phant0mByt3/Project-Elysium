@@ -41,3 +41,14 @@ Artifact items are a special tier of powerful, story-rich items that sit above o
 ## 5. Technical Notes
 
 Artifact state (rank, unlocks, appearance) is stored on the character or account. Upgrade operations follow the same transactional patterns as other item systems.
+
+
+---
+
+## 6. Example Artifact Concept
+
+**The Concord Diadem** — a crown-shaped headpiece said to have been worn by the last steward of Aethercrest before the Sundering; acquired through a long multi-raid-tier questline, with each awakening stage tied to a specific lore revelation about the fall of the original capital, directly enriching [0206-History.md](../0200-Lore/0206-History.md) as players progress it.
+
+## 7. Long-Term Role
+
+Artifact items are intended to be a recurring feature across expansions, giving each major content season a signature, story-driven item chase alongside standard raid progression.

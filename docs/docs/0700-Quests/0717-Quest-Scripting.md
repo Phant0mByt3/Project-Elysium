@@ -45,3 +45,12 @@ Quest scripting is the technical layer that turns quest design documents into ru
 ## 5. Technical Notes
 
 The quest scripting runtime lives inside the modular plugin architecture. Quest definitions and scripts are versioned assets loaded by the server. See [1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md) for ownership boundaries.
+
+
+## 6. Debugging and QA Tools
+
+The scripting runtime exposes GM-only debugging tools that allow QA to fast-forward, reset, or inspect quest state without manual replaying, significantly speeding up the testing cycle described in [1406-Testing.md](../1400-Development/1406-Testing.md).
+
+## 7. Versioning and Live Updates
+
+Quest scripts are versioned assets that can be hotfixed independently of a full client patch where the change is server-side only, allowing the live operations team to correct broken quest logic quickly post-launch — see [2001-Updates.md](../2000-Operations/2001-Updates.md).

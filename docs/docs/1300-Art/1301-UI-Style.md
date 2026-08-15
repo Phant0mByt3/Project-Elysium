@@ -16,3 +16,16 @@ Visual standards for Elysium's fully custom UI, built natively in Unreal Motion 
 
 ## Accessibility
 UI scaling and colorblind-safe status icon design are required, not optional — see [1106-Accessibility.md](../1100-Client/1106-Accessibility.md).
+
+
+## Frame and Panel Construction
+
+UI frames use a modular 9-slice construction technique, allowing panels to resize cleanly for different content lengths (a short tooltip vs. a long quest description) without stretching or distorting the hand-illuminated border art.
+
+## Motion and Transitions
+
+Panel open/close and notification animations use short, purposeful easing curves rather than instant snaps or overly long flourishes, keeping the UI feeling polished without slowing down gameplay-critical interactions like opening a loot window mid-combat.
+
+## Cross-Screen Consistency
+
+The same frame, button, and icon language is reused across every UI screen (inventory, character sheet, guild panel, auction house) so players build one mental model of "how Elysium's UI works" rather than relearning conventions screen to screen.

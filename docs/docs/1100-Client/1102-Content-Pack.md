@@ -12,3 +12,12 @@ A comprehensive custom content pack replacing default engine template textures, 
 
 ## Delivery
 Installed and kept up to date automatically via the launcher ([1100-Launcher.md](1100-Launcher.md)), versioned alongside client moduleules ([1101-Client-Modules.md](1101-Client-Modules.md)).
+
+
+## Content Pack Size Management
+
+As the content pack grows across expansions, assets are organized into modular sub-packs so that players who own only certain continents (in a hypothetical future paid-expansion model) or who have limited storage could, in principle, manage a subset of the full asset library.
+
+## Quality Assurance
+
+Every content pack update undergoes an automated integrity check on the launcher side before installation, catching corrupted downloads before they reach the game client and produce confusing in-game visual errors.

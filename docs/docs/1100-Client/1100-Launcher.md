@@ -14,3 +14,12 @@ The launcher should require zero manual configuration from the player — no man
 
 ## Relationship to Other Systems
 See [1101-Client-Modules.md](1101-Client-Modules.md) for what the launcher installs, and [1204-Authentication.md](../1200-Technical/1204-Authentication.md) for the account system it authenticates against.
+
+
+## Update Delivery Mechanics
+
+The launcher uses delta patching (downloading only changed files rather than full reinstalls) to keep post-launch content updates ([2001-Updates.md](../2000-Operations/2001-Updates.md)) fast even as the content pack grows over years of live service.
+
+## First-Run Experience
+
+On first launch, players are guided through a brief account creation and system requirements check before any download begins, front-loading potential friction points so the actual install proceeds smoothly once started.

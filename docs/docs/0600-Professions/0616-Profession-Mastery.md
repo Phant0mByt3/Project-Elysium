@@ -42,3 +42,12 @@ Rewards include:
 ## 4. Technical Notes
 
 Mastery progress is stored per character (or per account for certain cosmetic unlocks). All advancement and reward grants are server-authoritative.
+
+
+## 5. Mastery and Collections
+
+Mastery achievements feed into the broader account-wide Collections system ([0907-Collections.md](../0900-Player-Systems/0907-Collections.md)), giving completionist players a unified place to track profession mastery progress alongside mounts, pets, and transmog appearances.
+
+## 6. Seasonal Mastery Goals
+
+Post-launch, seasonal live-service content ([2010-Seasonal-Events.md](../2000-Operations/2010-Seasonal-Events.md)) periodically introduces limited-time mastery objectives, giving experienced crafters a recurring reason to engage with professions beyond the initial leveling arc.

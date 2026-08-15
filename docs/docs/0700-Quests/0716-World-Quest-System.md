@@ -34,3 +34,12 @@ World Quests are short, repeatable, location-based objectives that appear across
 ## 4. Technical Notes
 
 World Quest availability and progress are managed by the same event and quest scheduling systems used for world events and dailies. State is server-authoritative and visible on the map UI.
+
+
+## 5. Reward Currency
+
+World Quests primarily reward a dedicated endgame currency usable to purchase catch-up gear and cosmetics from a rotating vendor, giving the system a clear economic purpose distinct from dailies and weeklies.
+
+## 6. Seasonal Integration
+
+During seasonal events ([0807-Seasons.md](../0800-Multiplayer/0807-Seasons.md)), World Quest density and rewards temporarily increase in event-themed regions, spotlighting seasonal content without requiring a separate quest system to be built from scratch.

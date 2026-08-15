@@ -1,19 +1,37 @@
 # 0802 — Raiding
 
-## Overview
-Raiding is the organized, guild-centric endgame activity built around the raid instances described in [0107-Raids.md](../0100-World/0107-Raids.md). This document covers the social and logistical systems around raiding, not encounter design itself.
+**Category:** Multiplayer
+**Status:** Living Document
+**Related:** [0107-Raids.md](../0100-World/0107-Raids.md) · [0800-Guilds.md](0800-Guilds.md)
 
-## Raid Group Formation
-Raids support 10–20 players depending on the specific instance. Guilds ([0800-Guilds.md](0800-Guilds.md)) are the primary organizing unit, though pickup raid groups are supported via a raid-finder tool for lower difficulties.
+---
 
-## Lockouts
-Each raid has a weekly lockout per character per difficulty, tracked server-side ([1201-Database.md](../1200-Technical/1201-Database.md)), preventing loot-farming the same bosses repeatedly within a week while still allowing practice/skip options for guilds progressing through a tier.
+## 1. Overview
 
-## Raid Roles
-Standard 2 tank / 4+ healer-DPS-mixed composition expectations scale with raid size; exact recommended compositions are tuned per-encounter as raids are designed (see [0107-Raids.md](../0100-World/0107-Raids.md)).
+This document covers the multiplayer coordination systems supporting raid content, complementing the raid encounter design covered in [0107-Raids.md](../0100-World/0107-Raids.md).
 
-## Guild Progression Tracking
-Guilds should have visible, shareable progress tracking (bosses downed per difficulty) as a social/competitive feature, reinforcing guild identity and Pillar 4's cooperative-play goals.
+## 2. Raid Group Formation
 
-## Difficulty & Loot
-See [0106-Dungeons.md](../0100-World/0106-Dungeons.md) and [0107-Raids.md](../0100-World/0107-Raids.md) for difficulty tier definitions, and [0504-Loot-Tables.md](../0500-Items/0504-Loot-Tables.md) for reward structure.
+Raids support up to 10 players at launch (see [0107-Raids.md](../0100-World/0107-Raids.md)), formed either through direct guild organization or, for select content, a raid-finder tool offering a more casual entry point to raid content.
+
+## 3. Loot Distribution Options
+
+* **Personal Loot** — each eligible player has an independent chance at loot, reducing social friction in pickup groups.
+* **Master Loot** — a designated loot master (typically a guild officer) manually distributes drops, preferred by organized guilds running structured loot councils.
+* **Group Loot** — traditional need/greed/pass rolling, available for smaller or more casual raid groups.
+
+## 4. Raid Roles and Assignments
+
+Raid leaders can assign specific mechanic responsibilities (interrupt rotations, add-tanking assignments, healing cooldown planning) through an in-client raid assignment tool, reducing reliance on external spreadsheets and voice-only communication for basic coordination.
+
+## 5. Lockouts and Saved Progress
+
+Weekly per-boss lockouts (see [0107-Raids.md](../0100-World/0107-Raids.md)) are tracked per character, with a raid ID system allowing a group to resume progress on the same lockout across multiple sessions within the week.
+
+## 6. Guild Integration
+
+Raid participation contributes to guild progression ([0814-Guild-Progression.md](0814-Guild-Progression.md)), giving guilds a collective incentive to organize and schedule raid content beyond individual player rewards.
+
+## 7. Accessibility for Smaller Guilds
+
+Normal raid difficulty is tuned to be achievable by a coordinated but non-elite guild, and the raid-finder tool exists specifically to give players without a full guild roster a path into raid content, per Pillar 4 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).

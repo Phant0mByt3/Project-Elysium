@@ -37,3 +37,12 @@ Profession specialisations allow a player who has reached a high skill threshold
 - **Leatherworking**: Combat Gear / Utility & Bags / Decorative & Cosmetic
 
 Exact lists are finalised per profession during Phase 2 implementation.
+
+
+## 5. Specialization and World Identity
+
+Certain specializations lean into regional or faction identity — for example, a Blacksmith specializing in Armoursmithing while based in Ironpeak Hold naturally gains access to dwarven-styled recipe variants, tying profession specialization back into the world's cultural texture described in [0100-World.md](../0100-World/0100-World.md).
+
+## 6. Market Visibility
+
+Specialized crafters can list their specialization publicly via a profession directory accessible from major cities, helping players seeking a specific bespoke craft (e.g. a bespoke weapon commission) find the right crafter rather than relying purely on Auction House browsing.

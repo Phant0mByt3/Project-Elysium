@@ -34,3 +34,12 @@ Party Finder is the player-driven tool for assembling groups outside of (or in a
 ## 4. Technical Notes
 
 Listings are stored and queried through a lightweight matchmaking/service layer. Once a group is formed, standard party/raid synchronisation takes over.
+
+
+## 5. Listing Categories
+
+Listings can be tagged by activity type (dungeon, raid, world boss, questing, profession trading, social), giving the browsing UI clear filters and preventing raid recruitment posts from burying casual questing invites.
+
+## 6. Guild Recruitment Integration
+
+The Party Finder also supports a lightweight guild recruitment listing type, giving unguilded players and recruiting guilds a dedicated discovery channel beyond word-of-mouth or external community sites.

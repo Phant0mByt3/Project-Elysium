@@ -34,3 +34,14 @@ Achievement Tracking is the system that records progress toward and completion o
 ## 4. Technical Notes
 
 Achievement state is stored authoritatively on the server. Criteria evaluation is event-driven and efficient enough to run at scale. Client receives progress updates and completion events for UI and toasts.
+
+
+---
+
+## Additional Detail: Progress Notifications
+
+Achievement progress toward multi-step achievements generates unobtrusive milestone notifications (25%, 50%, 75% complete) rather than only alerting on final completion, giving players a sense of momentum on long-term achievement goals.
+
+## Comparison Tools
+
+Players can view a friend or guildmate's achievement completion (subject to their privacy settings) for friendly comparison, reinforcing the social and aspirational dimension of the achievement system described in [0704-Achievements.md](../0700-Quests/0704-Achievements.md).

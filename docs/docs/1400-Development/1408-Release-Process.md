@@ -13,3 +13,12 @@ The process for shipping a new patch or content update to Elysium, from code-com
 
 ## Cadence
 Regular minor patches (balance, bug fixes) on a predictable cycle; major content patches (new dungeons, raids, story chapters) on a longer cycle aligned with the roadmap ([0003-Roadmap.md](../0000-Project/0003-Roadmap.md)) and seasonal calendar ([0807-Seasons.md](../0800-Multiplayer/0807-Seasons.md)).
+
+
+## Hotfix Path
+
+For Critical severity issues discovered post-release ([1407-Bug-Tracking.md](1407-Bug-Tracking.md)), an expedited hotfix path bypasses the full staged release cycle, going through an abbreviated but still mandatory QA check before emergency deployment, coordinated with [1230-Server-Maintenance.md](../1200-Technical/1230-Server-Maintenance.md).
+
+## Rollback Plan
+
+Every production deployment has a documented rollback plan prepared in advance, allowing the team to quickly revert to the last known-good state if a release introduces unforeseen critical issues, minimizing player-facing downtime and disruption.

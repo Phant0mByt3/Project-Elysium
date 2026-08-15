@@ -35,3 +35,14 @@ The Bank System provides persistent storage beyond the character’s carried inv
 ## 4. Technical Notes
 
 Bank contents are stored in the central database and are available regardless of which instance the player is in. Operations are transactional and protected against duplication.
+
+
+---
+
+## Additional Detail: Bank Tab Organization
+
+Players can purchase additional bank tabs with custom labels (e.g. "Raid Consumables," "Crafting Materials"), letting dedicated crafters and raiders organize their stored items far beyond the default single-tab layout.
+
+## Cross-Character Bank Access
+
+Account-wide bank tabs (see [0519-Item-Storage.md](../0500-Items/0519-Item-Storage.md)) allow certain material types to move between a player's characters without needing the mail system, streamlining the multi-character crafting and gearing workflow.

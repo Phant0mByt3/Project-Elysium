@@ -1,29 +1,39 @@
 # 0705 — Titles
 
-## Overview
-Titles are cosmetic name modifiers displayed above or below a character's name, earned primarily through achievements ([0704-Achievements.md](0704-Achievements.md)) and select major story/raid milestones.
+**Category:** Quests
+**Status:** Living Document
+**Related:** [0704-Achievements.md](0704-Achievements.md) · [0311-Character-Customisation.md](../0300-Characters/0311-Character-Customisation.md)
 
-## Examples
-* **"the Reclaimer"** — earned for completing the full main story ([0207-Main-Story.md](../0200-Lore/0207-Main-Story.md)).
-* **"of the Sunken Concord"** — earned for clearing the launch raid ([0107-Raids.md](../0100-World/0107-Raids.md)) on Heroic difficulty.
-* **"Cartographer"** — earned for fully exploring both launch continents ([0112-Maps.md](../0100-World/0112-Maps.md), [0105-Landmarks.md](../0100-World/0105-Landmarks.md)).
-* **"Warmonger"** — earned through PvP achievement milestones ([0804-PvP.md](../0800-Multiplayer/0804-PvP.md)).
+---
 
-## Historical Titles
+## 1. Overview
 
-**Examples:**
+Titles are cosmetic account or character labels displayed above a player's nameplate, earned through achievements, quest completion, or special events, giving players a visible way to express accomplishments.
 
-* First Fleet Member
-* First Guild to Conquer The Ruined Portal
-* Ancient Architect
-* Divine Creator
+## 2. Title Sources
 
-These are identity rewards, not power rewards.
+* **Main Quest milestones** — act-completion titles tied to [0708-Main-Quest.md](0708-Main-Quest.md).
+* **Achievements** — category and meta-achievement rewards ([0704-Achievements.md](0704-Achievements.md)).
+* **Raid and dungeon feats** — first-clear or difficulty-specific titles.
+* **Reputation** — faction-specific titles at maximum reputation standing ([0706-Reputation.md](0706-Reputation.md)).
+* **Seasonal/limited-time events** — titles exclusive to a specific event window ([2010-Seasonal-Events.md](../2000-Operations/2010-Seasonal-Events.md)).
 
-## Design Rules
-* Titles are purely cosmetic; no title should grant a stat or gameplay bonus.
-* Rarer titles (Mythic raid clears, top PvP tiers) should be seasonally reset or otherwise time-limited where appropriate, to preserve prestige.
-* Every title should be selectable/togglable independently by the player, never forced.
+## 3. Design Rules
 
-## Technical Notes
-Title unlock state is stored per-character; see [1201-Database.md](../1200-Technical/1201-Database.md) for schema considerations.
+* Titles should be earned, not purchased — no title is available through direct currency purchase, preserving their prestige value.
+* Titles reflect actual accomplishment tone — a Mythic raid title should sound suitably impressive, while an exploration title should sound whimsical or reflective.
+* Players may select which earned title (if any) to display, with the full list stored account-wide regardless of active character.
+
+## 4. Examples
+
+* "the Reclaimer" — awarded for completing the full Main Quest at launch.
+* "of the Sunken Concord" — awarded for a Mythic clear of the launch raid.
+* "Pathfinder" — awarded for discovering all landmarks in a region.
+
+## 5. Display and Formatting
+
+Titles support both prefix and suffix placement (e.g. "the Reclaimer, [Name]" vs "[Name] of the Sunken Concord"), configurable per title based on how it reads most naturally.
+
+## 6. Rarity Signaling
+
+Especially rare titles (limited-time event titles, world-first raid clears) may carry a distinct color treatment to signal their exclusivity, similar to the rarity color language used for items ([0510-Item-Rarity.md](../0500-Items/0510-Item-Rarity.md)).

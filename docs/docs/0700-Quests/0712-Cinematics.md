@@ -33,3 +33,12 @@ Cinematics are authored using the client’s cutscene tools and custom animation
 1. Spectacle serves story, not the other way around.
 2. Every cinematic should leave the player with a clearer sense of character, place, or stakes.
 3. Technical performance targets still apply; cinematics must not tank frame rate on minimum-spec hardware.
+
+
+## 5. Localization Considerations
+
+Cinematics are scripted with subtitle support as a first-class requirement, not a bolt-on afterthought, ensuring full accessibility regardless of voice-over language availability at any given stage of development.
+
+## 6. Reuse and Efficiency
+
+Camera rigs, lighting setups, and animation blends developed for one cinematic are cataloged for reuse where narratively appropriate, keeping cinematic production costs sustainable across the many story beats required by a live-service MMORPG.

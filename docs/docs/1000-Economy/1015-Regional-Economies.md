@@ -27,3 +27,14 @@ Regional Economies recognise that different parts of Elysium produce different g
 1. Regional flavour should be noticeable without making logistics painful (players can still move goods via Auction House and travel).
 2. No region is designed to be economically isolated to the point of frustration.
 3. Future continents will introduce new regional specialties that feed into the broader economy.
+
+
+---
+
+## Additional Detail: Regional Specialization Examples
+
+Ironpeak Hold specializes in metal goods and enchanting materials due to its Mining-rich surroundings, while Solmere's central hub position makes it the most liquid general trading market, and Ashka Vor's frontier position creates elevated demand for combat consumables — giving economically-minded players a reason to travel and arbitrage between regional markets.
+
+## Regional Economic Events
+
+Regional world events ([0109-World-Events.md](../0100-World/0109-World-Events.md)) can temporarily disrupt local material availability or pricing (a mining outpost event affecting Ember Deeps ore supply, for example), tying the economy system directly into the world's living, event-driven state.

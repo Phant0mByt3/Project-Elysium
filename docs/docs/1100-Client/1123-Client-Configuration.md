@@ -36,3 +36,14 @@ Client Configuration covers the storage, application, and exposure of all user-c
 ## 4. Technical Notes
 
 Settings are read and written by the client module stack. Some options affect only the local client; others (e.g. certain gameplay preferences) may be stored on the character or account record for consistency across machines.
+
+
+---
+
+## Additional Detail: Configuration Profiles
+
+Players can save and switch between multiple full client configuration profiles (graphics, UI layout, keybinds), useful for players who share a machine or who want distinct setups for different activities (a performance-focused PvP profile vs. a visual-quality-focused exploration profile).
+
+## Cloud Configuration Sync
+
+Configuration settings sync to the player's account server-side, ensuring a consistent experience when playing from a different machine without needing to manually reconfigure every setting from scratch.

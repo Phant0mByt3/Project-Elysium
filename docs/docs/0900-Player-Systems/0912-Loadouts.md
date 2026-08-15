@@ -35,3 +35,14 @@ Loadouts let players save and quickly switch between different equipment, talent
 ## 4. Technical Notes
 
 Loadout definitions are stored on the character. Application of a loadout validates ownership of the referenced items and talent validity before committing changes. All swaps are server-authoritative.
+
+
+---
+
+## Additional Detail: Loadout Switching
+
+Loadouts bundle a talent build, action bar layout, and equipment set (via the transmog and gear-swap systems) into a single saved profile, letting players switch between a raiding loadout and a PvP loadout in a few clicks rather than manually reconfiguring each component.
+
+## Loadout Restrictions
+
+Loadout switching is disabled during active combat and within a short cooldown after combat ends, preventing loadout-swapping from being used as an exploit to bypass intended encounter pacing.

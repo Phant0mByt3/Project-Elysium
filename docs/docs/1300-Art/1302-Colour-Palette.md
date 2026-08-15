@@ -18,3 +18,16 @@ Each continent's environment art draws from a bounded palette (see [1300-Art-Sty
 
 ## Accessibility
 All palette choices must pass a colorblind-safe contrast check, particularly for rarity and elemental colors that carry gameplay information — see [1106-Accessibility.md](../1100-Client/1106-Accessibility.md).
+
+
+## Palette Governance
+
+Any new UI element or effect proposing a color outside the established palette requires review against this document before implementation, preventing palette drift as new systems (professions, PvP, seasonal events) are added over time.
+
+## Seasonal and Event Palettes
+
+Limited-time seasonal events ([0807-Seasons.md](../0800-Multiplayer/0807-Seasons.md)) may introduce a bounded, temporary accent palette for event-specific UI and effects, clearly distinct from the core rarity and elemental palettes so players never confuse a seasonal cosmetic effect with a gameplay-significant indicator.
+
+## Dark and Light Environment Legibility
+
+Palette choices for UI elements are tested against both the darkest (night cycle, corrupted zones) and brightest (daytime plains, Solmere's golden district) environment lighting conditions to ensure consistent legibility across the full range of the game's lighting states ([0115-Day-Night-Cycle.md](../0100-World/0115-Day-Night-Cycle.md)).

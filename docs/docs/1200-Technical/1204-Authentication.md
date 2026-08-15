@@ -15,3 +15,12 @@ Account authentication ties a player's Elysium client to an Elysium account, ver
 
 ## Relationship to Other Systems
 Authentication underpins account-wide systems like cross-character storage ([1006-Banking.md](../1000-Economy/1006-Banking.md)) and is jointly owned with the broader security posture in [1206-Security.md](1206-Security.md) and anti-cheat systems in [1207-Anti-Cheat.md](1207-Anti-Cheat.md).
+
+
+## Multi-Factor Authentication
+
+Two-factor authentication (via authenticator app or email code) is planned as an opt-in, then eventually encouraged, security layer, particularly important given the real-money value that can accrue to accounts through rare cosmetics and trading.
+
+## Session Management
+
+Active sessions are tracked server-side, allowing players to view and remotely terminate sessions from unfamiliar devices through account security settings, giving players direct control over their account's access footprint.

@@ -39,3 +39,20 @@ Skill points are earned primarily by successfully crafting or gathering, with di
 ## 4. Technical Notes
 
 Profession skill and recipe knowledge are stored per character. All skill-up rolls and recipe unlocks are server-side.
+
+
+---
+
+## 5. Progression Pacing Table
+
+| Stage | Approx. Character Level | Region Alignment |
+| --- | --- | --- |
+| Apprentice | 1–10 | Southern Shires |
+| Journeyman | 10–20 | Wildwood Reach / Greywater Fens |
+| Expert | 20–30 | Sunspire Hills / Frostgate Approach |
+| Artisan | 30–42 | Ember Deeps / Ashenclaw Tundra |
+| Master | 42–50 | Ironpeak Holds / Shattered Cairns |
+
+## 6. Alt-Friendly Design
+
+Because profession leveling is decoupled from mandatory story gating, a player's second or third character can level a profession efficiently by purchasing materials from the Auction House rather than being forced to regather everything from scratch, keeping alt characters approachable.

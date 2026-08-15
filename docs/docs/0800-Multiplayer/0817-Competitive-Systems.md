@@ -36,3 +36,12 @@ Competitive Systems are the formal structures that turn skill expression into ra
 ## 4. Technical Notes
 
 Rating calculations, matchmaking queues, and seasonal reward grants are handled by dedicated services that sit alongside the core gameplay servers. All outcomes that affect rating or rewards are server-authoritative.
+
+
+## 5. Mythic Raid Racing
+
+At the start of each new raid tier, a brief "race" period sees top guilds compete for world-first clears, tracked publicly through the leaderboard system ([0808-Leaderboards.md](0808-Leaderboards.md)) and celebrated through community-facing recognition, without affecting the raid's accessibility for the broader playerbase once the race period ends.
+
+## 6. Integrity Systems
+
+Rating decay for inactive players, smurf-account detection, and boosting-service detection are all handled through dedicated backend monitoring, ensuring competitive rankings remain a meaningful signal of actual skill over time.

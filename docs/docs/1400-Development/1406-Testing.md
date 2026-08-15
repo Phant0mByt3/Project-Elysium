@@ -14,3 +14,12 @@ Internal playtests scheduled at the end of each major system's implementation, e
 
 ## Bug Tracking
 Issues found during any testing phase are logged per the process in [1407-Bug-Tracking.md](1407-Bug-Tracking.md).
+
+
+## Regression Testing
+
+Automated regression suites re-run core combat, economy, and quest-completion test cases after every merge, catching unintended side effects from unrelated changes before they reach staging, let alone production.
+
+## Load and Stress Testing
+
+Ahead of Closed Beta, dedicated load tests simulate target concurrent player counts against staging infrastructure, validating the server scaling assumptions described in [1223-Server-Scaling.md](../1200-Technical/1223-Server-Scaling.md) before real players are exposed to that load.

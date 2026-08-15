@@ -1,51 +1,37 @@
 # 0117 — Environmental Hazards
 
-**Project:** Elysium MMORPG  
-**Category:** World  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0113-Biomes.md](0113-Biomes.md) · [0114-Weather-System.md](0114-Weather-System.md) · [0306-Status-Effects.md](../0300-Characters/0306-Status-Effects.md) · [0307-Elements.md](../0300-Characters/0307-Elements.md) · [0401-Combat.md](../0400-Gameplay/0401-Combat.md)
+**Category:** World
+**Status:** Living Document
+**Related:** [0113-Biomes.md](0113-Biomes.md) · [0408-Physics-Systems.md](../0400-Gameplay/0408-Physics-Systems.md)
 
 ---
 
 ## 1. Overview
 
-Environmental hazards are persistent or temporary dangers built into the terrain and weather of a region. They exist to make exploration feel consequential, to reward preparation (gear, consumables, class abilities), and to reinforce biome identity.
+Environmental hazards are biome- or region-specific dangers that add tactical texture to combat and exploration without turning Elysium into a survival game. They are always avoidable through player skill or positioning, never passive attrition mechanics like hunger or thirst.
 
-Hazards are never pure “gotchas”; they are readable, telegraphed, and usually avoidable or mitigable.
+## 2. Hazard Types
 
----
+* **Lava / Heat Zones** (Ember Deeps) — instant or heavy damage on contact, clearly telegraphed with glow and particle effects.
+* **Deep Water / Undertow** (Greywater Fens) — reduced mobility and vision, occasional aggressive aquatic enemies.
+* **Extreme Cold** (Ashenclaw Tundra, Frostgate Approach) — brief exposure debuff in unsheltered blizzard conditions, mitigated by cold-resistant gear or brief shelter.
+* **Falling Hazards** (Sundered Spire, vertical ruin landmarks) — fall damage from significant heights, consistent with the physics system in [0408-Physics-Systems.md](../0400-Gameplay/0408-Physics-Systems.md).
+* **Sundering Corruption Zones** (Shattered Cairns) — periodic damage-over-time fields tied to lingering Sundering energy, foreshadowing Nightreach's harsher environmental storytelling.
 
-## 2. Hazard Categories
+## 3. Design Principles
 
-| Hazard | Typical Biomes | Effect | Mitigation |
-|--------|----------------|--------|------------|
-| **Lava / Magma Pools** | Volcanic | Instant or ticking fire damage | Fire resistance, careful pathing |
-| **Toxic Marsh Gas** | Wetland | Poison DoT + reduced healing | Nature resistance, anti-toxin potions |
-| **Unstable Sundered Ground** | Corrupted / Shattered | Periodic knockback or minor damage + temporary slow | Movement abilities, awareness |
-| **Blizzard Wind** | Tundra | Movement speed reduction + frost application | Frost resistance, shelter |
-| **Ash Cloud** | Volcanic | Reduced visibility + mild fire DoT | Fire resistance, masks/consumables |
-| **Deep Water / Undertow** | Coastal, certain rivers | Drown risk or strong current | Swimming skill, water-breathing effects |
-| **Falling Ash / Embers** | Near active volcanoes | Random small fire damage | Fire resistance |
+* Hazards must be clearly telegraphed visually and, where possible, audibly.
+* Hazards should reinforce the region's theme (heat in a volcanic zone, cold in a tundra) rather than being generic damage floors.
+* Hazards are never the primary difficulty driver of an encounter — they add texture to positioning decisions, not replace enemy design.
 
----
+## 4. Mitigation
 
-## 3. Design Rules
+Players can mitigate certain hazards through gear (cold resistance enchantments, see [0509-Enchanting.md](../0500-Items/0509-Enchanting.md)), consumables, or class abilities, giving profession and itemization systems a meaningful interaction with world design.
 
-1. Every hazard must have a clear visual and/or audio tell.
-2. Hazards should be denser in higher-level or endgame regions and lighter in starter zones.
-3. No hazard should soft-lock a quest path; an alternative route or temporary mitigation must exist.
-4. Class abilities, consumables, and gear should provide meaningful counterplay (see [0507-Consumables.md](../0500-Items/0507-Consumables.md) and resistance stats in [0304-Stats.md](../0300-Characters/0304-Stats.md)).
+## 5. Hazard Placement Process
 
----
+Hazards are defined during the region design brief alongside biome assignment ([0102-Regions.md](0102-Regions.md)) and refined during the hand-detailing pass of world generation ([0116-World-Generation.md](0116-World-Generation.md)).
 
-## 4. Interaction with Other Systems
+## 6. Future Hazards
 
-- Weather can intensify or create temporary hazards (e.g. heavy rain turns certain slopes into mud slides).
-- Some world events deliberately raise hazard levels in a region for the duration of the event.
-- Status effects applied by hazards use the same framework as combat status effects ([0306-Status-Effects.md](../0300-Characters/0306-Status-Effects.md)) so that cleansing and immunity tools remain consistent.
-
----
-
-## 5. Technical Notes
-
-Hazards are implemented as server-authoritative volume triggers or periodic region-wide checks. Client-side particle and sound effects are cosmetic only; damage and status application always come from the server.
+Nightreach is planned to introduce the most severe hazard set in the game, tied directly to Kaelgorath's corruption, and will likely require dedicated mitigation systems beyond what launch content needs — tracked in [9003-Future-Threats.md](../9000-Future/9003-Future-Threats.md).

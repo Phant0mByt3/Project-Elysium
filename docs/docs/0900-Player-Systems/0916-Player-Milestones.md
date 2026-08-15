@@ -36,3 +36,14 @@ Player Milestones are significant, one-time (or rarely repeated) achievements in
 ## 4. Technical Notes
 
 Milestone flags are stored persistently. Unlock events can trigger UI celebrations, mail, or other systems.
+
+
+---
+
+## Additional Detail: Milestone Categories
+
+Milestones mark significant one-time moments in a character's journey — first level cap reached, first dungeon cleared, first raid boss defeated, first Exalted reputation — each accompanied by a small in-client celebration moment (visual effect, announcement) distinct from the broader achievement system's more exhaustive tracking.
+
+## Account-Wide Milestone History
+
+A chronological account-wide milestone timeline lets players (and, with permission, their friends) look back on their journey through Elysium, reinforcing the sense of a personal story well told rather than just a checklist of completed tasks.

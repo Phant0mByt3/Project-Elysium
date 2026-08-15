@@ -37,3 +37,14 @@ Item binding controls whether an item can be traded, sold on the Auction House, 
 ## 4. Technical Notes
 
 Binding state is an immutable property of the item instance once set. All trade, mail, and Auction House operations validate binding rules server-side before completing the transfer.
+
+
+---
+
+## 5. Trade Windows
+
+BoP raid drops support a limited "trade within group" window (typically 2 hours) after a boss kill, allowing groups to correct accidental loot assignment or defer a decision without opening full unrestricted trading — a common quality-of-life feature in modern MMORPGs that this system deliberately preserves.
+
+## 6. Interaction with the Economy
+
+Binding rules directly shape which items are meaningful to the Auction House economy — see [1003-Auction-House.md](../1000-Economy/1003-Auction-House.md) for how BoE and unbound items form the backbone of the tradeable gear market.

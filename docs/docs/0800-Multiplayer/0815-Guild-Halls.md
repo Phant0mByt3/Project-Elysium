@@ -35,3 +35,12 @@ Guild Halls are shared spaces that belong to a guild. They serve as social hubs,
 ## 4. Technical Notes
 
 Guild Hall instances are managed by the Instance System. Customisation data and trophy state are stored on the guild record and loaded when the hall is entered.
+
+
+## 5. Trophy Display System
+
+Raid boss kills, achievement milestones, and notable guild events can be commemorated with unlockable trophy displays within the hall, giving guilds a visible, walkable history of their accomplishments.
+
+## 6. Regional Guild Districts
+
+In each major city ([0103-Cities.md](../0100-World/0103-Cities.md)), a dedicated guild district houses guild hall entrances, making guild halls a visible, socially prominent part of the city rather than a hidden menu-only feature.

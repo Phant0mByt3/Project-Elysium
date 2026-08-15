@@ -14,3 +14,12 @@ The Auction House is the central player-to-player marketplace, accessible from a
 
 ## Relationship to Trading
 For direct, negotiated player-to-player exchanges outside the open market, see [1004-Trading.md](1004-Trading.md).
+
+
+## Listing Fee Structure
+
+Listing fees scale modestly with the listed price, discouraging spam-listing of unreasonably priced items while remaining a minor cost relative to a successful sale, keeping the fee primarily a currency sink rather than a meaningful barrier to participation.
+
+## Price History and Transparency
+
+The Auction House interface displays recent sale price history for a searched item, helping players price their own listings fairly and reducing the information asymmetry that can otherwise favor only the most dedicated market-watchers.

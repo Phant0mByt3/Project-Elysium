@@ -39,3 +39,14 @@ Each tier introduces new base materials (ores, woods, herbs, leathers, fish, etc
 ## 4. Economy Interaction
 
 Materials are one of the primary trade goods on the Auction House. Their sinks (crafting, upgrading, consumables) and sources (nodes, mob drops, quest rewards) are monitored as part of overall economic health ([1000-Economy.md](../1000-Economy/1000-Economy.md)).
+
+
+## 5. Regional Material Identity Examples
+
+* **Ash-Forged Iron** (Ember Deeps) — a Blacksmithing material tempered in volcanic heat, used in Tier 4 weapon recipes.
+* **Fenroot** (Greywater Fens) — a rare Herbalism material used in undead-resistance Alchemy recipes.
+* **Frostpine Resin** (Vethmoor highlands) — a Woodcutting byproduct used in cold-resistance enchant recipes.
+
+## 6. Material Sinks
+
+Beyond crafting itself, materials are consumed by disenchanting reagent requirements, upgrade paths ([0511-Item-Upgrading.md](../0500-Items/0511-Item-Upgrading.md)), and certain reputation vendors, giving material sinks enough diversity to keep the economy from stagnating around a single crafting bottleneck.

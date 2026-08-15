@@ -18,3 +18,14 @@ Local Testing is what every engineer runs before pushing: unit tests, smoke star
 - Critical paths have automated tests  
 - A minimal “boot and login” smoke path is documented  
 - Local test data never points at production  
+
+
+---
+
+## Additional Detail: Fast Iteration Loops
+
+Local testing setups prioritize fast iteration — quick server restart times, hot-reloadable content where feasible ([1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md)) — recognizing that developer iteration speed directly affects how much testing actually happens before a change reaches shared environments.
+
+## Isolated Test Data
+
+Local environments use seeded, isolated test data (test characters, test items) separate from any shared staging data, letting individual contributors test freely without risk of corrupting shared testing state for the rest of the team.

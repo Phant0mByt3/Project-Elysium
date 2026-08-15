@@ -34,3 +34,12 @@ Dynamic quests are objectives that appear, change, or expire based on world stat
 ## 4. Relationship to World Events & World Quests
 
 Dynamic quests often sit on top of or feed into the systems described in [0109-World-Events.md](../0100-World/0109-World-Events.md) and [0716-World-Quest-System.md](0716-World-Quest-System.md). The distinction is mainly one of scope and permanence.
+
+
+## 5. Frequency Tuning
+
+Dynamic quests are tuned to appear often enough that returning players regularly encounter something new, but not so often that the world feels chaotic or unpredictable — early playtesting will calibrate the exact spawn cadence per region.
+
+## 6. Narrative Consistency
+
+Even though dynamic quests are procedurally scheduled, their content is entirely hand-authored, ensuring they meet the same writing quality bar as fixed quests per [1403-Quest-Writing-Guide.md](../1400-Development/1403-Quest-Writing-Guide.md).

@@ -37,3 +37,14 @@ Journals are in-game codex-style records that collect discovered lore, bestiary 
 ## 4. Technical Notes
 
 Unlock flags are stored on the character or account. Content text is data-driven and can be updated without client patches where appropriate.
+
+
+---
+
+## Additional Detail: Lore Journal Integration
+
+Journals surface discovered lore items (books, murals, inscriptions found via [0105-Landmarks.md](../0100-World/0105-Landmarks.md)) in a readable, searchable in-client library, letting lore-focused players revisit discovered content without needing external wikis.
+
+## Chronological Organization
+
+Entries are automatically sorted along the world's timeline ([0201-Timeline.md](../0200-Lore/0201-Timeline.md)), helping players build a coherent mental model of Elysium's history as they piece together fragments discovered in different regions and in a non-linear order.

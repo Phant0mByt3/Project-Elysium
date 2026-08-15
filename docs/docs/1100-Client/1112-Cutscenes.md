@@ -34,3 +34,14 @@ Cutscenes are the client-side playback of scripted cinematic sequences triggered
 ## 4. Technical Notes
 
 Cutscene definitions reference animation, camera, and dialogue assets. The client plays them in a controlled mode that temporarily suppresses normal gameplay input while preserving the ability to skip and to display subtitles.
+
+
+---
+
+## Additional Detail: Cutscene Camera Tools
+
+The client's cutscene tooling includes a dedicated camera sequencer allowing narrative designers to block scenes without engineering support for common cases, speeding up the iteration cycle on Main Quest cinematic beats ([0712-Cinematics.md](../0700-Quests/0712-Cinematics.md)).
+
+## Skip and Replay Access
+
+Previously viewed cutscenes are archived and replayable from a dedicated menu, letting players revisit story moments without needing to replay the associated quest content.

@@ -1,49 +1,33 @@
 # 0610 — Leatherworking
 
-**Project:** Elysium MMORPG  
-**Category:** Professions  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0600-Professions.md](0600-Professions.md) · [0501-Armour.md](../0500-Items/0501-Armour.md) · [0609-Tailoring.md](0609-Tailoring.md) · [0611-Profession-Progression.md](0611-Profession-Progression.md)
+**Category:** Professions
+**Status:** Living Document
+**Related:** [0501-Armour.md](../0500-Items/0501-Armour.md) · [0600-Professions.md](0600-Professions.md)
 
 ---
 
 ## 1. Overview
 
-Leatherworking is the crafting profession focused on leather and hide-based armour, gear, and utility items. It primarily serves leather-wearing classes (Rogue, Ranger, some Druid and Monk-style fantasy) and produces bags, drums, and other consumable or utility goods.
+Leatherworking crafts Leather armor for Shade and select Mail-adjacent pieces, consuming hide materials obtained as a byproduct of skinning defeated beast-type enemies rather than from a dedicated gathering profession node.
 
----
+## 2. Recipe Categories
 
-## 2. Fantasy & Identity
+* **Leather Armor** — full Leather armor sets for Shade.
+* **Mail Armor** — select Mail pieces shared with Blacksmithing's Mail offerings, differentiated by stat distribution.
+* **Quivers and Ranged Accessories** — Leatherworking's niche craft supporting Wayfarer's ranged weapon playstyle.
 
-Leatherworkers are the practical artisans of the wilds and the road — tanners, armourers, and outfitters who turn the hides of beasts into protection and tools. Their work sits between the heavy forges of Blacksmithing and the finer cloth of Tailoring.
+## 3. Skinning
 
----
+Skinning is a passive gathering action available to any character (not a separate profession slot), performed on defeated beast-type enemies, yielding the hide materials Leatherworking consumes.
 
-## 3. Core Outputs
+## 4. Crafting Process
 
-| Category | Examples |
-|----------|----------|
-| **Armour** | Leather chest, legs, gloves, boots, helms, shoulders |
-| **Utility** | Bags, quivers, weapon wraps, repair kits |
-| **Consumables / Buffs** | Drums, battle standards, temporary armour kits |
-| **Optional** | Light mounts or cosmetic gear (later content) |
+Leatherworking recipes are tanned and stitched at leatherworking stations found in most major cities, consuming hides gathered through skinning and, for higher tiers, rare hide drops from specific elite beasts and bosses.
 
----
+## 5. Skill Progression
 
-## 4. Materials
+Leatherworking follows the shared profession leveling curve in [0611-Profession-Progression.md](0611-Profession-Progression.md).
 
-Primary materials come from skinning (a gathering activity tied to combat or specific nodes) and from vendors or the Auction House. Higher-tier leathers are region- and level-gated, matching the progression curve in [0611-Profession-Progression.md](0611-Profession-Progression.md) and [0612-Profession-Materials.md](0612-Profession-Materials.md).
+## 6. Economic Role
 
----
-
-## 5. Design Rules
-
-1. Leatherworking must remain relevant at max level through utility items and competitive armour pieces, not only early-game greens.
-2. Recipes should offer meaningful choices (stamina-focused vs agility-focused, etc.) rather than a single optimal craft.
-3. Cross-profession synergy exists (e.g. Blacksmithing buckles, Jewelcrafting adornments) without making Leatherworking dependent on another profession to function.
-
----
-
-## 6. Technical Notes
-
-Recipes and skill progression follow the shared profession framework. Crafting is performed at designated stations or via the profession UI; all material consumption and item creation is server-authoritative.
+Because skinning is universally available rather than profession-locked, hide materials tend to be more abundant and cheaper than ore or herbs, making Leatherworking a lower-barrier-to-entry production profession attractive to new crafters.

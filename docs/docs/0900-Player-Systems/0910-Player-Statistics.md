@@ -36,3 +36,14 @@ Player Statistics are the recorded metrics of a character’s (and sometimes acc
 ## 4. Technical Notes
 
 Stats are incremented via server-side events and stored in a form suitable for both real-time display and periodic aggregation. Sensitive or high-frequency combat stats may be sampled or summarised rather than stored in full detail indefinitely.
+
+
+---
+
+## Additional Detail: Statistic Categories
+
+Tracked statistics span combat (total damage dealt, bosses defeated), exploration (distance traveled, landmarks found), economy (Aurum earned, items crafted), and social (dungeons run with friends, guild events attended), giving players a rich personal history of their time in Elysium.
+
+## Privacy and Display
+
+Players control which statistics are visible to others via their profile privacy settings ([0911-Character-Profile.md](0911-Character-Profile.md)), ensuring statistics tracking feels like a personal record-keeping tool rather than an exposed surveillance feature.

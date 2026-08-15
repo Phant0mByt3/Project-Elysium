@@ -34,3 +34,14 @@ Economic Events are temporary or seasonal occurrences that affect supply, demand
 ## 4. Technical Notes
 
 Economic events are driven by the same scheduling and state systems used for world events. Vendor inventories, drop tables, and recipe availability can be toggled or weighted for the duration of the event.
+
+
+---
+
+## Additional Detail: Event Types
+
+Economic events range from small, region-scoped disruptions (a bandit raid temporarily halting a trade route) to server-wide occurrences (a rare material shortage event tied to a seasonal storyline), each designed to create temporary, interesting market dynamics rather than permanent economic damage.
+
+## Player-Facing Communication
+
+Significant economic events are communicated clearly through in-client notifications and, where relevant, quest or world-event framing, ensuring players understand why prices or availability have shifted rather than experiencing it as an unexplained, opaque change.

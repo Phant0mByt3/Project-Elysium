@@ -11,3 +11,12 @@ Standards for world-building contributors constructing regions, cities, dungeons
 
 ## Review Process
 Completed builds go through a design review (gameplay function) and an art review (style compliance, per [1300-Art-Style.md](../1300-Art/1300-Art-Style.md)) before being marked content-complete in the roadmap ([0003-Roadmap.md](../0000-Project/0003-Roadmap.md)).
+
+
+## Iteration and Feedback Loops
+
+Builders are encouraged to playtest their own work-in-progress builds early and often, walking the space at player-character eye level and combat pace rather than relying solely on the top-down editor view, catching pacing and scale issues before a formal review pass.
+
+## Handoff Documentation
+
+When a build is handed from one contributor to another (e.g. a builder completing terrain handing off to a quest designer for population), a brief handoff note documenting intended traversal paths, key sightlines, and any known incomplete areas keeps the transition smooth and prevents rework from miscommunication.

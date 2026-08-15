@@ -29,3 +29,14 @@ The Dialogue UI presents NPC conversations, quest text, and player response opti
 2. Response options are clearly distinguishable and keyboard/mouse accessible.
 3. The UI can display longer lore passages without feeling cramped.
 4. Visual treatment follows the diegetic, handcrafted style of [1301-UI-Style.md](../1300-Art/1301-UI-Style.md).
+
+
+---
+
+## Additional Detail: Dialogue Presentation
+
+Dialogue is presented with a portrait of the speaking NPC alongside their text, and voice-over (where recorded) synced with subtitle timing, giving quest dialogue a more personal, characterful presentation than plain text-only dialogue boxes.
+
+## Dialogue History
+
+A dialogue history log lets players scroll back through recent conversation text, useful for players who missed a detail or want to re-read important quest information without repeating the conversation from an NPC.

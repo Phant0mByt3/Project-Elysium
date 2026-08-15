@@ -36,3 +36,14 @@ The Market System is the broad player-driven and NPC-supported framework for buy
 ## 4. Technical Notes
 
 Market operations are transactional and logged. Price history and volume data feed internal economy dashboards and, eventually, limited public APIs.
+
+
+---
+
+## Additional Detail: Market Data Tools
+
+Post-launch, an optional companion website or in-client addon-equivalent tool may expose aggregated (non-personally-identifying) market trend data, helping economically-minded players make informed crafting and trading decisions without requiring third-party scraping tools.
+
+## Regional Price Divergence
+
+Because the Auction House ([1003-Auction-House.md](1003-Auction-House.md)) operates on a single unified market rather than per-city instances, price divergence is driven by supply and demand patterns rather than geography — see [1015-Regional-Economies.md](1015-Regional-Economies.md) for how regional material availability still creates natural specialization.

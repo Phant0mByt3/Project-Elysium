@@ -36,3 +36,14 @@ Server Maintenance covers planned and emergency procedures for updating, patchin
 ## 4. Relationship to Live Ops
 
 Day-to-day communication and scheduling of maintenance windows are coordinated with the Operations documents ([2000-Operations/](../2000-Operations/)).
+
+
+---
+
+## Additional Detail: Scheduled Maintenance Windows
+
+Routine maintenance (patches, database maintenance) is scheduled during historically low-traffic windows and announced in advance through in-client notifications and community channels, minimizing disruption per [2004-Community-Management.md](../2000-Operations/2004-Community-Management.md).
+
+## Emergency Maintenance Protocol
+
+For critical issues requiring immediate unscheduled downtime, a documented emergency maintenance protocol ensures rapid, coordinated response with clear internal communication and prompt player-facing status updates, coordinated with [2011-Server-Restarts.md](../2000-Operations/2011-Server-Restarts.md).

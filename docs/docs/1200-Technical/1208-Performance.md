@@ -14,3 +14,12 @@ Performance targets and optimization strategy spanning both server (Unreal Engin
 
 ## Cross-Version Update Support
 Performance work should account for the README's cross-version update support goal — new content should not silently regress performance on already-supported hardware configurations.
+
+
+## Performance Budgets Per Content Type
+
+Distinct performance budgets are set for different content types — open-world exploration prioritizes draw distance and streaming smoothness, while raid encounters prioritize consistent frame timing during high-VFX-density boss mechanics — since a single uniform performance target doesn't serve every context equally well.
+
+## Ongoing Performance Regression Testing
+
+Automated performance regression tests run as part of the CI pipeline for major content additions, catching performance regressions before they reach players rather than discovering them through live player reports.

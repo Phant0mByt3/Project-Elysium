@@ -11,3 +11,12 @@ Security spans account protection, server integrity, and economy protection — 
 
 ## Process
 Security should be reviewed as part of every major system's design, not treated as a separate late-stage audit — consistent with the documentation-first, quality-first pillars in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md). A dedicated security/exploit review pass is planned ahead of Closed Beta ([0003-Roadmap.md](../0000-Project/0003-Roadmap.md)).
+
+
+## Incident Response Process
+
+A documented incident response process (detection, containment, communication, post-mortem) is established ahead of Closed Beta, ensuring the team can respond quickly and transparently to any security incident once the game is live — coordinated with the community communication standards in [2004-Community-Management.md](../2000-Operations/2004-Community-Management.md).
+
+## Regular Security Review
+
+Beyond the pre-Closed-Beta audit, security is revisited at each major content update, particularly when new economy-affecting or account-affecting systems are introduced, keeping security posture current rather than a one-time checkbox.

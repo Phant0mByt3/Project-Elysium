@@ -30,3 +30,14 @@ Character Select displays the player’s existing characters and provides entry 
 2. Creation and deletion flows are clear and protected against accidents.
 3. The screen respects the same art and UI language as the rest of the client.
 4. Performance remains solid even with the maximum number of characters displayed.
+
+
+---
+
+## Additional Detail: Character Preview
+
+Each character slot displays a fully rendered, idle-animated preview of the character in their current gear, letting players confirm which character they're selecting at a glance rather than relying on text labels alone.
+
+## Character Slot Expansion
+
+Base account character slots are generous enough to support one character per class for players who want to try every class, with additional slot purchases available for players who want further alts beyond that baseline.

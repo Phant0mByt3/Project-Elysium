@@ -1,18 +1,33 @@
 # 0608 — Jewelcrafting
 
-## Overview
-Jewelcrafting is a production profession that cuts gems (a byproduct of Mining, [0601-Mining.md](0601-Mining.md)) and crafts rings and necklaces ([0502-Accessories.md](../0500-Items/0502-Accessories.md)).
+**Category:** Professions
+**Status:** Living Document
+**Related:** [0601-Mining.md](0601-Mining.md) · [0502-Accessories.md](../0500-Items/0502-Accessories.md)
 
-## Core Loop
-Learn a recipe → gather/mine raw gems → cut gems at a jeweler's bench → either socket gems into gem-slotted gear or craft standalone accessory items.
+---
 
-## Gem Socketing
-Certain rare/epic gear pieces (see [0503-Loot.md](../0500-Items/0503-Loot.md)) drop with gem sockets. Jewelcrafters cut socketable gems that any player can slot in — giving the profession broad relevance even to players who don't practice it themselves, similar to Enchanting ([0509-Enchanting.md](../0500-Items/0509-Enchanting.md)).
+## 1. Overview
 
-## Recipe Categories
-* **Cut Gems** — socketable stat gems, sold widely on the Auction House.
-* **Crafted Rings & Necklaces** — the profession's exclusive craftable accessory items.
-* **Prospecting** — converting raw ore into a chance at gems, the profession's core resource-conversion loop.
+Jewelcrafting crafts rings, necklaces, and gem-based socket items, consuming gems gathered via Mining ([0601-Mining.md](0601-Mining.md)) and is the primary craftable source for the Accessories itemization category ([0502-Accessories.md](../0500-Items/0502-Accessories.md)).
 
-## Endgame Relevance
-Jewelcrafters should have access to a small number of raid-exclusive gem cuts, similar to Blacksmithing's raid-gated recipes.
+## 2. Recipe Categories
+
+* **Rings and Necklaces** — craftable versions of the pure-stat accessory slots.
+* **Gems** — cut gems socketed into gear with socket slots, offering an additional itemization layer.
+* **Trinket Components** — Jewelcrafting occasionally contributes materials toward specific trinket recipes owned jointly with Enchanting.
+
+## 3. Crafting Process
+
+Jewelcrafters cut raw gems obtained from Mining's prospecting byproduct and forge settings at a jeweler's bench, found primarily in Solmere and Ironpeak Hold.
+
+## 4. Skill Progression
+
+Jewelcrafting follows the shared profession leveling curve in [0611-Profession-Progression.md](0611-Profession-Progression.md), with the rarest gem cuts gated behind raid-tier raw gem drops.
+
+## 5. Socketing System
+
+Certain gear pieces (particularly Epic and above) include gem sockets, letting players customize their itemization further through Jewelcrafting-cut gems — see [0511-Item-Upgrading.md](../0500-Items/0511-Item-Upgrading.md) for how socketing fits into the broader upgrade system.
+
+## 6. Economic Role
+
+Jewelcrafting sits at a valuable niche intersection between raw material profitability (gem cutting) and finished-good sales (rings, necklaces), making it attractive to players who enjoy Auction House-focused play.

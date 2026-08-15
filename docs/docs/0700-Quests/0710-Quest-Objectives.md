@@ -39,3 +39,12 @@ Quest objectives are the concrete tasks a player must complete to advance or fin
 ## 4. Technical Notes
 
 Objectives are data-driven. Progress is recorded server-side and synchronised to the client for display. See [0713-Quest-Tracking.md](0713-Quest-Tracking.md) and [0717-Quest-Scripting.md](0717-Quest-Scripting.md).
+
+
+## 5. Objective Variety Targets
+
+Each region's quest content is reviewed to ensure no single objective type (particularly Kill objectives) dominates more than roughly a third of that region's quests, keeping the questing experience varied per the writing guide in [1403-Quest-Writing-Guide.md](../1400-Development/1403-Quest-Writing-Guide.md).
+
+## 6. Escort Quest Design
+
+Escort and defend objectives are tuned conservatively — the escorted NPC has generous health and the encounter difficulty accounts for the added complexity of protection duty, avoiding the frustration historically associated with fragile escort NPCs in the genre.

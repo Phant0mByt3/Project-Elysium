@@ -51,3 +51,12 @@ Recipes are learned from:
 ## 5. Technical Notes
 
 Recipe data is versioned and loaded by the profession plugin. Crafting validation (materials, skill, station) is performed server-side before any items are consumed or created.
+
+
+## 6. Recipe Discovery Systems
+
+Select professions (particularly Alchemy) support an optional "experimentation" discovery mechanic where combining known materials at a crafting station has a chance to reveal a new recipe outright, rewarding curious players who tinker with material combinations beyond simply following known recipes.
+
+## 7. Recipe Balance Review
+
+Recipes producing tradeable BoE gear or high-demand consumables are reviewed during the same balance cadence as combat itemization ([0309-Balance.md](../0300-Characters/0309-Balance.md)), since a recipe that's too easy relative to its output value can destabilize material prices across the whole economy.

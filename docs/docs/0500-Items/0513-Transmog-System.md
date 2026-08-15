@@ -40,3 +40,14 @@ A dedicated Transmog interface (accessible from major cities or the character sh
 ## 5. Technical Notes
 
 Appearance unlocks are stored on the account or character record. The client renders the chosen model and textures; the server only validates that the appearance is owned and legal for the slot.
+
+
+---
+
+## 6. Faction and Regional Appearances
+
+Certain appearances are tied to faction reputation or regional achievements rather than raw drop chance, giving the Dawnbound Concord and Duskward Pact each a recognizable visual identity players can collect toward deliberately.
+
+## 7. Collection Progress Tracking
+
+The Collections UI ([0907-Collections.md](../0900-Player-Systems/0907-Collections.md)) tracks overall transmog completion percentage, giving completionist players a long-term account-wide goal independent of current character power.

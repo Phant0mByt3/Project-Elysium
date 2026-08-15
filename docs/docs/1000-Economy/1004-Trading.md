@@ -14,3 +14,12 @@ Direct trading allows two players to exchange items and Aurum face-to-face, dist
 
 ## Design Rules
 Trading should remain single-faction only, consistent with party/guild restrictions elsewhere ([0801-Parties.md](../0800-Multiplayer/0801-Parties.md), [0800-Guilds.md](../0800-Multiplayer/0800-Guilds.md)), except where explicitly routed through the neutral Wayfarer's Guild systems noted in [1003-Auction-House.md](1003-Auction-House.md).
+
+
+## Trade Scam Prevention
+
+Beyond the lock-then-confirm flow, the trade window displays a clear final summary of exactly what each party is giving and receiving before the final confirmation step, and any last-second change to the trade automatically un-confirms both parties, closing a common scam vector from older MMORPGs.
+
+## Reporting Integration
+
+Suspicious trade patterns (repeated trades far below market value, patterns consistent with real-money-trading) are flagged for review through the same reporting and moderation pipeline covering chat and account behavior — see [2003-Moderation.md](../2000-Operations/2003-Moderation.md).

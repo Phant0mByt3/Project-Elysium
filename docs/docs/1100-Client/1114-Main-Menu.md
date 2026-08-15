@@ -29,3 +29,14 @@ The Main Menu is the first interactive screen after the launcher hands off to th
 2. Navigation is simple and keyboard/controller friendly.
 3. Load into Character Select is as fast as practical.
 4. Art and layout follow [1301-UI-Style.md](../1300-Art/1301-UI-Style.md).
+
+
+---
+
+## Additional Detail: Menu Structure
+
+The main menu surfaces character selection, news and patch notes, settings, and social/community links (Discord, forums) in a single clean landing screen, designed to feel like a polished AAA product's front door rather than a barebones engine template menu.
+
+## Visual Identity
+
+The main menu's background scene rotates between iconic Elysium locations (Solmere's skyline, the Sunken Concord's entrance) rendered in-engine, giving returning players a taste of the world's visual identity before they've even loaded into a character.

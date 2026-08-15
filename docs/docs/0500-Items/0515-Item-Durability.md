@@ -33,3 +33,14 @@ Durability is a light gold and material sink that gives death and heavy combat a
 ## 4. Technical Notes
 
 Durability is tracked per item instance on the server. Repair operations are transactional. Client only displays the current durability percentage and the broken-item visual state.
+
+
+---
+
+## 5. Regional Repair Access
+
+Repair vendors are present in every major city ([0103-Cities.md](../0100-World/0103-Cities.md)) and select large villages, ensuring players are never far from a repair option even deep into a questing session.
+
+## 6. Interaction with Death
+
+Durability loss on death is intentionally light compared to older MMORPGs, in keeping with the death system's broader philosophy of consequence without excessive punishment — see [0313-Death-System.md](../0300-Characters/0313-Death-System.md).

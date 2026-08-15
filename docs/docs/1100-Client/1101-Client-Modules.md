@@ -12,3 +12,12 @@ A curated set of native C++/Blueprint modules, installed automatically by the la
 ## Design Rules
 * The mod list should be treated as a single curated bundle, versioned and shipped together via the launcher rather than requiring players to manage individual mods.
 * Every client module must be compatible with the target Unreal Engine version tracked in [1208-Performance.md](../1200-Technical/1208-Performance.md)'s and [1205-API.md](../1200-Technical/1205-API.md)'s version support notes, and with cross-version update support as described in the README's technical goals.
+
+
+## Module Update Independence
+
+Individual client modules can, where technically feasible, be updated independently of a full client patch, allowing the live operations team to ship targeted fixes (a UI bug, a performance optimization) without requiring players to redownload the entire content pack.
+
+## Compatibility Testing
+
+Every module release undergoes compatibility testing against the current supported Unreal Engine version before being pushed through the launcher's update pipeline, preventing the kind of module/engine version mismatches that have historically caused instability in heavily modded game clients.

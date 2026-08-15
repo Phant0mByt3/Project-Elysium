@@ -38,3 +38,14 @@ Logging captures structured and unstructured events from the server processes, p
 ## 4. Technical Notes
 
 Logging is centralised through a shared library used by all plugins. Aggregation and search are handled by the operations stack (see Monitoring).
+
+
+---
+
+## Additional Detail: Log Retention and Levels
+
+Logs are categorized by severity (debug, info, warning, error, critical) with retention periods scaled accordingly — debug logs rotate quickly while error and critical logs are retained long enough to support post-incident review and the security processes in [1206-Security.md](1206-Security.md).
+
+## Structured Logging
+
+All server logs use a structured (queryable) format rather than plain text, enabling the monitoring and analytics systems ([1216-Monitoring.md](1216-Monitoring.md), [2006-Analytics.md](../2000-Operations/2006-Analytics.md)) to efficiently search and aggregate log data during both routine operations and incident investigation.

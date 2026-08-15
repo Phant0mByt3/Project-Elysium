@@ -27,3 +27,14 @@ Data Storage covers the persistence strategy for all durable game state: relatio
 1. No plugin maintains its own long-lived side database without explicit architecture approval.
 2. Schema migrations are versioned and reversible where practical.
 3. Retention policies exist for logs, analytics, and temporary data.
+
+
+---
+
+## Additional Detail: Storage Tiering
+
+Frequently accessed data (active character state, current auction listings) is kept in fast-access storage layers, while historical or rarely accessed data (old transaction logs, expired mail) migrates to cheaper, slower storage tiers, balancing performance against infrastructure cost as the game's data footprint grows over years of live service.
+
+## Data Retention Policy
+
+Player data retention follows a documented policy balancing gameplay needs (character history, achievements) against reasonable data minimization practices, reviewed periodically alongside applicable privacy regulations.

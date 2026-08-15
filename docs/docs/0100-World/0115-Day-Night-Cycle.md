@@ -1,51 +1,33 @@
 # 0115 — Day Night Cycle
 
-**Project:** Elysium MMORPG  
-**Category:** World  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0114-Weather-System.md](0114-Weather-System.md) · [0109-World-Events.md](0109-World-Events.md) · [0202-Gods.md](../0200-Lore/0202-Gods.md) · [0906-Simulated-Civilisation.md](../0900-Player-Systems/0906-Simulated-Civilisation.md)
+**Category:** World
+**Status:** Living Document
+**Related:** [0114-Weather-System.md](0114-Weather-System.md) · [0404-AI-Behaviour.md](../0400-Gameplay/0404-AI-Behaviour.md)
 
 ---
 
 ## 1. Overview
 
-Elysium runs a continuous day-night cycle that is shared across all open-world instances of a continent. The cycle exists to support immersion, NPC routines, certain world events, and a small number of time-gated activities.
+Elysium runs a continuous day/night cycle across the overworld, synced server-wide, contributing to the sense of a living, persistent world rather than a static backdrop.
 
-The cycle is deliberately slower than real time so that players experience meaningful stretches of day and night without feeling rushed.
+## 2. Cycle Length
 
----
-
-## 2. Timing
-
-| Period | Approximate Duration (real time) | In-Game Feel |
-|--------|----------------------------------|--------------|
-| Dawn | 15–20 min | Soft golden light, NPCs beginning daily routines |
-| Day | 60–75 min | Full brightness, peak activity in cities and roads |
-| Dusk | 15–20 min | Warm decline, taverns filling |
-| Night | 45–60 min | Reduced ambient light, increased undead/nocturnal activity in certain regions |
-
-Total cycle ≈ 2.5–3 real hours. Exact timings are tunable per continent if needed.
-
----
+A full in-game day lasts approximately 2 real-world hours (roughly 1 hour of daylight, 1 hour of night), chosen to be long enough that time-of-day feels meaningful rather than flickering, but short enough that players regularly experience both.
 
 ## 3. Gameplay Effects
 
-- **Visibility** — night reduces ambient light; torches, lanterns, and certain class abilities become more valuable.
-- **Enemy behaviour** — some creature types become more aggressive or only spawn at night (especially in Greywater Fens and Shattered Cairns).
-- **NPC routines** — vendors, guards, and citizens follow simple day/night schedules (see [0906-Simulated-Civilisation.md](../0900-Player-Systems/0906-Simulated-Civilisation.md)).
-- **World events** — a subset of dynamic events and world-boss windows are time-of-day gated.
-- **Religious flavour** — Solthar-aligned locations feel stronger at midday; Nyxara-aligned locations feel stronger at midnight.
+* **NPC schedules** — some NPCs have day/night routines (shops closing at night, guards changing posts), adding life to cities and villages per [0209-NPCs.md](../0200-Lore/0209-NPCs.md).
+* **Enemy spawns** — certain enemies (particularly undead in the Greywater Fens) spawn more frequently or aggressively at night.
+* **Rare content gating** — specific landmarks or vendors (see [0105-Landmarks.md](0105-Landmarks.md)) are only accessible at certain times of day, rewarding players who explore across the full cycle.
 
----
+## 4. Visual and Atmospheric Design
 
-## 4. Player Tools
+Lighting, ambient sound, and even background music shift gradually across the cycle rather than snapping abruptly, coordinated with the weather system in [0114-Weather-System.md](0114-Weather-System.md) for combined atmospheric states (a rainy night in the Fens reads very differently from a clear night in the Shires).
 
-- Hearthstones and inns always provide full indoor lighting regardless of outside time.
-- Certain consumables and class abilities grant temporary night vision or light sources.
-- The minimap displays a simple sun/moon icon indicating current period.
+## 5. Player-Facing Time Display
 
----
+An optional HUD element shows the current in-game time, useful for players tracking time-gated content, configurable in the settings menu (see [1109-Settings.md](../1100-Client/1109-Settings.md)).
 
-## 5. Technical Notes
+## 6. Technical Notes
 
-Day-night state is authoritative on the server and synchronised to all clients in the instance. Individual players cannot advance or pause the cycle; it is a shared world property. Instance servers for dungeons and raids may optionally freeze time or run an independent cycle if the encounter design requires it.
+The day/night cycle is server-authoritative and synchronized across all players in a shared world instance, ensuring group content and world events reference a consistent time state. Instanced content (dungeons, raids) uses a fixed lighting state appropriate to its narrative framing rather than following the live cycle.

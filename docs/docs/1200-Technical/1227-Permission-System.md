@@ -30,3 +30,14 @@ The Permission System answers â€œis this actor allowed to perform this action?â€
 2. Guild permissions are configurable by the guild within defined bounds.
 3. Staff permissions are role-based and auditable.
 4. Permission checks are performed server-side on every sensitive action.
+
+
+---
+
+## Additional Detail: Permission Granularity
+
+Permissions are defined at a granular action level (grant item, teleport player, mute player, view audit log) rather than coarse role buckets alone, allowing precise permission sets to be assembled for specific support roles without over-granting access.
+
+## Permission Auditing
+
+Changes to a staff member's permission level are themselves logged and require appropriate authorization, ensuring the permission system itself is protected against unauthorized privilege escalation.

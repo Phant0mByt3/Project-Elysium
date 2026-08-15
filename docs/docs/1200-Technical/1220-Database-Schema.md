@@ -33,3 +33,14 @@ The Database Schema defines the tables, relationships, and constraints that stor
 2. Foreign keys and constraints protect referential integrity for critical relationships.
 3. Hot-path queries are indexed and reviewed against performance targets.
 4. Soft-delete or archival strategies are preferred over hard deletes for player-facing history where recovery may be needed.
+
+
+---
+
+## Additional Detail: Schema Evolution
+
+Schema changes follow a backward-compatible migration pattern wherever possible (additive changes preferred over destructive ones), allowing rolling deployments without requiring full server downtime for routine schema updates.
+
+## Indexing Strategy
+
+Query-heavy tables (item instances, auction listings, character lookups) are indexed based on actual observed query patterns from monitoring data ([1216-Monitoring.md](1216-Monitoring.md)) rather than purely theoretical access patterns, keeping the schema tuned to real-world usage.

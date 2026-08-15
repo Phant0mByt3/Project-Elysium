@@ -28,3 +28,14 @@ The Quest UI comprises the quest log, on-screen tracker, and related notificatio
 2. Main Quest progress is visually distinct from optional content.
 3. The tracker can be customised or minimised without losing critical information.
 4. Text length and formatting follow the writing standards so that the UI does not overflow or truncate important details.
+
+
+---
+
+## Additional Detail: Quest Log Organization
+
+The quest log automatically groups quests by region and highlights quest chain progress, helping players understand not just what to do next but where their current questing fits into the broader region's content.
+
+## Objective Highlight Integration
+
+Active objective locations are highlighted directly in the 3D world (subtle glow or marker) in addition to map and tracker panel indicators, ensuring objective clarity works whether a player primarily navigates by map or by direct world observation.

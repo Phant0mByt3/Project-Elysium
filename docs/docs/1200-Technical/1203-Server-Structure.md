@@ -14,3 +14,12 @@ Per the README's technical goals, the server structure should support rolling ou
 
 ## Relationship to Other Docs
 See [1201-Database.md](1201-Database.md) for shared data access across all server types, and [1208-Performance.md](1208-Performance.md) for performance targets per server type.
+
+
+## Instance Lifecycle
+
+Instance servers are provisioned on-demand when a group enters a dungeon or raid, and torn down automatically after a period of inactivity or when the group fully disbands, keeping server resource usage proportional to actual demand rather than statically over-provisioned — see [1209-Instance-System.md](1209-Instance-System.md) for the detailed instance management architecture.
+
+## Load Distribution
+
+The overworld server layer is designed to eventually shard by continent or region as concurrent population grows, coordinated with the load balancing strategy in [1222-Load-Balancing.md](1222-Load-Balancing.md).

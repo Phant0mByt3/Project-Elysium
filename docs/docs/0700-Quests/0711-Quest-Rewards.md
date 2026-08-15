@@ -39,3 +39,12 @@ Quest rewards are the primary early- and mid-game source of experience, currency
 ## 4. Technical Notes
 
 Reward packages are defined in quest data. Granting is transactional and server-authoritative; the client only displays the offer and confirmation.
+
+
+## 5. Reward Choice Presentation
+
+When a quest offers a choice of item rewards, options are filtered to the player's class and, where reasonably inferable, their current specialization, reducing the historical MMORPG friction of choosing between four items only one of which is remotely usable.
+
+## 6. Catch-Up Rewards
+
+Quests completed significantly below a player's current level (via twinking or backtracking) scale down experience appropriately but retain full currency and reputation value, discouraging power-leveling exploits without punishing players revisiting old content for completionist reasons.

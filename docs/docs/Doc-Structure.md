@@ -365,6 +365,7 @@ docs/
     ├── 9013-Prototype-Systems.md
     ├── 9014-Community-Suggestions.md
     ├── 9015-Unconfirmed-Features.md
+    ├── 9016-Secret-Interaction-System.md
     └── 9999-Ideas.md
 ```
 

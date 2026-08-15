@@ -1,39 +1,34 @@
 # 0808 — Leaderboards
 
-**Project:** Elysium MMORPG  
-**Category:** Multiplayer  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0805-Arenas.md](0805-Arenas.md) · [0807-Seasons.md](0807-Seasons.md) · [0802-Raiding.md](0802-Raiding.md) · [0704-Achievements.md](../0700-Quests/0704-Achievements.md)
+**Category:** Multiplayer
+**Status:** Living Document
+**Related:** [0805-Arenas.md](0805-Arenas.md) · [0817-Competitive-Systems.md](0817-Competitive-Systems.md)
 
 ---
 
 ## 1. Overview
 
-Leaderboards surface competitive and prestige rankings across PvP, PvE, and selected progression metrics. They exist to give high-performing players visibility and to give the wider community targets and heroes to follow, without making every system a pure ranking treadmill.
-
----
+Leaderboards publicly rank players and guilds across various competitive and achievement-based metrics, giving top performers recognition and giving the broader playerbase visible goals to aspire to.
 
 ## 2. Leaderboard Categories
 
-| Category | Examples | Reset |
-|----------|----------|-------|
-| **Arena / Rated PvP** | 2v2, 3v3, Solo Shuffle-style ratings | Seasonal |
-| **Raid Progression** | First kills, speed clears (optional) | Per tier / seasonal |
-| **World / Region** | World boss participation, exploration metrics | Soft / ongoing |
-| **Profession / Economic** | Optional craft or market rankings | Seasonal or none |
-| **Achievement / Collection** | Points, rare unlocks | Ongoing |
+* **Arena Rating** — per-format (2v2, 3v3) ranked leaderboards, refreshed each season ([0807-Seasons.md](0807-Seasons.md)).
+* **Raid Progression** — guild-level "first to clear" and fastest-clear leaderboards per raid tier.
+* **Achievement Points** — overall account-wide achievement score ranking.
+* **Profession Mastery** — recognition for top crafters in each profession ([0616-Profession-Mastery.md](../0600-Professions/0616-Profession-Mastery.md)).
 
----
+## 3. Display and Access
 
-## 3. Design Rules
+Leaderboards are viewable in-client and, post-launch, on a companion website, allowing the community to follow competitive progress without needing to be logged into the game.
 
-1. Leaderboards should celebrate skill and dedication without shaming the majority of players who will never appear on them.
-2. Rankings that affect rewards are seasonal so that new players and returning players have a fair window.
-3. Exploits or boost-style ranking inflation are actively monitored and corrected (see Anti-Cheat and economy monitoring).
-4. Players can opt out of public display where privacy is a concern.
+## 4. Regional and Faction Splits
 
----
+Where relevant, leaderboards are viewable filtered by faction (Dawnbound Concord vs. Duskward Pact) in addition to a combined global view, satisfying both faction pride and overall competitive curiosity.
 
-## 4. Technical Notes
+## 5. Anti-Cheat Integration
 
-Leaderboard data is aggregated from authoritative server events and stored in a queryable form for the client UI and any external API. Updates are near-real-time for active brackets and batched for less critical boards.
+Leaderboard-eligible activity is subject to heightened anti-cheat scrutiny given the reputational and reward stakes involved — see [1207-Anti-Cheat.md](../1200-Technical/1207-Anti-Cheat.md).
+
+## 6. Design Philosophy
+
+Leaderboards exist to celebrate excellence, not to shame the majority of the playerbase who aren't chasing top ranks — no negative leaderboards (slowest clears, lowest ratings) are implemented.

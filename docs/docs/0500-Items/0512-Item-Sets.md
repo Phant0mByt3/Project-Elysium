@@ -33,3 +33,16 @@ Item sets reward collecting related pieces with progressive bonuses. They are a 
 ## 4. Tracking
 
 The character sheet and a dedicated Collections UI ([0907-Collections.md](../0900-Player-Systems/0907-Collections.md)) show set progress and active bonuses.
+
+
+---
+
+## 5. Set Bonus Examples
+
+**Vanguard Tier Set (2-piece):** reduces the cooldown of the class's primary defensive ability. **(4-piece):** the same ability now also generates a burst of threat, reinforcing the tank fantasy.
+
+**Arcanist Tier Set (2-piece):** increases damage of the player's currently active elemental affinity ([0307-Elements.md](../0300-Characters/0307-Elements.md)). **(4-piece):** switching elemental affinity grants a brief damage window, rewarding active element-swapping play.
+
+## 6. Set Design Cadence
+
+A new tier set is designed alongside each new raid tier, reviewed by the Lead Game Designer against existing sets to ensure it introduces a genuinely new playstyle incentive rather than repeating a prior tier's bonus with bigger numbers.

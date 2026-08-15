@@ -37,3 +37,14 @@ Account Progression captures long-term, cross-character growth: collection unloc
 ## 4. Technical Notes
 
 Account-level data is stored against the account record and is available to every character on that account. Systems that grant account unlocks emit events that the collection and achievement services consume.
+
+
+---
+
+## Additional Detail: Account Level
+
+Account Level aggregates activity across all characters on an account into a single overarching progression track, unlocking account-wide perks (bonus bag slots, cosmetic account-wide unlocks) as it increases, giving multi-character players a unified sense of long-term progress.
+
+## Legacy Character Bonuses
+
+Characters created after an account has already made significant account-level progress receive modest catch-up bonuses (slightly faster early leveling, starting bag space), reducing the friction of starting a new alt late into an account's lifetime.

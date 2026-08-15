@@ -1,19 +1,39 @@
 # 0701 — Quest Chains
 
-## Overview
-Quest chains are multi-step questlines that build toward a larger payoff than any single quest could deliver — the backbone of side stories ([0208-Side-Stories.md](../0200-Lore/0208-Side-Stories.md)) and regional local-conflict arcs ([0102-Regions.md](../0100-World/0102-Regions.md)).
+**Category:** Quests
+**Status:** Living Document
+**Related:** [0700-Quests.md](0700-Quests.md) · [0102-Regions.md](../0100-World/0102-Regions.md)
 
-## Structure
-A well-formed quest chain should have:
-1. **A hook** — a compelling first quest that establishes stakes.
-2. **Rising steps** — 3–8 quests that escalate the situation, introduce complications, or reveal new information.
-3. **A climax** — often a dungeon entry, a boss fight, or a major narrative choice.
-4. **A resolution** — a final quest that closes the loop and, ideally, sets up a future thread (main story, expansion, or a returning NPC).
+---
 
-## Design Rules
-* Chains should not require players to backtrack across regions unnecessarily — pacing should respect [0110-Travel.md](../0100-World/0110-Travel.md)'s "no long unassisted walk" guidance.
-* Chains that gate access to a dungeon or raid ([0106-Dungeons.md](../0100-World/0106-Dungeons.md), [0107-Raids.md](../0100-World/0107-Raids.md)) should be clearly signposted as such, avoiding surprise prerequisites.
-* NPCs introduced in a chain should be added to [0209-NPCs.md](../0200-Lore/0209-NPCs.md) for continuity tracking.
+## 1. Overview
 
-## Repeatable Chains
-Some chains repeat on a longer cycle tied to reputation grinds — see [0706-Reputation.md](0706-Reputation.md) and [0707-Factions-Reputation.md](0707-Factions-Reputation.md).
+Quest chains are multi-step questlines that develop a region's local conflict or a specific NPC's arc across several connected quests, rather than resolving in a single objective.
+
+## 2. Structure
+
+A typical quest chain contains 4–8 quests, escalating in stakes, often culminating in either a dungeon entrance (see [0106-Dungeons.md](../0100-World/0106-Dungeons.md)) or a significant narrative resolution for the region.
+
+## 3. Design Rules
+
+* Each step should meaningfully escalate the stakes or reveal new information, not just repeat the previous objective in a new location.
+* Chains should introduce and develop at least one named NPC the player will recognize and, ideally, encounter again later.
+* A chain's final reward should feel proportional to its length — longer chains grant better rewards, unique items, or a piece of Legendary acquisition (see [0505-Legendary-Items.md](../0500-Items/0505-Legendary-Items.md)).
+
+## 4. Examples
+
+**The Fenwick Reckoning** (Greywater Fens) — a six-quest chain following a player from initial rumors of undead activity through investigation, confrontation with cult agents, and culminating in the Drowned Chapel dungeon entrance.
+
+**The Ember Uprising Prologue** (Ember Deeps) — a four-quest chain establishing the forge-construct rebellion before the Ember Foundry dungeon, introducing the dwarven forgemaster NPC who reappears throughout Vethmoor's story.
+
+## 5. Chain Interruption and Resumption
+
+Quest chains support being paused and resumed at any step without penalty, respecting that players may explore other content between chain steps rather than needing to rush through in one session.
+
+## 6. Cross-Region Chains
+
+A small number of chains span multiple regions, used deliberately for main story beats that require the player to travel — these are tracked and flagged distinctly in the quest log to avoid confusing them with single-region content.
+
+## 7. Writing Standard
+
+All quest chain dialogue and objective text follows [1403-Quest-Writing-Guide.md](../1400-Development/1403-Quest-Writing-Guide.md), with particular attention to maintaining consistent NPC voice across every step of a chain.

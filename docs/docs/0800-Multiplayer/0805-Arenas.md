@@ -1,18 +1,36 @@
 # 0805 — Arenas
 
-## Overview
-Arenas are structured, instanced PvP matches (2v2 and 3v3 team formats at launch) offering a controlled, ranked alternative to open-world PvP ([0804-PvP.md](0804-PvP.md)).
+**Category:** Multiplayer
+**Status:** Living Document
+**Related:** [0804-PvP.md](0804-PvP.md) · [0808-Leaderboards.md](0808-Leaderboards.md)
 
-## Format
-* **2v2** — fast-paced, favors burst and mobility-heavy specs.
-* **3v3** — the primary "ranked ladder" format, favoring more balanced team compositions.
+---
 
-## Ranking & Rewards
-Seasonal ranked ladders reset periodically (see [0807-Seasons.md](0807-Seasons.md) for the seasonal calendar this aligns to), rewarding cosmetics ([0903-Cosmetics.md](../0900-Player-Systems/0903-Cosmetics.md)) and titles ([0705-Titles.md](../0700-Quests/0705-Titles.md)) at top rating brackets rather than raw power items, consistent with [0309-Balance.md](../0300-Characters/0309-Balance.md)'s PvP/PvE parity goals.
+## 1. Overview
 
-## Design Rules
-* Arena maps should be small, symmetrical, and free of the exploration/lore elements found elsewhere in the world ([0105-Landmarks.md](../0100-World/0105-Landmarks.md)) — arenas are a pure competitive space.
-* Matchmaking should pair teams of similar rating; a placement series determines initial rating for new participants each season.
+Arenas are small-scale, instanced, ranked PvP encounters where premade teams compete in structured objective formats, forming the most competitive tier of Elysium's PvP content.
 
-## Cross-Reference
-Territory-based, large-scale PvP is a separate system — see [0806-Territory-Control.md](0806-Territory-Control.md).
+## 2. Formats
+
+* **2v2** — fast, high-skill-expression small-team combat.
+* **3v3** — the primary ranked format, balancing team composition depth with manageable coordination requirements.
+
+## 3. Rating System
+
+Arena performance is tracked through a rating system that adjusts based on match outcomes and opponent rating, feeding into seasonal leaderboards ([0808-Leaderboards.md](0808-Leaderboards.md)) and end-of-season rewards.
+
+## 4. Map Design
+
+Arena maps are compact, hand-built environments with limited line-of-sight-breaking terrain and no environmental hazards, keeping the focus purely on player skill and team coordination rather than map gimmicks.
+
+## 5. Rewards
+
+Arena participation and rating milestones reward PvP-specific currency, cosmetic gear appearances, and, at the highest rating tiers, exclusive titles and mounts — kept cosmetically distinct from PvE rewards to give Arena players a recognizable identity.
+
+## 6. Seasonal Structure
+
+Arena ratings reset (with a soft compression, not a full wipe) at the start of each PvP season, aligned with the broader seasonal content cadence in [0807-Seasons.md](0807-Seasons.md).
+
+## 7. Spectator and Replay Tools
+
+A planned spectator mode allows players to watch high-rated matches, supporting a competitive spectator culture and giving lower-rated players a way to learn from top play — tracked for post-launch consideration in [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md).

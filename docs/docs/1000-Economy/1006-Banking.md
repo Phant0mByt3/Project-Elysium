@@ -11,3 +11,12 @@ Banks provide expanded, secure item storage beyond a character's personal invent
 ## Design Rules
 * Bank tab expansion costs should scale, providing a mid-game Aurum sink ([1000-Economy.md](1000-Economy.md)) without ever hard-blocking a player's core item storage needs.
 * Bank access should never be possible from the open field — a deliberate friction point that keeps cities relevant as hubs (Pillar in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md)) rather than everything being accessible remotely.
+
+
+## Bank Tab Search
+
+Like the personal inventory, bank storage supports search and filter tools, ensuring that expanded storage doesn't become an unmanageable junk drawer as players accumulate profession materials and collectible items over time.
+
+## Guild Bank Auditing
+
+Guild bank transactions are logged and visible to officers with appropriate permissions, giving guild leadership transparency into shared resource usage and helping prevent and quickly identify any misuse of guild-shared funds or materials.

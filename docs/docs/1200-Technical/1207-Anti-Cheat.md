@@ -14,3 +14,12 @@ Suspected violations should be logged for review rather than always auto-banning
 
 ## Relationship to Security
 Anti-cheat is one pillar of the broader security posture described in [1206-Security.md](1206-Security.md).
+
+
+## Statistical Anomaly Detection
+
+Beyond direct rule-based validation, aggregate statistical monitoring (unusual damage output, implausible resource gathering rates) flags accounts for manual review, catching sophisticated cheats that might evade simple rule-based detection.
+
+## Fair Play Communication
+
+Players can report suspected cheaters directly through the in-client reporting tool, feeding into the same review pipeline as automated detection, and the team communicates transparently (without revealing detection methods) about anti-cheat enforcement actions to maintain community trust.

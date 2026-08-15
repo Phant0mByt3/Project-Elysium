@@ -37,3 +37,14 @@ The Character Profile is the inspectable summary of a player character: appearan
 ## 4. Technical Notes
 
 Profile payloads are assembled on demand from character, guild, and collection data. Caching is used for frequently inspected popular characters to reduce load.
+
+
+---
+
+## Additional Detail: Profile Customization
+
+Players can select a profile banner, background, and featured achievements/titles to display on their public character profile, giving the profile screen a light self-expression dimension similar to a personal résumé of their Elysium journey.
+
+## Cross-Character Account Summary
+
+The profile system also supports an account-level summary view showing all characters on the account side by side, useful for guild recruiters or friends deciding which of a player's characters to invite for a given activity.

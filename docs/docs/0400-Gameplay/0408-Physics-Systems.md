@@ -1,47 +1,36 @@
 # 0408 — Physics Systems
 
-**Project:** Elysium MMORPG  
-**Category:** Gameplay  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0401-Combat.md](0401-Combat.md) · [0110-Travel.md](../0100-World/0110-Travel.md) · [1210-World-Management.md](../1200-Technical/1210-World-Management.md) · [0001-Vision.md](../0000-Project/0001-Vision.md)
+**Project:** Elysium MMORPG
+**Category:** Gameplay
+**Status:** Living Document
+**Related:** [0400-Game-Mechanics.md](0400-Game-Mechanics.md) · [0117-Environmental-Hazards.md](../0100-World/0117-Environmental-Hazards.md)
 
 ---
 
 ## 1. Overview
 
-Elysium uses Unreal Engine's physics substrate for movement, collision, and basic projectile behaviour, then layers custom rules on top to support MMORPG combat and traversal design. Default physics behaviour that conflicts with the handcrafted world or combat clarity is restricted or replaced.
+Elysium uses Unreal Engine's physics systems for movement, fall damage, ragdoll death effects, and environmental interactions, tuned to support MMORPG-style combat rather than default engine physics behaviour.
 
----
+## 2. Movement Physics
 
-## 2. Core Principles
+Player movement uses a custom character movement component tuned for responsive, server-authoritative movement that still feels smooth on the client through prediction and reconciliation (see [1202-Network.md](../1200-Technical/1202-Network.md)).
 
-- **Server authority** — final positions, collision results, and knockback are determined server-side.
-- **Predictable movement** — players should be able to learn the movement model and rely on it in combat and platforming sections.
-- **No sequence-breaking** — physics exploits that would skip intended level design (Ender Pearls, unrestricted Elytra, etc.) are removed (see Vision and World Management).
-- **Combat readability** — knockback, pulls, and forced movement are telegraphed and consistent so they can be used as intentional mechanics rather than chaos.
+## 3. Fall Damage
 
----
+Fall damage scales with fall distance beyond a safe threshold, consistent with the falling hazards described in [0117-Environmental-Hazards.md](../0100-World/0117-Environmental-Hazards.md). Certain class movement abilities (see [0400-Game-Mechanics.md](0400-Game-Mechanics.md)) grant fall damage immunity or reduction as part of their kit.
 
-## 3. Customised Behaviours
+## 4. Ragdoll and Death Effects
 
-| System | Custom Behaviour |
-|--------|------------------|
-| **Falling** | Standard fall damage with possible mitigation from abilities or gear; no exploit-reliant fall-damage cheese for intended paths |
-| **Knockback / Pulls** | Ability-driven, directionally consistent, and budgeted so they do not fling players out of encounter arenas unintentionally |
-| **Mounts** | Ground mounts with controlled speed curves; flying mounts gated to later content |
-| **Swimming** | Functional but not a primary traversal method for most regions; underwater sections are deliberately designed |
-| **Projectiles** | Server-validated hit detection with appropriate travel time and collision |
+Enemy death uses ragdoll physics for a satisfying "kill feel" on appropriate enemy types, while boss encounters use scripted death animations to preserve narrative weight rather than defaulting to ragdoll.
 
----
+## 5. Environmental Physics
 
-## 4. Design Rules
+Destructible or physics-reactive props (breakable crates, swinging chandeliers used as environmental hazards in dungeons) are used sparingly and intentionally, primarily as boss mechanic set pieces rather than generic world clutter.
 
-1. Physics should never be the primary source of player frustration in intended content.
-2. Any forced-movement mechanic in a boss fight must have a readable telegraph and a fair recovery window.
-3. World geometry is built with the final movement model in mind; designers do not rely on players “breaking” physics to progress.
+## 6. Performance Considerations
 
----
+Physics simulation is budgeted per scene to avoid frame rate impact during large group fights (world bosses, raid encounters with many simultaneous players), with less critical physics effects (loose debris, cloth simulation) reduced in high player-count scenarios automatically.
 
-## 5. Technical Notes
+## 7. Technical Ownership
 
-Custom physics adjustments live in the movement and combat plugins. Client-side prediction is used for responsiveness, but the server has the final say on position and collision outcomes.
+Physics tuning is jointly owned by the Technical Lead and Lead Game Designer, reviewed whenever new movement abilities or environmental hazards are introduced — see [0007-Team-Structure.md](../0000-Project/0007-Team-Structure.md).

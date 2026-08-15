@@ -16,3 +16,12 @@ Texture, model, and sound files should follow a consistent `category_subcategory
 
 ## Enforcement
 Naming inconsistencies should be flagged during the same review pass as style/quality checks in [1400-Development-Standards.md](1400-Development-Standards.md).
+
+
+## Avoiding Naming Collisions
+
+A shared, searchable naming registry (integrated with [0209-NPCs.md](../0200-Lore/0209-NPCs.md) and the item database) helps writers and designers check for naming collisions before introducing a new NPC, item, or location name, preventing confusing duplicate names across a large content set.
+
+## Etymological Consistency
+
+Names within a given culture draw from a consistent linguistic "feel" established during lore development ([0204-Races.md](../0200-Lore/0204-Races.md)) — human Aurelian names lean toward familiar Western-fantasy naming patterns, while dwarven and orc names follow their own distinct phonetic patterns, keeping immersion consistent even for players who notice naming patterns.

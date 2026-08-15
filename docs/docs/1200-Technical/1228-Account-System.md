@@ -29,3 +29,14 @@ The Account System manages the top-level player identity: credentials, session l
 2. Session tokens are short-lived and bound to expected client behaviour.
 3. Account-level actions (bans, unlocks) apply consistently across all characters.
 4. The launcher is the primary entry point for authentication before the game client connects.
+
+
+---
+
+## Additional Detail: Account-Character Relationship
+
+An account can hold multiple characters up to the slot limit described in [1115-Character-Select.md](../1100-Client/1115-Character-Select.md), with account-level data (achievements, collections, account-wide currency) stored separately from character-specific data, supporting the account-wide progression systems in [0917-Account-Progression.md](../0900-Player-Systems/0917-Account-Progression.md).
+
+## Account Recovery
+
+A documented account recovery process (verified through registered email and, where enabled, two-factor authentication) allows legitimate account owners to regain access after a lost password or compromised account, coordinated with the support system in [2005-Support-System.md](../2000-Operations/2005-Support-System.md).

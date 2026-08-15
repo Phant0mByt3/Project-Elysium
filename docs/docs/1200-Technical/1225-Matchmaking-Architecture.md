@@ -29,3 +29,14 @@ Matchmaking Architecture covers the services and logic that form groups for dung
 2. Cross-faction rules are applied according to the design of each activity.
 3. Matchmaking is fair and resistant to simple queue manipulation.
 4. Failure modes degrade gracefully (clear errors, return to queue or world).
+
+
+---
+
+## Additional Detail: Matchmaking Fairness
+
+The matchmaking service balances group formation speed against composition quality (role balance, approximate item level), using configurable weighting so that, for example, Dungeon Finder ([0803-Dungeon-Finder.md](../0800-Multiplayer/0803-Dungeon-Finder.md)) can prioritize speed while Arena ranked matchmaking ([0805-Arenas.md](../0800-Multiplayer/0805-Arenas.md)) prioritizes rating-appropriate fairness.
+
+## Queue Health Monitoring
+
+Queue wait times per role and bracket are actively monitored, with alerts triggering design review if a specific role or bracket's queue times grow unreasonably long, indicating a potential balance or population issue worth investigating.

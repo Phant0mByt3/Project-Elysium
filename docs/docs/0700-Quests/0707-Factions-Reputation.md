@@ -16,3 +16,14 @@ A rare, costly service allowing a player to switch factions, resetting faction r
 
 ## Design Rules
 Faction reputation rewards should never create a raw power gap between Concord- and Pact-aligned players in PvP — cosmetic and convenience rewards only, keeping [0309-Balance.md](../0300-Characters/0309-Balance.md)'s cross-faction parity intact.
+
+
+---
+
+## Cross-Faction World Events
+
+During cross-faction world events (see [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md)), temporary reputation gains with the opposing faction may be enabled for the duration of the event, offering a narrative-justified exception to the normal reputation cap.
+
+## Regional Sub-Reputations
+
+Within each main faction, individual cities and organizations (Ironpeak Hold, Ashka Vor, the Concord Council) track their own sub-reputation, allowing players to specialize their standing within their chosen faction rather than every Concord-aligned player being mechanically identical.

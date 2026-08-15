@@ -28,3 +28,14 @@ NPC Economy describes how non-player characters participate in the economic life
 1. NPC economy supports immersion and convenience; it does not attempt to fully simulate a real-world market.
 2. Player-driven prices on the Auction House remain the primary discovery mechanism for true market value.
 3. NPC interactions should reinforce the sense that cities and roads are alive ([0906-Simulated-Civilisation.md](../0900-Player-Systems/0906-Simulated-Civilisation.md)).
+
+
+---
+
+## Additional Detail: Simulated Economic Activity
+
+Background NPC economic activity (documented more fully in [0906-Simulated-Civilisation.md](../0900-Player-Systems/0906-Simulated-Civilisation.md)) includes simulated trade caravans between cities and villages, contributing to the sense of a living economy that exists independent of direct player participation.
+
+## Player Impact on NPC Markets
+
+Certain player actions (completing a supply-chain quest chain, defending a caravan) can measurably affect simulated NPC vendor stock or pricing in that region for a limited time, giving quest completion a light, satisfying economic ripple effect.

@@ -30,3 +30,14 @@ The Content Pipeline is the end-to-end path from design brief to live content: q
 - No content is “done” without documentation updates.  
 - Cross-discipline reviews catch immersion and balance issues early.  
 - Pipeline speed increases with maturity but never skips the quality bar in [1400-Development-Standards.md](1400-Development-Standards.md).
+
+
+---
+
+## Additional Detail: Pipeline Ownership by Stage
+
+Each content pipeline stage has a clear owning discipline — design owns the brief and layout review, art owns the visual polish pass, and QA owns the final functional sign-off — preventing content from stalling due to unclear handoff responsibility between disciplines.
+
+## Pipeline Tooling
+
+Custom editor tooling ([1215-Developer-Tools.md](../1200-Technical/1215-Developer-Tools.md)) supports each pipeline stage with purpose-built validation checks (missing quest links, unassigned NPC dialogue, unapproved textures), catching common errors automatically before they reach human review.

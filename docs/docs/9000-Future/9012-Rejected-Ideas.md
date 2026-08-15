@@ -40,3 +40,27 @@ Rejected due to potential legal and licensing concerns, technical limitations, a
 Elysium will instead be developed as a standalone game using Unreal Engine, allowing the project to have direct control over its client, systems, assets, and distribution.
 
 *Old documentation has been renamed to `docs-legacy`*
+
+### 3.2 Fully Open PvP Everywhere (No Safe Zones)
+
+**Date:** *Pre-Production*
+
+**Status:** *Rejected*
+
+**Proposal:** Make the entire world open to PvP combat, including starting zones and cities, for maximal stakes and immersion.
+
+**Reason for rejection:** Directly conflicts with the accessibility and onboarding goals in [0409-Tutorial-System.md](../0400-Gameplay/0409-Tutorial-System.md) and would make the game hostile to new and PvE-focused players. The current flagged/contested-zone model in [0804-PvP.md](../0800-Multiplayer/0804-PvP.md) and [0816-World-PvP.md](../0800-Multiplayer/0816-World-PvP.md) was adopted instead.
+
+**Decision:** Cities and starting zones remain permanent sanctuary zones; PvP is opt-in or geographically contained to specific contested regions.
+
+### 3.3 Permadeath Hardcore Mode at Launch
+
+**Date:** *Pre-Production*
+
+**Status:** *Rejected (Deferred, Not Ruled Out)*
+
+**Proposal:** Ship an optional permadeath character mode alongside standard play at launch.
+
+**Reason for rejection:** Considered too large a scope addition for a launch already carrying significant ambition per [0003-Roadmap.md](../0000-Project/0003-Roadmap.md); the current death system ([0313-Death-System.md](../0300-Characters/0313-Death-System.md)) needs to be proven solid in its standard form first.
+
+**Decision:** Not implemented at launch. Unlike the other entries in this section, this idea is not permanently closed — it may be revisited as a post-launch mode once core systems are stable, and is tracked loosely alongside [9006-Future-Gameplay-Systems.md](9006-Future-Gameplay-Systems.md).

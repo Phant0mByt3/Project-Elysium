@@ -37,3 +37,12 @@ Resource nodes are the hand-placed or carefully managed gathering points in the 
 ## 4. Technical Notes
 
 Node state (available / depleted / respawn timer) is tracked server-side per instance. Gathering attempts validate profession skill and tool requirements before granting materials and skill-ups.
+
+
+## 5. Contested Nodes
+
+In Vethmoor's border regions, certain rich nodes spawn within open-world PvP-relevant territory, giving gathering a light risk/reward dimension tied to the Dawnbound/Duskward conflict without making gathering unsafe everywhere else in the world.
+
+## 6. Node Discovery and Map Integration
+
+Common node types are visible on the minimap once a player has learned the relevant profession; rare and rich nodes are deliberately excluded from automatic map markers to preserve an element of discovery for dedicated gatherers, consistent with Pillar 1 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).

@@ -27,3 +27,14 @@ Region Servers (or continent / open-world instances) host the persistent shared 
 1. A crash or restart of one region server does not take down other continents or instances.
 2. Player transfer between region servers (and into content instances) follows the synchronisation and proxy rules already defined.
 3. World protection and building restrictions are enforced here as the primary open-world authority.
+
+
+---
+
+## Additional Detail: Regional Deployment Plan
+
+Post-launch, server infrastructure is planned to expand from an initial single-region deployment to multiple geographic regions based on observed player distribution, prioritized by where the largest underserved latency-sensitive populations are concentrated.
+
+## Cross-Region Play
+
+Where multiple regions exist, cross-region play (grouping with a friend on a different regional server) is supported for social features at the cost of higher latency, with clear in-client latency indicators so players can make informed grouping decisions.

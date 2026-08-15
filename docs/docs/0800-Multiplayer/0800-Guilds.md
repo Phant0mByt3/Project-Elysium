@@ -1,20 +1,39 @@
 # 0800 — Guilds
 
-## Overview
-Guilds are persistent player organizations, the primary social structure for coordinated group content ([0802-Raiding.md](0802-Raiding.md)) and long-term community building — directly supporting Pillar 4 in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
+**Category:** Multiplayer
+**Status:** Living Document
+**Related:** [0814-Guild-Progression.md](0814-Guild-Progression.md) · [0815-Guild-Halls.md](0815-Guild-Halls.md)
 
-## Core Features
-* **Guild Creation** — requires a minimum founding member count and an Aurum cost, purchasable from any city's guild registrar.
-* **Guild Ranks** — customizable permission tiers (invite, kick, bank access, officer notes).
-* **Guild Bank** — shared storage and Aurum pool with per-rank withdrawal limits.
-* **Guild Chat & Roster** — persistent communication and online-status tracking.
-* **Guild Perks** — passive bonuses (Aurum find, reputation gain, reduced fast-travel cost) that scale with guild level, earned through collective member activity.
+---
 
-## Guild Housing
-Guilds can eventually claim a shared housing plot — see [0900-Housing.md](../0900-Player-Systems/0900-Housing.md) for the individual housing system this extends from, and [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md) for the planned guild neighborhood expansion.
+## 1. Overview
 
-## Design Rules
-Guild perks should encourage participation across all guild members, not just top raiders — e.g. perk progress should account for dungeon runs, professions, and PvP, not raid attendance alone.
+Guilds are persistent player organizations that form the backbone of long-term social play in Elysium, directly supporting Pillar 4 (Multiplayer Encourages Cooperation) in [0002-Core-Pillars.md](../0000-Project/0002-Core-Pillars.md).
 
-## Relationship to Factions
-Guilds are single-faction only — a guild's members must all share the same faction allegiance ([0203-Factions.md](../0200-Lore/0203-Factions.md)), reinforcing the faction-vs-faction structure of PvP and territory content.
+## 2. Core Features
+
+* **Roster management** — ranks, permissions, member notes.
+* **Guild bank** — shared storage with rank-based withdrawal limits (see [0519-Item-Storage.md](../0500-Items/0519-Item-Storage.md)).
+* **Guild chat** — persistent communication channel.
+* **Guild progression** — a leveling system rewarding collective activity (see [0814-Guild-Progression.md](0814-Guild-Progression.md)).
+* **Guild halls** — a customizable, guild-owned physical space (see [0815-Guild-Halls.md](0815-Guild-Halls.md)).
+
+## 3. Ranks and Permissions
+
+Guild leadership can configure custom rank tiers with granular permissions covering bank access, invite/kick authority, officer note visibility, and event scheduling rights, supporting guild structures from tiny friend groups to large raiding organizations.
+
+## 4. Guild Formation
+
+Guilds are founded by a small group of players meeting a minimum member threshold, with a modest Aurum cost acting as a light economy sink and a deterrent to frivolous guild spam.
+
+## 5. Cross-Faction Restriction
+
+Guild membership is restricted to a single faction (Dawnbound Concord or Duskward Pact) at launch, reinforcing the faction identity established at character creation — a possible future cross-faction guild option is tracked in [0005-Future-Plans.md](../0000-Project/0005-Future-Plans.md).
+
+## 6. Guild-Centric Content
+
+Raiding ([0802-Raiding.md](0802-Raiding.md)), guild-scheduled events, and territory control ([0806-Territory-Control.md](0806-Territory-Control.md)) are all designed with guild coordination in mind, making guild membership genuinely valuable rather than purely social.
+
+## 7. Communication Tools
+
+Guilds have access to an in-client calendar for scheduling raids and events, plus optional voice communication integration — see [0812-Voice-Communication.md](0812-Voice-Communication.md).

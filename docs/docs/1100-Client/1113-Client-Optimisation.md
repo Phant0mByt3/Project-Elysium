@@ -37,3 +37,14 @@ Client Optimisation ensures that Elysium remains playable and visually coherent 
 ## 4. Technical Notes
 
 Optimisation work is shared between the native client moduleule stack, content pack guidelines, and any custom rendering code. Profiling tools and automated performance checks are part of the development pipeline.
+
+
+---
+
+## Additional Detail: Optimization Targets
+
+Optimization work is prioritized by measured impact — texture streaming and LOD tuning for open-world performance, draw-call batching for large group encounters (raids, world bosses), and network prediction smoothing for combat responsiveness — rather than optimizing uniformly across all systems regardless of actual bottleneck data.
+
+## Continuous Performance Monitoring
+
+Post-launch, client performance telemetry (opt-in, anonymized) feeds into the analytics pipeline ([2006-Analytics.md](../2000-Operations/2006-Analytics.md)), helping the technical team identify real-world performance issues across the diverse hardware the actual playerbase uses, beyond internal QA hardware.

@@ -1,49 +1,40 @@
 # 0404 — AI Behaviour
 
-**Project:** Elysium MMORPG  
-**Category:** Gameplay  
-**Status:** Design Complete — Implementation Pending  
-**Related:** [0402-Enemy-Design.md](0402-Enemy-Design.md) · [0405-Aggro-System.md](0405-Aggro-System.md) · [0401-Combat.md](0401-Combat.md) · [1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md)
+**Project:** Elysium MMORPG
+**Category:** Gameplay
+**Status:** Living Document
+**Related:** [0402-Enemy-Design.md](0402-Enemy-Design.md) · [0405-Aggro-System.md](0405-Aggro-System.md) · [0403-Boss-Mechanics.md](0403-Boss-Mechanics.md)
 
 ---
 
 ## 1. Overview
 
-Enemy AI in Elysium is built from reusable behaviour modules rather than one-off scripts for every creature. This keeps implementation consistent and makes it easier to tune packs and bosses across regions.
+Enemy AI in Elysium is built around behaviour trees that produce readable, learnable patterns rather than purely reactive or random behaviour. The goal is for a player to be able to predict and counter enemy behaviour once they've fought a given enemy type a few times.
 
----
+## 2. Behaviour Categories
 
-## 2. Core Behaviour Modules
+* **Passive** — does not engage unless attacked or approached too closely (wildlife, non-hostile NPCs).
+* **Aggressive** — attacks on sight within an aggro radius (bandits, hostile beasts).
+* **Territorial** — attacks only within a defined area, disengaging if the player leaves it (guardians, elites tied to a landmark).
+* **Pack-coordinated** — multiple enemies share awareness and call for reinforcements (bandit camps, orc warbands).
+* **Boss-scripted** — full state-machine driven behaviour per [0403-Boss-Mechanics.md](0403-Boss-Mechanics.md).
 
-| Module | Description |
-|--------|-------------|
-| **Idle / Patrol** | Default non-combat movement and ambient actions |
-| **Acquire Target** | How the AI selects its first and subsequent targets (see Aggro) |
-| **Melee Attack Loop** | Basic weapon or claw attacks with optional specials on cooldown |
-| **Ranged / Caster Loop** | Projectile or spell casts with positioning preferences |
-| **Special Ability** | Signature mechanic with telegraph and cooldown |
-| **Flee / Reset** | Leash and reset behaviour when players leave the engagement zone |
-| **Call for Help** | Optional social aggro that pulls nearby allies |
+## 3. Perception
 
-Bosses extend these modules with phase-specific overrides and custom state machines.
+Enemies use a combination of sight cone, hearing radius, and aggro radius to determine awareness of the player, allowing stealth-oriented classes (Shade) to route around or past enemies where appropriate (see [0300-Classes.md](../0300-Characters/0300-Classes.md)).
 
----
+## 4. Combat Behaviour Trees
 
-## 3. Design Rules
+Each enemy template is assigned a behaviour tree defining its ability rotation, positioning preferences (kiting for ranged enemies, closing distance for melee), and reaction to player status effects such as crowd control.
 
-1. AI should feel purposeful, not random. Every action should have a readable reason.
-2. Pathing must respect the handcrafted geometry of dungeons and open-world spaces; AI should not clip through intentional barriers.
-3. Group AI (packs) should create interesting decision points for players (interrupt priority, kill order, positioning) without requiring perfect play on Normal difficulty.
-4. AI never cheats on information the player could not reasonably have; telegraphs exist for a reason.
+## 5. Difficulty Scaling Interaction
 
----
+AI aggression and ability usage frequency scale with the difficulty settings described in [0406-Difficulty-System.md](0406-Difficulty-System.md), allowing the same enemy template to be used across Normal, Heroic, and Mythic tiers with meaningfully different behaviour.
 
-## 4. Performance Considerations
+## 6. Group Coordination
 
-AI server tick rate and pathfinding complexity are budgeted against the performance targets in [1208-Performance.md](../1200-Technical/1208-Performance.md). Large open-world packs use simplified logic compared with dungeon and raid encounters.
+Pack-coordinated enemies use a shared awareness system so that pulling one member of a group appropriately alerts nearby allies, reinforcing careful pull management as a skill expression in dungeon content (see [0106-Dungeons.md](../0100-World/0106-Dungeons.md)).
 
----
+## 7. Technical Notes
 
-## 5. Technical Notes
-
-Behaviour trees / state machines live in the combat plugin data layer. All targeting, movement, and ability decisions are evaluated server-side. Clients only receive the resulting animation and effect packets.
+AI behaviour trees run server-authoritatively to prevent client-side manipulation. Designers configure behaviour trees through a data-driven tool rather than hard-coded logic, allowing rapid iteration during playtesting — see [1200-Plugin-Architecture.md](../1200-Technical/1200-Plugin-Architecture.md).

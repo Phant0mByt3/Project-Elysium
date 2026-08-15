@@ -29,3 +29,14 @@ The Command System provides a unified way to register, parse, permission-check, 
 2. Staff commands are never exposed in public help without permission.
 3. Dangerous commands require confirmation or additional safeguards.
 4. Commands that modify player or world state go through the same authoritative services as the rest of the game.
+
+
+---
+
+## Additional Detail: Command Permission Tiers
+
+Commands are grouped into tiers (player-facing social commands, GM support commands, full admin commands) each requiring the appropriate permission level from [1227-Permission-System.md](1227-Permission-System.md), preventing accidental or malicious misuse of powerful commands.
+
+## Extensibility
+
+The command system is designed to be extended by new plugins without modifying core command-parsing logic, allowing feature plugins to register their own commands (a guild-specific command, a profession-specific command) in a self-contained way.
